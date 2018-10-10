@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 10 Paź 2018, 11:57
+-- Czas generowania: 10 Paź 2018, 12:07
 -- Wersja serwera: 10.1.36-MariaDB
 -- Wersja PHP: 7.2.10
 
@@ -28,10 +28,38 @@ SET time_zone = "+00:00";
 -- Struktura tabeli dla tabeli `customer`
 --
 
-CREATE TABLE `customer` (
+CREATE TABLE IF NOT EXISTS `customer` (
   `Id` int(11) NOT NULL,
   `Login` varchar(40) NOT NULL,
-  `Password` varchar(50) NOT NULL
+  `Password` varchar(50) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `inventory`
+--
+
+CREATE TABLE IF NOT EXISTS `inventory` (
+  `Id` int(11) NOT NULL,
+  `Item` int(11) NOT NULL,
+  `RegionalWarehouse` varchar(40) NOT NULL,
+  `Quantity` int(11) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `item`
+--
+
+CREATE TABLE IF NOT EXISTS `item` (
+  `Id` int(11) NOT NULL,
+  `Name` varchar(40) NOT NULL,
+  `SerialNumber` varchar(40) NOT NULL,
+  PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -40,13 +68,14 @@ CREATE TABLE `customer` (
 -- Struktura tabeli dla tabeli `orderheader`
 --
 
-CREATE TABLE `orderheader` (
-  `Id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `orderheader` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Login` varchar(40) NOT NULL,
   `Date` date NOT NULL,
   `Number` varchar(40) NOT NULL,
   `Type` int(11) NOT NULL,
-  `Descritpion` text NOT NULL
+  `Descritpion` text NOT NULL,
+  PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -55,47 +84,29 @@ CREATE TABLE `orderheader` (
 -- Struktura tabeli dla tabeli `orderlines`
 --
 
-CREATE TABLE `orderlines` (
+CREATE TABLE IF NOT EXISTS `orderlines` (
   `Id` int(11) NOT NULL,
   `OrderNumber` varchar(40) NOT NULL,
   `LineNumber` int(11) NOT NULL,
   `ItemId` int(11) NOT NULL,
   `RegionalWarehouse` varchar(40) NOT NULL,
   `Quantity` int(11) NOT NULL,
-  `Description` text NOT NULL
+  `Description` text NOT NULL,
+  PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Indeksy dla zrzutów tabel
---
+-- --------------------------------------------------------
 
 --
--- Indeksy dla tabeli `customer`
---
-ALTER TABLE `customer`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `orderheader`
---
-ALTER TABLE `orderheader`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `orderlines`
---
-ALTER TABLE `orderlines`
-  ADD PRIMARY KEY (`Id`);
-
---
--- AUTO_INCREMENT for dumped tables
+-- Struktura tabeli dla tabeli `regionalwarehouse`
 --
 
---
--- AUTO_INCREMENT dla tabeli `orderheader`
---
-ALTER TABLE `orderheader`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+CREATE TABLE IF NOT EXISTS `regionalwarehouse` (
+  `Id` int(11) NOT NULL,
+  `Name` varchar(40) NOT NULL,
+  `CustomerLogin` varchar(40) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
