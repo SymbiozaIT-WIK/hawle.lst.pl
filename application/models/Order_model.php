@@ -11,12 +11,12 @@ class Order_model extends CI_Model
     {
         $this->db->select('
         it.SerialNumber,
-        it.Name,
-        r.Name,
+        it.Name as Item,
+        r.Name as Warehouse,
         i.Quantity'
         );
         $this->db->from('inventory as i');
-        $this->db->join('regionalwarehouse as r', 'r.id = i.regionalwarehouse');
+        $this->db->join('regionalwarehouse as r', 'r.name = i.regionalwarehouse');
         $this->db->join('user as u', 'u.login=r.userlogin');
         $this->db->join('item as it', 'i.item=i.id');
         $this->db->where('u.login', $user);
