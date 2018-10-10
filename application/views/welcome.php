@@ -16,7 +16,7 @@ if($this->session->flashdata('alert')):?>
       <div class="container" style="background: rgba(250,250,250,0.6);">
         <h1>Sprawdź zapas na magazynie</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quas nesciunt alias rerum, nam dolorum. Voluptatem doloribus, omnis autem. Dolore.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Dowiedz się więcej &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" href="<?php echo site_url('inventory') ?>" role="button">Sprawdź stany magazynowe &raquo;</a></p>
       </div>
      </div>
     </div>
