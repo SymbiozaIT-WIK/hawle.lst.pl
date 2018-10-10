@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS `orderlines` (
 CREATE TABLE IF NOT EXISTS `regionalwarehouse` (
   `Id` int(11) NOT NULL,
   `Name` varchar(40) NOT NULL,
-  `CustomerLogin` varchar(40) NOT NULL,
+  `UserLogin` varchar(40) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
