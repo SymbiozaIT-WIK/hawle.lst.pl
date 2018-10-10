@@ -8,7 +8,7 @@ class User_model extends CI_Model
         $this->db->select('id, login, password');
         $this->db->where('login', $login);
         $this->db->where('password', $password);
-        $query = $this->db->get('users');
+        $query = $this->db->get('user');
         
         if($query->num_rows()==1){
             $this->session->set_userdata('logged',TRUE);
@@ -36,7 +36,7 @@ class User_model extends CI_Model
             'login' => $data['login'],
             'password' => sha1($data['password'])
         );
-        $this->db->insert('users',$dbInsert);
+        $this->db->insert('user',$dbInsert);
     }
     
     public function delete_user($id){}
@@ -45,7 +45,7 @@ class User_model extends CI_Model
     
     public function user_list($key,$value){
         $this->db->select('*');
-        $this->db->from('users as m');
+        $this->db->from('user as m');
         $this->db->where($key,$value);
         $query = $this->db->get();
         $row = $query->result_array();
