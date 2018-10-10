@@ -19,8 +19,8 @@
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/main.css">
 
         <script src="<?php echo base_url();?>/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
