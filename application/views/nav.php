@@ -19,7 +19,7 @@
             <div class="form-group">
               <input type="password" name="password" placeholder="Hasło" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success" name="startLogin" value="true">Zaloguj sie</button>
+            <button type="submit" class="btn btn-info" name="startLogin" value="true">Zaloguj sie</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>

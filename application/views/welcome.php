@@ -4,6 +4,18 @@
     $this->load->view('nav');
 }
 ?>
+   
+   <?php
+
+if($this->session->flashdata('alert')):?>
+   <?php $msg=$this->session->flashdata('alert'); ?>
+    <div class="container">
+        <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">
+      <h4 class="alert-heading"><?php echo $msg['title']; ?></h4>
+      <p><?php echo $msg['content']; ?></p>
+    </div>
+    </div>
+<?php endif; ?>
 
    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" style="background:url(http://www.hawle.pl/assets/cache/images/strona_glowna/1920x800-3.ecf.png) center center">
