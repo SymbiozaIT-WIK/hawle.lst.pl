@@ -20,6 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+        print '<a href="'.site_url('FrontPage').'">Kontroler</a>';
 		$this->load->view('welcome_message');
 	}
 }
