@@ -1,6 +1,7 @@
-<form class="form" method="post">
+<form class="form" method="post" action="<?php echo site_url('Order/show_order_summary')?>">
     <table class="table">
         <tr>
+            <th>L.P.</th>
             <th>Numer Seryjny</th>
             <th>Produkt</th>
             <th>Magazyn</th>
@@ -10,20 +11,23 @@
         </tr>
         <?php foreach($items as $row): ?>
         <tr>
+           <td>
+               <input name="id" type="number" readonly value="1">
+           </td>
             <td>
-                <?php print_r($row['SerialNumber']); ?>
+                <input name="serial" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
             </td>
             <td>
-                <?php print_r($row['Item']); ?>
+                <input name="item" type="text" readonly value="<?php print_r($row['Item']); ?>">
             </td>
             <td>
-                <?php print_r($row['Warehouse']); ?>
+                <input name="warehouse" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
             </td>
             <td>
-                <?php print_r($row['Quantity']); ?>
+                <input name="quantity" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
             </td>
-            <td><input class="input"></td>
-            <td><input class="input"></td>
+            <td><input name = "orderedQuantity" class="input"></td>
+            <td><input name = "comments" class="input"></td>
         </tr>
         <?php endforeach; ?>
     </table>
