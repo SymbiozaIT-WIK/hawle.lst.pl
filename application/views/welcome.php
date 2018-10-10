@@ -1,11 +1,4 @@
-<?php if($this->session->userdata('logged')){
-    $this->load->view('navLogged');
-} else {
-    $this->load->view('nav');
-}
-?>
-   
-   <?php
+<?php
 
 if($this->session->flashdata('alert')):?>
    <?php $msg=$this->session->flashdata('alert'); ?>
