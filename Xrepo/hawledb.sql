@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 10 Paź 2018, 12:07
+-- Czas generowania: 10 Paź 2018, 12:14
 -- Wersja serwera: 10.1.36-MariaDB
 -- Wersja PHP: 7.2.10
 
@@ -21,19 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Baza danych: `hawledb`
 --
-
--- --------------------------------------------------------
-
---
--- Struktura tabeli dla tabeli `customer`
---
-
-CREATE TABLE IF NOT EXISTS `customer` (
-  `Id` int(11) NOT NULL,
-  `Login` varchar(40) NOT NULL,
-  `Password` varchar(50) NOT NULL,
-  PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -105,6 +92,19 @@ CREATE TABLE IF NOT EXISTS `regionalwarehouse` (
   `Id` int(11) NOT NULL,
   `Name` varchar(40) NOT NULL,
   `CustomerLogin` varchar(40) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `user`
+--
+
+CREATE TABLE IF NOT EXISTS `user` (
+  `Id` int(11) NOT NULL,
+  `Login` varchar(40) NOT NULL,
+  `Password` varchar(50) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 COMMIT;
