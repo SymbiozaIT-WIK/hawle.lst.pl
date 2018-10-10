@@ -16,7 +16,6 @@
 ////          => TRUE/FALSE -for display numeric line counter in the bottom of table////
 ////////////////////////////////////////////////////////////////////////////////////////
 ?>
-
 <div class="container">   
 <table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
     <thead>
