@@ -25,13 +25,13 @@
       </div>
     </div>
     <div class="form-group">
-      <label class="col-md-4 control-label" for="ItemName">Nazwa</label>  
+      <label class="col-md-4 control-label" for="Warehouse">Magazyn</label>  
       <div class="col-md-4">
-      <input id="ItemName" name="ItemName" type="text" placeholder="nazwa" class="form-control input-md">
+      <input id="Warehouse" name="Warehouse" type="text" placeholder="nazwa" class="form-control input-md">
       </div>
     </div>
         <div class="form-group">
-      <label class="col-md-4 control-label" for="ItemName"></label>  
+      <label class="col-md-4 control-label" for="Warehouse"></label>  
       <div class="col-md-4">
               <button id="submit" name="search" value="true" type="submit" class="btn btn-primary btn-block">Szukaj</button>
       </div>
@@ -42,7 +42,7 @@
     <fieldset>
     <legend class="text-center">lub</legend>
         <div class="form-group">
-      <label class="col-md-4 control-label" for="ItemName"></label>  
+      <label class="col-md-4 control-label" for="Warehouse"></label>  
       <div class="col-md-4">
               <button id="submit" type="submit" class="btn btn-info btn-block">Pobierz wszystko</button>
       </div>

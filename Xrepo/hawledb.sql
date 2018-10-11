@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 10 Paź 2018, 20:07
+-- Czas generowania: 11 Paź 2018, 08:22
 -- Wersja serwera: 10.1.32-MariaDB
 -- Wersja PHP: 7.2.5
 
@@ -28,8 +28,9 @@ SET time_zone = "+00:00";
 -- Struktura tabeli dla tabeli `inventory`
 --
 
-CREATE TABLE `inventory` (
-  `Id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `inventory`;
+CREATE TABLE IF NOT EXISTS `inventory` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Item` int(11) NOT NULL,
   `RegionalWarehouse` varchar(40) NOT NULL,
   `Quantity` int(11) NOT NULL,
@@ -39,8 +40,9 @@ CREATE TABLE `inventory` (
   `Description` text NOT NULL,
   `WarehouseCode` varchar(50) NOT NULL,
   `RealStock` int(11) NOT NULL,
-  `SpareStock` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `SpareStock` int(11) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=utf8;
 
 --
 -- Zrzut danych tabeli `inventory`
@@ -155,11 +157,13 @@ INSERT INTO `inventory` (`Id`, `Item`, `RegionalWarehouse`, `Quantity`, `ItemCod
 -- Struktura tabeli dla tabeli `item`
 --
 
-CREATE TABLE `item` (
-  `Id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `item`;
+CREATE TABLE IF NOT EXISTS `item` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(40) NOT NULL,
-  `SerialNumber` varchar(40) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `SerialNumber` varchar(40) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Zrzut danych tabeli `item`
@@ -174,13 +178,15 @@ INSERT INTO `item` (`Id`, `Name`, `SerialNumber`) VALUES
 -- Struktura tabeli dla tabeli `orderheader`
 --
 
-CREATE TABLE `orderheader` (
-  `Id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `orderheader`;
+CREATE TABLE IF NOT EXISTS `orderheader` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Login` varchar(40) NOT NULL,
   `Date` date NOT NULL,
   `Number` varchar(40) NOT NULL,
   `Type` int(11) NOT NULL,
-  `Descritpion` text NOT NULL
+  `Descritpion` text NOT NULL,
+  PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -189,14 +195,16 @@ CREATE TABLE `orderheader` (
 -- Struktura tabeli dla tabeli `orderlines`
 --
 
-CREATE TABLE `orderlines` (
-  `Id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `orderlines`;
+CREATE TABLE IF NOT EXISTS `orderlines` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `OrderNumber` varchar(40) NOT NULL,
   `LineNumber` int(11) NOT NULL,
   `ItemId` int(11) NOT NULL,
   `RegionalWarehouse` varchar(40) NOT NULL,
   `Quantity` int(11) NOT NULL,
-  `Description` text NOT NULL
+  `Description` text NOT NULL,
+  PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -205,11 +213,13 @@ CREATE TABLE `orderlines` (
 -- Struktura tabeli dla tabeli `regionalwarehouse`
 --
 
-CREATE TABLE `regionalwarehouse` (
-  `Id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `regionalwarehouse`;
+CREATE TABLE IF NOT EXISTS `regionalwarehouse` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(40) NOT NULL,
-  `UserLogin` varchar(40) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `UserLogin` varchar(40) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Zrzut danych tabeli `regionalwarehouse`
@@ -224,11 +234,13 @@ INSERT INTO `regionalwarehouse` (`Id`, `Name`, `UserLogin`) VALUES
 -- Struktura tabeli dla tabeli `user`
 --
 
-CREATE TABLE `user` (
-  `Id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE IF NOT EXISTS `user` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Login` varchar(40) NOT NULL,
-  `Password` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `Password` varchar(50) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Zrzut danych tabeli `user`
@@ -236,86 +248,6 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`Id`, `Login`, `Password`) VALUES
 (1, 'test', 'a94a8fe5ccb19ba61c4c0873d391e987982fbbd3');
-
---
--- Indeksy dla zrzutów tabel
---
-
---
--- Indeksy dla tabeli `inventory`
---
-ALTER TABLE `inventory`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `item`
---
-ALTER TABLE `item`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `orderheader`
---
-ALTER TABLE `orderheader`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `orderlines`
---
-ALTER TABLE `orderlines`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `regionalwarehouse`
---
-ALTER TABLE `regionalwarehouse`
-  ADD PRIMARY KEY (`Id`);
-
---
--- Indeksy dla tabeli `user`
---
-ALTER TABLE `user`
-  ADD PRIMARY KEY (`Id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT dla tabeli `inventory`
---
-ALTER TABLE `inventory`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102;
-
---
--- AUTO_INCREMENT dla tabeli `item`
---
-ALTER TABLE `item`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT dla tabeli `orderheader`
---
-ALTER TABLE `orderheader`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT dla tabeli `orderlines`
---
-ALTER TABLE `orderlines`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT dla tabeli `regionalwarehouse`
---
-ALTER TABLE `regionalwarehouse`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT dla tabeli `user`
---
-ALTER TABLE `user`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
