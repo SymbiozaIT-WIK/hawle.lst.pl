@@ -25,6 +25,11 @@ class Order_model extends CI_Model
         $table=$query->result_array();
         return $table;
     }
+    
+    public function get_order_headers($user)
+    {
+        $this->db->get('orderheader');
+    }
 }
 
 ?>
