@@ -5,7 +5,11 @@ class Order extends CI_Controller {
     
     public function index()
     {
+        $this->load->model('Order_model');
         
+        $userLogin = $this->session->userdata('login');
+        $data['items'] = $this->Order_model->get_order_headers($userLogin);
+        $this->load->template('Order/Index', $data);
     }
     
     public function create()
@@ -17,7 +21,7 @@ class Order extends CI_Controller {
         echo '</pre>';*/
         $userLogin = $this->session->userdata('login');
         $data['items'] = $this->Order_model->get_items($userLogin);
-        $this->load->template('Order/create', $data);
+        $this->load->template('Order/Create', $data);
     }
     
     public function show_order_summary()
