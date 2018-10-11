@@ -21,7 +21,7 @@ $(document).ready(function() {
             "infoFiltered": "(przeszukano _MAX_ wierszy)",
             "previous": "Brak pasujących wierszy",
             "infoEmpty": "Brak pasujących wierszy",
-            "search": "Wyszukaj towar",
+            "search": "Wyszukaj w wynikach",
             "paginate": {
               "previous": "Poprzednia strona",
               "next": "Następna strona"
