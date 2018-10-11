@@ -3,12 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Order extends CI_Controller {
     
-    public function Index()
+    public function index()
     {
         
     }
     
-    public function Create()
+    public function create()
     {
         $this->load->model('Order_model');
         
@@ -18,6 +18,19 @@ class Order extends CI_Controller {
         $userLogin = $this->session->userdata('login');
         $data['items'] = $this->Order_model->get_items($userLogin);
         $this->load->template('Order/create', $data);
+    }
+    
+    public function show_order_summary()
+    {
+        /*echo '<pre>';
+        print_r($this->input->post());
+        echo '</pre>';*/
+        
+        $order = $this->input->post();
+        
+        echo '<pre>';
+        print_r($order);
+        echo '</pre>';
     }
 }
     
