@@ -21,16 +21,27 @@ class Order extends CI_Controller {
     }
     
     public function show_order_summary()
-    {
-        /*echo '<pre>';
-        print_r($this->input->post());
-        echo '</pre>';*/
-        
+    {    
         $order = $this->input->post();
         
-        echo '<pre>';
-        print_r($order);
-        echo '</pre>';
+        foreach($order as $arr)
+        {
+            if($arr["orderedQuantity"] == 0 || $arr["orderedQuantity"] == NULL)
+            {
+                unset($order[$arr['id']]);
+            }
+            else
+            {
+                unset($arr['id']);
+            }
+        }
+        $data['items'] = $order;
+        $this->load->template('Order/OrderSummary', $data);
+    }
+    
+    public function confirm_order()
+    {
+        echo 'Zamówienie potwierdzone';
     }
 }
     
