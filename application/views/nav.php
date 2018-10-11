@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="<?php echo base_url();?>">
-              <img src="<?php echo base_url();?>/assets/img/logo.png" height="50" class="d-inline-block align-top" alt="">
+              <img src="<?php echo base_url();?>/assets/img/logo.png" height="35" class="d-inline-block align-top" alt="">
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
