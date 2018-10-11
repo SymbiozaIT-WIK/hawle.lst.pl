@@ -22,16 +22,15 @@ class Order extends CI_Controller {
     
     public function show_order_summary()
     {
-        echo '<pre>';
+        /*echo '<pre>';
         print_r($this->input->post());
-        echo '</pre>';
+        echo '</pre>';*/
         
-/*        $order = $this->input->post();
+        $order = $this->input->post();
         
         echo '<pre>';
         print_r($order);
-        echo '</pre>';*/
-        
+        echo '</pre>';
     }
 }
     

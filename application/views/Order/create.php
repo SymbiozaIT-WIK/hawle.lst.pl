@@ -9,25 +9,27 @@
             <th>Zamów</th>
             <th>Komentarz</th>
         </tr>
+        <?php $lp = 0; ?>
         <?php foreach($items as $row): ?>
         <tr>
+          <?php $lp += 1; ?>
            <td>
-               <input name="id" type="number" readonly value="1">
+               <input name="id<?php print($lp); ?>" type="number" readonly value="<?php print($lp); ?>">
            </td>
             <td>
-                <input name="serial" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
+                <input name="serial<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
             </td>
             <td>
-                <input name="item" type="text" readonly value="<?php print_r($row['Item']); ?>">
+                <input name="item<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Item']); ?>">
             </td>
             <td>
-                <input name="warehouse" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
+                <input name="warehouse<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
             </td>
             <td>
-                <input name="quantity" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
+                <input name="quantity<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
             </td>
-            <td><input name = "orderedQuantity" class="input"></td>
-            <td><input name = "comments" class="input"></td>
+            <td><input name = "orderedQuantity<?php print($lp); ?>" class="input"></td>
+            <td><input name = "comments<?php print($lp); ?>" class="input"></td>
         </tr>
         <?php endforeach; ?>
     </table>
