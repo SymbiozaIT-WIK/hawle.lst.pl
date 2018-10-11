@@ -14,22 +14,22 @@
         <tr>
           <?php $lp += 1; ?>
            <td>
-               <input name="id<?php print($lp); ?>" type="number" readonly value="<?php print($lp); ?>">
+               <input name="<?php print($lp); ?>[id]" type="number" readonly value="<?php print($lp); ?>">
            </td>
             <td>
-                <input name="serial<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
+                <input name="<?php print($lp); ?>[serial]" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
             </td>
             <td>
-                <input name="item<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Item']); ?>">
+                <input name="<?php print($lp); ?>[item]" type="text" readonly value="<?php print_r($row['Item']); ?>">
             </td>
             <td>
-                <input name="warehouse<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
+                <input name="<?php print($lp); ?>[warehouse]" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
             </td>
             <td>
-                <input name="quantity<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
+                <input name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
             </td>
-            <td><input name = "orderedQuantity<?php print($lp); ?>" class="input"></td>
-            <td><input name = "comments<?php print($lp); ?>" class="input"></td>
+            <td><input name = "<?php print($lp); ?>[orderedQuantity]" class="input"></td>
+            <td><input name = "<?php print($lp); ?>[comments]" class="input"></td>
         </tr>
         <?php endforeach; ?>
     </table>
