@@ -10,15 +10,17 @@ class Order_model extends CI_Model
     public function get_items($user)
     {
         $this->db->select('
-        it.SerialNumber,
-        it.Name as Item,
-        r.Name as Warehouse,
+        it.code,
+        it.catalogNo,
+        it.attribute,
+        it.description as Item,
+        r.code as Warehouse,
         i.Quantity'
         );
         $this->db->from('inventory as i');
-        $this->db->join('regionalwarehouse as r', 'r.name = i.regionalwarehouse');
-        $this->db->join('user as u', 'u.login=r.userlogin');
-        $this->db->join('item as it', 'i.item=it.id');
+        $this->db->join('regional_warehouse as r', 'r.code = i.regionalwarehousecode');
+        $this->db->join('user as u', 'u.login=r.userid');
+        $this->db->join('item as it', 'i.itemcode=it.code');
         $this->db->where('u.login', $user);
         $this->db->where('i.Quantity>', '0');
         $query=$this->db->get();
@@ -28,7 +30,7 @@ class Order_model extends CI_Model
     
     public function get_order_headers($user)
     {
-        $this->db->get('orderheader');
+        $this->db->get('order_header');
     }
 }
 

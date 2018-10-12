@@ -15,7 +15,6 @@ class Order extends CI_Controller {
     public function create()
     {
         $this->load->model('Order_model');
-        
         /*echo '<pre>';
         print_r($this->session->userdata());
         echo '</pre>';*/
