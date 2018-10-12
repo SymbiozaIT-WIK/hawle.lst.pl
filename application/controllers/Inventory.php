@@ -11,6 +11,7 @@ class Inventory extends CI_Controller {
         $ItemCode = $this->input->post('ItemCode') ? $this->input->post('ItemCode') : '';
         $ItemCatalogNumber = $this->input->post('ItemCatalogNumber') ? $this->input->post('ItemCatalogNumber') : '';
         $Warehouse = $this->input->post('Warehouse') ? $this->input->post('Warehouse') : '';
+        
         if($ItemCode=='' && $ItemCatalogNumber=='' && $Warehouse=='')
         { 
             $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
@@ -24,7 +25,6 @@ class Inventory extends CI_Controller {
             $data['dataTable'] = $this->Inventory_model->get_items('searchForm',$ItemCatalogNumber,$ItemCode,$Warehouse);
             
             $this->load->template('Inventory/ItemList',$data);
-            
         }
         
 
