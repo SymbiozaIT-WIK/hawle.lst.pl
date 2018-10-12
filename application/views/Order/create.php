@@ -7,6 +7,9 @@
     }
 </style>
 <div class="container">
+   <div>
+   <h1>Stwórz Dokument</h1>
+   </div>
     <div class="col-md-12">
         <form class="form" method="post" action="<?php echo site_url('Order/show_order_summary')?>">
             <table class="table table-striped table-bordered table-hover" style="width:100%">
@@ -47,3 +50,4 @@
         </form>
     </div>
 </div>
+<hr>
