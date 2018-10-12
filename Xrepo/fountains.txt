@@ -1,0 +1,1 @@
+1. Powiadomienia mailowe po wystawieniu faktury. + Wys³anie faktury w za³¹czniku.
