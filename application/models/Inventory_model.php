@@ -12,17 +12,17 @@ class Inventory_model extends CI_Model
         switch ($case) {
             case 'searchForm':
 
-                $this->db->select('Item,CatalogNo,Attribute,Description,RegionalWarehouse,RealStock,SpareStock');
-                $this->db->from('inventory');
+                $this->db->select('*');
+                $this->db->from('view_inventory');
                 
                 if($ItemCatalogNumber!=''){
-                    $this->db->where('CatalogNo like \'%'.$ItemCatalogNumber.'%\'');
+                    $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');
                 }
                 if($ItemCode!=''){
-                    $this->db->where('Item like \'%'.$ItemCode.'%\'');
+                    $this->db->where('itemCode like \'%'.$ItemCode.'%\'');
                 }
                 if($Warehouse!=''){
-                    $this->db->where('WarehouseCode like \'%'.$Warehouse.'%\'');
+                    $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');
                 }
                 
                 $query = $this->db->get();
@@ -30,8 +30,8 @@ class Inventory_model extends CI_Model
 
                 break;
             case 'all':
-                $this->db->select('Item,CatalogNo,Attribute,Description,RegionalWarehouse,RealStock,SpareStock');
-                $this->db->from('inventory');
+                $this->db->select('*');
+                $this->db->from('view_inventory');
                 $query = $this->db->get();
                 $rows = $query->result_array();
                 

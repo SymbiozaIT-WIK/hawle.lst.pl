@@ -1,158 +1,26 @@
-﻿-- Adminer 4.6.3 MySQL dump
+-- Adminer 4.6.3 MySQL dump
 
 SET NAMES utf8;
 SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
-DROP TABLE IF EXISTS `inventory`;
-CREATE TABLE `inventory` (
-  `ID` int(10) NOT NULL,
-  `ITEMCODE` varchar(40) DEFAULT NULL,
-  `REGIONALWAREHOUSECODE` varchar(40) DEFAULT NULL,
-  `QUANTITY` int(10) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `invoice_header`;
-CREATE TABLE `invoice_header` (
-  `INVOICENO` varchar(40) NOT NULL,
-  `ORDERNO` varchar(40) DEFAULT NULL,
-  `DOCUMENTDATE` datetime DEFAULT NULL,
-  `PAYMENTDATE` datetime DEFAULT NULL,
-  `AMOUNT` decimal(10,1) DEFAULT NULL,
-  `POSTINGDESCRIPTION` varchar(40) DEFAULT NULL,
-  `EXTERNALDOCNO` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`INVOICENO`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `invoice_lines`;
-CREATE TABLE `invoice_lines` (
-  `ID` int(10) NOT NULL,
-  `INVOICENO` varchar(40) DEFAULT NULL,
-  `LINENO` int(10) DEFAULT NULL,
-  `ITEMCODE` varchar(40) DEFAULT NULL,
-  `ITEMCATALOGNO` int(10) DEFAULT NULL,
-  `QUANTITY` int(10) DEFAULT NULL,
-  `AMOUNT` decimal(10,1) DEFAULT NULL,
-  `NETAMOUNT` decimal(10,1) DEFAULT NULL,
-  `VAT` decimal(10,1) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `invoice_status`;
-CREATE TABLE `invoice_status` (
-  `ID` int(10) NOT NULL,
-  `NAME` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `item`;
-CREATE TABLE `item` (
-  `CODE` varchar(40) NOT NULL,
-  `CATALOGNO` int(10) DEFAULT NULL,
-  `DESCRIPTION` text,
-  `ATTRIBUTE` varchar(40) DEFAULT NULL,
-  `UNITPRICE` decimal(10,2) DEFAULT NULL,
-  PRIMARY KEY (`CODE`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `order_header`;
-CREATE TABLE `order_header` (
-  `NO` varchar(50) NOT NULL,
-  `CUSTOMERDOCNO` varchar(40) DEFAULT NULL,
-  `TYPE` int(10) DEFAULT NULL,
-  `STATUSID` int(10) DEFAULT NULL,
-  `STATUS2ID` int(10) DEFAULT NULL,
-  `DATE_ADD` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `ACCEPTDATE` datetime DEFAULT NULL,
-  `DESCRIPTION` varchar(200) DEFAULT NULL,
-  `SELLTO` varchar(40) DEFAULT NULL,
-  `BUYFROM` varchar(40) DEFAULT NULL,
-  `SALESMAN` varchar(40) DEFAULT NULL,
-  `PAYMENTTERMS` varchar(40) DEFAULT NULL,
-  `AMOUNT` decimal(10,1) DEFAULT NULL,
-  `NETAMOUNT` decimal(10,1) DEFAULT NULL,
-  PRIMARY KEY (`NO`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `order_lines`;
-CREATE TABLE `order_lines` (
-  `ID` int(10) NOT NULL,
-  `DOCUMENTNO` varchar(50) DEFAULT NULL,
-  `LINENO` int(10) DEFAULT NULL,
-  `QUANTITY` int(10) DEFAULT NULL,
-  `DESCRIPTION` varchar(40) DEFAULT NULL,
-  `ITEMCODE` varchar(40) DEFAULT NULL,
-  `AMOUNT` decimal(10,2) DEFAULT NULL,
-  `WEIGHT` decimal(10,1) DEFAULT NULL,
-  `NETAMOUNT` decimal(10,1) DEFAULT NULL,
-  `DISCOUNT` decimal(10,1) DEFAULT NULL,
-  `DELIVERYDATE` datetime DEFAULT NULL,
-  `QTYAVAILABLE` int(10) DEFAULT NULL,
-  `QTYDUE` int(10) DEFAULT NULL,
-  `QTYDELIVERED` int(10) DEFAULT NULL,
-  `REGIONALWAREHOUSECODE` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `order_status`;
-CREATE TABLE `order_status` (
-  `ID` int(10) NOT NULL,
-  `NAME` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `order_type`;
-CREATE TABLE `order_type` (
-  `ID` int(10) NOT NULL,
-  `NAME` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `regional_warehouse`;
-CREATE TABLE `regional_warehouse` (
-  `CODE` varchar(40) NOT NULL,
-  `USERID` int(10) DEFAULT NULL,
-  PRIMARY KEY (`CODE`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
-DROP TABLE IF EXISTS `user`;
-CREATE TABLE `user` (
-  `ID` int(10) NOT NULL,
-  `LOGIN` varchar(50) DEFAULT NULL,
-  `PASSWORD` varchar(50) DEFAULT NULL,
-  `EMAIL` varchar(40) DEFAULT NULL,
-  `NAME` varchar(40) DEFAULT NULL,
-  `NAME2` varchar(50) DEFAULT NULL,
-  `ADRESS` varchar(50) DEFAULT NULL,
-  `ADRESS2` varchar(50) DEFAULT NULL,
-  `POSTCODE` varchar(20) DEFAULT NULL,
-  `CITY` varchar(40) DEFAULT NULL,
-  `TYPEID` int(10) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-INSERT INTO `user` (`ID`, `LOGIN`, `PASSWORD`, `EMAIL`, `NAME`, `NAME2`, `ADRESS`, `ADRESS2`, `POSTCODE`, `CITY`, `TYPEID`) VALUES
-(0,	'1234',	'e0bf5441addc22960fb573aeae1859d2595ce168',	'krzysztof.krzepicki@lst.pl',	'Java Freak \"Krzepicki & Synowie\"',	'ul. Prawid Użyta 32',	'',	NULL,	'12-201',	'Magreg',	1),
-(1,	'test',	'test',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL);
-
-DROP TABLE IF EXISTS `user_type`;
-CREATE TABLE `user_type` (
-  `ID` int(10) NOT NULL,
-  `NAME` varchar(40) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
--- 2018-10-12 09:34:56
+-- 2018-10-12 11:35:34
