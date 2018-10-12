@@ -44,6 +44,9 @@ class Order extends CI_Controller {
     
     public function confirm_order()
     {
+        $this->load->model('Order_model');
+        $data = $this->input->post();
+        $this->Order_model->add($data);
         echo 'Zamówienie potwierdzone';
     }
 }

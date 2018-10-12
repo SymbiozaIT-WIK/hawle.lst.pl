@@ -32,19 +32,19 @@
                         <input class="form-control input-2" name="<?php print($lp); ?>[id]" type="number" readonly value="<?php print($lp); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="<?php print($lp); ?>[serial]" type="text" readonly value="<?php print_r($row['code']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[code]" type="text" readonly value="<?php print_r($row['code']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="<?php print($lp); ?>[item]" type="text" readonly value="<?php print_r($row['catalogNo']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[catalogNo]" type="text" readonly value="<?php print_r($row['catalogNo']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="<?php print($lp); ?>[item]" type="text" readonly value="<?php print_r($row['attribute']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[attribute]" type="text" readonly value="<?php print_r($row['attribute']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="<?php print($lp); ?>[warehouse]" type="text" readonly value="<?php print_r($row['Item']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[item]" type="text" readonly value="<?php print_r($row['Item']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[warehouse]" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
                     </td>
                     <td>
                         <input class="form-control input-md" name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['Quantity']); ?>">

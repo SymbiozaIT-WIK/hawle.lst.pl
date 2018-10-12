@@ -13,12 +13,13 @@
         <table class="table table-striped table-bordered table-hover" style="width:100%">
             <tr>
                 <th>L.P.</th>
-                <th>Numer Seryjny</th>
-                <th>Produkt</th>
+                <th>Kod towaru</th>
+                <th>Nr katalogowy</th>
+                <th>Cecha</th>
+                <th>Opis</th>
                 <th>Magazyn</th>
-                <th>Ilość dostępna</th>
-                <th>Zamów</th>
-                <th>Komentarz</th>
+                <th>Ilość zamówiona</th>
+                <th>Uwagi</th>
             </tr>
             <?php $lp = 0; ?>
             <?php foreach($items as $row): ?>
@@ -28,7 +29,13 @@
                     <input class="form-control input-2" name="<?php print($lp); ?>[id]" type="number" readonly value="<?php print($lp); ?>">
                 </td>
                 <td>
-                    <input class="form-control input-md" name="<?php print($lp); ?>[serial]" type="text" readonly value="<?php print_r($row['serial']); ?>">
+                    <input class="form-control input-md" name="<?php print($lp); ?>[code]" type="text" readonly value="<?php print_r($row['code']); ?>">
+                </td>
+                <td>
+                    <input class="form-control input-md" name="<?php print($lp); ?>[catalogNo]" type="text" readonly value="<?php print_r($row['catalogNo']); ?>">
+                </td>
+                <td>
+                    <input class="form-control input-md" name="<?php print($lp); ?>[attribute]" type="text" readonly value="<?php print_r($row['attribute']); ?>">
                 </td>
                 <td>
                     <input class="form-control input-md" name="<?php print($lp); ?>[item]" type="text" readonly value="<?php print_r($row['item']); ?>">
@@ -37,13 +44,10 @@
                     <input class="form-control input-md" name="<?php print($lp); ?>[warehouse]" type="text" readonly value="<?php print_r($row['warehouse']); ?>">
                 </td>
                 <td>
-                    <input class="form-control input-md" name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['quantity']); ?>">
+                    <input class="form-control input-md" name="<?php print($lp); ?>[orderedQuantity]" type="text" readonly value="<?php print_r($row['orderedQuantity']); ?>">
                 </td>
                 <td>
-                    <input class="form-control input-md" name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['orderedQuantity']); ?>">
-                </td>
-                <td>
-                    <input class="form-control input-md" name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['comments']); ?>">
+                    <input class="form-control input-md" name="<?php print($lp); ?>[comments]" type="text" readonly value="<?php print_r($row['comments']); ?>">
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -53,7 +57,7 @@
     <?php else: ?>
     <h3>Nic nie wybrałeś</h3>
     <form metho type="submit" action="<?php echo site_url('Order/Create')?>">
-    <button>Powrót do edycji zamówienia</button>
+        <button>Powrót do edycji zamówienia</button>
     </form>
     <?php endif; ?>
 </div>

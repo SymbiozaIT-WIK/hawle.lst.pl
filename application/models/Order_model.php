@@ -2,9 +2,11 @@
 
 class Order_model extends CI_Model
 {
-    public function add()
+    public function add($data)
     {
-        
+        echo '<pre>';
+        print_r($data);
+        echo '</pre>';
     }
     
     public function get_items($user)
@@ -31,6 +33,10 @@ class Order_model extends CI_Model
     public function get_order_headers($user)
     {
         $this->db->get('order_header');
+        $this->db->where('sellto', $user);
+        $query=$this->db->get();
+        $table=$query->result_array();
+        return $table;
     }
 }
 
