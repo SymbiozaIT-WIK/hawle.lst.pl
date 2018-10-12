@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------------------
+| 'Kod towaru'| 'Nr katalogowy' | 'Cecha' | 'Opis' | 'Magazyn' | 'Zapas wolny' | 'Zapas rzeczywisty' |
+------------------------------------------------------------------------------------------------------
+
+CREATE VIEW view_inventory as 
+Select 
+inv.itemCode, 
+it.catalogNo, 
+it.attribute, 
+it.description,
+inv.regionalWarehouseCode,
+inv.spareStock,
+inv.realStock
+from inventory as inv
+left join items as it on it.code=inv.itemCode
+
+
+select 
+`oh`.`NO` AS `no`,
+`oh`.`ACCEPTDATE` AS `acceptDate`,
+`oh`.`DESCRIPTION` AS `description`,
+`os`.`NAME` AS `statusName` 
+from 
+(`order_header` `oh` left join `order_status` `os` on((`oh`.`STATUSID` = `os`.`ID`)))
+
+
