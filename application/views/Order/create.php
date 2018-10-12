@@ -24,22 +24,22 @@
                 <tr>
                     <?php $lp += 1; ?>
                     <td>
-                        <input class="form-control input-2" name="id<?php print($lp); ?>" type="number" readonly value="<?php print($lp); ?>">
+                        <input class="form-control input-2" name="<?php print($lp); ?>[id]" type="number" readonly value="<?php print($lp); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="serial<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[serial]" type="text" readonly value="<?php print_r($row['SerialNumber']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="item<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Item']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[item]" type="text" readonly value="<?php print_r($row['Item']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="warehouse<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[warehouse]" type="text" readonly value="<?php print_r($row['Warehouse']); ?>">
                     </td>
                     <td>
-                        <input class="form-control input-md" name="quantity<?php print($lp); ?>" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
+                        <input class="form-control input-md" name="<?php print($lp); ?>[quantity]" type="text" readonly value="<?php print_r($row['Quantity']); ?>">
                     </td>
-                    <td><input class="form-control input-md" name="orderedQuantity<?php print($lp); ?>" class="input"></td>
-                    <td><input class="form-control input-md" name="comments<?php print($lp); ?>" class="input"></td>
+                    <td><input class="form-control input-md" name="<?php print($lp); ?>[orderedQuantity]" class="input"></td>
+                    <td><input class="form-control input-md" name="<?php print($lp); ?>[comments]" class="input"></td>
                 </tr>
                 <?php endforeach; ?>
             </table>
