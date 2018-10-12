@@ -8,6 +8,13 @@
     }
 </style>
 <div class="container">
+    <?php 
+    $sum = 0; 
+    foreach($items as $arr)
+    {
+        $sum = $sum + $arr['orderedQuantity'];
+    }
+    ?>
     <h1>Podsumowanie</h1>
     <form class="form" method="post" action="<?php echo site_url('Order/confirm_order')?>">
         <table class="table table-striped table-bordered table-hover" style="width:100%">
@@ -51,6 +58,19 @@
                 </td>
             </tr>
             <?php endforeach; ?>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td> <input class="form-control input-md" type="text" readonly value="<?php echo $sum; ?>">
+                    </td>
+                    <td></td>
+                </tr>
+            </tfoot>
         </table>
         <button class="button" type="submit">Zatwierdź</button>
     </form>

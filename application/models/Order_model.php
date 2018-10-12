@@ -7,6 +7,18 @@ class Order_model extends CI_Model
         echo '<pre>';
         print_r($data);
         echo '</pre>';
+        
+        foreach($data as $row)
+        {
+            $line = $row['id'];
+            $itemCode = $row['code'];
+            $itemCatalogNo = $row['catalogNo'];
+            $itemAttribute = $row['attribute'];
+            $itemDescription = $row['item'];
+            $warehouse = $row['warehouse'];
+            $orderedQuantity = $row['orderedQuantity'];
+            $comment = $row['comments'];
+        }
     }
     
     public function get_items($user)
@@ -32,7 +44,7 @@ class Order_model extends CI_Model
     
     public function get_order_headers($user)
     {
-        $this->db->get('order_header');
+        $this->db->from('order_header');
         $this->db->where('sellto', $user);
         $query=$this->db->get();
         $table=$query->result_array();
