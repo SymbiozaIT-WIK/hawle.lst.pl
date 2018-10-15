@@ -12,19 +12,33 @@ class DbViews_model extends CI_Model
         return $rows;
     }
     
-    public function get_wzDetails($wzNo){
+    public function get_wzDetails($wzNo,$xml=false){
 
-        $this->db->select('*');
-        $this->db->from('view_wzHeader');
-        $this->db->where('no',$wzNo);
-        $query = $this->db->get();
-        $rows['wzHeader'] = $query->result_array();
-        
-        $this->db->select('*');
-        $this->db->from('view_wzLines');
-        $this->db->where('documentNo',$wzNo);
-        $query = $this->db->get();
-        $rows['wzLines'] = $query->result_array();
+        if($xml){
+            $this->db->select('*');
+            $this->db->from('view_wzHeaderXML');
+            $this->db->where('no',$wzNo);
+            $query = $this->db->get();
+            $rows['wzHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_wzLinesXML');
+            $this->db->where('documentNo',$wzNo);
+            $query = $this->db->get();
+            $rows['wzLines'] = $query->result_array();  
+        }else{
+            $this->db->select('*');
+            $this->db->from('view_wzHeader');
+            $this->db->where('no',$wzNo);
+            $query = $this->db->get();
+            $rows['wzHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_wzLines');
+            $this->db->where('documentNo',$wzNo);
+            $query = $this->db->get();
+            $rows['wzLines'] = $query->result_array();
+        }
         
         return $rows;
     }
@@ -39,19 +53,33 @@ class DbViews_model extends CI_Model
         return $rows;
     }
     
-    public function get_mmDetails($mmNo){
+    public function get_mmDetails($mmNo,$xml=false){
 
-        $this->db->select('*');
-        $this->db->from('view_mmHeader');
-        $this->db->where('no',$mmNo);
-        $query = $this->db->get();
-        $rows['mmHeader'] = $query->result_array();
-        
-        $this->db->select('*');
-        $this->db->from('view_mmLines');
-        $this->db->where('documentNo',$mmNo);
-        $query = $this->db->get();
-        $rows['mmLines'] = $query->result_array();
+        if($xml){
+            $this->db->select('*');
+            $this->db->from('view_mmHeaderXML');
+            $this->db->where('no',$mmNo);
+            $query = $this->db->get();
+            $rows['mmHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_mmLinesXML');
+            $this->db->where('documentNo',$mmNo);
+            $query = $this->db->get();
+            $rows['mmLines'] = $query->result_array();
+        }else{
+            $this->db->select('*');
+            $this->db->from('view_mmHeader');
+            $this->db->where('no',$mmNo);
+            $query = $this->db->get();
+            $rows['mmHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_mmLines');
+            $this->db->where('documentNo',$mmNo);
+            $query = $this->db->get();
+            $rows['mmLines'] = $query->result_array();
+        }
         
         return $rows;
     }
