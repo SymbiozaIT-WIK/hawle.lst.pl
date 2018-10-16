@@ -46,14 +46,7 @@ class fv extends CI_Controller {
     }
     
     public function fv_print($pdf='print'){
-        $this->load->library('parser');
-        $data='';
-        $output = $this->parser->parse('fv/details',array('',''));  
         
-        if ($pdf=='print')
-            $this->_gen_pdf($output);
-        else
-            $this->output->set_output($output);
 
     }
     
