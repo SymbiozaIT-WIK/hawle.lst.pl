@@ -28,7 +28,7 @@ class fv extends CI_Controller {
     public function fv_details($fvNo=''){
 //        $this->load->model('DbViews_model');
 //        $data = $this->DbViews_model->get_fvDetails($fvNo);
-        
+        $fvNo=$this->input->post('fvno');
         if($fvNo!=''){
             $data='';
             $this->load->template('fv/details',$data);

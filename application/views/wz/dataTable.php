@@ -15,7 +15,7 @@
     <tbody>
        
         <?php foreach($rows as $row): ?>
-        <?php $fvNo=$row['invoiceno'] ?>
+        <?php $wzNo=$row['no'] ?>
         <?php $lp++; ?>
         <tr>
            <?php if($settings['lp']):?>
@@ -28,8 +28,8 @@
             </td>
             <?php endforeach;?>
             <td>
-               <form action="<?php echo site_url('fv/fv_details'); ?>" method="post">
-                <button class="btn btn-primary" name="fvno" value="<?php echo $fvNo ?>">Podgląd</button>
+               <form action="<?php echo site_url('wz/wz_details'); ?>" method="post">
+                <button class="btn btn-primary" name="wzno" value="<?php echo $wzNo ?>">Podgląd</button>
                </form>
             </td>
         </tr>
