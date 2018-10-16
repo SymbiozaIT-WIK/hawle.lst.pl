@@ -16,6 +16,26 @@ class DataTable_model extends CI_Model
         
         return $dataTable;
     }
+    
+    
+    public function get_fv_list(){
+        
+        $headings = array('Nr faktury', 'Data faktury','Termin płatności','Kwota','Opis księgowania','Numer dokumentu zewnętrznego');
+        $settings =array('lp' => true, 'footerHeading' => false);
+        
+        $this->db->select('invoiceno,documentdate,paymentdate,amount,postingdescription,externaldocno');
+        $this->db->from('invoice_header');
+        $query = $this->db->get();
+        $rows = $query->result_array();
+        
+        $dataTable = array('headings'=>$headings,'settings'=>$settings,'rows'=>$rows);
+        
+        return $dataTable;
+    }
+    
+    
+    
+    
 }
 
 /* End of file DataTable_model.php */
