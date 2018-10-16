@@ -1,5 +1,1 @@
-<pre>
-    <?php
-        print_r($mmList);
-    ?>
-</pre>
+<?php $this->view('wz/dataTable',$dataTable); ?>

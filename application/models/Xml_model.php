@@ -39,6 +39,38 @@ class Xml_model extends CI_Model
         $this->Xml_model->createXml($header,$lines,$conf);
     }
     
+    public function mm_to_xml(){
+        
+        $this->load->model('DbViews_model');
+        $data = $this->DbViews_model->get_wzDetails(1,true);
+        
+        $conf=array(
+            'header'=>'SalesHeader',
+            'line'  =>'SalesLine',
+            'file'  =>'WZ_'.time().'.xml'
+        );
+        $header = $data['wzHeader'];
+        $lines = $data['wzLines'];
+        
+        $this->Xml_model->createXml($header,$lines,$conf);
+    }
+    
+    public function zs_to_xml(){
+        
+        $this->load->model('DbViews_model');
+        $data = $this->DbViews_model->get_wzDetails(1,true);
+        
+        $conf=array(
+            'header'=>'SalesHeader',
+            'line'  =>'SalesLine',
+            'file'  =>'WZ_'.time().'.xml'
+        );
+        $header = $data['wzHeader'];
+        $lines = $data['wzLines'];
+        
+        $this->Xml_model->createXml($header,$lines,$conf);
+    }
+    
 }
 
 /* End of file Xml_model.php */
