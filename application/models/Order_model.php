@@ -29,14 +29,14 @@ class Order_model extends CI_Model
         it.attribute,
         it.description as Item,
         r.code as Warehouse,
-        i.Quantity'
+        i.realStock as Quantity'
         );
-        $this->db->from('inventory as i');
+        $this->db->from('view_inventory as i');
         $this->db->join('regional_warehouse as r', 'r.code = i.regionalwarehousecode');
         $this->db->join('user as u', 'u.login=r.userid');
         $this->db->join('item as it', 'i.itemcode=it.code');
         $this->db->where('u.login', $user);
-        $this->db->where('i.Quantity>', '0');
+        $this->db->where('i.realStock>', '0');
         $query=$this->db->get();
         $table=$query->result_array();
         return $table;
