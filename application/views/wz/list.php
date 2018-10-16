@@ -1,5 +1,3 @@
-<pre>
     <?php
-        print_r($wzList);
+        $this->view('wz/dataTable',$dataTable);
     ?>
-</pre>

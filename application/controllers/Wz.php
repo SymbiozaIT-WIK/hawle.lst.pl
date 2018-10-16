@@ -10,9 +10,10 @@ class Wz extends CI_Controller {
     
     
     public function wz_list(){
-        $this->load->model('DbViews_model');
-        $data['wzList'] = $this->DbViews_model->get_wzList();
-        $this->load->template('Wz/list',$data);
+        
+        $this->load->model('DataTable_model');
+        $data['dataTable'] = $this->DataTable_model->get_wz_list();
+        $this->load->template('wz/list',$data);
     }
     
     public function wz_details($wzNo=''){
@@ -25,6 +26,9 @@ class Wz extends CI_Controller {
         $this->load->template('Wz/edit');
     }
 
+    public function wz_set_status($wzNo='',$wzNewStatus=''){
+        
+    }
 }
     
 ?>
