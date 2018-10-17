@@ -32,6 +32,7 @@ class DataTable_model extends CI_Model
         
         return $dataTable;
     }
+    
     public function get_wz_list(){
         
         $headings = array('Nr zamówienia', 'Data przyjęcia','Uwagi','Status');
@@ -47,6 +48,21 @@ class DataTable_model extends CI_Model
         return $dataTable;
     }
     
+    
+    public function get_mm_list(){
+        
+        $headings = array('Nr zamówienia', 'Data przyjęcia','Uwagi','Status');
+        $settings =array('lp' => true, 'footerHeading' => false);
+        
+        $this->db->select('no,acceptdate,description,statusid');
+        $this->db->from('order_header');
+        $query = $this->db->get();
+        $rows = $query->result_array();
+        
+        $dataTable = array('headings'=>$headings,'settings'=>$settings,'rows'=>$rows);
+        
+        return $dataTable;
+    }
     
     
 }
