@@ -26,9 +26,6 @@ class Wz extends CI_Controller {
         $this->load->template('Wz/edit');
     }
 
-    public function wz_set_status($wzNo='',$wzNewStatus=''){
-        
-    }
 }
     
 ?>

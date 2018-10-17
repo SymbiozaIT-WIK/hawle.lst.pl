@@ -8,6 +8,7 @@ class Inventory extends CI_Controller {
     }
     
     public function search(){
+        
         $ItemCode = $this->input->post('ItemCode') ? $this->input->post('ItemCode') : '';
         $ItemCatalogNumber = $this->input->post('ItemCatalogNumber') ? $this->input->post('ItemCatalogNumber') : '';
         $Warehouse = $this->input->post('Warehouse') ? $this->input->post('Warehouse') : '';

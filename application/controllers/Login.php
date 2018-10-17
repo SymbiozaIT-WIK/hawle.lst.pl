@@ -10,7 +10,13 @@ class Login extends CI_Controller {
         if (!$this->session->userdata('logged')){
             
             $login =$this->input->post('login');
-            $pass = sha1($this->input->post('password'));
+//            $pass = sha1($this->input->post('password'));
+            
+            ///TEMP//////TEMP//////TEMP///
+                $pass = $this->input->post('password');
+            ///TEMP//////TEMP//////TEMP///
+            
+            
             $this->User_model->login($login,$pass);
         }else{
             print 'jesteś zalogowany';

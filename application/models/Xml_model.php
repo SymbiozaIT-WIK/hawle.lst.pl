@@ -22,7 +22,6 @@ class Xml_model extends CI_Model
         $xmlDoc->save("xmlFiles/" . $conf['file']);
     }
     
-    
     public function wz_to_xml(){
         
         $this->load->model('DbViews_model');
