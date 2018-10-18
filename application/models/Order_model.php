@@ -21,6 +21,11 @@ class Order_model extends CI_Model
         }
     }
     
+    public function create_header()
+    {
+        $userLogin = $this->session->userdata('login');
+    }
+    
     public function get_items($user)
     {
         $this->db->select('

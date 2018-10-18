@@ -1,1 +1,2 @@
 ﻿1. Powiadomienia mailowe po wystawieniu faktury. + Wysłanie faktury w załączniku.
+2. Dynamiczne wyszukiwanie towarów na zamówieniu.
