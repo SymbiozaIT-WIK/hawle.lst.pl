@@ -29,7 +29,7 @@ class fv extends CI_Controller {
     
     public function fv_download()
     {
-        $this->load->template('fv/download');
+        $this->load->view('fv/download');
     }
     
 }
