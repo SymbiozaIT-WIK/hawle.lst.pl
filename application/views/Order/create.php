@@ -54,7 +54,7 @@
                 </tr>
                 <?php endforeach; ?>
             </table>
-            <button class="button" type="submit">Wyślij zamówienie</button>
+            <button class="button" type="submit" value='1'>Wyślij zamówienie</button>
         </form>
     </div>
 </div>

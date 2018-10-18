@@ -12,15 +12,14 @@ class Order extends CI_Controller {
         $this->load->template('zs/index', $data);
     }
     
-    public function create()
+    public function create_zs()
     {
         $this->load->model('Order_model');
         /*echo '<pre>';
         print_r($this->session->userdata());
         echo '</pre>';*/
-        $this->Order_model->create_header();
         $userLogin = $this->session->userdata('login');
-        $checkUserType = $this->Order_model->check_user_type($userLogin);
+        $this->Order_model->create_header();
         $data['items'] = $this->Order_model->get_items($userLogin);
         $this->load->template('zs/create', $data);
     }
