@@ -172,14 +172,18 @@ public function create_zs()
     }
     
     public function order_list(){
-        $this->load->model('DataTable_model');
+       /* $this->load->model('DataTable_model');
         $userLogin = $this->session->userdata('login');
         $dataTable=$this->DataTable_model->get_mm_list($userLogin);
         $this->load->template('Order/list',$dataTable);
         $dataTable=$this->DataTable_model->get_order_list();
 
         $data['dataTable'] = $dataTable;
-        $this->load->template('order/list',$dataTable);
+        $this->load->template('order/list',$dataTable);*/
+        $this->load->model('DataTable_model');
+        $userLogin = $this->session->userdata('login');
+        $dataTable=$this->DataTable_model->get_mm_list($userLogin);
+        $this->load->template('Order/list',$dataTable);
     }
     
     public function order_details($orderId){
