@@ -81,8 +81,8 @@ class Order extends CI_Controller {
         }
         
         $data['datatable']=$this->Order_model->get_create_mm_items();
-        $data['mmdetails']=$this->Order_model->get_mm_details();
-//        $data['mmdetails']='';
+        //$data['mmdetails']=$this->Order_model->get_mm_details();
+        //$data['mmdetails']='';
         
         $this->load->template('mm/create',$data);
     }
