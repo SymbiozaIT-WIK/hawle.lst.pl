@@ -78,13 +78,13 @@
         <?php endforeach;?>
         <tr>
             <td colspan="7" class="text-right">
-        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#deleteQuestion">
+        <button type="button" <?php if($mmHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Zatwierdź
         </button>
-        <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#deleteQuestion">
+        <button type="button" <?php if($mmHeader['STATUSID']>2){echo 'disabled';} ?> class="btn btn-warning btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Edytuj zamówienie
         </button>
-        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
+        <button type="button" <?php if($mmHeader['STATUSID']!=1){echo 'disabled';} ?> class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Usuń
         </button>
         </td>

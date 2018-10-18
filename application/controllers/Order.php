@@ -12,32 +12,25 @@ class Order extends CI_Controller {
         $this->load->template('zs/index', $data);
     }
     
-    public function create_zs()
+public function create_zs()
     {
-        /*$this->load->model('Order_model');
-        echo '<pre>';
-        print_r($this->input->post());
-        echo '</pre>';
-        $userLogin = $this->session->userdata('login');
-        $this->Order_model->create_header();
-        $data['datatable'] = $this->Order_model->get_create_zs_items();
-        $this->load->template('zs/create', $data);*/
-        
-                $this->load->model('Order_model');
+    
+        $this->load->model('Order_model');
+        $this->load->model('User_model');
         
         $zsId                   = $this->input->post('tempid'); //id zamówienia wpisane przez klienta
         
         $customerDocno          = $this->input->post('customerDocNo');
         $headerDesc             = $this->input->post('headerDesc');
-        $headerMag              = $this->input->post('headerMag');
         
         $itemCode               = $this->input->post('itemCode');
         $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
         $quantity               = $this->input->post('quantity');
+        $lineDescription               = $this->input->post('lineDescription');
         
         
         if(!$this->input->post('tempid')){ 
-          $zsId = $this->Order_model->create_header();
+          $zsId = $this->Order_model->create_header(); //stwórz zamówienie z tymczasowym ID i zwróć ID
         }
         
     //edycja headera
@@ -45,9 +38,22 @@ class Order extends CI_Controller {
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($zsId,$data);}
         
 
+//    dodanie linii
+        if($itemCode && $regionalWarehouseCode && $quantity && $lineDescription){
+            //dodaj do zamówienia kolejną linię
+            $orderLine=array(
+                'itemcode' => $itemCode,
+                'regionalwarehousecode' => $regionalWarehouseCode,
+                'quantity' => $quantity,
+                'tempdocumentno' => $zsId,
+                'description' => $lineDescription
+            );
+            $this->Order_model->add_line($zsId,$orderLine);
+        }
         
     //pobranie danych zamówienia
-        $data['zsDetails']=$this->Order_model->get_zsDetails($zsId);
+        $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
+        $data['zsDetails']=$this->Order_model->get_zsDetails($zsId,true);
         $data['datatable']=$this->Order_model->get_create_zs_items(); //lista dostępnych towarów
         $this->load->template('zs/create',$data);
     }
@@ -167,10 +173,13 @@ class Order extends CI_Controller {
     
     public function order_list(){
         $this->load->model('DataTable_model');
+        $userLogin = $this->session->userdata('login');
+        $dataTable=$this->DataTable_model->get_mm_list($userLogin);
+        $this->load->template('Order/list',$dataTable);
         $dataTable=$this->DataTable_model->get_order_list();
-
-        $data['dataTable'] = $dataTable;
-        $this->load->template('order/list',$dataTable);
+//
+//        $data['dataTable'] = $dataTable;
+//        $this->load->template('order/list',$dataTable);
     }
     
     public function order_details($orderId){
