@@ -77,15 +77,6 @@ class Order extends CI_Controller {
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($mmId,$data);}
         
 
-        $data['datatable']=$this->Order_model->get_create_mm_items();
-        //$data['mmdetails']=$this->Order_model->get_mm_details();
-        //$data['mmdetails']='';
-
-        if(!$data['mmDetails']){
-            //jeżeli nie pobrano tymczasowego nagłówka pobierz aktualny z numerem klienta
-            $data['mmDetails']=$this->Order_model->get_mmDetails($mmId);
-        }
-
     //dodanie linii
 //        if($itemCode && $regionalWarehouseCode && $quantity){
 //            //dodaj do zamówienia kolejną linię
