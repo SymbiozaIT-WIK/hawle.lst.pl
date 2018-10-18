@@ -27,7 +27,7 @@
             </td>
             <?php endforeach;?>
             <th>
-                <a href="" class="btn btn-primary btn-sm">Szczegóły</a>
+                <a href="<?php echo site_url('order/order_details/'.$row['tempid']); ?>" class="btn btn-primary btn-sm">Szczegóły</a>
             </th>
         </tr>
         <?php endforeach;?>

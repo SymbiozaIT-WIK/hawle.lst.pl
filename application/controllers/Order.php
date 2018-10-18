@@ -188,8 +188,8 @@ public function create_zs()
         $data['dataTable'] = $dataTable;
         $this->load->template('order/list',$dataTable);*/
         $this->load->model('DataTable_model');
-        $userLogin = $this->session->userdata('login');
-        $dataTable=$this->DataTable_model->get_mm_list($userLogin);
+        $dataTable=$this->DataTable_model->get_mm_list();
+        $data['dataTable'] = $dataTable;
         $this->load->template('Order/list',$dataTable);
 
     }
