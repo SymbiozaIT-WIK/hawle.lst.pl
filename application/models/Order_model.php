@@ -23,7 +23,26 @@ class Order_model extends CI_Model
     
     public function create_header()
     {
-        $userLogin = $this->session->userdata('login');
+        $dbInsert=array(
+            'sellto' => $this->session->userdata('login'),
+            'statusid' => 1,
+        );
+        
+        $this->db->insert('order_header',$dbInsert);
+        $id = $this->db->insert_id();
+        return $id;
+    }
+    
+    
+    
+    
+    
+    public function update_header($orderId){
+        
+    }
+    
+    public function add_lines($orderNo=''){
+        
     }
     
     public function get_items($user)
@@ -72,6 +91,32 @@ class Order_model extends CI_Model
         
         return $data;
     }
+    
+        public function get_mmDetails($mmNo='',$temp=false){
+
+            
+            $this->db->select('*');
+            $this->db->from('view_mmHeader');
+            if($temp){
+                $this->db->where('tempid',$mmNo);
+            }else{
+                $this->db->where('no',$mmNo);
+            }
+            $query = $this->db->get();
+            $oh=$query->result_array();
+            $rows['mmHeader'] = $oh[0];
+
+            $this->db->select('*');
+            $this->db->from('view_mmLines');
+            $this->db->where('documentNo',$mmNo);
+            $query = $this->db->get();
+            $rows['mmLines'] = $query->result_array();
+
+
+        
+        return $rows;
+    }
+    
     
     
     

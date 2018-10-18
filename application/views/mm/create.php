@@ -1,10 +1,14 @@
+<?php
+print_r($mmDetails);
+
+?>
 <div class="container">
 <h1>Nowe zamówienie : MM</h1>
 </div>
 
     
 <div class="container">
-
+   
     <table class="table table-hover table-bordered">
 
     <tr>
@@ -15,17 +19,20 @@
             KodLokalizacjiDocelowej
             <div class="form-group">
               <label for="sel1">Wybierz magazyn:</label>
-              <select class="form-control" id="sel1">
-               <option value=""></option>
-                <option>SK42</option>
-                <option>SK10</option>
-                <option>Inne</option>
-                <option>Jeszcze inne</option>
-              </select>
+            <form action="" method="post" id="submitChangeForm">
+                <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+                <select id="sel1" class="submit--this form-control" name="headerMag">
+                  <option value="0"></option>
+                  <option value="1">SK42</option>
+                  <option value="1">SK10</option>
+                  <option value="1">Inne</option>
+                  <option value="1">Jeszcze inne</option>
+                </select>
+            </form>
             </div>
         </td>
         <td>Nr zamówienia klienta</td>
-        <td colspan="2"><input type="text"></td>
+        <td colspan="2"><input type="text" name="customerDocNo"></td>
     </tr>
     <tr>
         <td rowspan="2" colspan="2">
@@ -48,7 +55,7 @@
     <tr>
        <td class="bg-info text-center"><b class="text-primary">Wprowadzone</b></td>
         <td>Uwagi</td>
-        <td colspan="2" style="padding:0;margin:0;"><textarea style="padding:0;margin:0;" name="" id="" cols="30" rows="5"></textarea></td>
+        <td colspan="2" style="padding:0;margin:0;"><textarea style="padding:0;margin:0;" name="headerDesc" id="" cols="30" rows="5"></textarea></td>
     </tr>
     <tr>
         <th>Lp</th>
@@ -77,6 +84,10 @@
         </td>
     </tr>
     </table>
+
+
+
+
 
 </div>
     <hr><br>
@@ -116,6 +127,7 @@
                 <?php endforeach;?>
                 <td>
                     <form action="" method="post" id="submitChangeForm">
+                        <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                         <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
                         <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
                         <input type="text" class="submit--this" name="quantity">
