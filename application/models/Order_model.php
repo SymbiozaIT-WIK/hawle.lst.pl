@@ -156,6 +156,62 @@ class Order_model extends CI_Model
         return $rows;
     }
     
+    
+    public function get_wzDetails($wzNo='',$temp=false){
+
+            if($temp){
+                
+                $this->db->select('*');
+                $this->db->from('view_wzHeader');
+                $this->db->where('tempid',$wzNo);
+
+                $query = $this->db->get();
+                $oh=$query->result_array();
+                $rows['wzHeader'] = $oh[0];
+
+                $this->db->select('*');
+                $this->db->from('view_wzLines');
+                $this->db->where('tempdocumentno',$wzNo);
+                $query = $this->db->get();
+                $rows['wzLines'] = $query->result_array();
+                
+            }else{
+                $this->db->select('*');
+                $this->db->from('view_wzHeader');
+                $this->db->where('documentNo',$wzNo);
+
+                $query = $this->db->get();
+                $oh=$query->result_array();
+                $rows['wzHeader'] = $oh[0];
+
+                $this->db->select('*');
+                $this->db->from('view_wzLines');
+                $this->db->where('documentNo',$wzNo);
+                $query = $this->db->get();
+                $rows['wzLines'] = $query->result_array();
+            }
+        
+        return $rows;
+    }
+    
+    public function get_create_wz_items(){
+        
+        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode');
+        $this->db->from('view_inventory as vi');
+        $this->db->join('regional_warehouse as rw','rw.code=vi.regionalWarehouseCode');
+        $this->db->where('rw.userid',$this->session->userdata('login'));
+        $query = $this->db->get();
+        
+        $rows = $query->result_array();
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn');
+        $settings = array('lp' => true, 'footerHeading' => true);
+        
+        $data['rows']=$rows;
+        $data['headings']=$headings;
+        $data['settings']=$settings;
+        
+        return $data;
+    }
 
     public function get_zsDetails($zsNo='',$temp=false){
 

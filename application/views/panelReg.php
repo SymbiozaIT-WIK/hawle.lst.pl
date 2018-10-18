@@ -15,7 +15,7 @@
             <form action="<?php echo site_url('order/create_mm') ?>" method="post">
                 <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">create</i>
-                    <span>Stwórz MM</span>
+                    <span>Utwórz zamówienie</span>
                 </button>
             </form>
         </div>
@@ -26,7 +26,7 @@
             <form action="<?php echo site_url('order/create_wz') ?>" method="post">
                 <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">create</i>
-                    <span>Stwórz WZ</span>
+                    <span>Zarejestruj wydanie</span>
                 </button>
             </form>
         </div>
@@ -45,10 +45,10 @@
     <br>
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
-            <form action="<?php echo site_url('fv') ?>" method="post">
+            <form action="<?php echo site_url('fv/fv_list') ?>" method="post">
                 <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">account_balance</i>
-                    <span>Lista FV klienta</span>
+                    <span>Lista Faktur</span>
                 </button>
             </form>
         </div>
