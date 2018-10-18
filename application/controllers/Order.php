@@ -51,24 +51,6 @@ class Order extends CI_Controller {
         echo 'Zamówienie potwierdzone';
     }
     
-    public function create_test(){
-        
-//        Po wejściu w kontroler order/create -> tworzymy nagłówek
-//            następnie dodanie pozycji do zamówienia
-        
-        
-        
-        
-        
-        $this->load->view('header');
-        $this->load->view('navLogged');
-        $this->load->view('mm/create');
-        $this->load->view('wz/create');
-        $this->load->view('zs/create');
-        $this->load->view('footer');
-        
-    }
-    
     public function create_mm(){
         
         $this->load->model('Order_model');
@@ -84,27 +66,25 @@ class Order extends CI_Controller {
         $quantity               = $this->input->post('quantity');
         
         
-        if(!$mmId){ //jeżli klient nie wpisał numeru zamówienia
+        if(!$this->input->post('tempid')){ 
           $mmId = $this->Order_model->create_header(); //stwórz zamówienie z tymczasowym ID i zwróć ID
-          $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
-        }
-
-        if($headerDesc || $headerMag || $customerDocno ){
-            //edycja nagłówka zamówienia
-//            $this->Order_model->edit_header($mmId);
+//          $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
         }
         
-        if($itemCode && $regionalWarehouseCode && $quantity){
-            //dodaj do zamówienia kolejną linię
-            $this->Order_model->add_line($mmId,$orderLine);
-        }
+    //edycja headera
+        if($headerMag){$data['frommag'] = $headerMag;$this->Order_model->edit_header($mmId,$data);}
+        if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($mmId,$data);}
+        if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($mmId,$data);}
         
-        if(!$data['mmDetails']){
-            //jeżeli nie pobrano tymczasowego nagłówka pobierz aktualny z numerem klienta
-            $data['mmDetails']=$this->Order_model->get_mmDetails($mmId);
-        }
+    //dodanie linii
+//        if($itemCode && $regionalWarehouseCode && $quantity){
+//            //dodaj do zamówienia kolejną linię
+//            $this->Order_model->add_line($mmId,$orderLine);
+//        }
         
-        $data['datatable']=$this->Order_model->get_create_mm_items();
+    //pobranie danych zamówienia
+        $data['mmDetails']=$this->Order_model->get_mmDetails($mmId);
+        $data['datatable']=$this->Order_model->get_create_mm_items(); //lista dostępnych towarów
         $this->load->template('mm/create',$data);
     }
     

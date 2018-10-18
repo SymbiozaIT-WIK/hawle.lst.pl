@@ -1,7 +1,10 @@
+<pre>
+    
 <?php
 print_r($mmDetails);
-
+print_r($_POST);
 ?>
+</pre>
 <div class="container">
 <h1>Nowe zamówienie : MM</h1>
 </div>
@@ -18,10 +21,10 @@ print_r($mmDetails);
             <h1>Zamówienie</h1>
             KodLokalizacjiDocelowej
             <div class="form-group">
-              <label for="sel1">Wybierz magazyn:</label>
+              <label for="selMag">Wybierz magazyn:</label>
             <form action="" method="post" id="submitChangeForm">
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-                <select id="sel1" class="submit--this form-control" name="headerMag">
+                <select id="selMag" class="submit--this form-control" name="headerMag">
                   <option value="0"></option>
                   <option value="1">SK42</option>
                   <option value="1">SK10</option>
@@ -32,7 +35,12 @@ print_r($mmDetails);
             </div>
         </td>
         <td>Nr zamówienia klienta</td>
-        <td colspan="2"><input type="text" name="customerDocNo"></td>
+        <td colspan="2">
+            <form action="" method="post" id="submitChangeForm">
+               <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+                <input type="text" name="customerDocNo" class="submit--this">
+            </form>
+        </td>
     </tr>
     <tr>
         <td rowspan="2" colspan="2">
@@ -55,7 +63,13 @@ print_r($mmDetails);
     <tr>
        <td class="bg-info text-center"><b class="text-primary">Wprowadzone</b></td>
         <td>Uwagi</td>
-        <td colspan="2" style="padding:0;margin:0;"><textarea style="padding:0;margin:0;" name="headerDesc" id="" cols="30" rows="5"></textarea></td>
+        <td colspan="2" style="padding:0;margin:0;">
+        <form action="" method="post" id="submitChangeForm">
+            <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5"></textarea>
+        </form>
+        
+        </td>
     </tr>
     <tr>
         <th>Lp</th>

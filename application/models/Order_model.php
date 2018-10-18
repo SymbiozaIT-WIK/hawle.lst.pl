@@ -37,8 +37,9 @@ class Order_model extends CI_Model
     
     
     
-    public function update_header($orderId){
-        
+    public function edit_header($orderId,$data){
+        $this->db->where('tempid', $orderId);
+        $this->db->update('order_header', $data);
     }
     
     public function add_lines($orderNo=''){
@@ -92,16 +93,13 @@ class Order_model extends CI_Model
         return $data;
     }
     
-        public function get_mmDetails($mmNo='',$temp=false){
+        public function get_mmDetails($mmNo=''){
 
             
             $this->db->select('*');
             $this->db->from('view_mmHeader');
-            if($temp){
-                $this->db->where('tempid',$mmNo);
-            }else{
-                $this->db->where('no',$mmNo);
-            }
+            $this->db->where('tempid',$mmNo);
+  
             $query = $this->db->get();
             $oh=$query->result_array();
             $rows['mmHeader'] = $oh[0];
