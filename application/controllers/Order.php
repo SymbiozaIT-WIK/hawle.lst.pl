@@ -16,7 +16,7 @@ class Order extends CI_Controller {
     {
         $this->load->model('Order_model');
         /*echo '<pre>';
-        print_r($this->session->userdata());
+        print_r($this->input->post());
         echo '</pre>';*/
         $userLogin = $this->session->userdata('login');
         $this->Order_model->create_header();

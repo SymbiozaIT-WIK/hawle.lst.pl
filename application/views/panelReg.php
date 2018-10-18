@@ -1,4 +1,48 @@
-<h1>Panel MagReg</h1>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <h1>Panel MagReg</h1>
+    <div class="row pt-2">
+        <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
+            <form action="<?php echo site_url('order/create_mm') ?>" method="post">
+                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                    <i class="material-icons">create</i>
+                    <span>Stwórz MM</span>
+                </button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="row pt-2">
+        <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
+            <form action="<?php echo site_url('order/create_mm') ?>" method="post">
+                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                    <i class="material-icons">create</i>
+                    <span>Stwórz WZ</span>
+                </button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="row pt-2">
+        <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
+            <form action="<?php echo site_url('order') ?>" method="post">
+                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                   <i class="material-icons">list</i>
+                    <span>Lista Zamówień</span>
+                </button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="row pt-2">
+        <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
+            <form action="<?php echo site_url('fv') ?>" method="post">
+                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                   <i class="material-icons">account_balance</i>
+                    <span>Lista FV klienta</span>
+                </button>
+            </form>
+        </div>
+    </div>
 <ul>
     <li>Tworzenie zamówienia MM</li>
     <li>
