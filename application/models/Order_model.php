@@ -42,8 +42,10 @@ class Order_model extends CI_Model
         $this->db->update('order_header', $data);
     }
     
-    public function add_lines($orderNo=''){
+    public function add_line($orderNo='',$orderLine){
+            //dorobić numerowanie linii
         
+        $this->db->insert('order_lines',$orderLine);
     }
     
     public function create_line($lineNo)
@@ -103,22 +105,40 @@ class Order_model extends CI_Model
         return $data;
     }
     
-        public function get_mmDetails($mmNo=''){
+        public function get_mmDetails($mmNo='',$temp=false){
 
+            if($temp){
+                
+                $this->db->select('*');
+                $this->db->from('view_mmHeader');
+                $this->db->where('tempid',$mmNo);
+
+                $query = $this->db->get();
+                $oh=$query->result_array();
+                $rows['mmHeader'] = $oh[0];
+
+                $this->db->select('*');
+                $this->db->from('view_mmLines');
+                $this->db->where('tempdocumentno',$mmNo);
+                $query = $this->db->get();
+                $rows['mmLines'] = $query->result_array();
+                
+            }else{
+                $this->db->select('*');
+                $this->db->from('view_mmHeader');
+                $this->db->where('documentNo',$mmNo);
+
+                $query = $this->db->get();
+                $oh=$query->result_array();
+                $rows['mmHeader'] = $oh[0];
+
+                $this->db->select('*');
+                $this->db->from('view_mmLines');
+                $this->db->where('documentNo',$mmNo);
+                $query = $this->db->get();
+                $rows['mmLines'] = $query->result_array();
+            }
             
-            $this->db->select('*');
-            $this->db->from('view_mmHeader');
-            $this->db->where('tempid',$mmNo);
-  
-            $query = $this->db->get();
-            $oh=$query->result_array();
-            $rows['mmHeader'] = $oh[0];
-
-            $this->db->select('*');
-            $this->db->from('view_mmLines');
-            $this->db->where('documentNo',$mmNo);
-            $query = $this->db->get();
-            $rows['mmLines'] = $query->result_array();
 
 
         
