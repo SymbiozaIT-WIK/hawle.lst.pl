@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<div>
+<div class="container">
     <h1>Panel MagReg</h1>
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
@@ -44,7 +44,8 @@
             </form>
         </div>
     </div>
-    <ul>
+</div>
+<!--    <ul>
         <li>Tworzenie zamówienia MM</li>
         <li>
             <ul>
@@ -108,6 +109,5 @@
 
 
 
-    </div>
-</div>
+    </div>-->
 <hr>
