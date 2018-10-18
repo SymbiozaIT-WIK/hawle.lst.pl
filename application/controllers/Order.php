@@ -70,20 +70,47 @@ class Order extends CI_Controller {
     }
     
     public function create_mm(){
+        
         $this->load->model('Order_model');
+        
+        $mmId                   = $this->input->post('tempid'); //id zamówienia wpisane przez klienta
+        
+        $customerDocno          = $this->input->post('customerDocNo');
+        $headerDesc             = $this->input->post('headerDesc');
+        $headerMag              = $this->input->post('headerMag');
         
         $itemCode               = $this->input->post('itemCode');
         $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
         $quantity               = $this->input->post('quantity');
         
-        if($itemCode && $regionalWarehouseCode && $quantity){
-            //dodaj do zamówienia kolejną linię
+        
+        if(!$mmId){ //jeżli klient nie wpisał numeru zamówienia
+          $mmId = $this->Order_model->create_header(); //stwórz zamówienie z tymczasowym ID i zwróć ID
+          $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
+        }
+
+        if($headerDesc || $headerMag || $customerDocno ){
+            //edycja nagłówka zamówienia
+//            $this->Order_model->edit_header($mmId);
         }
         
+        if($itemCode && $regionalWarehouseCode && $quantity){
+            //dodaj do zamówienia kolejną linię
+            $this->Order_model->add_line($mmId,$orderLine);
+        }
+        
+<<<<<<< HEAD
         $data['datatable']=$this->Order_model->get_create_mm_items();
         //$data['mmdetails']=$this->Order_model->get_mm_details();
         //$data['mmdetails']='';
+=======
+        if(!$data['mmDetails']){
+            //jeżeli nie pobrano tymczasowego nagłówka pobierz aktualny z numerem klienta
+            $data['mmDetails']=$this->Order_model->get_mmDetails($mmId);
+        }
+>>>>>>> krzysztof
         
+        $data['datatable']=$this->Order_model->get_create_mm_items();
         $this->load->template('mm/create',$data);
     }
     
