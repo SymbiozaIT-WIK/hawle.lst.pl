@@ -139,6 +139,7 @@
             <th><?php echo $th; ?></th>
             <?php endforeach;?>
             <th>Ilość</th>
+            <th>Uwagi</th>
         </tr>
     </thead>
     <tbody>
@@ -165,6 +166,9 @@
                         <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
                         <input type="text" class="submit--this" name="quantity">
                     </form>
+                </td>
+                <td>
+                    <input type="text">
                 </td>
            
             </tr>
