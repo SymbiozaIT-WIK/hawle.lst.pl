@@ -12313,6 +12313,7 @@ INSERT INTO `item` (`CODE`, `CATALOGNO`, `DESCRIPTION`, `ATTRIBUTE`, `UNITPRICE`
 
 DROP TABLE IF EXISTS `order_header`;
 CREATE TABLE `order_header` (
+  `tempid` int(11) NOT NULL AUTO_INCREMENT,
   `NO` varchar(50) NOT NULL,
   `CUSTOMERDOCNO` varchar(40) DEFAULT NULL,
   `TYPE` int(10) DEFAULT NULL,
@@ -12324,15 +12325,20 @@ CREATE TABLE `order_header` (
   `DESCRIPTION` varchar(200) DEFAULT NULL,
   `SELLTO` varchar(40) DEFAULT NULL,
   `BUYFROM` varchar(40) DEFAULT NULL,
+  `frommag` varchar(40) DEFAULT NULL,
   `SALESMAN` varchar(40) DEFAULT NULL,
   `PAYMENTTERMS` varchar(40) DEFAULT NULL,
   `AMOUNT` decimal(10,1) DEFAULT NULL,
   `NETAMOUNT` decimal(10,1) DEFAULT NULL,
-  PRIMARY KEY (`NO`)
+  PRIMARY KEY (`tempid`),
+  UNIQUE KEY `tempid` (`tempid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `order_header` (`NO`, `CUSTOMERDOCNO`, `TYPE`, `STATUSID`, `STATUS2ID`, `DATE_ADD`, `DocumentDate`, `ACCEPTDATE`, `DESCRIPTION`, `SELLTO`, `BUYFROM`, `SALESMAN`, `PAYMENTTERMS`, `AMOUNT`, `NETAMOUNT`) VALUES
-('wz/21/123/001',	'WZ_10/20/20',	1,	1,	NULL,	'2018-10-16 13:22:17',	'2018-10-16 13:22:17',	'2018-10-16 13:22:17',	'Komentarz do wz\'tki',	'1',	'2',	NULL,	NULL,	NULL,	NULL);
+INSERT INTO `order_header` (`tempid`, `NO`, `CUSTOMERDOCNO`, `TYPE`, `STATUSID`, `STATUS2ID`, `DATE_ADD`, `DocumentDate`, `ACCEPTDATE`, `DESCRIPTION`, `SELLTO`, `BUYFROM`, `frommag`, `SALESMAN`, `PAYMENTTERMS`, `AMOUNT`, `NETAMOUNT`) VALUES
+(1,	'wz/21/123/001',	'WZ_10/20/20',	1,	1,	NULL,	'2018-10-16 13:22:17',	'2018-10-16 13:22:17',	'2018-10-16 13:22:17',	'Komentarz do wz\'tki',	'1',	'2',	NULL,	NULL,	NULL,	NULL,	NULL),
+(63,	'',	NULL,	NULL,	1,	NULL,	'2018-10-18 14:06:00',	'0000-00-00 00:00:00',	NULL,	NULL,	'1028',	NULL,	'1',	NULL,	NULL,	NULL,	NULL),
+(64,	'',	NULL,	NULL,	1,	NULL,	'2018-10-18 14:08:47',	'0000-00-00 00:00:00',	NULL,	'opis do zamówienia',	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
+(65,	'',	'zamówienie 1125',	NULL,	1,	NULL,	'2018-10-18 14:29:03',	'0000-00-00 00:00:00',	NULL,	'uwagi do zamówienia 65',	'1028',	NULL,	'1',	NULL,	NULL,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `order_lines`;
 CREATE TABLE `order_lines` (
@@ -17648,7 +17654,7 @@ CREATE TABLE `view_invlines` (`itemcode` varchar(40), `description` text, `attri
 
 
 DROP VIEW IF EXISTS `view_mmheader`;
-CREATE TABLE `view_mmheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` int(10), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` datetime, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1));
+CREATE TABLE `view_mmheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` int(10), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` datetime, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11));
 
 
 DROP VIEW IF EXISTS `view_mmlines`;
@@ -17681,7 +17687,7 @@ DROP TABLE IF EXISTS `view_invlines`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_invlines` AS select `il`.`ITEMCODE` AS `itemcode`,`it`.`DESCRIPTION` AS `description`,`it`.`ATTRIBUTE` AS `attribute`,`it`.`CATALOGNO` AS `catalogno`,`il`.`QUANTITY` AS `quantity`,`il`.`NETAMOUNT` AS `netamount` from (`item` `it` left join `invoice_lines` `il` on((`it`.`CODE` = `il`.`ITEMCODE`)));
 
 DROP TABLE IF EXISTS `view_mmheader`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT` from `order_header`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid` from `order_header`;
 
 DROP TABLE IF EXISTS `view_mmlines`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlines` AS select `order_lines`.`ID` AS `ID`,`order_lines`.`DOCUMENTNO` AS `DOCUMENTNO`,`order_lines`.`LINENO` AS `LINENO`,`order_lines`.`QUANTITY` AS `QUANTITY`,`order_lines`.`DESCRIPTION` AS `DESCRIPTION`,`order_lines`.`ITEMCODE` AS `ITEMCODE`,`order_lines`.`AMOUNT` AS `AMOUNT`,`order_lines`.`WEIGHT` AS `WEIGHT`,`order_lines`.`NETAMOUNT` AS `NETAMOUNT`,`order_lines`.`DISCOUNT` AS `DISCOUNT`,`order_lines`.`DELIVERYDATE` AS `DELIVERYDATE`,`order_lines`.`QTYAVAILABLE` AS `QTYAVAILABLE`,`order_lines`.`QTYDUE` AS `QTYDUE`,`order_lines`.`QTYDELIVERED` AS `QTYDELIVERED`,`order_lines`.`REGIONALWAREHOUSECODE` AS `REGIONALWAREHOUSECODE` from `order_lines`;
@@ -17698,4 +17704,4 @@ CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlines` AS select `o
 DROP TABLE IF EXISTS `view_wzlist`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlist` AS select `oh`.`NO` AS `no`,`oh`.`ACCEPTDATE` AS `acceptDate`,`oh`.`DESCRIPTION` AS `description`,`os`.`NAME` AS `statusName` from (`order_header` `oh` left join `order_status` `os` on((`oh`.`STATUSID` = `os`.`ID`)));
 
--- 2018-10-18 06:15:20
+-- 2018-10-18 12:33:47
