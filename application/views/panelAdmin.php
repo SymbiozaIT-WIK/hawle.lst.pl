@@ -1,3 +1,12 @@
+<?php if($this->session->flashdata('alert')):?>
+   <?php $msg=$this->session->flashdata('alert'); ?>
+    <div class="container">
+        <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">
+      <h4 class="alert-heading"><?php echo $msg['title']; ?></h4>
+      <p><?php echo $msg['content']; ?></p>
+    </div>
+    </div>
+<?php endif; ?>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <div class="container">
     <h1>Administracja</h1>

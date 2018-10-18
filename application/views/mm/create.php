@@ -4,6 +4,7 @@
 //echo $mmDetails['mmHeader']['CUSTOMERDOCNO'];
 //print_r($mmDetails);
 //print_r($_POST);
+//print_r($_SESSION);
 ?>
 <!--</pre>-->
 <div class="container">
@@ -16,8 +17,8 @@
     <table class="table table-hover table-bordered">
 
     <tr>
-        <td colspan="2">Wystawił:</td>
-        <td>Odbiorca:</td>
+        <td colspan="2" style="vertical-align:middle; font-weight:bold;">Wystawił:</td>
+        <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
         <td rowspan="2" class="bg-info text-center text-primary">
             <h1>Zamówienie</h1>
             KodLokalizacjiDocelowej
@@ -45,18 +46,19 @@
     </tr>
     <tr>
         <td rowspan="2" colspan="2">
-            HAWLE <br>
-            HAWLE <br>
-            HAWLE <br>
-            HAWLE <br>
-            HAWLE <br>
+            <h4>Fabryka Armatury <br>Hawle Spółka z o.o.</h4>
+            <p>
+                ul. Piaskowa 9 <br>
+                62-028 Koziegłowy,<br>
+                Polska
+            </p>
         </td>
         <td rowspan="2">
-            DANE ZAMAWIAJĄCEGO <br>
-            DANE ZAMAWIAJĄCEGO <br>
-            DANE ZAMAWIAJĄCEGO <br>
-            DANE ZAMAWIAJĄCEGO <br>
-            DANE ZAMAWIAJĄCEGO <br>
+           <h4><?php echo $this->session->userdata('name'); ?></h4>
+            <?php if($this->session->userdata('name2')) echo $this->session->userdata('name2').'<br>'; ?>
+            <?php if($this->session->userdata('email')) echo $this->session->userdata('email').'<br>'; ?>
+            <?php if($this->session->userdata('city')) echo $this->session->userdata('city').'<br>'; ?>
+            Numer klienta: <?php echo $this->session->userdata('login'); ?>
         </td>
         <td>Data przyjęcia</td>
         <td colspan="2">2018-10-16</td>
@@ -101,7 +103,11 @@
     
     
     <tr>
-        <td colspan="7"><button class="btn btn-danger btn-sm">Usuń całe zamówienie</button></td>
+        <td colspan="7">
+        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
+          Usuń całe zamówienie
+        </button>
+        </td>
     </tr>
     <tr>
         <td colspan="8" class="text-right">
@@ -182,7 +188,31 @@
 </table>
     
     </div>
-    
+
+
+
+<!-- czy usunąć zamówienie? -->
+<div class="modal fade" id="deleteQuestion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Czy usunąć zamówienie ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+            Czy chcesz całkowicie usunąć aktualne zamówienie ?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+        <a href="<?php echo site_url('order/order_delete/'.$mmDetails['mmHeader']['tempid']); ?>" type="button" class="btn btn-danger">USUŃ!</a>
+      </div>
+    </div>
+  </div>
+</div>
     
     
 

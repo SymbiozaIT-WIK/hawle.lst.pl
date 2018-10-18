@@ -97,7 +97,24 @@ class Order extends CI_Controller {
     }
     
     
+    public function order_delete($orderId){
+        
+        if($this->session->userdata('logged')){
+            $this->load->model('Order_model');
+            $this->Order_model->order_delete($orderId);
+            $alert=array(
+                'title' => 'Zamówienie usunięte.',
+                'content' => 'Zamówienie zostało całkowicie usunięte z systemu.',
+                'color' => 'danger'
+            );
+            $this->session->set_flashdata('alert',$alert);
+        }
+        redirect('panel');
+    }
     
+    public function order_confirm($orderId){
+        print 'zamówienie potwierdzone';
+    }
     
     
     
