@@ -30,6 +30,12 @@ $(document).ready(function() {
     } );
 } );
 </script>
+   <script>
+$('#submitChangeForm .submit--this').change(function() {
+    $(this).closest('form').submit();
+});
+</script>
+   
     
     </body>
 </html>

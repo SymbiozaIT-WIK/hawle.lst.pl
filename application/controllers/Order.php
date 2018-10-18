@@ -49,6 +49,28 @@ class Order extends CI_Controller {
         $this->Order_model->add($data);
         echo 'Zamówienie potwierdzone';
     }
+    
+    public function create_test(){
+        
+//        Po wejściu w kontroler order/create -> tworzymy nagłówek
+//            następnie dodanie pozycji do zamówienia
+        
+        
+        
+        
+        
+        $this->load->view('header');
+        $this->load->view('navLogged');
+        $this->load->view('mm/create');
+        $this->load->view('wz/create');
+        $this->load->view('zs/create');
+        $this->load->view('footer');
+        
+        
+        
+        
+        
+    }
 }
     
 ?>

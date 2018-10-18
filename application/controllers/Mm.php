@@ -11,7 +11,7 @@ class Mm extends CI_Controller {
     
     public function mm_list(){
         $this->load->model('DataTable_model');
-        $data['dataTable'] = $this->DataTable_model->get_wz_list();
+        $data['dataTable'] = $this->DataTable_model->get_mm_list();
         $this->load->template('mm/list',$data);
     }
     
