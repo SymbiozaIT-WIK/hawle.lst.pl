@@ -65,6 +65,27 @@ class Order_model extends CI_Model
         $table=$query->result_array();
         return $table;
     }
+    
+    
+    public function get_create_mm_items(){
+        $this->db->select('itemcode,description,attribute,regionalwarehousecode');
+        $this->db->from('view_inventory');
+        $query = $this->db->get();
+        
+        $rows = $query->result_array();
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn');
+        $settings = array('lp' => true, 'footerHeading' => true);
+        
+        $data['rows']=$rows;
+        $data['headings']=$headings;
+        $data['settings']=$settings;
+        
+        return $data;
+    }
+    
+    
+    
+    
 }
 
 ?>
