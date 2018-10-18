@@ -42,8 +42,19 @@
       <div class="card-body">
         <h2 class="card-title">Zamówienia</h2>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="">MM</a></li>
-            <li class="list-group-item"><a href="">WZ</a></li>
+            <li class="list-group-item"><a href="<?php echo site_url('order/create_mm'); ?>">MM</a></li>
+            <li class="list-group-item"><a href="<?php echo site_url('order/create_wz'); ?>">WZ</a></li>
+            <li class="list-group-item"><a href="">Moje zamówienia</a></li>
+            <li class="list-group-item"><a href="">Moje faktury</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h2 class="card-title">Stany magazynowe</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="<?php echo site_url('order/create_mm'); ?>">MM</a></li>
+            <li class="list-group-item"><a href="<?php echo site_url('order/create_wz'); ?>">WZ</a></li>
             <li class="list-group-item"><a href="">Moje zamówienia</a></li>
             <li class="list-group-item"><a href="">Moje faktury</a></li>
           </ul>

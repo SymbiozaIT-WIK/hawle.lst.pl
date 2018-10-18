@@ -67,10 +67,36 @@ class Order extends CI_Controller {
         $this->load->view('zs/create');
         $this->load->view('footer');
         
+    }
+    
+    public function create_mm(){
+        $this->load->model('Order_model');
         
+        $itemCode               = $this->input->post('itemCode');
+        $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
+        $quantity               = $this->input->post('quantity');
         
+        if($itemCode && $regionalWarehouseCode && $quantity){
+            //dodaj do zamówienia kolejną linię
+        }
         
+        $data['datatable']=$this->Order_model->get_create_mm_items();
+        $data['mmdetails']=$this->Order_model->get_mm_details();
+//        $data['mmdetails']='';
         
+        $this->load->template('mm/create',$data);
+    }
+    
+    
+    
+    
+    
+    
+    
+    public function create_wz(){
+        $this->load->model('Order_model');
+        
+        $this->load->template('wz/create');
     }
 }
     

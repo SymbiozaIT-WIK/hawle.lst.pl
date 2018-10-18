@@ -45,6 +45,8 @@ class Inventory_model extends CI_Model
         return $dataTable;
     }
     
+    
+    
 }
 
 /* End of file Inventory_model.php */
