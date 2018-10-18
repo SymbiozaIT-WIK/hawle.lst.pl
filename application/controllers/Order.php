@@ -172,14 +172,28 @@ public function create_zs()
     }
     
     public function order_list(){
+<<<<<<< HEAD
         $this->load->model('DataTable_model');
+=======
+       /* $this->load->model('DataTable_model');
+>>>>>>> dbeabce671e5220afc0e802313807385e9638779
         $userLogin = $this->session->userdata('login');
         $dataTable=$this->DataTable_model->get_mm_list($userLogin);
         $this->load->template('Order/list',$dataTable);
         $dataTable=$this->DataTable_model->get_order_list();
+<<<<<<< HEAD
 //
 //        $data['dataTable'] = $dataTable;
 //        $this->load->template('order/list',$dataTable);
+=======
+
+        $data['dataTable'] = $dataTable;
+        $this->load->template('order/list',$dataTable);*/
+        $this->load->model('DataTable_model');
+        $userLogin = $this->session->userdata('login');
+        $dataTable=$this->DataTable_model->get_mm_list($userLogin);
+        $this->load->template('Order/list',$dataTable);
+>>>>>>> dbeabce671e5220afc0e802313807385e9638779
     }
     
     public function order_details($orderId){
