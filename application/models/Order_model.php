@@ -45,6 +45,19 @@ class Order_model extends CI_Model
     public function add_line($orderNo='',$orderLine){
             //dorobić numerowanie linii
         
+        $this->db->select('lineNo');
+        $this->db->from('order_lines');
+        $this->db->where('tempdocumentno',$orderNo);
+        $this->db->order_by('lineNo', 'DESC');
+        $this->db->limit(1);
+        $query=$this->db->get();
+        $table=$query->result_array();
+        if($query->num_rows()==1){
+            $orderLine['lineNo']=$table[0]['lineNo']+10000;
+        }else{
+            $orderLine['lineNo']=10000;
+        }
+        
         $this->db->insert('order_lines',$orderLine);
     }
     
@@ -138,13 +151,11 @@ class Order_model extends CI_Model
                 $query = $this->db->get();
                 $rows['mmLines'] = $query->result_array();
             }
-            
-
-
         
         return $rows;
     }
     
+
     public function get_zsDetails($zsNo='')
     {   
             $this->db->select('*');
@@ -164,8 +175,21 @@ class Order_model extends CI_Model
         return $rows;
     }
     
+
+    public function order_delete($orderId){
+        $this->db->where('tempid', $orderId);
+        $this->db->where('sellto', $this->session->userdata('login'));
+        $this->db->delete('order_header');
+        
+        $this->db->where('tempdocumentno', $orderId);
+        $this->db->delete('order_lines');
+    }
+
     
-    
+    public function set_order_status($orderId,$status){
+        $this->db->where('tempid', $orderId);
+        $this->db->update('order_header', array('statusid'=>$status));
+    }
     
     
 }

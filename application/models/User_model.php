@@ -5,17 +5,21 @@ class User_model extends CI_Model
 
 	public function login($login, $password)
 	{
-        $this->db->select('id, login, password,type');
+        $this->db->select('id, login, password,type,name,name2,email,city');
         $this->db->where('login', $login);
         $this->db->where('password', $password);
         $query = $this->db->get('user');
         $row = $query->result_array();
-        
+        print_r($row);
         if($query->num_rows()==1){
             
             $this->session->set_userdata('logged',TRUE);
             $this->session->set_userdata('login',$login);
             $this->session->set_userdata('usertype',$row[0]['type']);
+            $this->session->set_userdata('name',$row[0]['name']);
+            $this->session->set_userdata('name2',$row[0]['name2']);
+            $this->session->set_userdata('email',$row[0]['email']);
+            $this->session->set_userdata('city',$row[0]['city']);
             redirect('panel');
             
         }else{
@@ -48,6 +52,14 @@ class User_model extends CI_Model
         $query = $this->db->get();
         $row = $query->result_array();
         return $row;
+    }
+    
+    public function get_user_mag($userId){
+        $this->db->select('code');
+        $this->db->where('userid', $userId);
+        $query = $this->db->get('regional_warehouse');
+        $row = $query->result_array();
+        return $row;        
     }
     
 }

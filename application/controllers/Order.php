@@ -82,6 +82,7 @@ class Order extends CI_Controller {
     public function create_mm(){
         
         $this->load->model('Order_model');
+        $this->load->model('User_model');
         
         $mmId                   = $this->input->post('tempid'); //id zamówienia wpisane przez klienta
         
@@ -119,13 +120,41 @@ class Order extends CI_Controller {
         }
         
     //pobranie danych zamówienia
+        $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
         $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
         $data['datatable']=$this->Order_model->get_create_mm_items(); //lista dostępnych towarów
         $this->load->template('mm/create',$data);
     }
     
     
+    public function order_delete($orderId){
+        
+        if($this->session->userdata('logged')){
+            $this->load->model('Order_model');
+            $this->Order_model->order_delete($orderId);
+            $alert=array(
+                'title' => 'Zamówienie usunięte.',
+                'content' => 'Zamówienie zostało całkowicie usunięte z systemu.',
+                'color' => 'danger'
+            );
+            $this->session->set_flashdata('alert',$alert);
+        }
+        redirect('panel');
+    }
     
+    public function order_confirm($orderId){
+        if($this->session->userdata('logged')){
+            $this->load->model('Order_model');
+            $this->Order_model->set_order_status($orderId,2);
+            $alert=array(
+                'title' => 'Zamówienie wprowadzone do systemu.',
+                'content' => 'Czekaj na przyjęcie zamówienia.',
+                'color' => 'success'
+            );
+            $this->session->set_flashdata('alert',$alert);
+        }
+        redirect('panel');
+    }
     
     
     
