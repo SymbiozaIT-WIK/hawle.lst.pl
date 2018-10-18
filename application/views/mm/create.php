@@ -1,10 +1,11 @@
-<pre>
+<!--<pre>-->
     
 <?php
-print_r($mmDetails);
-print_r($_POST);
+//echo $mmDetails['mmHeader']['CUSTOMERDOCNO'];
+//print_r($mmDetails);
+//print_r($_POST);
 ?>
-</pre>
+<!--</pre>-->
 <div class="container">
 <h1>Nowe zamówienie : MM</h1>
 </div>
@@ -25,11 +26,11 @@ print_r($_POST);
             <form action="" method="post" id="submitChangeForm">
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                 <select id="selMag" class="submit--this form-control" name="headerMag">
-                  <option value="0"></option>
-                  <option value="1">SK42</option>
-                  <option value="1">SK10</option>
-                  <option value="1">Inne</option>
-                  <option value="1">Jeszcze inne</option>
+                  <option value="<?php echo $mmDetails['mmHeader']['FROMMAG']; ?>"><?php echo $mmDetails['mmHeader']['FROMMAG']; ?></option>
+                  <option value="SK42">SK42</option>
+                  <option value="SK10">SK10</option>
+                  <option value="Inne">Inne</option>
+                  <option value="Jeszcze inne">Jeszcze inne</option>
                 </select>
             </form>
             </div>
@@ -38,7 +39,7 @@ print_r($_POST);
         <td colspan="2">
             <form action="" method="post" id="submitChangeForm">
                <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-                <input type="text" name="customerDocNo" class="submit--this">
+                <input type="text" name="customerDocNo" class="submit--this" value="<?php echo $mmDetails['mmHeader']['CUSTOMERDOCNO']; ?>">
             </form>
         </td>
     </tr>
@@ -66,7 +67,9 @@ print_r($_POST);
         <td colspan="2" style="padding:0;margin:0;">
         <form action="" method="post" id="submitChangeForm">
             <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5"></textarea>
+            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5">
+                <?php echo $mmDetails['mmHeader']['DESCRIPTION']; ?>
+            </textarea>
         </form>
         
         </td>
@@ -80,15 +83,23 @@ print_r($_POST);
         <th>Magazyn</th>
         <th>Uwagi</th>
     </tr>
-    <tr>
-        <td>1</td>
-        <td>NrZapasu</td>
-        <td>Opis</td>
-        <td>SA07.6 16 (1/min) IP68 400V</td>
-        <td>1000</td>
-        <td>KodLokalizacjiPierwotnej</td>
-        <td><input type="text"></td>
-    </tr>
+    <?php $lp=0;?>
+    <?php foreach($mmDetails['mmLines'] as $line): ?>
+        <?php $lp++; ?>
+        <tr>
+            <td><?php echo $lp ?></td>
+            <td><?php echo $line['ITEMCODE']; ?></td>
+            <td><?php echo $line['DESCRIPTION']; ?></td>
+            <td><?php echo $line['attribute']; ?></td>
+            <td><?php echo $line['QUANTITY']; ?></td>
+            <td><?php echo $line['REGIONALWAREHOUSECODE']; ?></td>
+            <td><?php echo $line['DESCRIPTION']; ?></td>
+        </tr>
+        
+    <?php endforeach;?>
+    
+    
+    
     <tr>
         <td colspan="7"><button class="btn btn-danger btn-sm">Usuń całe zamówienie</button></td>
     </tr>
@@ -143,6 +154,7 @@ print_r($_POST);
                     <form action="" method="post" id="submitChangeForm">
                         <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                         <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
+                        <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
                         <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
                         <input type="text" class="submit--this" name="quantity">
                     </form>

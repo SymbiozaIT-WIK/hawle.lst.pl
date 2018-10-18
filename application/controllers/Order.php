@@ -92,11 +92,11 @@ class Order extends CI_Controller {
         $itemCode               = $this->input->post('itemCode');
         $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
         $quantity               = $this->input->post('quantity');
+        $lineDescription               = $this->input->post('lineDescription');
         
         
         if(!$this->input->post('tempid')){ 
           $mmId = $this->Order_model->create_header(); //stwórz zamówienie z tymczasowym ID i zwróć ID
-//          $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
         }
         
     //edycja headera
@@ -105,14 +105,21 @@ class Order extends CI_Controller {
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($mmId,$data);}
         
 
-    //dodanie linii
-//        if($itemCode && $regionalWarehouseCode && $quantity){
-//            //dodaj do zamówienia kolejną linię
-//            $this->Order_model->add_line($mmId,$orderLine);
-//        }
+//    dodanie linii
+        if($itemCode && $regionalWarehouseCode && $quantity && $lineDescription){
+            //dodaj do zamówienia kolejną linię
+            $orderLine=array(
+                'itemcode' => $itemCode,
+                'regionalwarehousecode' => $regionalWarehouseCode,
+                'quantity' => $quantity,
+                'tempdocumentno' => $mmId,
+                'description' => $lineDescription
+            );
+            $this->Order_model->add_line($mmId,$orderLine);
+        }
         
     //pobranie danych zamówienia
-        $data['mmDetails']=$this->Order_model->get_mmDetails($mmId);
+        $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
         $data['datatable']=$this->Order_model->get_create_mm_items(); //lista dostępnych towarów
         $this->load->template('mm/create',$data);
     }
