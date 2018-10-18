@@ -12335,15 +12335,16 @@ CREATE TABLE `order_header` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `order_header` (`tempid`, `NO`, `CUSTOMERDOCNO`, `TYPE`, `STATUSID`, `STATUS2ID`, `DATE_ADD`, `DocumentDate`, `ACCEPTDATE`, `DESCRIPTION`, `SELLTO`, `BUYFROM`, `frommag`, `SALESMAN`, `PAYMENTTERMS`, `AMOUNT`, `NETAMOUNT`) VALUES
-(1,	'wz/21/123/001',	'WZ_10/20/20',	1,	1,	NULL,	'2018-10-16 13:22:17',	'2018-10-16 13:22:17',	'2018-10-16 13:22:17',	'Komentarz do wz\'tki',	'1',	'2',	NULL,	NULL,	NULL,	NULL,	NULL),
-(63,	'',	NULL,	NULL,	1,	NULL,	'2018-10-18 14:06:00',	'0000-00-00 00:00:00',	NULL,	NULL,	'1028',	NULL,	'1',	NULL,	NULL,	NULL,	NULL),
-(64,	'',	NULL,	NULL,	1,	NULL,	'2018-10-18 14:08:47',	'0000-00-00 00:00:00',	NULL,	'opis do zamówienia',	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
-(65,	'',	'zamówienie 1125',	NULL,	1,	NULL,	'2018-10-18 14:29:03',	'0000-00-00 00:00:00',	NULL,	'uwagi do zamówienia 65',	'1028',	NULL,	'1',	NULL,	NULL,	NULL,	NULL);
+(87,	'',	'zamówienie 1125',	NULL,	2,	NULL,	'2018-10-18 17:04:33',	'0000-00-00 00:00:00',	NULL,	'                nie mam uwag kurwa macv!!!            ',	'1028',	NULL,	'SK10',	NULL,	NULL,	NULL,	NULL),
+(90,	'',	NULL,	NULL,	2,	NULL,	'2018-10-18 17:09:08',	'0000-00-00 00:00:00',	NULL,	NULL,	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
+(91,	'',	NULL,	NULL,	1,	NULL,	'2018-10-18 17:26:31',	'0000-00-00 00:00:00',	NULL,	NULL,	'1028',	NULL,	'SK10',	NULL,	NULL,	NULL,	NULL),
+(92,	'',	NULL,	NULL,	1,	NULL,	'2018-10-18 17:37:33',	'0000-00-00 00:00:00',	NULL,	NULL,	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `order_lines`;
 CREATE TABLE `order_lines` (
-  `ID` int(10) NOT NULL,
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
   `DOCUMENTNO` varchar(50) DEFAULT NULL,
+  `tempdocumentno` varchar(50) DEFAULT NULL,
   `LINENO` int(10) DEFAULT NULL,
   `QUANTITY` int(10) DEFAULT NULL,
   `DESCRIPTION` varchar(40) DEFAULT NULL,
@@ -12360,6 +12361,15 @@ CREATE TABLE `order_lines` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+INSERT INTO `order_lines` (`ID`, `DOCUMENTNO`, `tempdocumentno`, `LINENO`, `QUANTITY`, `DESCRIPTION`, `ITEMCODE`, `AMOUNT`, `WEIGHT`, `NETAMOUNT`, `DISCOUNT`, `DELIVERYDATE`, `QTYAVAILABLE`, `QTYDUE`, `QTYDELIVERED`, `REGIONALWAREHOUSECODE`) VALUES
+(50,	NULL,	'87',	10000,	15,	'Zasuwa nożowa z napędem AUMA',	'ZS3600EL100A010',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(51,	NULL,	'87',	20000,	1000,	'Chusteczki czysz. Tangit PP/PE',	'GFPPPE799298024',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(55,	NULL,	'90',	10000,	10,	'Napęd nastawnika Auma',	'AU9920SA076X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(56,	NULL,	'91',	10000,	10,	'Napęd nastawnika Auma',	'AU9920SA076X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(57,	NULL,	'91',	20000,	10,	'Napęd nastawnika Auma',	'AU9920SA076X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(58,	NULL,	'91',	30000,	10,	'Napęd nastawnika Auma',	'AU9920SA076X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(59,	NULL,	'91',	40000,	10,	'Napęd nastawnika Auma',	'AU9920SA076X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(60,	NULL,	'91',	50000,	10,	'Napęd nastawnika Auma',	'AU9920SA076X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN');
 
 DROP TABLE IF EXISTS `order_status`;
 CREATE TABLE `order_status` (
@@ -17654,11 +17664,11 @@ CREATE TABLE `view_invlines` (`itemcode` varchar(40), `description` text, `attri
 
 
 DROP VIEW IF EXISTS `view_mmheader`;
-CREATE TABLE `view_mmheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` int(10), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` datetime, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11));
+CREATE TABLE `view_mmheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` int(10), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` datetime, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11), `FROMMAG` varchar(40));
 
 
 DROP VIEW IF EXISTS `view_mmlines`;
-CREATE TABLE `view_mmlines` (`ID` int(10), `DOCUMENTNO` varchar(50), `LINENO` int(10), `QUANTITY` int(10), `DESCRIPTION` varchar(40), `ITEMCODE` varchar(40), `AMOUNT` decimal(10,2), `WEIGHT` decimal(10,1), `NETAMOUNT` decimal(10,1), `DISCOUNT` decimal(10,1), `DELIVERYDATE` datetime, `QTYAVAILABLE` int(10), `QTYDUE` int(10), `QTYDELIVERED` int(10), `REGIONALWAREHOUSECODE` varchar(40));
+CREATE TABLE `view_mmlines` (`ID` int(10), `DOCUMENTNO` varchar(50), `LINENO` int(10), `QUANTITY` int(10), `DESCRIPTION` varchar(40), `ITEMCODE` varchar(40), `AMOUNT` decimal(10,2), `WEIGHT` decimal(10,1), `NETAMOUNT` decimal(10,1), `DISCOUNT` decimal(10,1), `DELIVERYDATE` datetime, `QTYAVAILABLE` int(10), `QTYDUE` int(10), `QTYDELIVERED` int(10), `REGIONALWAREHOUSECODE` varchar(40), `tempdocumentno` varchar(50), `attribute` varchar(40));
 
 
 DROP VIEW IF EXISTS `view_mmlist`;
@@ -17687,10 +17697,10 @@ DROP TABLE IF EXISTS `view_invlines`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_invlines` AS select `il`.`ITEMCODE` AS `itemcode`,`it`.`DESCRIPTION` AS `description`,`it`.`ATTRIBUTE` AS `attribute`,`it`.`CATALOGNO` AS `catalogno`,`il`.`QUANTITY` AS `quantity`,`il`.`NETAMOUNT` AS `netamount` from (`item` `it` left join `invoice_lines` `il` on((`it`.`CODE` = `il`.`ITEMCODE`)));
 
 DROP TABLE IF EXISTS `view_mmheader`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid` from `order_header`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid`,`order_header`.`frommag` AS `FROMMAG` from `order_header`;
 
 DROP TABLE IF EXISTS `view_mmlines`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlines` AS select `order_lines`.`ID` AS `ID`,`order_lines`.`DOCUMENTNO` AS `DOCUMENTNO`,`order_lines`.`LINENO` AS `LINENO`,`order_lines`.`QUANTITY` AS `QUANTITY`,`order_lines`.`DESCRIPTION` AS `DESCRIPTION`,`order_lines`.`ITEMCODE` AS `ITEMCODE`,`order_lines`.`AMOUNT` AS `AMOUNT`,`order_lines`.`WEIGHT` AS `WEIGHT`,`order_lines`.`NETAMOUNT` AS `NETAMOUNT`,`order_lines`.`DISCOUNT` AS `DISCOUNT`,`order_lines`.`DELIVERYDATE` AS `DELIVERYDATE`,`order_lines`.`QTYAVAILABLE` AS `QTYAVAILABLE`,`order_lines`.`QTYDUE` AS `QTYDUE`,`order_lines`.`QTYDELIVERED` AS `QTYDELIVERED`,`order_lines`.`REGIONALWAREHOUSECODE` AS `REGIONALWAREHOUSECODE` from `order_lines`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlines` AS select `ol`.`ID` AS `ID`,`ol`.`DOCUMENTNO` AS `DOCUMENTNO`,`ol`.`LINENO` AS `LINENO`,`ol`.`QUANTITY` AS `QUANTITY`,`ol`.`DESCRIPTION` AS `DESCRIPTION`,`ol`.`ITEMCODE` AS `ITEMCODE`,`ol`.`AMOUNT` AS `AMOUNT`,`ol`.`WEIGHT` AS `WEIGHT`,`ol`.`NETAMOUNT` AS `NETAMOUNT`,`ol`.`DISCOUNT` AS `DISCOUNT`,`ol`.`DELIVERYDATE` AS `DELIVERYDATE`,`ol`.`QTYAVAILABLE` AS `QTYAVAILABLE`,`ol`.`QTYDUE` AS `QTYDUE`,`ol`.`QTYDELIVERED` AS `QTYDELIVERED`,`ol`.`REGIONALWAREHOUSECODE` AS `REGIONALWAREHOUSECODE`,`ol`.`tempdocumentno` AS `tempdocumentno`,`it`.`ATTRIBUTE` AS `attribute` from (`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`)));
 
 DROP TABLE IF EXISTS `view_mmlist`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlist` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT` from `order_header`;
@@ -17704,4 +17714,4 @@ CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlines` AS select `o
 DROP TABLE IF EXISTS `view_wzlist`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlist` AS select `oh`.`NO` AS `no`,`oh`.`ACCEPTDATE` AS `acceptDate`,`oh`.`DESCRIPTION` AS `description`,`os`.`NAME` AS `statusName` from (`order_header` `oh` left join `order_status` `os` on((`oh`.`STATUSID` = `os`.`ID`)));
 
--- 2018-10-18 12:33:47
+-- 2018-10-18 15:54:00

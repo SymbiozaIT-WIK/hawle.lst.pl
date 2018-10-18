@@ -13,6 +13,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form action="<?php echo site_url('logout') ?>" class="navbar-form navbar-right" role="form" method="post">
+         <a class="btn btn-primary" href="<?php echo site_url('panel'); ?>">Panel</a>
             <button type="submit" class="btn btn-info">Wyloguj</button>
           </form>
         </div><!--/.navbar-collapse -->
