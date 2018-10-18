@@ -1,4 +1,4 @@
-<?php if(!empty($items)): ?>
+<?php if(!empty($array)): ?>
 <style>
     .input-2{
         max-width:4em;
@@ -16,7 +16,7 @@
     }
     ?>
     <h1>Podsumowanie</h1>
-    <form class="form" method="post" action="<?php echo site_url('zs/confirm_order')?>">
+    <form class="form" method="post" action="<?php echo site_url('order/confirm_order')?>">
         <table class="table table-striped table-bordered table-hover" style="width:100%">
             <tr>
                 <th>L.P.</th>
@@ -76,7 +76,7 @@
     </form>
     <?php else: ?>
     <h3>Nic nie wybrałeś</h3>
-    <form metho type="submit" action="<?php echo site_url('zs/Create')?>">
+    <form metho type="submit" action="<?php echo site_url('order/create_zs')?>">
         <button>Powrót do edycji zamówienia</button>
     </form>
     <?php endif; ?>

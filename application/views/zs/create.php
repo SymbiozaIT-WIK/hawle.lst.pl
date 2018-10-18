@@ -6,12 +6,19 @@
         text-align: center;
     }
 </style>
+<pre>
+    <?php
+    print_r($_POST);
+?>
+</pre>
 <div class="container">
    <div>
    <h1>Stwórz Zamówienie</h1>
    </div>
     <div class="col-md-12">
-        <form class="form" method="post" action="<?php echo site_url('zs/show_order_summary')?>">
+        <form class="form" method="post" action="<?php echo site_url('order/create_zs')?>">
+           <label for="CustomerOrderNumber">Nr zamówienia: </label>
+           <input lass="form-control input-2" name="customerOrderNumber" id="CustomerOrderNumber">
             <table class="table table-striped table-bordered table-hover" style="width:100%">
                 <tr>
                     <th>L.P.</th>
@@ -54,7 +61,7 @@
                 </tr>
                 <?php endforeach; ?>
             </table>
-            <button class="button" type="submit">Wyślij zamówienie</button>
+            <button class="button" type="submit" value="1">Wyślij zamówienie</button>
         </form>
     </div>
 </div>

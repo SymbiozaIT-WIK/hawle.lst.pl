@@ -26,6 +26,16 @@ class Order_model extends CI_Model
         $userLogin = $this->session->userdata('login');
     }
     
+    public function create_line($lineNo)
+    {
+        
+    }
+    
+    public function update_line($lineNo)
+    {
+        
+    }
+    
     public function get_items($user)
     {
         $this->db->select('

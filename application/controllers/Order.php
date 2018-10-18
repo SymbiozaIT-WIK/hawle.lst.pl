@@ -40,7 +40,7 @@ class Order extends CI_Controller {
             }
         }
         $data['items'] = $order;
-        $this->load->template('order/OrderSummary', $data);
+        $this->load->template('zs/OrderSummary', $data);
     }
     
     public function confirm_order()
