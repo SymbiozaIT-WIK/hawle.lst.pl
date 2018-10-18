@@ -54,6 +54,14 @@ class User_model extends CI_Model
         return $row;
     }
     
+    public function get_user_mag($userId){
+        $this->db->select('code');
+        $this->db->where('userid', $userId);
+        $query = $this->db->get('regional_warehouse');
+        $row = $query->result_array();
+        return $row;        
+    }
+    
 }
 
 /* End of file user_model.php */

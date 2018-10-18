@@ -5,6 +5,7 @@
 //print_r($mmDetails);
 //print_r($_POST);
 //print_r($_SESSION);
+//print_r($availableWarehouses);
 ?>
 <!--</pre>-->
 <div class="container">
@@ -28,10 +29,10 @@
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                 <select id="selMag" class="submit--this form-control" name="headerMag">
                   <option value="<?php echo $mmDetails['mmHeader']['FROMMAG']; ?>"><?php echo $mmDetails['mmHeader']['FROMMAG']; ?></option>
-                  <option value="SK42">SK42</option>
-                  <option value="SK10">SK10</option>
-                  <option value="Inne">Inne</option>
-                  <option value="Jeszcze inne">Jeszcze inne</option>
+                      <?php foreach($availableWarehouses as $warehouse): ?>
+                       <option value="<?php echo $warehouse['code']; ?>"><?php echo $warehouse['code']; ?></option>
+                    <?php endforeach;?>
+
                 </select>
             </form>
             </div>
@@ -111,7 +112,7 @@
     </tr>
     <tr>
         <td colspan="8" class="text-right">
-            <button class="btn btn-success btn-lg">Akceptuj</button>
+            <a href="<?php echo site_url('order/order_confirm/'.$mmDetails['mmHeader']['tempid']); ?>" class="btn btn-success btn-lg">Akceptuj</a>
         </td>
     </tr>
     </table>
