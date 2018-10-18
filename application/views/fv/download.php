@@ -4,7 +4,7 @@ use Dompdf\Dompdf;
 
 // instantiate and use the dompdf class
 $dompdf = new Dompdf();
-$dompdf->loadHtml(file_get_contents('details.php'));
+$dompdf->loadHtml('<h1>Narzędzie w trakcie przygotowania.<h1>');
 
 // (Optional) Setup the paper size and orientation
 $dompdf->setPaper('A4', 'landscape');
@@ -13,5 +13,5 @@ $dompdf->setPaper('A4', 'landscape');
 $dompdf->render();
 
 // Output the generated PDF to Browser
-$dompdf->stream();
+$dompdf->stream("hawle_faktura");
 ?>
