@@ -66,6 +66,21 @@ class DataTable_model extends CI_Model
     }
     
     
+    public function get_order_list(){
+        $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
+        $settings =array('lp' => true, 'footerHeading' => false);
+        
+        $this->db->select('tempid,customerdocno,date_add,description,statusid,frommag,type');
+        $this->db->from('order_header');
+        $query = $this->db->get();
+        $rows = $query->result_array();
+        
+        $dataTable = array('headings'=>$headings,'settings'=>$settings,'rows'=>$rows);
+        
+        return $dataTable;
+    }
+    
+    
 }
 
 /* End of file DataTable_model.php */

@@ -21,11 +21,12 @@ class Order_model extends CI_Model
         }
     }
     
-    public function create_header()
+    public function create_header($orderType='')
     {
         $dbInsert=array(
             'sellto' => $this->session->userdata('login'),
             'statusid' => 1,
+            'type' => $orderType
         );
         
         $this->db->insert('order_header',$dbInsert);
@@ -207,7 +208,6 @@ class Order_model extends CI_Model
         $this->db->where('tempid', $orderId);
         $this->db->update('order_header', array('statusid'=>$status));
     }
-
     
 }
 

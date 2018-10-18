@@ -1,1 +1,1 @@
-<?php $this->view('wz/dataTable',$dataTable); ?>
+<?php $this->view('mm/dataTable',$dataTable); ?>

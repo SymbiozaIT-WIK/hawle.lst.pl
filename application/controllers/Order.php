@@ -103,7 +103,7 @@ public function create_zs()
         
         
         if(!$this->input->post('tempid')){ 
-          $mmId = $this->Order_model->create_header(); //stwórz zamówienie z tymczasowym ID i zwróć ID
+          $mmId = $this->Order_model->create_header('Zamówienie'); //stwórz zamówienie z tymczasowym ID i zwróć ID
         }
         
     //edycja headera
@@ -176,6 +176,19 @@ public function create_zs()
         $userLogin = $this->session->userdata('login');
         $dataTable=$this->DataTable_model->get_mm_list($userLogin);
         $this->load->template('Order/list',$dataTable);
+        $dataTable=$this->DataTable_model->get_order_list();
+
+        $data['dataTable'] = $dataTable;
+        $this->load->template('order/list',$dataTable);
+    }
+    
+    public function order_details($orderId){
+        $this->load->model('Order_model');
+        $data=$this->Order_model->get_mmDetails($orderId,true);
+        $this->load->template('mm/details',$data);
+//        $this->load->template('mm/details');
+//        $this->load->template('zs/details');
+        
     }
 }
     

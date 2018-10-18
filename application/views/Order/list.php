@@ -15,7 +15,10 @@
     <tbody>
        
         <?php foreach($rows as $row): ?>
-        <?php $lp++; ?>
+        <?php 
+            $lp++; 
+            $tempid=$row['tempid'];
+        ?>
         <tr>
            <?php if($settings['lp']):?>
                <td><?php echo $lp; ?></td>
@@ -27,7 +30,7 @@
             </td>
             <?php endforeach;?>
             <th>
-                <a href="" class="btn btn-primary btn-sm">Szczegóły</a>
+                <a href="<?php echo site_url('order/order_details/'.$tempid); ?>" class="btn btn-primary btn-sm">Szczegóły</a>
             </th>
         </tr>
         <?php endforeach;?>
