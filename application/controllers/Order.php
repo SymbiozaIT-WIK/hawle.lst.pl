@@ -99,16 +99,16 @@ class Order extends CI_Controller {
             $this->Order_model->add_line($mmId,$orderLine);
         }
         
-<<<<<<< HEAD
+
         $data['datatable']=$this->Order_model->get_create_mm_items();
         //$data['mmdetails']=$this->Order_model->get_mm_details();
         //$data['mmdetails']='';
-=======
+
         if(!$data['mmDetails']){
             //jeżeli nie pobrano tymczasowego nagłówka pobierz aktualny z numerem klienta
             $data['mmDetails']=$this->Order_model->get_mmDetails($mmId);
         }
->>>>>>> krzysztof
+
         
         $data['datatable']=$this->Order_model->get_create_mm_items();
         $this->load->template('mm/create',$data);
