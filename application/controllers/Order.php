@@ -9,7 +9,7 @@ class Order extends CI_Controller {
         
         $userLogin = $this->session->userdata('login');
         $data['items'] = $this->Order_model->get_order_headers($userLogin);
-        $this->load->template('Order/Index', $data);
+        $this->load->template('zs/index', $data);
     }
     
     public function create()
@@ -18,9 +18,11 @@ class Order extends CI_Controller {
         /*echo '<pre>';
         print_r($this->session->userdata());
         echo '</pre>';*/
+        $this->Order_model->create_header();
         $userLogin = $this->session->userdata('login');
+        $checkUserType = $this->Order_model->check_user_type($userLogin);
         $data['items'] = $this->Order_model->get_items($userLogin);
-        $this->load->template('Order/Create', $data);
+        $this->load->template('zs/create', $data);
     }
     
     public function show_order_summary()
@@ -39,7 +41,7 @@ class Order extends CI_Controller {
             }
         }
         $data['items'] = $order;
-        $this->load->template('Order/OrderSummary', $data);
+        $this->load->template('order/OrderSummary', $data);
     }
     
     public function confirm_order()

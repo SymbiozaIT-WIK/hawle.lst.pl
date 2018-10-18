@@ -16,7 +16,7 @@
     }
     ?>
     <h1>Podsumowanie</h1>
-    <form class="form" method="post" action="<?php echo site_url('Order/confirm_order')?>">
+    <form class="form" method="post" action="<?php echo site_url('zs/confirm_order')?>">
         <table class="table table-striped table-bordered table-hover" style="width:100%">
             <tr>
                 <th>L.P.</th>
@@ -76,7 +76,7 @@
     </form>
     <?php else: ?>
     <h3>Nic nie wybrałeś</h3>
-    <form metho type="submit" action="<?php echo site_url('Order/Create')?>">
+    <form metho type="submit" action="<?php echo site_url('zs/Create')?>">
         <button>Powrót do edycji zamówienia</button>
     </form>
     <?php endif; ?>

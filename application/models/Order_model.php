@@ -21,6 +21,13 @@ class Order_model extends CI_Model
         }
     }
     
+    public function create_header()
+    {
+        echo '<pre>';
+        print_r($_POST);
+        echo '</pre>';
+    }
+    
     public function get_items($user)
     {
         $this->db->select('
