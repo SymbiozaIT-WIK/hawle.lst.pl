@@ -125,6 +125,25 @@ class Order_model extends CI_Model
         return $rows;
     }
     
+    public function get_zsDetails($zsNo='')
+    {   
+            $this->db->select('*');
+            $this->db->from('order_header');
+            $this->db->where('tempid',$zsNo);
+  
+            $query = $this->db->get();
+            $oh=$query->result_array();
+            $rows['orderHeader'] = $oh[0];
+
+            $this->db->select('*');
+            $this->db->from('order_lines');
+            $this->db->where('documentNo',$zsNo);
+            $query = $this->db->get();
+            $rows['orderLines'] = $query->result_array();
+
+        return $rows;
+    }
+    
     
     
     

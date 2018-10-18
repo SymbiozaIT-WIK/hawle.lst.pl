@@ -14,14 +14,42 @@ class Order extends CI_Controller {
     
     public function create_zs()
     {
-        $this->load->model('Order_model');
-        /*echo '<pre>';
+        /*$this->load->model('Order_model');
+        echo '<pre>';
         print_r($this->input->post());
-        echo '</pre>';*/
+        echo '</pre>';
         $userLogin = $this->session->userdata('login');
         $this->Order_model->create_header();
         $data['datatable'] = $this->Order_model->get_create_zs_items();
-        $this->load->template('zs/create', $data);
+        $this->load->template('zs/create', $data);*/
+        
+                $this->load->model('Order_model');
+        
+        $zsId                   = $this->input->post('tempid'); //id zamówienia wpisane przez klienta
+        
+        $customerDocno          = $this->input->post('customerDocNo');
+        $headerDesc             = $this->input->post('headerDesc');
+        $headerMag              = $this->input->post('headerMag');
+        
+        $itemCode               = $this->input->post('itemCode');
+        $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
+        $quantity               = $this->input->post('quantity');
+        
+        
+        if(!$this->input->post('tempid')){ 
+          $zsId = $this->Order_model->create_header();
+        }
+        
+    //edycja headera
+        if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($zsId,$data);}
+        if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($zsId,$data);}
+        
+
+        
+    //pobranie danych zamówienia
+        $data['zsDetails']=$this->Order_model->get_zsDetails($zsId);
+        $data['datatable']=$this->Order_model->get_create_zs_items(); //lista dostępnych towarów
+        $this->load->template('zs/create',$data);
     }
     
     public function show_order_summary()
