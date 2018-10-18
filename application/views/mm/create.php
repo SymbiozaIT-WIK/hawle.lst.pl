@@ -84,7 +84,7 @@
         <th>Cecha</th>
         <th>Ilość</th>
         <th>Magazyn</th>
-        <th>Uwagi</th>
+<!--        <th>Uwagi</th>-->
     </tr>
     <?php $lp=0;?>
     <?php foreach($mmDetails['mmLines'] as $line): ?>
@@ -96,7 +96,7 @@
             <td><?php echo $line['attribute']; ?></td>
             <td><?php echo $line['QUANTITY']; ?></td>
             <td><?php echo $line['REGIONALWAREHOUSECODE']; ?></td>
-            <td><?php echo $line['DESCRIPTION']; ?></td>
+<!--            <td><?php #echo $line['DESCRIPTION']; ?></td>-->
         </tr>
         
     <?php endforeach;?>
@@ -139,7 +139,6 @@
             <th><?php echo $th; ?></th>
             <?php endforeach;?>
             <th>Ilość</th>
-            <th>Uwagi</th>
         </tr>
     </thead>
     <tbody>
@@ -167,10 +166,6 @@
                         <input type="text" class="submit--this" name="quantity">
                     </form>
                 </td>
-                <td>
-                    <input type="text">
-                </td>
-           
             </tr>
         <?php endforeach;?>
         

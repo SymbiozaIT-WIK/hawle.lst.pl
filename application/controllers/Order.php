@@ -164,6 +164,15 @@ class Order extends CI_Controller {
         
         $this->load->template('wz/create');
     }
+    
+    public function order_list(){
+        $this->load->model('DataTable_model');
+        $dataTable=$this->DataTable_model->get_mm_list();
+        echo '<pre>';
+        print_r($dataTable);
+        echo '</pre>';
+        $this->load->template('Order/list',$dataTable);
+    }
 }
     
 ?>
