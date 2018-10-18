@@ -20,7 +20,7 @@ class Order extends CI_Controller {
         echo '</pre>';*/
         $userLogin = $this->session->userdata('login');
         $this->Order_model->create_header();
-        $data['items'] = $this->Order_model->get_items($userLogin);
+        $data['datatable'] = $this->Order_model->get_create_zs_items();
         $this->load->template('zs/create', $data);
     }
     

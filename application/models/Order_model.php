@@ -4,9 +4,9 @@ class Order_model extends CI_Model
 {
     public function add($data)
     {
-//        echo '<pre>';
-//        print_r($data);
-//        echo '</pre>';
+/*        echo '<pre>';
+        print_r($data);
+        echo '</pre>';*/
         
         foreach($data as $row)
         {
@@ -36,25 +36,25 @@ class Order_model extends CI_Model
         
     }
     
-    public function get_items($user)
+    public function get_create_zs_items()
     {
-        $this->db->select('
-        it.code,
-        it.catalogNo,
-        it.attribute,
-        it.description as Item,
-        r.code as Warehouse,
-        i.realStock as Quantity'
-        );
-        $this->db->from('view_inventory as i');
-        $this->db->join('regional_warehouse as r', 'r.code = i.regionalwarehousecode');
-        $this->db->join('user as u', 'u.login=r.userid');
-        $this->db->join('item as it', 'i.itemcode=it.code');
-        $this->db->where('u.login', $user);
-        $this->db->where('i.realStock>', '0');
+        $this->db->select('itemcode, catalogNo, attribute, description, regionalWarehouseCode, realStock');
+        $this->db->from('view_inventory');
+        $this->db->where('regionalWarehouseCode', 'THAN');
         $query=$this->db->get();
-        $table=$query->result_array();
-        return $table;
+        
+        $rows=$query->result_array();
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn');
+        $settings = array('lp' => true, 'footerHeading' => true);
+        
+        $headings = array('Kod towaru', 'Numer katalogowy','Cecha','Opis', 'Magazyn', 'Zapas');
+        $settings = array('lp' => true, 'footerHeading' => true);
+        
+        $data['rows']=$rows;
+        $data['headings']=$headings;
+        $data['settings']=$settings;
+        
+        return $data;
     }
     
     public function get_order_headers($user)
