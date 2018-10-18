@@ -156,13 +156,13 @@ class Order_model extends CI_Model
     }
     
 
-    public function get_zsDetails($mmNo='',$temp=false){
+    public function get_zsDetails($zsNo='',$temp=false){
 
             if($temp){
                 
                 $this->db->select('*');
                 $this->db->from('order_header');
-                $this->db->where('tempid',$mmNo);
+                $this->db->where('tempid',$zsNo);
 
                 $query = $this->db->get();
                 $oh=$query->result_array();
@@ -170,14 +170,13 @@ class Order_model extends CI_Model
 
                 $this->db->select('*');
                 $this->db->from('order_lines');
-                $this->db->where('tempdocumentno',$mmNo);
+                $this->db->where('tempdocumentno',$zsNo);
                 $query = $this->db->get();
                 $rows['orderLines'] = $query->result_array();
-                
             }else{
                 $this->db->select('*');
                 $this->db->from('order_header');
-                $this->db->where('customerDocNo',$mmNo);
+                $this->db->where('customerDocNo',$zsNo);
 
                 $query = $this->db->get();
                 $oh=$query->result_array();
@@ -185,7 +184,7 @@ class Order_model extends CI_Model
 
                 $this->db->select('*');
                 $this->db->from('order_lines');
-                $this->db->where('documentNo',$mmNo);
+                $this->db->where('documentNo',$zsNo);
                 $query = $this->db->get();
                 $rows['orderLines'] = $query->result_array();
             }

@@ -14,6 +14,7 @@ class Order extends CI_Controller {
     
 public function create_zs()
     {
+    
         $this->load->model('Order_model');
         $this->load->model('User_model');
         
@@ -52,9 +53,9 @@ public function create_zs()
         
     //pobranie danych zamówienia
         $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
-        $data['mmDetails']=$this->Order_model->get_zsDetails($zsId,true);
-        $data['datatable']=$this->Order_model->get_create_mm_items(); //lista dostępnych towarów
-        $this->load->template('mm/create',$data);
+        $data['zsDetails']=$this->Order_model->get_zsDetails($zsId,true);
+        $data['datatable']=$this->Order_model->get_create_zs_items(); //lista dostępnych towarów
+        $this->load->template('zs/create',$data);
     }
     
     public function show_order_summary()
@@ -172,10 +173,8 @@ public function create_zs()
     
     public function order_list(){
         $this->load->model('DataTable_model');
-        $dataTable=$this->DataTable_model->get_mm_list();
-        echo '<pre>';
-        print_r($dataTable);
-        echo '</pre>';
+        $userLogin = $this->session->userdata('login');
+        $dataTable=$this->DataTable_model->get_mm_list($userLogin);
         $this->load->template('Order/list',$dataTable);
     }
 }

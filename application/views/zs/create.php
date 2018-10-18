@@ -9,7 +9,12 @@
         <td colspan="2">Wystawił:</td>
         <td>Odbiorca:</td>
         <td>Nr zamówienia klienta</td>
-        <td colspan="2"><input type="text"></td>
+        <td colspan="2">
+            <form action="" method="post" id="submitChangeForm">
+               <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+                <input type="text" name="customerDocNo" class="submit--this" value="<?php echo $zsDetails['orderHeader']['CUSTOMERDOCNO']; ?>">
+            </form>
+        </td>
     </tr>
     <tr>
         <td rowspan="2" colspan="2">
@@ -32,7 +37,15 @@
     <tr>
        <td class="bg-info text-center"><b class="text-primary">Wprowadzone</b></td>
         <td>Uwagi</td>
-        <td colspan="2" style="padding:0;margin:0;"><textarea style="padding:0;margin:0;" name="" id="" cols="30" rows="5"></textarea></td>
+        <td colspan="2" style="padding:0;margin:0;">
+        <form action="" method="post" id="submitChangeForm">
+            <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5">
+                <?php echo $zsDetails['orderHeader']['DESCRIPTION']; ?>
+            </textarea>
+        </form>
+        
+        </td>
     </tr>
     <tr>
         <th>Lp</th>
@@ -43,21 +56,31 @@
         <th>Magazyn</th>
         <th>Uwagi</th>
     </tr>
+<?php $lp=0;?>
+
+    <?php foreach($zsDetails['orderLines'] as $line): ?>
+        <?php $lp++; ?>
+        <tr>
+            <td><?php echo $lp ?></td>
+            <td><?php echo $line['ITEMCODE']; ?></td>
+            <td><?php echo $line['DESCRIPTION']; ?></td>
+            <td><?php echo $line['DESCRIPTION']; ?></td>
+            <td><?php echo $line['QUANTITY']; ?></td>
+            <td><?php echo $line['REGIONALWAREHOUSECODE']; ?></td>
+<!--            <td><?php #echo $line['DESCRIPTION']; ?></td>-->
+        </tr>
+        
+    <?php endforeach;?>
     <tr>
-        <td>1</td>
-        <td>NrZapasu</td>
-        <td>Opis</td>
-        <td>SA07.6 16 (1/min) IP68 400V</td>
-        <td>1000</td>
-        <td>KodLokalizacjiPierwotnej</td>
-        <td><input type="text"></td>
-    </tr>
-    <tr>
-        <td colspan="7"><button class="btn btn-danger btn-sm">Usuń całe zamówienie</button></td>
+        <td colspan="7">
+        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
+          Usuń całe zamówienie
+        </button>
+        </td>
     </tr>
     <tr>
         <td colspan="8" class="text-right">
-            <button class="btn btn-success btn-lg">Akceptuj</button>
+            <a href="<?php echo site_url('order/order_confirm/'.$zsDetails['orderHeader']['tempid']); ?>" class="btn btn-success btn-lg">Akceptuj</a>
         </td>
     </tr>
     </table>
@@ -100,12 +123,13 @@
                 <?php endforeach;?>
                 <td>
                     <form action="" method="post" id="submitChangeForm">
+                        <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
                         <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
+                        <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
                         <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
                         <input type="text" class="submit--this" name="quantity">
                     </form>
                 </td>
-           
             </tr>
         <?php endforeach;?>
         
@@ -128,3 +152,26 @@
 </table>
     
     </div>
+    
+   <!-- czy usunąć zamówienie? -->
+<div class="modal fade" id="deleteQuestion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Czy usunąć zamówienie ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+            Czy chcesz całkowicie usunąć aktualne zamówienie ?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+        <a href="<?php echo site_url('order/order_delete/'.$zsDetails['orderHeader']['tempid']); ?>" type="button" class="btn btn-danger">USUŃ!</a>
+      </div>
+    </div>
+  </div>
+</div>

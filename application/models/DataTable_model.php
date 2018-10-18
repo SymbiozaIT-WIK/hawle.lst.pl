@@ -49,13 +49,14 @@ class DataTable_model extends CI_Model
     }
     
     
-    public function get_mm_list(){
+    public function get_mm_list($user){
         
         $headings = array('Nr zamówienia', 'Data przyjęcia','Uwagi','Status');
         $settings =array('lp' => true, 'footerHeading' => false);
         
         $this->db->select('no,acceptdate,description,statusid');
         $this->db->from('order_header');
+        $this->db->where('sellto', $user);
         $query = $this->db->get();
         $rows = $query->result_array();
         
