@@ -71,6 +71,7 @@ class DataTable_model extends CI_Model
         
         $this->db->select('tempid,customerdocno,date_add,description,statusid,frommag,type');
         $this->db->from('order_header');
+        $this->db->where('sellTo', $this->session->userdata('login'));
         $query = $this->db->get();
         $rows = $query->result_array();
         

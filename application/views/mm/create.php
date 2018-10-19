@@ -1,5 +1,5 @@
-<!--<pre>-->
-    
+<!--<pre>    -->
+<!--<div id="overlay" class="loading">Ładowanie&#8230;</div>-->
 <?php
 //echo $mmDetails['mmHeader']['CUSTOMERDOCNO'];
 //print_r($mmDetails);
@@ -9,7 +9,7 @@
 ?>
 <!--</pre>-->
 <div class="container">
-<h1>Nowe zamówienie : MM</h1>
+<h1>Nowe zamówienie</h1>
 </div>
 
     
@@ -84,6 +84,7 @@
         <th>Cecha</th>
         <th>Ilość</th>
         <th>Magazyn</th>
+        <th></th>
 <!--        <th>Uwagi</th>-->
     </tr>
     <?php $lp=0;?>
@@ -97,7 +98,50 @@
             <td><?php echo $line['QUANTITY']; ?></td>
             <td><?php echo $line['REGIONALWAREHOUSECODE']; ?></td>
 <!--            <td><?php #echo $line['DESCRIPTION']; ?></td>-->
+            <td>
+                
+                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $line['LINENO']; ?>">
+                      Usuń
+                </button>
+                
+                
+            </td>
         </tr>
+        
+        <!-- czy usunąć linię zamówienia? -->
+        <div class="modal fade" id="deleteQuestion<?php echo $line['LINENO']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Czy usunąć pozycję ?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                   <h4>
+                    Kod towaru: <?php echo $line['ITEMCODE']; ?>
+                   </h4>
+                   <h4>
+                    Ilość:<?php echo $line['QUANTITY']; ?>
+                   </h4>
+              </div>
+              <div class="modal-footer">
+              
+               <form action="" method="post">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+                   <input hidden type="text" name="dellineno" value="<?php echo $line['LINENO'];?>">
+                    <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+                   <input hidden type="text" name="deleteline" value="true">
+                <button type="submit" class="btn btn-danger">USUŃ!</button>
+               </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
         
     <?php endforeach;?>
     
@@ -116,77 +160,129 @@
         </td>
     </tr>
     </table>
-
-
-
-
-
 </div>
-    <hr><br>
+    <hr>
+    
     <div class="container">
         
-    <h1>Dodaj pozycję do zamówienia:</h1>
-        <p>Aby ddać towar - wyszukaj go na liście i wpisz ilość.</p>
+        <div class="container">
+            <?php if($this->session->flashdata('alert')):?>
+               <?php $msg=$this->session->flashdata('alert'); ?>
+                <div class="container">
+                    <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">
+                  <h4 class="alert-heading"><?php echo $msg['title']; ?></h4>
+                  <p><?php echo $msg['content']; ?></p>
+                </div>
+                </div>
+                <?php $this->session->set_flashdata('alert',false); ?>
+            <?php endif; ?>
+              
+            <form action="" class="form-horizontal" method="post">
+                <fieldset>
+                <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+                <legend>Wyszukaj towar w magazynie</legend>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="ItemCatalogNumber">Numer katalogowy</label>  
+                  <div class="col-md-4">
+                  <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="ItemCode">Kod towaru</label>  
+                  <div class="col-md-4">
+                  <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Warehouse">Magazyn</label>  
+                  <div class="col-md-4">
+                  <input id="Warehouse" name="SearchWarehouse" type="text" placeholder="nazwa" class="form-control input-md">
+                  </div>
+                </div>
+                    <div class="form-group">
+                  <label class="col-md-4 control-label" for="Warehouse"></label>  
+                  <div class="col-md-4">
+                          <button id="submit" name="search" value="true" type="submit" class="btn btn-primary btn-block">Szukaj</button>
+                  </div>
+                </div>
+                </fieldset>
+            </form>
+            <form action="" class="form-horizontal" method="post">
+                <fieldset>
+                <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+                <legend class="text-center">lub</legend>
+                    <div class="form-group">
+                  <label class="col-md-4 control-label" for="Warehouse"></label>  
+                  <div class="col-md-4">
+                          <button id="submit" type="submit" class="btn btn-info btn-block">Pobierz wszystko</button>
+                  </div>
+                </div>
+                </fieldset>
+            </form>
+            </div>
         
-<table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
-    <thead>
-        <tr>
-           <?php if($datatable['settings']['lp']):?>
-              <?php $lp=0;?>
-               <th>Lp</th>
-            <?php endif;?>
-            <?php foreach($datatable['headings'] as $th): ?>
-            <th><?php echo $th; ?></th>
-            <?php endforeach;?>
-            <th>Ilość</th>
-        </tr>
-    </thead>
-    <tbody>
-       
-        <?php foreach($datatable['rows'] as $row): ?>
-        <?php $lp++; ?>
-        
-            <tr>
-            
-               <?php if($datatable['settings']['lp']):?>
-                   <td><?php echo $lp; ?></td>
-                <?php endif;?>
+        <?php if(isset($datatable)):?>
+            <table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
+                <thead>
+                    <tr>
+                       <?php if($datatable['settings']['lp']):?>
+                          <?php $lp=0;?>
+                           <th>Lp</th>
+                        <?php endif;?>
+                        <?php foreach($datatable['headings'] as $th): ?>
+                        <th><?php echo $th; ?></th>
+                        <?php endforeach;?>
+                        <th>Ilość</th>
+                    </tr>
+                </thead>
+                <tbody>
 
-                <?php foreach($row as $cell):?>
-                <td>
-                    <?php echo $cell; ?>
-                </td>
-                <?php endforeach;?>
-                <td>
-                    <form action="" method="post" id="submitChangeForm">
-                        <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-                        <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
-                        <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
-                        <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
-                        <input type="text" class="submit--this" name="quantity">
-                    </form>
-                </td>
-            </tr>
-        <?php endforeach;?>
+                    <?php foreach($datatable['rows'] as $row): ?>
+                    <?php $lp++; ?>
+
+                        <tr>
+
+                           <?php if($datatable['settings']['lp']):?>
+                               <td><?php echo $lp; ?></td>
+                            <?php endif;?>
+
+                            <?php foreach($row as $cell):?>
+                            <td>
+                                <?php echo $cell; ?>
+                            </td>
+                            <?php endforeach;?>
+                            <td>
+                                <form action="" method="post" id="submitChangeForm">
+                                    <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
+                                    <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
+                                    <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
+                                    <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
+                                    <input type="text" class="submit--this" name="quantity">
+                                </form>
+                            </td>
+                        </tr>
+                    <?php endforeach;?>
+
+                </tbody>
+                <?php if($datatable['settings']['footerHeading']):?>
+                <tfoot>
+                    <tr>
+                       <?php if($datatable['settings']['lp']):?>
+                           <th>Lp</th>
+                        <?php endif;?>
+                        <?php foreach($datatable['headings'] as $th): ?>
+                        <th>
+                            <?php echo $th; ?>
+                        </th>
+                        <?php endforeach;?>
+                        <th>Ilość</th>
+                    </tr>
+                </tfoot>
+                <?php endif;?>
+            </table>
         
-    </tbody>
-    <?php if($datatable['settings']['footerHeading']):?>
-    <tfoot>
-        <tr>
-           <?php if($datatable['settings']['lp']):?>
-               <th>Lp</th>
-            <?php endif;?>
-            <?php foreach($datatable['headings'] as $th): ?>
-            <th>
-                <?php echo $th; ?>
-            </th>
-            <?php endforeach;?>
-            <th>Ilość</th>
-        </tr>
-    </tfoot>
-    <?php endif;?>
-</table>
-    
+        <?php endif; ?>        
+        
     </div>
 
 

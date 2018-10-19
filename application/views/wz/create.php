@@ -144,6 +144,7 @@
                     <?php echo $cell; ?>
                 </td>
                 <?php endforeach;?>
+                
                 <td>
                     <form action="" method="post" id="submitChangeForm">
                         <input hidden type="text" value="<?php echo $wzDetails['wzHeader']['tempid'] ?>" name="tempid">

@@ -80,8 +80,6 @@ class Order_model extends CI_Model
         $query=$this->db->get();
         
         $rows=$query->result_array();
-        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn');
-        $settings = array('lp' => true, 'footerHeading' => true);
         
         $headings = array('Kod towaru', 'Numer katalogowy','Cecha','Opis', 'Magazyn', 'Zapas');
         $settings = array('lp' => true, 'footerHeading' => true);
@@ -103,13 +101,24 @@ class Order_model extends CI_Model
     }
     
     
-    public function get_create_mm_items(){
-        $this->db->select('itemcode,description,attribute,regionalwarehousecode');
-        $this->db->from('view_inventory');
-        $query = $this->db->get();
+    public function get_create_mm_items($ItemCatalogNumber='',$ItemCode='',$Warehouse=''){
         
+        $this->db->select('itemcode,description,attribute,regionalwarehousecode, realStock');
+        $this->db->from('view_inventory');
+        
+        if($ItemCatalogNumber!=''){
+            $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');}
+        if($ItemCode!=''){
+            $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
+        if($Warehouse!=''){
+            $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
+        
+        $query = $this->db->get();
         $rows = $query->result_array();
-        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn');
+        
+        
+        
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -196,14 +205,14 @@ class Order_model extends CI_Model
     
     public function get_create_wz_items(){
         
-        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode');
+        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode, vi.realStock');
         $this->db->from('view_inventory as vi');
         $this->db->join('regional_warehouse as rw','rw.code=vi.regionalWarehouseCode');
         $this->db->where('rw.userid',$this->session->userdata('login'));
         $query = $this->db->get();
         
         $rows = $query->result_array();
-        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn');
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -259,6 +268,12 @@ class Order_model extends CI_Model
         $this->db->delete('order_lines');
     }
 
+    public function order_line_delete($tempDocNo,$lineNo){
+        $this->db->where('tempdocumentno', $tempDocNo);
+        $this->db->where('lineno', $lineNo);
+        $this->db->delete('order_lines');
+        
+    }
     
     public function set_order_status($orderId,$status){
         $this->db->where('tempid', $orderId);

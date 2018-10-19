@@ -30,9 +30,14 @@ $(document).ready(function() {
     } );
 } );
 </script>
-   <script>
+<script>
 $('#submitChangeForm .submit--this').change(function() {
     $(this).closest('form').submit();
+});
+</script>
+<script>
+$(window).load(function(){
+   $('#overlay').fadeOut();
 });
 </script>
    

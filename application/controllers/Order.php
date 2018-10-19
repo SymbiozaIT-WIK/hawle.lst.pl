@@ -12,7 +12,7 @@ class Order extends CI_Controller {
         $this->load->template('zs/index', $data);
     }
     
-public function create_zs()
+    public function create_zs()
     {
     
         $this->load->model('Order_model');
@@ -39,7 +39,7 @@ public function create_zs()
         
 
 //    dodanie linii
-        if($itemCode && $regionalWarehouseCode && $quantity && $lineDescription){
+        if($itemCode && $regionalWarehouseCode && $quantity){
             //dodaj do zamówienia kolejną linię
             $orderLine=array(
                 'itemcode' => $itemCode,
@@ -97,38 +97,66 @@ public function create_zs()
         $headerMag              = $this->input->post('headerMag');
         
         $itemCode               = $this->input->post('itemCode');
-        $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
         $quantity               = $this->input->post('quantity');
-        $lineDescription               = $this->input->post('lineDescription');
+        $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
+        $lineDescription        = $this->input->post('lineDescription');
+        
         
         
         if(!$this->input->post('tempid')){ 
           $mmId = $this->Order_model->create_header('Zamówienie'); //stwórz zamówienie z tymczasowym ID i zwróć ID
         }
         
-    //edycja headera
+//edycja headera
         if($headerMag){$data['frommag'] = $headerMag;$this->Order_model->edit_header($mmId,$data);}
         if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($mmId,$data);}
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($mmId,$data);}
         
 
 //    dodanie linii
-        if($itemCode && $regionalWarehouseCode && $quantity && $lineDescription){
+        if($itemCode && $quantity){
             //dodaj do zamówienia kolejną linię
+            if(!isset($regionalWarehouseCode)){$regionalWarehouseCode='';}
+            if(!isset($lineDescription)){$lineDescription='';}
             $orderLine=array(
                 'itemcode' => $itemCode,
-                'regionalwarehousecode' => $regionalWarehouseCode,
                 'quantity' => $quantity,
+                'regionalwarehousecode' => $regionalWarehouseCode,
                 'tempdocumentno' => $mmId,
                 'description' => $lineDescription
             );
             $this->Order_model->add_line($mmId,$orderLine);
         }
         
+        
+//usunięcie lini
+        $dellineno     = $this->input->post('dellineno');
+        $deleteline    = $this->input->post('deleteline');
+        
+        if($dellineno && $deleteline==true){ $this->Order_model->order_line_delete($mmId,$dellineno);}
+        
     //pobranie danych zamówienia
         $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
         $data['mmDetails']=$this->Order_model->get_mmDetails($mmId,true);
-        $data['datatable']=$this->Order_model->get_create_mm_items(); //lista dostępnych towarów
+                
+        
+    //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
+    //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
+        $SearchItemCatalogNumber = $this->input->post('SearchItemCatalogNumber') ? $this->input->post('SearchItemCatalogNumber') : '';
+        $SearchItemCode = $this->input->post('SearchItemCode') ? $this->input->post('SearchItemCode') : '';
+        $SearchWarehouse = $this->input->post('SearchWarehouse') ? $this->input->post('SearchWarehouse') : '';
+        $search = $this->input->post('search');
+        
+        if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $search==true)
+        { 
+            $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
+        }elseif($search){
+            $data['datatable']=$this->Order_model->get_create_mm_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse); //lista dostępnych towarów
+        }
+    //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
+    //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
+
+        
         $this->load->template('mm/create',$data);
     }
     
@@ -192,7 +220,7 @@ public function create_zs()
         
 
 //    dodanie linii
-        if($itemCode && $regionalWarehouseCode && $quantity && $lineDescription){
+        if($itemCode && $regionalWarehouseCode && $quantity){
             //dodaj do zamówienia kolejną linię
             $orderLine=array(
                 'itemcode' => $itemCode,
@@ -212,8 +240,6 @@ public function create_zs()
     }
     
     public function order_list(){
-        $this->load->model('DataTable_model');
-
        /* $this->load->model('DataTable_model');
 
         $userLogin = $this->session->userdata('login');
@@ -221,14 +247,14 @@ public function create_zs()
         $this->load->template('Order/list',$dataTable);
         $dataTable=$this->DataTable_model->get_order_list();
 
-
         $data['dataTable'] = $dataTable;
         $this->load->template('order/list',$dataTable);
 
         $data['dataTable'] = $dataTable;
         $this->load->template('order/list',$dataTable);*/
+        
         $this->load->model('DataTable_model');
-        $dataTable=$this->DataTable_model->get_mm_list();
+        $dataTable=$this->DataTable_model->get_order_list();
         $data['dataTable'] = $dataTable;
         $this->load->template('Order/list',$dataTable);
 
