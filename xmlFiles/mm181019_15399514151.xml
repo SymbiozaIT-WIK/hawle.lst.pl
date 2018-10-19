@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DataKsiegowania/>
+  <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej/>
+  <DataWydania/>
+  <DataPrzyjecia/>
+  <Status>0</Status>
+  <Uwagi>                     DGF       </Uwagi>
+  <NrZam>zam10/21/21</NrZam>
+  <NrTymczasowy>95</NrTymczasowy>
+  <SalesLine>
+    <NrWiersza>10000</NrWiersza>
+    <NrZapasu>AU9920SA102X16X</NrZapasu>
+    <Ilosc>23</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>23</IloscDoWydania>
+    <Status>0</Status>
+    <Opis>Napęd nastawnika Auma</Opis>
+    <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej/>
+    <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
+    <DataWydania/>
+    <DataPrzyjecia/>
+    <NrTymczasowy>95</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <NrWiersza>20000</NrWiersza>
+    <NrZapasu>AUKOLUMNAXSF142</NrZapasu>
+    <Ilosc>21</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>21</IloscDoWydania>
+    <Status>0</Status>
+    <Opis>Kolumna napędu AUMA -</Opis>
+    <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej/>
+    <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
+    <DataWydania/>
+    <DataPrzyjecia/>
+    <NrTymczasowy>95</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -29,7 +29,7 @@ class Xml_model extends CI_Model
         $conf=array(
             'header'=>'SalesHeader',
             'line'  =>'SalesLine',
-            'file'  =>'WZ_'.time().'.xml'
+            'file'  =>'wz_'.time().'.xml'
         );
         $header = $data['wzHeader'];
         $lines = $data['wzLines'];
@@ -50,7 +50,7 @@ class Xml_model extends CI_Model
             $conf=array(
                 'header'=>'SalesHeader',
                 'line'  =>'SalesLine',
-                'file'  =>'MM'.$no.'_'.time().'.xml');
+                'file'  =>'mm'.date("ymd").'_'.time().$no.'.xml');
             
             $header = $data['mmHeader'][0];
             $lines = $data['mmLines'];
