@@ -22,7 +22,7 @@ class Xml_model extends CI_Model
         $xmlDoc->save("xmlFiles/" . $conf['file']);
     }
     
-    public function wz_to_xml(){
+    public function wz_to_xml($wzId=array();){
         
         $this->load->model('DbViews_model');
         $data = $this->DbViews_model->get_wzDetails(1,true);
@@ -38,24 +38,27 @@ class Xml_model extends CI_Model
         $this->Xml_model->createXml($header,$lines,$conf);
     }
     
-    public function mm_to_xml(){
+    public function mm_to_xml($mmId=array()){
         
         $this->load->model('DbViews_model');
-        $data = $this->DbViews_model->get_wzDetails(1,true);
         
-        $conf=array(
-            'header'=>'SalesHeader',
-            'line'  =>'SalesLine',
-            'file'  =>'WZ_'.time().'.xml'
-        );
-        $header = $data['wzHeader'];
-        $lines = $data['wzLines'];
-        
-        $this->Xml_model->createXml($header,$lines,$conf);
+        foreach($mmId as $mmXML){
+            $data = $this->DbViews_model->get_mmDetails($mmXML,true);
+            $conf=array(
+                'header'=>'SalesHeader',
+                'line'  =>'SalesLine',
+                'file'  =>'MM_'.time().'.xml'
+            );
+            $header = $data['wzHeader'];
+            $lines = $data['wzLines'];
+
+            $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
+            $this->Order_model->set_order_status($mmXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
+            
+        }
     }
     
     public function zs_to_xml(){
-        
         $this->load->model('DbViews_model');
         $data = $this->DbViews_model->get_wzDetails(1,true);
         
