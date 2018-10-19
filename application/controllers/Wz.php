@@ -10,7 +10,6 @@ class Wz extends CI_Controller {
     
     
     public function wz_list(){
-        
         $this->load->model('DataTable_model');
         $data['dataTable'] = $this->DataTable_model->get_wz_list();
         $this->load->template('wz/list',$data);
