@@ -58,13 +58,13 @@ class DbViews_model extends CI_Model
         if($xml){
             $this->db->select('*');
             $this->db->from('view_mmHeaderXML');
-            $this->db->where('no',$mmNo);
+            $this->db->where('NrTymczasowy',$mmNo);
             $query = $this->db->get();
             $rows['mmHeader'] = $query->result_array();
 
             $this->db->select('*');
             $this->db->from('view_mmLinesXML');
-            $this->db->where('documentNo',$mmNo);
+            $this->db->where('NrTymczasowy',$mmNo);
             $query = $this->db->get();
             $rows['mmLines'] = $query->result_array();
         }else{
