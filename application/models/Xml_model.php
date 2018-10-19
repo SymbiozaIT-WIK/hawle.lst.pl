@@ -4,7 +4,7 @@ class Xml_model extends CI_Model
 {
     public function createXml($header,$lines,$conf) {
 
-        $xmlDoc = new DOMDocument();
+        $xmlDoc = new DOMDocument('1.0','utf-8');
 
         $root = $xmlDoc->appendChild($xmlDoc->createElement($conf['header']));
         foreach($header as $Hkey=>$Hvalue){
@@ -17,13 +17,12 @@ class Xml_model extends CI_Model
                 $line->appendChild($xmlDoc->createElement($Lkey,$Lvalue));
             }
         }
-        header("Content-Type: text/plain");
+//        header("Content-Type: text/plain");
         $xmlDoc->formatOutput = true;
         $xmlDoc->save("xmlFiles/" . $conf['file']);
     }
     
-    public function wz_to_xml($wzId=array();){
-        
+    public function wz_to_xml($wzId=array()){
         $this->load->model('DbViews_model');
         $data = $this->DbViews_model->get_wzDetails(1,true);
         
@@ -34,29 +33,38 @@ class Xml_model extends CI_Model
         );
         $header = $data['wzHeader'];
         $lines = $data['wzLines'];
-        
         $this->Xml_model->createXml($header,$lines,$conf);
     }
     
-    public function mm_to_xml($mmId=array()){
-        
+    
+    
+    
+    
+    public function mm_to_xml($mmId){
         $this->load->model('DbViews_model');
-        
+        $this->load->model('Order_model');
+        $no=0;
         foreach($mmId as $mmXML){
+            $no+=1;
             $data = $this->DbViews_model->get_mmDetails($mmXML,true);
             $conf=array(
                 'header'=>'SalesHeader',
                 'line'  =>'SalesLine',
-                'file'  =>'MM_'.time().'.xml'
-            );
-            $header = $data['wzHeader'];
-            $lines = $data['wzLines'];
+                'file'  =>'MM'.$no.'_'.time().'.xml');
+            
+            $header = $data['mmHeader'][0];
+            $lines = $data['mmLines'];
 
             $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
             $this->Order_model->set_order_status($mmXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
-            
         }
     }
+    
+    
+    
+    
+    
+    
     
     public function zs_to_xml(){
         $this->load->model('DbViews_model');

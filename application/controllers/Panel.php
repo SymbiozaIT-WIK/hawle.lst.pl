@@ -10,6 +10,15 @@ class Panel extends CI_Controller {
                 
             case 'A':
                 $this->load->template('panelAdmin');
+            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
+            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
+                
+//                $this->load->model('Xml_model');
+//                $mmXML = array('95','94');
+//                $this->Xml_model->mm_to_xml($mmXML);
+                
+            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
+            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
                 break;
                 
             case 'R':
