@@ -15,7 +15,7 @@
             <form action="<?php echo site_url('order/create_zs') ?>" method="post">
                 <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">create</i>
-                    <span>Stwórz zamówienie</span>
+                    <span>Utwórz zamówienie</span>
                 </button>
             </form>
         </div>

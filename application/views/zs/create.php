@@ -195,7 +195,7 @@
                     <div class="form-group">
                   <label class="col-md-4 control-label" for="Warehouse"></label>  
                   <div class="col-md-4">
-                          <button id="submit" type="submit" class="btn btn-info btn-block">Pobierz wszystko</button>
+                          <button id="submit" name="searchAll" value="true" type="submit" class="btn btn-info btn-block">Pobierz wszystko</button>
                   </div>
                 </div>
                 </fieldset>
