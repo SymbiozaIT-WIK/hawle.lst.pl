@@ -68,12 +68,15 @@ class Order extends CI_Controller {
         $SearchItemCode = $this->input->post('SearchItemCode') ? $this->input->post('SearchItemCode') : '';
         $SearchWarehouse = $this->input->post('SearchWarehouse') ? $this->input->post('SearchWarehouse') : '';
         $search = $this->input->post('search');
+        $searchAll = $this->input->post('searchAll');
         
         if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $search==true)
         { 
             $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
         }elseif($search){
             $data['datatable']=$this->Order_model->get_create_zs_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse); //lista dostępnych towarów
+        }elseif($searchAll){
+            $data['datatable']=$this->Order_model->get_create_zs_items();
         }
         
         //lista dostępnych towarów
@@ -168,12 +171,15 @@ class Order extends CI_Controller {
         $SearchItemCode = $this->input->post('SearchItemCode') ? $this->input->post('SearchItemCode') : '';
         $SearchWarehouse = $this->input->post('SearchWarehouse') ? $this->input->post('SearchWarehouse') : '';
         $search = $this->input->post('search');
+        $searchAll = $this->input->post('searchAll');
         
         if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $search==true)
         { 
             $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
         }elseif($search){
             $data['datatable']=$this->Order_model->get_create_mm_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse); //lista dostępnych towarów
+        }elseif($searchAll){
+            $data['datatable']=$this->Order_model->get_create_zs_items();
         }
     //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
     //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
