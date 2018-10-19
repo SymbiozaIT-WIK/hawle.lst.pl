@@ -72,13 +72,18 @@ class Order_model extends CI_Model
         
     }
     
-    public function get_create_zs_items()
+    public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='')
     {
         $this->db->select('itemcode, catalogNo, attribute, description, regionalWarehouseCode, realStock');
         $this->db->from('view_inventory');
-        $this->db->where('regionalWarehouseCode', 'THAN');
-        $query=$this->db->get();
+        $this->db->where('regionalWarehouseCode like \'THAN\'');
         
+        if($ItemCatalogNumber!=''){
+            $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');}
+        if($ItemCode!=''){
+            $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
+        
+        $query=$this->db->get();
         $rows=$query->result_array();
         
         $headings = array('Kod towaru', 'Numer katalogowy','Cecha','Opis', 'Magazyn', 'Zapas');
@@ -115,8 +120,6 @@ class Order_model extends CI_Model
         
         $query = $this->db->get();
         $rows = $query->result_array();
-        
-        
         
         $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan');
         $settings = array('lp' => true, 'footerHeading' => true);

@@ -51,10 +51,32 @@ class Order extends CI_Controller {
             $this->Order_model->add_line($zsId,$orderLine);
         }
         
+    //usunięcie lini
+        $dellineno     = $this->input->post('dellineno');
+        $deleteline    = $this->input->post('deleteline');
+        
+        if($dellineno && $deleteline==true){ $this->Order_model->order_line_delete($zsId,$dellineno);}
+        
     //pobranie danych zamówienia
         $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
         $data['zsDetails']=$this->Order_model->get_zsDetails($zsId,true);
-        $data['datatable']=$this->Order_model->get_create_zs_items(); //lista dostępnych towarów
+        //$data['datatable']=$this->Order_model->get_create_zs_items();
+        
+        
+        //wyszukiwaczka
+        $SearchItemCatalogNumber = $this->input->post('SearchItemCatalogNumber') ? $this->input->post('SearchItemCatalogNumber') : '';
+        $SearchItemCode = $this->input->post('SearchItemCode') ? $this->input->post('SearchItemCode') : '';
+        $SearchWarehouse = $this->input->post('SearchWarehouse') ? $this->input->post('SearchWarehouse') : '';
+        $search = $this->input->post('search');
+        
+        if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $search==true)
+        { 
+            $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
+        }elseif($search){
+            $data['datatable']=$this->Order_model->get_create_zs_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse); //lista dostępnych towarów
+        }
+        
+        //lista dostępnych towarów
         $this->load->template('zs/create',$data);
     }
     
