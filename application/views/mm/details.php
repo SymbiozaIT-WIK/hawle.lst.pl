@@ -78,9 +78,9 @@
         <?php endforeach;?>
         <tr>
             <td colspan="7" class="text-right">
-        <button type="button" <?php if($mmHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm" data-toggle="modal" data-target="#deleteQuestion">
+        <a href="<?php echo site_url('order/order_confirm/'.$mmHeader['tempid']); ?>" type="button" <?php if($mmHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm">
           Zatwierdź
-        </button>
+        </a>
         <button type="button" <?php if($mmHeader['STATUSID']>2){echo 'disabled';} ?> class="btn btn-warning btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Edytuj zamówienie
         </button>
@@ -90,4 +90,37 @@
         </td>
         </tr>
     </table>
+</div>
+
+
+<pre>
+    
+<?php
+print_r($mmHeader);
+
+?>
+
+</pre>
+
+<!-- czy usunąć zamówienie? -->
+<div class="modal fade" id="deleteQuestion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Czy usunąć zamówienie ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+            Czy chcesz całkowicie usunąć aktualne zamówienie ?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+        <a href="<?php echo site_url('order/order_delete/'.$mmHeader['tempid']); ?>" type="button" class="btn btn-danger">USUŃ!</a>
+      </div>
+    </div>
+  </div>
 </div>

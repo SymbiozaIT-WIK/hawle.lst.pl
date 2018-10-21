@@ -70,9 +70,7 @@
         <td colspan="2" style="padding:0;margin:0;">
         <form action="" method="post" id="submitChangeForm">
             <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5">
-                <?php echo $mmDetails['mmHeader']['DESCRIPTION']; ?>
-            </textarea>
+            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5"><?php echo rtrim(ltrim($mmDetails['mmHeader']['DESCRIPTION'])); ?></textarea>
         </form>
         
         </td>

@@ -13,8 +13,7 @@ class fv extends CI_Controller {
 //        $this->load->model('DataTable_model');
 //        $data['dataTable'] = $this->DataTable_model->get_fv_list();
 //        $this->load->template('fv/list',$data);
-        echo '<h1>Moduł w przygotowaniu</h1>';
-        echo '<h3></h3>';
+        $this->load->template('maintenance');
     }
     
     public function fv_details($fvNo=''){

@@ -4,10 +4,6 @@ class Order_model extends CI_Model
 {
     public function add($data)
     {
-/*        echo '<pre>';
-        print_r($data);
-        echo '</pre>';*/
-        
         foreach($data as $row)
         {
             $line = $row['id'];
@@ -33,10 +29,6 @@ class Order_model extends CI_Model
         $id = $this->db->insert_id();
         return $id;
     }
-    
-    
-    
-    
     
     public function edit_header($orderId,$data){
         $this->db->where('tempid', $orderId);
@@ -131,7 +123,7 @@ class Order_model extends CI_Model
         return $data;
     }
     
-        public function get_mmDetails($mmNo='',$temp=false){
+    public function get_mmDetails($mmNo='',$temp=false){
 
             if($temp){
                 
