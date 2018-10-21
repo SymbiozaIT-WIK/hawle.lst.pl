@@ -23,7 +23,7 @@
     <br>
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
-            <form action="<?php echo site_url('wz') ?>" method="post">
+            <form action="<?php echo site_url('wz/wz_list') ?>" method="post">
                 <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">import_export</i>
                     <span>Eksport dokumentów WZ</span>
