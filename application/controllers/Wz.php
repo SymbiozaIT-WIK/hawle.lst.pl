@@ -35,6 +35,23 @@ class Wz extends CI_Controller {
         $this->load->template('Wz/edit');
     }
 
+    
+    public function wz_confirm(){
+        $this->load->model('Order_model');
+        $this->load->model('Xml_model');
+        $wzList = $this->input->post('wz');
+        if(count($wzList)>0){
+                $this->Xml_model->wz_to_xml($wzList);
+        }else{
+            $alert=array(
+                'title' => 'Nie zaznaczono żadnej pozycji.',
+                'content' => 'Zaznacz pozycje które chcesz zatwierdzić a następnie kliknij niebieski przycisk "Zatwierdź zaznaczone"',
+                'color' => 'danger'
+            );
+            $this->session->set_flashdata('alert',$alert);
+            redirect(site_url('wz/wz_list'));
+        }
+    }
 }
     
 ?>

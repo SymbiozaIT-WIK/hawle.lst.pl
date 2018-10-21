@@ -23,7 +23,7 @@
             </td>
             <td>Nr zamówienia klienta</td>
             <td colspan="2">
-
+                <?php echo $mmHeader['CUSTOMERDOCNO']; ?>
             </td>
         </tr>
         <tr>
@@ -81,9 +81,12 @@
         <a href="<?php echo site_url('order/order_confirm/'.$mmHeader['tempid']); ?>" type="button" <?php if($mmHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm">
           Zatwierdź
         </a>
-        <button type="button" <?php if($mmHeader['STATUSID']>2){echo 'disabled';} ?> class="btn btn-warning btn-sm" data-toggle="modal" data-target="#deleteQuestion">
-          Edytuj zamówienie
-        </button>
+        <form action="<?php echo site_url('order/create_mm'); ?>" method="post" style="display:inline;">
+            <input hidden type="text" name="tempid" value="<?php echo $mmHeader['tempid']; ?>">
+            <button type="submit" <?php if($mmHeader['STATUSID']>2){echo 'disabled';} ?> class="btn btn-warning btn-sm">
+              Edytuj zamówienie
+            </button>
+        </form>
         <button type="button" <?php if($mmHeader['STATUSID']!=1){echo 'disabled';} ?> class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Usuń
         </button>

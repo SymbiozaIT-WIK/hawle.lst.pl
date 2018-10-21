@@ -28,7 +28,8 @@
             </td>
             <?php endforeach;?>
             <td>
-                <a href="<?php echo site_url('order/order_details/'.$row['tempid']); ?>" class="btn btn-primary btn-sm">Szczegóły</a>
+                <a href="<?php echo site_url('order/order_details/'.$row['tempid']); ?>" class="btn btn-primary btn-sm">
+                Szczegóły</a>
             </td>
             <td>
                 <button <?php if($row['statusid']>1){echo 'disabled';}?> type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $row['tempid'];?>">

@@ -207,7 +207,6 @@ class Order extends CI_Controller {
         $this->load->template('zs/create',$data);
     }
     
-    
     public function show_order_summary()
     {    
         $order = $this->input->post();
@@ -276,13 +275,25 @@ class Order extends CI_Controller {
     public function order_details($orderId){
         $this->load->model('Order_model');
         
+        $typeId = $this->Order_model->get_order_type($orderId);
         
-        $data=$this->Order_model->get_mmDetails($orderId,true);
-        $this->load->template('mm/details',$data);
-        
+        switch($typeId){
+            case 'mm':
+                $data=$this->Order_model->get_mmDetails($orderId,true);
+                $this->load->template('mm/details',$data);
+                break;
+            case 'wz':
+                $data=$this->Order_model->get_wzDetails($orderId,true);
+                $this->load->template('wz/details',$data);
+                break;
+            case 'zs':
+                $data=$this->Order_model->get_zsDetails($orderId,true);
+                $this->load->template('zs/details',$data);
+                break;
+        }
     }
     
-
+    
 }
     
 ?>

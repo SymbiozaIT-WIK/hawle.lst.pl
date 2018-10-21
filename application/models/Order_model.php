@@ -275,6 +275,23 @@ class Order_model extends CI_Model
         $this->db->update('order_header', array('statusid'=>$status));
     }
     
+    public function get_order_status_id($orderId){
+        $this->db->select('statusid');
+        $this->db->from('order_header');
+        $this->db->where('tempid',$orderId);
+        $query = $this->db->get();
+        $array = $query->result_array();
+        return $array[0];
+    }
+    
+    public function get_order_type($orderId){
+        $this->db->select('type');
+        $this->db->from('order_header');
+        $this->db->where('tempid',$orderId);
+        $query = $this->db->get();
+        $array = $query->result_array();
+        return $array[0]['type'];
+    }
 }
 
 ?>

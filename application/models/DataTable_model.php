@@ -34,11 +34,15 @@ class DataTable_model extends CI_Model
     
     public function get_wz_list(){
         
-        $headings = array('Nr zamówienia', 'Data przyjęcia','Uwagi','Status');
+        $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
         $settings =array('lp' => true, 'footerHeading' => false);
         
-        $this->db->select('no,acceptdate,description,statusid');
-        $this->db->from('order_header');
+        $this->db->select('oh.tempid,oh.customerdocno,oh.date_add,oh.description,os.name as statusid,oh.frommag,ot.name');
+        $this->db->from('order_header as oh');
+        $this->db->join('order_type as ot','oh.type=ot.id');
+        $this->db->join('order_status as os','oh.statusid=os.id');
+        $this->db->where('oh.type','wz');
+        $this->db->order_by('date_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();
         
@@ -52,8 +56,11 @@ class DataTable_model extends CI_Model
         $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
         $settings =array('lp' => true, 'footerHeading' => false);
         
-        $this->db->select('tempid,customerdocno,date_add,description,statusid,frommag,type');
-        $this->db->from('order_header');
+        $this->db->select('oh.tempid,oh.customerdocno,oh.date_add,oh.description,os.name as statusid,oh.frommag,ot.name');
+        $this->db->from('order_header as oh');
+        $this->db->join('order_type as ot','oh.type=ot.id');
+        $this->db->join('order_status as os','oh.statusid=os.id');
+        $this->db->order_by('date_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();
         

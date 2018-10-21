@@ -24,21 +24,23 @@ class Xml_model extends CI_Model
     
     public function wz_to_xml($wzId=array()){
         $this->load->model('DbViews_model');
-        $data = $this->DbViews_model->get_wzDetails(1,true);
+        $this->load->model('Order_model');
+        $no=0;
         
-        $conf=array(
+        foreach($wzId as $wzXML){
+            $no+=1;
+            $data = $this->DbViews_model->get_wzDetails($wzXML,true);
+            $conf=array(
             'header'=>'SalesHeader',
             'line'  =>'SalesLine',
-            'file'  =>'wz_'.time().'.xml'
-        );
-        $header = $data['wzHeader'];
-        $lines = $data['wzLines'];
-        $this->Xml_model->createXml($header,$lines,$conf);
+            'file'  =>'wz'.date("ymd").'_'.time().$no.'.xml');
+            
+            $header = $data['wzHeader'][0];
+            $lines = $data['wzLines'];
+            $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
+            $this->Order_model->set_order_status($mmXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
+        }
     }
-    
-    
-    
-    
     
     public function mm_to_xml($mmId){
         $this->load->model('DbViews_model');
