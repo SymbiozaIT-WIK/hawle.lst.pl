@@ -52,7 +52,7 @@
                   <label for="cb<?php echo $row['tempid']; ?>" class="btn btn-success" rel="tooltip" title="Kliknij aby zaznaczyć" > 
                     Zaznacz 
                   </label>
-                    <a href="" class="btn btn-default">Podgląd</a>
+                    <a href="<?php echo site_url('order/order_details/'.$row['tempid']); ?>" class="btn btn-default">Podgląd</a>
                 </td>
             </tr>
             <?php endforeach;?>

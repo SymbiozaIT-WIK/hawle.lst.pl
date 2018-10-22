@@ -32,7 +32,7 @@
         </tr>
         <tr>
             <td class="bg-info text-center"><b class="text-primary">
-                <?php echo $zsHeader['STATUSID']; ?>
+                <?php echo $zsHeader['statusname']; ?>
                 </b></td>
             <td>Uwagi</td>
             <td colspan="2" style="padding:0;margin:0;">
@@ -64,6 +64,8 @@
         <?php endforeach;?>
         <tr>
             <td colspan="7" class="text-right">
+            <?php if($this->session->userdata('usertype')!='A'): ?>
+            
         <a href="<?php echo site_url('order/order_confirm/'.$zsHeader['tempid']); ?>" type="button" <?php if($zsHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm">
           Wyślij
         </a>
@@ -76,6 +78,15 @@
         <button type="button" <?php if($zsHeader['STATUSID']!=1){echo 'disabled';} ?> class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Usuń
         </button>
+        <?php else:?>
+        <form action="<?php echo site_url('order/order_export'); ?>" method="post">
+           <?php $backurl = htmlspecialchars($_SERVER['HTTP_REFERER']); ?>
+           <a href="<?php echo $backurl; ?>" class="btn btn-warning btn-lg">Wstecz</a>
+            <input hidden type="text" name="order[]" value="<?php echo $zsHeader['tempid']; ?>" >
+            <button type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
+        </form>
+        <?php endif;?>
+        
         </td>
         </tr>
     </table>

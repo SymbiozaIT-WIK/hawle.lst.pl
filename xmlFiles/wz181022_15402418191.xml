@@ -9,10 +9,9 @@
   <DataWydania> </DataWydania>
   <Nip> </Nip>
   <KodKrajuVat>PL</KodKrajuVat>
-  <Uwagi>wydanie opis&#13;
-</Uwagi>
-  <NrZam>273</NrZam>
-  <NrTymczasowy>273</NrTymczasowy>
+  <Uwagi>Zamówienie. Typ: WZ. Klient: Skład regionalny. Wydania z 1 magazynu.</Uwagi>
+  <NrZam>302</NrZam>
+  <NrTymczasowy>302</NrTymczasowy>
   <SalesLine>
     <DokumentType>1</DokumentType>
     <NrWiersza>10000</NrWiersza>
@@ -23,6 +22,18 @@
     <Opis>Combi T </Opis>
     <Jednostka>SZT</Jednostka>
     <Ilosc>1</Ilosc>
-    <NrTymczasowy>273</NrTymczasowy>
+    <NrTymczasowy>302</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DokumentType>1</DokumentType>
+    <NrWiersza>20000</NrWiersza>
+    <NrNabywcy>1028</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>CO4340200080E10</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Combi T </Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>302</NrTymczasowy>
   </SalesLine>
 </SalesHeader>

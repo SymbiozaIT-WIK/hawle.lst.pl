@@ -8,9 +8,6 @@
 //print_r($availableWarehouses);
 ?>
 </pre>
-<div class="container">
-<h1>Nowe wydanie</h1>
-</div>
 
     
 <div class="container">
@@ -57,9 +54,7 @@
         <td colspan="2" style="padding:0;margin:0;">
         <form action="" method="post" id="submitChangeForm">
             <input hidden type="text" value="<?php echo $wzDetails['wzHeader']['tempid'] ?>" name="tempid">
-            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5">
-                <?php echo $wzDetails['wzHeader']['DESCRIPTION']; ?>
-            </textarea>
+            <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5"><?php echo rtrim(ltrim($wzDetails['wzHeader']['DESCRIPTION'])); ?></textarea>
         </form>
         
         </td>
@@ -70,7 +65,8 @@
         <th>Opis</th>
         <th>Cecha</th>
         <th>Ilość</th>
-        <th>Magazyn</th>
+        <th>Z magazynu</th>
+        <th></th>
 <!--        <th>Uwagi</th>-->
     </tr>
     <?php $lp=0;?>
@@ -83,8 +79,44 @@
             <td><?php echo $line['attribute']; ?></td>
             <td><?php echo $line['QUANTITY']; ?></td>
             <td><?php echo $line['REGIONALWAREHOUSECODE']; ?></td>
+            <td>
+                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $line['LINENO']; ?>">
+                      Usuń
+                </button>
+            </td>
 <!--            <td><?php #echo $line['DESCRIPTION']; ?></td>-->
         </tr>
+        
+                <!-- czy usunąć linię zamówienia? -->
+        <div class="modal fade" id="deleteQuestion<?php echo $line['LINENO']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Czy usunąć pozycję ?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                   <h4>
+                    Kod towaru: <?php echo $line['ITEMCODE']; ?>
+                   </h4>
+                   <h4>
+                    Ilość:<?php echo $line['QUANTITY']; ?>
+                   </h4>
+              </div>
+              <div class="modal-footer">
+               <form action="" method="post">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+                   <input hidden type="text" name="dellineno" value="<?php echo $line['LINENO'];?>">
+                    <input hidden type="text" value="<?php echo $wzDetails['wzHeader']['tempid'] ?>" name="tempid">
+                   <input hidden type="text" name="deleteline" value="true">
+                <button type="submit" class="btn btn-danger">USUŃ!</button>
+               </form>
+              </div>
+            </div>
+          </div>
+        </div>
         
     <?php endforeach;?>
     
@@ -154,6 +186,7 @@
                         <input type="text" class="submit--this" name="quantity">
                     </form>
                 </td>
+                
             </tr>
         <?php endforeach;?>
         

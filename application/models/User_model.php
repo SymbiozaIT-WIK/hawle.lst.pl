@@ -55,7 +55,7 @@ class User_model extends CI_Model
     }
     
     public function get_user_mag($userId){
-        $this->db->select('code');
+        $this->db->select('code,description');
         $this->db->where('userid', $userId);
         $query = $this->db->get('regional_warehouse');
         $row = $query->result_array();

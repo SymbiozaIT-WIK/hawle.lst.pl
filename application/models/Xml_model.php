@@ -53,7 +53,7 @@ class Xml_model extends CI_Model
 //                print_r('<pre>');
 //            $lines = $data['wzLines'];
 //            $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
-//            $this->Order_model->set_order_status($wzXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
+            $this->Order_model->set_order_status($wzXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
         }
     }
     

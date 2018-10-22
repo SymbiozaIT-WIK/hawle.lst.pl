@@ -17,14 +17,12 @@ class Order_model extends CI_Model
         }
     }
     
-    public function create_header($orderType='')
-    {
+    public function create_header($orderType=''){
         $dbInsert=array(
             'sellto' => $this->session->userdata('login'),
             'statusid' => 1,
             'type' => $orderType
         );
-        
         $this->db->insert('order_header',$dbInsert);
         $id = $this->db->insert_id();
         return $id;
@@ -109,6 +107,7 @@ class Order_model extends CI_Model
         if($Warehouse!=''){
             $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
         
+        $this->db->where('regionalwarehousecode','THAN'); //mmki zawsze z magazynu THAN!!
         $query = $this->db->get();
         $rows = $query->result_array();
         
@@ -220,7 +219,7 @@ class Order_model extends CI_Model
             if($temp){
                 
                 $this->db->select('*');
-                $this->db->from('view_mmHeader');
+                $this->db->from('view_zsHeader');
                 $this->db->where('tempid',$zsNo);
 
                 $query = $this->db->get();
@@ -228,7 +227,7 @@ class Order_model extends CI_Model
                 $rows['zsHeader'] = $oh[0];
 
                 $this->db->select('*');
-                $this->db->from('view_mmLines');
+                $this->db->from('view_zsLines');
                 $this->db->where('tempdocumentno',$zsNo);
                 $query = $this->db->get();
                 $rows['zsLines'] = $query->result_array();

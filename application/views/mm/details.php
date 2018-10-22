@@ -16,9 +16,9 @@
             <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
             <td rowspan="2" class="bg-info text-center text-primary">
                 <h1>Zamówienie</h1>
-                KodLokalizacjiDocelowej <br>
+                Lokalizacja docelowa <br>
                 <h3>
-                    <?php echo $mmHeader['TOMAG']; ?>
+                    <?php echo $mmHeader['tomagname']; ?>
                 </h3>
             </td>
             <td>Nr zamówienia klienta</td>
@@ -46,7 +46,7 @@
         </tr>
         <tr>
             <td class="bg-info text-center"><b class="text-primary">
-                <?php echo $mmHeader['STATUSID']; ?>
+                <?php echo $mmHeader['statusname']; ?>
                 </b></td>
             <td>Uwagi</td>
             <td colspan="2" style="padding:0;margin:0;">
@@ -78,6 +78,8 @@
         <?php endforeach;?>
         <tr>
             <td colspan="7" class="text-right">
+            <?php if($this->session->userdata('usertype')!='A'): ?>
+            
         <a href="<?php echo site_url('order/order_confirm/'.$mmHeader['tempid']); ?>" type="button" <?php if($mmHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm">
           Wyślij
         </a>
@@ -90,20 +92,20 @@
         <button type="button" <?php if($mmHeader['STATUSID']!=1){echo 'disabled';} ?> class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion">
           Usuń
         </button>
+        <?php else:?>
+        <form action="<?php echo site_url('order/order_export'); ?>" method="post">
+           <?php $backurl = htmlspecialchars($_SERVER['HTTP_REFERER']); ?>
+           <a href="<?php echo $backurl; ?>" class="btn btn-warning btn-lg">Wstecz</a>
+            <input hidden type="text" name="order[]" value="<?php echo $mmHeader['tempid']; ?>" >
+            <button type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
+        </form>
+        <?php endif;?>
+        
         </td>
         </tr>
     </table>
 </div>
 
-
-<pre>
-    
-<?php
-print_r($mmHeader);
-
-?>
-
-</pre>
 
 <!-- czy usunąć zamówienie? -->
 <div class="modal fade" id="deleteQuestion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

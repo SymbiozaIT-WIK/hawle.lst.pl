@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania>2018-10-22</DataKsiegowania>
+  <KodLokalizacjiPierwotnej>THAN</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+  <DataWydania>2018-10-22</DataWydania>
+  <DataPrzyjecia>2018-10-22</DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>Zamówienie. Typ: MM. Klient: Skład Regionalny.</Uwagi>
+  <NrZam>MM/10/22/001</NrZam>
+  <NrTymczasowy>300</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10000</NrWiersza>
+    <NrZapasu>GFPP700627122XX</NrZapasu>
+    <Ilosc>12</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>12</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka redukcyjna</Opis>
+    <KodLokalizacjiPierwotnej>THAN</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2018-10-22</DataWydania>
+    <DataPrzyjecia>2018-10-22</DataPrzyjecia>
+    <NrTymczasowy>300</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20000</NrWiersza>
+    <NrZapasu>GFOS193131137XX</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Obejma siodłowa</Opis>
+    <KodLokalizacjiPierwotnej>THAN</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2018-10-22</DataWydania>
+    <DataPrzyjecia>2018-10-22</DataPrzyjecia>
+    <NrTymczasowy>300</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30000</NrWiersza>
+    <NrZapasu>GFEL724100758XX</NrZapasu>
+    <Ilosc>11</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>11</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Elektrokolano 90°, PE/stal</Opis>
+    <KodLokalizacjiPierwotnej>THAN</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2018-10-22</DataWydania>
+    <DataPrzyjecia>2018-10-22</DataPrzyjecia>
+    <NrTymczasowy>300</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

@@ -28,9 +28,9 @@
             <form action="" method="post" id="submitChangeForm">
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                 <select id="selMag" class="submit--this form-control" name="headerMag">
-                  <option value="<?php echo $mmDetails['mmHeader']['TOMAG']; ?>"><?php echo $mmDetails['mmHeader']['TOMAG']; ?></option>
+                  <option value="<?php echo $mmDetails['mmHeader']['TOMAG']; ?>"><?php echo $mmDetails['mmHeader']['tomagname'];?></option>
                       <?php foreach($availableWarehouses as $warehouse): ?>
-                       <option value="<?php echo $warehouse['code']; ?>"><?php echo $warehouse['code']; ?></option>
+                       <option value="<?php echo $warehouse['code']; ?>"><?php echo $warehouse['description']; ?></option>
                     <?php endforeach;?>
 
                 </select>
@@ -65,7 +65,7 @@
         <td colspan="2">2018-10-16</td>
     </tr>
     <tr>
-       <td class="bg-info text-center"><b class="text-primary">Wprowadzone</b></td>
+       <td class="bg-info text-center"><b class="text-primary"><?php echo $mmDetails['mmHeader']['statusname'] ?></b></td>
         <td>Uwagi</td>
         <td colspan="2" style="padding:0;margin:0;">
         <form action="" method="post" id="submitChangeForm">

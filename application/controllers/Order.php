@@ -33,7 +33,7 @@ class Order extends CI_Controller {
         if(!$this->input->post('tempid')){ 
           $mmId = $this->Order_model->create_header('mm'); //stwórz zamówienie z tymczasowym ID i zwróć ID
         }
-        
+//        print'<h1>____'.$mmId.'____</h1>';
 //edycja headera
         if($headerMag){$data['tomag'] = $headerMag;$this->Order_model->edit_header($mmId,$data);}
         if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($mmId,$data);}
@@ -128,6 +128,12 @@ class Order extends CI_Controller {
             );
             $this->Order_model->add_line($wzId,$orderLine);
         }
+        
+        //usunięcie lini
+        $dellineno     = $this->input->post('dellineno');
+        $deleteline    = $this->input->post('deleteline');
+        
+        if($dellineno && $deleteline==true){ $this->Order_model->order_line_delete($wzId,$dellineno);}
         
     //pobranie danych zamówienia
         $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
@@ -269,9 +275,8 @@ class Order extends CI_Controller {
         $this->load->model('Xml_model');
         
         $orderList = $this->input->post('order');
-        
-        
-        if(count($orderList)>0){
+
+        if(is_array($orderList) && count($orderList)>0){
             $mmList=array();
             $wzList=array();
             $zsList=array();
@@ -293,8 +298,6 @@ class Order extends CI_Controller {
                 'color' => 'success'
             );
             $this->session->set_flashdata('alert',$alert);
-            redirect(site_url('order/order_list'));
-        
         }else{
             $alert=array(
                 'title' => 'Nie zaznaczono żadnej pozycji.',
@@ -302,9 +305,8 @@ class Order extends CI_Controller {
                 'color' => 'danger'
             );
             $this->session->set_flashdata('alert',$alert);
-            redirect(site_url('order/order_list'));
         }
-        
+            redirect(site_url('order/order_list'));
     }
             
     public function order_list(){

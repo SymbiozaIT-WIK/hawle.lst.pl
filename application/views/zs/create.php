@@ -44,9 +44,7 @@
             <td colspan="2" style="padding:0;margin:0;">
                 <form action="" method="post" id="submitChangeForm">
                     <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
-                    <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5">
-                <?php echo $zsDetails['zsHeader']['DESCRIPTION']; ?>
-            </textarea>
+                    <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5"><?php echo ltrim(rtrim($zsDetails['zsHeader']['DESCRIPTION'])); ?></textarea>
                 </form>
 
             </td>
