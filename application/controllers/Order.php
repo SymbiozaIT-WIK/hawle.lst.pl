@@ -17,7 +17,7 @@ class Order extends CI_Controller {
         $this->load->model('Order_model');
         $this->load->model('User_model');
         
-        $mmId                   = $this->input->post('tempid'); //id zamówienia wpisane przez klienta
+        $mmId                   = $this->input->post('tempid');
         
         $customerDocno          = $this->input->post('customerDocNo');
         $headerDesc             = $this->input->post('headerDesc');
@@ -269,7 +269,7 @@ class Order extends CI_Controller {
         $this->load->model('Xml_model');
         
         $orderList = $this->input->post('order');
-        print_r($orderList);
+        
         
         if(count($orderList)>0){
             $mmList=array();
@@ -306,9 +306,7 @@ class Order extends CI_Controller {
         }
         
     }
-    
-    
-    
+            
     public function order_list(){
         $usertype = $this->session->userdata('usertype');
         

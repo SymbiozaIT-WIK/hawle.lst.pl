@@ -25,23 +25,35 @@ class Xml_model extends CI_Model
     }
     
     public function wz_to_xml($wzId){
+        //tworzenie osobnych zamówień (plików xml) dla linni różniących się kodami magazynu
         $this->load->model('DbViews_model');
         $this->load->model('Order_model');
         $no=0;
         
         foreach($wzId as $wzXML){
-            $no+=1;
+            
             $data = $this->DbViews_model->get_wzDetails($wzXML,true);
-            $conf=array(
+            $header = $data['wzHeader'][0];
+            
+            $XmlArr = array();
+            
+            foreach($lines = $data['wzLines'] as $key => $item)
+            {$XmlArr[$item['KodLokalizacji']][$key] = $item;}
+            
+//            print_r('<pre>');
+            foreach($XmlArr as $line){
+                $no+=1;
+                $conf=array(
                 'header'=>'SalesHeader',
                 'line'  =>'SalesLine',
                 'file'  =>'wz'.date("ymd").'_'.time().$no.'.xml');
-            
-            $header = $data['wzHeader'][0];
-            $lines = $data['wzLines'];
-            
-            $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
-            $this->Order_model->set_order_status($wzXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
+//                print_r($line);
+                $this->Xml_model->createXml($header,$line,$conf);
+            }
+//                print_r('<pre>');
+//            $lines = $data['wzLines'];
+//            $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
+//            $this->Order_model->set_order_status($wzXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
         }
     }
     

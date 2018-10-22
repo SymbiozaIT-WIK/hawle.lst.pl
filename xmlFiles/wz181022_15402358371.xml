@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SalesHeader>
   <DocumentType>1</DocumentType>
-  <DataDokumentu>2018-10-22</DataDokumentu>
+  <DataDokumentu> </DataDokumentu>
   <NrNabywcy>1028</NrNabywcy>
   <NrOdbiorcy>1028</NrOdbiorcy>
   <DataZamowienia>2018-10-22</DataZamowienia>
-  <DataKsiegowania>2018-10-22</DataKsiegowania>
-  <DataWydania>2018-10-22</DataWydania>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
   <Nip> </Nip>
   <KodKrajuVat>PL</KodKrajuVat>
-  <Uwagi>                          dasasd  </Uwagi>
-  <NrZam>259</NrZam>
-  <NrTymczasowy>259</NrTymczasowy>
+  <Uwagi>wydanie opis&#13;
+</Uwagi>
+  <NrZam>273</NrZam>
+  <NrTymczasowy>273</NrTymczasowy>
   <SalesLine>
     <DokumentType>1</DokumentType>
     <NrWiersza>10000</NrWiersza>
@@ -22,6 +23,6 @@
     <Opis>Combi T </Opis>
     <Jednostka>SZT</Jednostka>
     <Ilosc>1</Ilosc>
-    <NrTymczasowy>259</NrTymczasowy>
+    <NrTymczasowy>273</NrTymczasowy>
   </SalesLine>
 </SalesHeader>

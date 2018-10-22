@@ -97,7 +97,6 @@ class Order_model extends CI_Model
         return $table;
     }
     
-    
     public function get_create_mm_items($ItemCatalogNumber='',$ItemCode='',$Warehouse=''){
         
         $this->db->select('itemcode,description,attribute,regionalwarehousecode, realStock');
@@ -159,7 +158,6 @@ class Order_model extends CI_Model
         
         return $rows;
     }
-    
     
     public function get_wzDetails($wzNo='',$temp=false){
 
@@ -254,21 +252,6 @@ class Order_model extends CI_Model
     }
     
 
-    public function order_delete($orderId){
-        $this->db->where('tempid', $orderId);
-        $this->db->where('sellto', $this->session->userdata('login'));
-        $this->db->delete('order_header');
-        
-        $this->db->where('tempdocumentno', $orderId);
-        $this->db->delete('order_lines');
-    }
-
-    public function order_line_delete($tempDocNo,$lineNo){
-        $this->db->where('tempdocumentno', $tempDocNo);
-        $this->db->where('lineno', $lineNo);
-        $this->db->delete('order_lines');
-        
-    }
     
     public function set_order_status($orderId,$status){
         $this->db->where('tempid', $orderId);
@@ -295,6 +278,22 @@ class Order_model extends CI_Model
         $query = $this->db->get();
         $array = $query->result_array();
         return $array[0]['type'];
+    }
+    
+    public function order_delete($orderId){
+        $this->db->where('tempid', $orderId);
+        $this->db->where('sellto', $this->session->userdata('login'));
+        $this->db->delete('order_header');
+        
+        $this->db->where('tempdocumentno', $orderId);
+        $this->db->delete('order_lines');
+    }
+
+    public function order_line_delete($tempDocNo,$lineNo){
+        $this->db->where('tempdocumentno', $tempDocNo);
+        $this->db->where('lineno', $lineNo);
+        $this->db->delete('order_lines');
+        
     }
 }
 
