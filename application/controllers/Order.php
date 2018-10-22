@@ -35,7 +35,7 @@ class Order extends CI_Controller {
         }
         
 //edycja headera
-        if($headerMag){$data['frommag'] = $headerMag;$this->Order_model->edit_header($mmId,$data);}
+        if($headerMag){$data['tomag'] = $headerMag;$this->Order_model->edit_header($mmId,$data);}
         if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($mmId,$data);}
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($mmId,$data);}
         

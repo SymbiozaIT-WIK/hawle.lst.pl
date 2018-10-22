@@ -18,7 +18,7 @@
                 <h1>Zamówienie</h1>
                 KodLokalizacjiDocelowej <br>
                 <h3>
-                    <?php echo $mmHeader['FROMMAG']; ?>
+                    <?php echo $mmHeader['TOMAG']; ?>
                 </h3>
             </td>
             <td>Nr zamówienia klienta</td>

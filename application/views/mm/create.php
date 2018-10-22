@@ -28,7 +28,7 @@
             <form action="" method="post" id="submitChangeForm">
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                 <select id="selMag" class="submit--this form-control" name="headerMag">
-                  <option value="<?php echo $mmDetails['mmHeader']['FROMMAG']; ?>"><?php echo $mmDetails['mmHeader']['FROMMAG']; ?></option>
+                  <option value="<?php echo $mmDetails['mmHeader']['TOMAG']; ?>"><?php echo $mmDetails['mmHeader']['TOMAG']; ?></option>
                       <?php foreach($availableWarehouses as $warehouse): ?>
                        <option value="<?php echo $warehouse['code']; ?>"><?php echo $warehouse['code']; ?></option>
                     <?php endforeach;?>
