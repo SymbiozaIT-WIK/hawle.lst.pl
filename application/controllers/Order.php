@@ -246,10 +246,10 @@ class Order extends CI_Controller {
             );
             $this->session->set_flashdata('alert',$alert);
         }
-        redirect('panel');
+        redirect('order/order_list');
     }
     
-    public function order_confirm($orderId){
+    public function order_confirm($orderId=''){
         if($this->session->userdata('logged')){
             $this->load->model('Order_model');
             $this->Order_model->set_order_status($orderId,2);
@@ -263,13 +263,69 @@ class Order extends CI_Controller {
         redirect('panel');
     }
     
+    public function order_export(){
+        
+        $this->load->model('Order_model');
+        $this->load->model('Xml_model');
+        
+        $orderList = $this->input->post('order');
+        print_r($orderList);
+        
+        if(count($orderList)>0){
+            $mmList=array();
+            $wzList=array();
+            $zsList=array();
+            
+            foreach($orderList as $order){
+                $orderType=$this->Order_model->get_order_type($order);
+                if($orderType=='mm'){$mmList[]=$order;}
+                if($orderType=='wz'){$wzList[]=$order;}
+                if($orderType=='zs'){$zsList[]=$order;}
+            }
+            
+            if(count($mmList)>0){$this->Xml_model->mm_to_xml($mmList);}
+            if(count($wzList)>0){$this->Xml_model->wz_to_xml($wzList);}
+            if(count($zsList)>0){$this->Xml_model->zs_to_xml($zsList);}
+
+            $alert=array(
+                'title' => 'Potwierdzenie.',
+                'content' => 'Wygenerowano '.count($orderList).' zamówień.',
+                'color' => 'success'
+            );
+            $this->session->set_flashdata('alert',$alert);
+            redirect(site_url('order/order_list'));
+        
+        }else{
+            $alert=array(
+                'title' => 'Nie zaznaczono żadnej pozycji.',
+                'content' => 'Zaznacz pozycje które chcesz zatwierdzić a następnie kliknij niebieski przycisk "Zatwierdź zaznaczone"',
+                'color' => 'danger'
+            );
+            $this->session->set_flashdata('alert',$alert);
+            redirect(site_url('order/order_list'));
+        }
+        
+    }
+    
+    
+    
     public function order_list(){
-
-        $this->load->model('DataTable_model');
-        $dataTable=$this->DataTable_model->get_order_list();
-        $data['dataTable'] = $dataTable;
-        $this->load->template('Order/list',$dataTable);
-
+        $usertype = $this->session->userdata('usertype');
+        
+        switch ($usertype){
+            case 'A':
+                $this->load->model('DataTable_model');
+                $data = $this->DataTable_model->get_order_list(2);
+                $this->load->template('order/admin_list',$data);
+                break;
+            default:
+                $this->load->model('DataTable_model');
+                $dataTable=$this->DataTable_model->get_order_list();
+                $data['dataTable'] = $dataTable;
+                $this->load->template('Order/list',$dataTable);
+                break;
+        }
+        
     }
     
     public function order_details($orderId){

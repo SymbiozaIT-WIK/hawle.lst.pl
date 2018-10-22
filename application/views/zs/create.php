@@ -9,7 +9,7 @@
             <td colspan="2" style="vertical-align:middle; font-weight:bold;">Wystawił:</td>
             <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
             <td>Nr zamówienia klienta</td>
-            <td colspan="2">
+            <td colspan="3">
                 <form action="" method="post" id="submitChangeForm">
                     <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                     <input type="text" name="customerDocNo" class="submit--this" value="<?php echo $zsDetails['zsHeader']['CUSTOMERDOCNO']; ?>">
@@ -36,7 +36,7 @@
                 <?php echo $this->session->userdata('login'); ?>
             </td>
             <td>Data przyjęcia</td>
-            <td colspan="2">2018-10-16</td>
+            <td colspan="3">2018-10-16</td>
         </tr>
         <tr>
             <td class="bg-info text-center"><b class="text-primary">Wprowadzone</b></td>
@@ -137,7 +137,7 @@
         </tr>
         <tr>
             <td colspan="8" class="text-right">
-                <a href="<?php echo site_url('order/order_confirm/'.$zsDetails['zsHeader']['tempid']); ?>" class="btn btn-success btn-lg">Akceptuj</a>
+                <a href="<?php echo site_url('order/order_confirm/'.$zsDetails['zsHeader']['tempid']); ?>" class="btn btn-success btn-lg">Wyślij</a>
             </td>
         </tr>
     </table>

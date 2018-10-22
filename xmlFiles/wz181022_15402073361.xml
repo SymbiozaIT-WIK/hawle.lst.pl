@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu/>
+  <NrNabywcy>1028</NrNabywcy>
+  <NrOdbiorcy>1028</NrOdbiorcy>
+  <DataZamowienia>2018-10-22 12:43:00</DataZamowienia>
+  <DataKsiegowania/>
+  <DataWydania/>
+  <Nip/>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>                          dasasd  </Uwagi>
+  <NrZam>259</NrZam>
+  <NrTymczasowy>259</NrTymczasowy>
+  <SalesLine>
+    <NrWiersza>10000</NrWiersza>
+    <NrZapasu>CO4340200080E10</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status>0</Status>
+    <Opis>Combi T "E2"</Opis>
+    <KodLokalizacjiPierwotnej/>
+    <KodLokalizacjiDocelowej/>
+    <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
+    <DataWydania/>
+    <DataPrzyjecia/>
+    <NrTymczasowy>259</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -12,37 +12,6 @@ class DbViews_model extends CI_Model
         return $rows;
     }
     
-    public function get_wzDetails($wzNo,$xml=false){
-
-        if($xml){
-            $this->db->select('*');
-            $this->db->from('view_wzHeaderXML');
-            $this->db->where('NrTymczasowy',$wzNo);
-            $query = $this->db->get();
-            $rows['wzHeader'] = $query->result_array();
-
-            $this->db->select('*');
-            $this->db->from('view_wzLinesXML');
-            $this->db->where('NrTymczasowy',$wzNo);
-            $query = $this->db->get();
-            $rows['wzLines'] = $query->result_array();  
-        }else{
-            $this->db->select('*');
-            $this->db->from('view_wzHeader');
-            $this->db->where('no',$wzNo);
-            $query = $this->db->get();
-            $rows['wzHeader'] = $query->result_array();
-
-            $this->db->select('*');
-            $this->db->from('view_wzLines');
-            $this->db->where('documentNo',$wzNo);
-            $query = $this->db->get();
-            $rows['wzLines'] = $query->result_array();
-        }
-        
-        return $rows;
-    }
-    
     public function get_mmList(){
 
         $this->db->select('*');
@@ -84,7 +53,66 @@ class DbViews_model extends CI_Model
         return $rows;
     }
     
+    public function get_wzDetails($wzNo,$xml=false){
+
+        if($xml){
+            $this->db->select('*');
+            $this->db->from('view_wzHeaderXML');
+            $this->db->where('NrTymczasowy',$wzNo);
+            $query = $this->db->get();
+            $rows['wzHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_wzLinesXML');
+            $this->db->where('NrTymczasowy',$wzNo);
+            $query = $this->db->get();
+            $rows['wzLines'] = $query->result_array();  
+        }else{
+            $this->db->select('*');
+            $this->db->from('view_wzHeader');
+            $this->db->where('no',$wzNo);
+            $query = $this->db->get();
+            $rows['wzHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_wzLines');
+            $this->db->where('documentNo',$wzNo);
+            $query = $this->db->get();
+            $rows['wzLines'] = $query->result_array();
+        }
+        
+        return $rows;
+    }
     
+    public function get_zsDetails($zsNo,$xml=false){
+
+        if($xml){
+            $this->db->select('*');
+            $this->db->from('view_zsHeaderXML');
+            $this->db->where('NrTymczasowy',$zsNo);
+            $query = $this->db->get();
+            $rows['zsHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_zsLinesXML');
+            $this->db->where('NrTymczasowy',$zsNo);
+            $query = $this->db->get();
+            $rows['zsLines'] = $query->result_array();  
+        }else{
+            $this->db->select('*');
+            $this->db->from('view_wzHeader');
+            $this->db->where('no',$wzNo);
+            $query = $this->db->get();
+            $rows['wzHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_wzLines');
+            $this->db->where('documentNo',$wzNo);
+            $query = $this->db->get();
+            $rows['wzLines'] = $query->result_array();
+        }
+        return $rows;
+    }
     
 }
 

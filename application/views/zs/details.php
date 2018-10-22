@@ -65,7 +65,7 @@
         <tr>
             <td colspan="7" class="text-right">
         <a href="<?php echo site_url('order/order_confirm/'.$zsHeader['tempid']); ?>" type="button" <?php if($zsHeader['STATUSID']>1){echo 'disabled';} ?> class="btn btn-success btn-sm">
-          Zatwierdź
+          Wyślij
         </a>
         <form action="<?php echo site_url('order/create_zs'); ?>" method="post" style="display:inline;">
             <input hidden type="text" name="tempid" value="<?php echo $zsHeader['tempid']; ?>">

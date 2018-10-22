@@ -50,8 +50,8 @@ class Xml_model extends CI_Model
             $no+=1;
             $data = $this->DbViews_model->get_mmDetails($mmXML,true);
             $conf=array(
-                'header'=>'SalesHeader',
-                'line'  =>'SalesLine',
+                'header'=>'TransferHeader',
+                'line'  =>'TransferLine',
                 'file'  =>'mm'.date("ymd").'_'.time().$no.'.xml');
             
             $header = $data['mmHeader'][0];
@@ -63,19 +63,24 @@ class Xml_model extends CI_Model
     }
     
     
-    public function zs_to_xml(){
+    public function zs_to_xml($zsId){
         $this->load->model('DbViews_model');
-        $data = $this->DbViews_model->get_wzDetails(1,true);
-        
-        $conf=array(
-            'header'=>'SalesHeader',
-            'line'  =>'SalesLine',
-            'file'  =>'WZ_'.time().'.xml'
-        );
-        $header = $data['wzHeader'];
-        $lines = $data['wzLines'];
-        
-        $this->Xml_model->createXml($header,$lines,$conf);
+        $this->load->model('Order_model');
+        $no=0;
+        foreach($zsId as $zsXML){
+            $no+=1;
+            $data = $this->DbViews_model->get_zsDetails($zsXML,true);
+            $conf=array(
+                'header'=>'SalesHeader',
+                'line'  =>'SalesLine',
+                'file'  =>'zs'.date("ymd").'_'.time().$no.'.xml');
+            
+            $header = $data['zsHeader'][0];
+            $lines = $data['zsLines'];
+
+            $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
+            $this->Order_model->set_order_status($zsXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
+        }
     }
     
 }

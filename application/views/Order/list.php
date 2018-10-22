@@ -1,4 +1,16 @@
 <div class="container">   
+
+<?php if($this->session->flashdata('alert')):?>
+   <?php $msg=$this->session->flashdata('alert'); ?>
+    <div class="container">
+        <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">
+      <h4 class="alert-heading"><?php echo $msg['title']; ?></h4>
+      <p><?php echo $msg['content']; ?></p>
+    </div>
+    </div>
+<?php endif; ?>
+
+
 <table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
     <thead>
         <tr>

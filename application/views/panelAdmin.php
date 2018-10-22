@@ -23,10 +23,10 @@
     <br>
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
-            <form action="<?php echo site_url('wz/wz_list') ?>" method="post">
+            <form action="<?php echo site_url('order/order_list') ?>" method="post">
                 <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">import_export</i>
-                    <span>Wydania do zatwierdzenia &lt;WZ&gt;</span>
+                    <span>Eksport</span>
                 </button>
             </form>
         </div>
@@ -37,29 +37,7 @@
             <form action="<?php echo site_url('wz') ?>" method="post">
                 <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">list</i>
-                    <span>Podgląd dokumentów WZ</span>
-                </button>
-            </form>
-        </div>
-    </div>
-    <br>
-    <div class="row pt-2">
-        <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
-            <form action="<?php echo site_url('fv') ?>" method="post">
-                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
-                    <i class="material-icons">import_export</i>
-                    <span>Eksport Zamówień</span>
-                </button>
-            </form>
-        </div>
-    </div>
-    <br>
-    <div class="row pt-2">
-        <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
-            <form action="<?php echo site_url('fv') ?>" method="post">
-                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
-                    <i class="material-icons">list</i>
-                    <span>Podgląd Zamówień</span>
+                    <span>Podgląd</span>
                 </button>
             </form>
         </div>
@@ -75,18 +53,5 @@
             </form>
         </div>
     </div>
-    <!--<div class="row">
-        <div class="col-md-12">
-           <h1>Administracja</h1>
-            <ul class="list-group">
-                <li class="list-group-item"><a href="">Stany</a></li>
-                <li class="list-group-item"><a href="<?php echo site_url('wz'); ?>">Eksport dokumentów WZ</a></li>
-                <li class="list-group-item"><a href="<?php echo site_url('wz'); ?>">Podgląd dokumentów WZ</a></li>
-                <li class="list-group-item"><a href="">Eksport zamówień</a></li>
-                <li class="list-group-item"><a href="">Podgląd zamówień</a></li>
-                <li class="list-group-item"><a href="">Wiadomości</a></li>
-            </ul>
-        </div>
-    </div>-->
 </div>
 <hr>

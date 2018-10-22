@@ -272,7 +272,11 @@ class Order_model extends CI_Model
     
     public function set_order_status($orderId,$status){
         $this->db->where('tempid', $orderId);
-        $this->db->update('order_header', array('statusid'=>$status));
+        if($status==3){
+            $this->db->update('order_header', array('statusid'=>$status,'acceptdate'=>date('Y-m-d')));
+        }else{
+            $this->db->update('order_header', array('statusid'=>$status));
+        }
     }
     
     public function get_order_status_id($orderId){

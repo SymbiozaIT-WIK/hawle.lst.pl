@@ -9,7 +9,7 @@
 <?php endif; ?>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <div class="container">
-    <h1>Panel MagReg</h1>
+    <h1>Skład Regionalny</h1>
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-3 row-eq-height pt-2">
             <form action="<?php echo site_url('order/create_mm') ?>" method="post">

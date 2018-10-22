@@ -154,7 +154,7 @@
     </tr>
     <tr>
         <td colspan="8" class="text-right">
-            <a href="<?php echo site_url('order/order_confirm/'.$mmDetails['mmHeader']['tempid']); ?>" class="btn btn-success btn-lg">Akceptuj</a>
+            <a href="<?php echo site_url('order/order_confirm/'.$mmDetails['mmHeader']['tempid']); ?>" class="btn btn-success btn-lg">Wyślij</a>
         </td>
     </tr>
     </table>

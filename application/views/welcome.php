@@ -1,6 +1,4 @@
-<?php
-
-if($this->session->flashdata('alert')):?>
+<?php if($this->session->flashdata('alert')):?>
    <?php $msg=$this->session->flashdata('alert'); ?>
     <div class="container">
         <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">

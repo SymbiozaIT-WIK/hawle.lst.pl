@@ -70,7 +70,13 @@ class DataTable_model extends CI_Model
         return $dataTable;
     }
     
-    public function get_order_list(){
+    
+    
+    
+    
+    public function get_order_list($status=''){
+        $usertype = $this->session->userdata('usertype');
+        
         $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
         $settings =array('lp' => true, 'footerHeading' => false);
         
@@ -78,7 +84,11 @@ class DataTable_model extends CI_Model
         $this->db->from('order_header as oh');
         $this->db->join('order_type as ot','oh.type=ot.id');
         $this->db->join('order_status as os','oh.statusid=os.id');
-        $this->db->where('sellTo', $this->session->userdata('login'));
+        if(isset($usertype) && $usertype=='A'){
+            $this->db->where('oh.statusid', 2);
+        }else{
+            $this->db->where('sellTo', $this->session->userdata('login'));
+        }
         $this->db->order_by('date_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();
