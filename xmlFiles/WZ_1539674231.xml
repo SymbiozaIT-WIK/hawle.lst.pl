@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu>2018-01-01</DataDokumentu>
+  <NrNabywcy>1234</NrNabywcy>
+  <NrOdbiorcy>4321</NrOdbiorcy>
+  <DataZamowienia/>
+  <DataKsiegowania/>
+  <DataWydania/>
+  <Nip/>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi/>
+  <NrZam>ZS/987654</NrZam>
+  <SalesLine>
+    <DocumentType>12123121</DocumentType>
+    <NrWiersza>10000</NrWiersza>
+    <NrNabywcy>1234</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>123124</Nr>
+    <KodLokalizacji>THAN</KodLokalizacji>
+    <Opis>wdaw</Opis>
+    <Jednostka>szt</Jednostka>
+    <Ilosc>12</Ilosc>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>123124324567567561</DocumentType>
+    <NrWiersza>10000756756</NrWiersza>
+    <NrNabywcy>1275675634</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>123124</Nr>
+    <KodLokalizacji>THAN</KodLokalizacji>
+    <Opis>wdaw</Opis>
+    <Jednostka>szt</Jednostka>
+    <Ilosc>12</Ilosc>
+  </SalesLine>
+</SalesHeader>
