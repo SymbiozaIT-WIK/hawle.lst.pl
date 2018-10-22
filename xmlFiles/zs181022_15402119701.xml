@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu>2018-10-22</DataDokumentu>
+  <NrNabywcy>1010</NrNabywcy>
+  <NrOdbiorcy>1010</NrOdbiorcy>
+  <DataZamowienia>2018-10-22</DataZamowienia>
+  <DataKsiegowania>2018-10-22</DataKsiegowania>
+  <DataWydania>2018-10-22</DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>zam10/21/21</NrZam>
+  <NrTymczasowy>257</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NumerWiersza>10000</NumerWiersza>
+    <NumerNabywcy>1010</NumerNabywcy>
+    <Typ>2</Typ>
+    <Nr>GFKD753200032XX</Nr>
+    <KodLokalizacji>THAN</KodLokalizacji>
+    <Opis>Trójnik 90° redukcyjny krótki</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>257</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NumerWiersza>20000</NumerWiersza>
+    <NumerNabywcy>1010</NumerNabywcy>
+    <Typ>2</Typ>
+    <Nr>GFEL753151812XX</Nr>
+    <KodLokalizacji>THAN</KodLokalizacji>
+    <Opis>Elektrokolano 45° - stary inde</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>257</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

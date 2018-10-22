@@ -8,12 +8,14 @@ class Xml_model extends CI_Model
 
         $root = $xmlDoc->appendChild($xmlDoc->createElement($conf['header']));
         foreach($header as $Hkey=>$Hvalue){
+            if(empty($Hvalue)){$Hvalue=' ';}
             $root->appendChild($xmlDoc->createElement($Hkey, $Hvalue));
         }
         
         foreach($lines as $lineRow){
             $line = $root->appendChild($xmlDoc->createElement($conf['line']));
             foreach($lineRow as $Lkey=>$Lvalue){
+                if(empty($Lvalue)){$Lvalue=' ';}
                 $line->appendChild($xmlDoc->createElement($Lkey,$Lvalue));
             }
         }
@@ -22,7 +24,7 @@ class Xml_model extends CI_Model
         $xmlDoc->save("xmlFiles/" . $conf['file']);
     }
     
-    public function wz_to_xml($wzId=array()){
+    public function wz_to_xml($wzId){
         $this->load->model('DbViews_model');
         $this->load->model('Order_model');
         $no=0;
@@ -31,12 +33,13 @@ class Xml_model extends CI_Model
             $no+=1;
             $data = $this->DbViews_model->get_wzDetails($wzXML,true);
             $conf=array(
-            'header'=>'SalesHeader',
-            'line'  =>'SalesLine',
-            'file'  =>'wz'.date("ymd").'_'.time().$no.'.xml');
+                'header'=>'SalesHeader',
+                'line'  =>'SalesLine',
+                'file'  =>'wz'.date("ymd").'_'.time().$no.'.xml');
             
             $header = $data['wzHeader'][0];
             $lines = $data['wzLines'];
+            
             $this->Xml_model->createXml($header,$lines,$conf); //generowanie xml
             $this->Order_model->set_order_status($wzXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
         }

@@ -1,3 +1,131 @@
+<!--Perspektywa: view_zsheaderxml-->
+
+select 1 AS `DocumentType`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataDokumentu`,
+coalesce(`oh`.`SELLTO`,'') AS `NrNabywcy`,
+coalesce(`oh`.`SELLTO`,'') AS `NrOdbiorcy`,
+coalesce(`oh`.`DATE_ADD`,'') AS `DataZamowienia`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
+coalesce(`u`.`Nip`,'') AS `Nip`,
+coalesce('PL','') AS `KodKrajuVat`,
+coalesce(`oh`.`CUSTOMERDOCNO`,'') AS `NrZam`,
+coalesce(`oh`.`tempid`,'') AS `NrTymczasowy`
+from (`order_header` `oh` join `user` `u` on((`oh`.`SELLTO` = `u`.`LOGIN`)))
+
+select 
+1 AS `DocumentType`,
+coalesce(`ol`.`LINENO`,'') AS `NumerWiersza`,
+coalesce(`oh`.`SELLTO`,'') AS `NumerNabywcy`,
+2 AS `Typ`,
+coalesce(`ol`.`ITEMCODE`,'') AS `Nr`,
+'THAN' AS `KodLokalizacji`,
+coalesce(`ol`.`DESCRIPTION`,'') AS `Opis`,
+coalesce(`it`.`Unit`,'') AS `Jednostka`,
+coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,
+coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` 
+from ((`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)))               
+                               
+                                   
+Perspektywa: view_wzheaderxml      
+           
+           
+select 
+1 AS `DocumentType`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataDokumentu`,
+coalesce(`oh`.`SELLTO`,'') AS `NrNabywcy`,
+coalesce(`oh`.`SELLTO`,'') AS `NrOdbiorcy`,
+coalesce(`oh`.`DATE_ADD`,'') AS `DataZamowienia`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
+coalesce(`u`.`Nip`,'') AS `Nip`,'PL' AS `KodKrajuVat`,
+coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,
+coalesce(`oh`.`tempid`,'') AS `NrZam`,
+coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` 
+from (`order_header` `oh` join `user` `u` on((`oh`.`SELLTO` = `u`.`LOGIN`)))           
+           
+Perspektywa: view_wzlinesxml           
+    
+ select 
+ coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,
+ coalesce(`ol`.`ITEMCODE`,'') AS `NrZapasu`,
+ coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,
+ coalesce(`it`.`Unit`,'') AS `jednostka`,
+ coalesce(`ol`.`QUANTITY`,'') AS `IloscDoWydania`,0 AS `Status`,
+ coalesce(`it`.`DESCRIPTION`,'') AS `Opis`,
+ coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,
+ coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,
+ 'XMWDR' AS `KodddLokalizacjiWDrodze`,
+ coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
+ coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,
+ coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)))                                              
+                                                   
+                                                       
+ Perspektywa: view_mmheaderxml                                                          
+                                                               
+                                                                   
+                                                                       
+ select 
+  coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,
+  coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,
+  coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,
+  coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
+  coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,0 AS `Status`,
+  coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,
+  coalesce(`oh`.`CUSTOMERDOCNO`,'') AS `NrZam`,
+  coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` 
+           from `order_header` `oh`                                                                          
+                                                                               
+                                                                                   
+                                                                                       
+select 
+coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,
+coalesce(`ol`.`ITEMCODE`,'') AS `NrZapasu`,
+coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,
+coalesce(`it`.`Unit`,'') AS `jednostka`,
+coalesce(`ol`.`QUANTITY`,'') AS `IloscDoWydania`,0 AS `Status`,
+coalesce(`it`.`DESCRIPTION`,'') AS `Opis`,
+coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,
+coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,'XMWDR' AS `KodddLokalizacjiWDrodze`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
+coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,
+coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)))                                                                                   
+                                                                                                   
+                                                                                                       
+                                                                                                           
+                                                                                                               
+                                                                                                                   
+                                                                                                                       
+                                                                                                                           
+                                                                                                                               
+                                                                                                                                   
+                                                                                                                                       
+                                                                                                                                           
+                                                                                                                                               
+                                                                                                                                                   
+                                                                                                                                                       
+                                                                                                                                                           
+                                                                                                                                                               
+                                                                                                                                                                   
+                                                                                                                                                                       
+                                                                                                                                                                           
+                                                                                                                                                                               
+                                                                                                                                                                                   
+                                                                                                                                                                                       
+                                                                                                                                                                                           
+                                                                                                                                                                                               
+                                                                                                                                                                                                   
+                                                                                                                                                                                                       
+                                                                                                                                                                                                           
+                                                                                                                                                                                                               
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                       
+                                                                                                                                                                                                                           
+                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                               
     public function gen_xml(){
         
         

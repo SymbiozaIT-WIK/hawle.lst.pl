@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TransferHeader>
-  <DataKsiegowania/>
+  <DataKsiegowania>2018-10-22</DataKsiegowania>
   <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
-  <KodLokalizacjiDocelowej/>
-  <DataWydania/>
-  <DataPrzyjecia/>
-  <Status>0</Status>
+  <KodLokalizacjiDocelowej> </KodLokalizacjiDocelowej>
+  <DataWydania>2018-10-22</DataWydania>
+  <DataPrzyjecia>2018-10-22</DataPrzyjecia>
+  <Status> </Status>
   <Uwagi>asdasd</Uwagi>
   <NrZam>zamówienie 1125</NrZam>
   <NrTymczasowy>258</NrTymczasowy>
@@ -15,13 +15,13 @@
     <Ilosc>2</Ilosc>
     <jednostka>SZT</jednostka>
     <IloscDoWydania>2</IloscDoWydania>
-    <Status>0</Status>
+    <Status> </Status>
     <Opis>Trójnik 90° równoprzelotowy</Opis>
     <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
-    <KodLokalizacjiDocelowej/>
+    <KodLokalizacjiDocelowej> </KodLokalizacjiDocelowej>
     <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
-    <DataWydania/>
-    <DataPrzyjecia/>
+    <DataWydania>2018-10-22</DataWydania>
+    <DataPrzyjecia>2018-10-22</DataPrzyjecia>
     <NrTymczasowy>258</NrTymczasowy>
   </TransferLine>
   <TransferLine>
@@ -30,13 +30,13 @@
     <Ilosc>1</Ilosc>
     <jednostka>SZT</jednostka>
     <IloscDoWydania>1</IloscDoWydania>
-    <Status>0</Status>
+    <Status> </Status>
     <Opis>Napęd nastawnika Auma</Opis>
     <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
-    <KodLokalizacjiDocelowej/>
+    <KodLokalizacjiDocelowej> </KodLokalizacjiDocelowej>
     <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
-    <DataWydania/>
-    <DataPrzyjecia/>
+    <DataWydania>2018-10-22</DataWydania>
+    <DataPrzyjecia>2018-10-22</DataPrzyjecia>
     <NrTymczasowy>258</NrTymczasowy>
   </TransferLine>
 </TransferHeader>
