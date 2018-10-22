@@ -13,9 +13,9 @@
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
             <form action="<?php echo site_url('inventory') ?>" method="post">
-                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">store_mall_directory</i>
-                    <span>Stany</span>
+                    <span>Stany magazynowe</span>
                 </button>
             </form>
         </div>
@@ -24,9 +24,9 @@
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
             <form action="<?php echo site_url('wz/wz_list') ?>" method="post">
-                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">import_export</i>
-                    <span>Eksport dokumentów WZ</span>
+                    <span>Wydania do zatwierdzenia &lt;WZ&gt;</span>
                 </button>
             </form>
         </div>
@@ -35,7 +35,7 @@
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
             <form action="<?php echo site_url('wz') ?>" method="post">
-                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">list</i>
                     <span>Podgląd dokumentów WZ</span>
                 </button>
@@ -46,7 +46,7 @@
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
             <form action="<?php echo site_url('fv') ?>" method="post">
-                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">import_export</i>
                     <span>Eksport Zamówień</span>
                 </button>
@@ -57,7 +57,7 @@
     <div class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
             <form action="<?php echo site_url('fv') ?>" method="post">
-                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">list</i>
                     <span>Podgląd Zamówień</span>
                 </button>
@@ -68,7 +68,7 @@
     <div style="display:none;" class="row pt-2">
         <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
             <form action="<?php echo site_url('fv') ?>" method="post">
-                <button style="font-size:24px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                <button style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
                     <i class="material-icons">message</i>
                     <span>Wiadomości</span>
                 </button>

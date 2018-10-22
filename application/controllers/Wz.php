@@ -5,7 +5,7 @@ class Wz extends CI_Controller {
     
     public function index()
     {
-        
+        $this->load->template('maintenance');
     }
     
     
@@ -38,6 +38,13 @@ class Wz extends CI_Controller {
         $wzList = $this->input->post('wz');
         if(count($wzList)>0){
                 $this->Xml_model->wz_to_xml($wzList);
+            $alert=array(
+                'title' => 'Potwierdzono wydania.',
+                'content' => 'Wygenerowano '.count($wzList).' zamówień.',
+                'color' => 'success'
+            );
+            $this->session->set_flashdata('alert',$alert);
+            redirect(site_url('wz/wz_list'));
         }else{
             $alert=array(
                 'title' => 'Nie zaznaczono żadnej pozycji.',

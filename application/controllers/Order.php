@@ -150,7 +150,7 @@ class Order extends CI_Controller {
         $itemCode               = $this->input->post('itemCode');
         $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
         $quantity               = $this->input->post('quantity');
-        $lineDescription               = $this->input->post('lineDescription');
+        $lineDescription        = $this->input->post('lineDescription');
         
         
         if(!$this->input->post('tempid')){ 

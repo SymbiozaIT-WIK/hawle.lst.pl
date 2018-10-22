@@ -11,8 +11,8 @@
             <td>Nr zamówienia klienta</td>
             <td colspan="2">
                 <form action="" method="post" id="submitChangeForm">
-                    <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
-                    <input type="text" name="customerDocNo" class="submit--this" value="<?php echo $zsDetails['orderHeader']['CUSTOMERDOCNO']; ?>">
+                    <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
+                    <input type="text" name="customerDocNo" class="submit--this" value="<?php echo $zsDetails['zsHeader']['CUSTOMERDOCNO']; ?>">
                 </form>
             </td>
         </tr>
@@ -43,9 +43,9 @@
             <td>Uwagi</td>
             <td colspan="2" style="padding:0;margin:0;">
                 <form action="" method="post" id="submitChangeForm">
-                    <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+                    <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                     <textarea style="padding:0;margin:0;" name="headerDesc" id="" class="submit--this" cols="30" rows="5">
-                <?php echo $zsDetails['orderHeader']['DESCRIPTION']; ?>
+                <?php echo $zsDetails['zsHeader']['DESCRIPTION']; ?>
             </textarea>
                 </form>
 
@@ -62,7 +62,7 @@
         </tr>
         <?php $lp=0;?>
 
-        <?php foreach($zsDetails['orderLines'] as $line): ?>
+        <?php foreach($zsDetails['zsLines'] as $line): ?>
         <?php $lp++; ?>
         <tr>
             <td>
@@ -118,7 +118,7 @@
                         <form action="" method="post">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
                             <input hidden type="text" name="dellineno" value="<?php echo $line['LINENO'];?>">
-                            <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+                            <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                             <input hidden type="text" name="deleteline" value="true">
                             <button type="submit" class="btn btn-danger">USUŃ!</button>
                         </form>
@@ -137,7 +137,7 @@
         </tr>
         <tr>
             <td colspan="8" class="text-right">
-                <a href="<?php echo site_url('order/order_confirm/'.$zsDetails['orderHeader']['tempid']); ?>" class="btn btn-success btn-lg">Akceptuj</a>
+                <a href="<?php echo site_url('order/order_confirm/'.$zsDetails['zsHeader']['tempid']); ?>" class="btn btn-success btn-lg">Akceptuj</a>
             </td>
         </tr>
     </table>
@@ -160,7 +160,7 @@
               
             <form action="" class="form-horizontal" method="post">
                 <fieldset>
-                <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+                <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                 <legend>Wyszukaj towar w magazynie</legend>
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="ItemCatalogNumber">Numer katalogowy</label>  
@@ -190,7 +190,7 @@
             </form>
             <form action="" class="form-horizontal" method="post">
                 <fieldset>
-                <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+                <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                 <legend class="text-center">lub</legend>
                     <div class="form-group">
                   <label class="col-md-4 control-label" for="Warehouse"></label>  
@@ -234,7 +234,7 @@
                             <?php endforeach;?>
                             <td>
                                 <form action="" method="post" id="submitChangeForm">
-                                    <input hidden type="text" value="<?php echo $zsDetails['orderHeader']['tempid'] ?>" name="tempid">
+                                    <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                                     <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
                                     <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
                                     <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
@@ -284,7 +284,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
-                <a href="<?php echo site_url('order/order_delete/'.$zsDetails['orderHeader']['tempid']); ?>" type="button" class="btn btn-danger">USUŃ!</a>
+                <a href="<?php echo site_url('order/order_delete/'.$zsDetails['zsHeader']['tempid']); ?>" type="button" class="btn btn-danger">USUŃ!</a>
             </div>
         </div>
     </div>

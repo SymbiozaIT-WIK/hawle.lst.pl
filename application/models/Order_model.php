@@ -222,18 +222,18 @@ class Order_model extends CI_Model
             if($temp){
                 
                 $this->db->select('*');
-                $this->db->from('order_header');
+                $this->db->from('view_mmHeader');
                 $this->db->where('tempid',$zsNo);
 
                 $query = $this->db->get();
                 $oh=$query->result_array();
-                $rows['orderHeader'] = $oh[0];
+                $rows['zsHeader'] = $oh[0];
 
                 $this->db->select('*');
-                $this->db->from('order_lines');
+                $this->db->from('view_mmLines');
                 $this->db->where('tempdocumentno',$zsNo);
                 $query = $this->db->get();
-                $rows['orderLines'] = $query->result_array();
+                $rows['zsLines'] = $query->result_array();
             }else{
                 $this->db->select('*');
                 $this->db->from('order_header');
