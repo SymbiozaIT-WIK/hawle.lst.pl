@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TransferHeader>
   <DataKsiegowania>2018-10-22</DataKsiegowania>
-  <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiPierwotnej>THAN</KodLokalizacjiPierwotnej>
   <KodLokalizacjiDocelowej> </KodLokalizacjiDocelowej>
   <DataWydania>2018-10-22</DataWydania>
   <DataPrzyjecia>2018-10-22</DataPrzyjecia>
@@ -19,7 +19,7 @@
     <Opis>Trójnik 90° równoprzelotowy</Opis>
     <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
     <KodLokalizacjiDocelowej> </KodLokalizacjiDocelowej>
-    <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
     <DataWydania>2018-10-22</DataWydania>
     <DataPrzyjecia>2018-10-22</DataPrzyjecia>
     <NrTymczasowy>258</NrTymczasowy>
@@ -34,7 +34,7 @@
     <Opis>Napęd nastawnika Auma</Opis>
     <KodLokalizacjiPierwotnej>SK10</KodLokalizacjiPierwotnej>
     <KodLokalizacjiDocelowej> </KodLokalizacjiDocelowej>
-    <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
     <DataWydania>2018-10-22</DataWydania>
     <DataPrzyjecia>2018-10-22</DataPrzyjecia>
     <NrTymczasowy>258</NrTymczasowy>
