@@ -1,7 +1,7 @@
 
 <div class="container">   
 
-<h1>WZki do zatwierdzenia</h1>
+<h1>Wydania do zatwierdzenia</h1>
 <?php if($this->session->flashdata('alert')):?>
    <?php $msg=$this->session->flashdata('alert'); ?>
     <div class="container">

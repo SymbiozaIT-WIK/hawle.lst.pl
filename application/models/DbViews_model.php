@@ -17,13 +17,13 @@ class DbViews_model extends CI_Model
         if($xml){
             $this->db->select('*');
             $this->db->from('view_wzHeaderXML');
-            $this->db->where('no',$wzNo);
+            $this->db->where('NrTymczasowy',$wzNo);
             $query = $this->db->get();
             $rows['wzHeader'] = $query->result_array();
 
             $this->db->select('*');
             $this->db->from('view_wzLinesXML');
-            $this->db->where('documentNo',$wzNo);
+            $this->db->where('NrTymczasowy',$wzNo);
             $query = $this->db->get();
             $rows['wzLines'] = $query->result_array();  
         }else{

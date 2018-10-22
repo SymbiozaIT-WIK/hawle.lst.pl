@@ -32,7 +32,7 @@ class DataTable_model extends CI_Model
         return $dataTable;
     }
     
-    public function get_wz_list(){
+    public function get_wz_list($status=''){
         
         $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
         $settings =array('lp' => true, 'footerHeading' => false);
@@ -42,6 +42,7 @@ class DataTable_model extends CI_Model
         $this->db->join('order_type as ot','oh.type=ot.id');
         $this->db->join('order_status as os','oh.statusid=os.id');
         $this->db->where('oh.type','wz');
+        if($status!='') $this->db->where('oh.statusid',$status);
         $this->db->order_by('date_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();

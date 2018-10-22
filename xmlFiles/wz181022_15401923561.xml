@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DataKsiegowania/>
+  <KodLokalizacjiPierwotnej/>
+  <KodLokalizacjiDocelowej/>
+  <DataWydania/>
+  <DataPrzyjecia/>
+  <Status>0</Status>
+  <Uwagi/>
+  <NrZam/>
+  <NrTymczasowy>216</NrTymczasowy>
+  <SalesLine>
+    <NrWiersza>10000</NrWiersza>
+    <NrZapasu>CO4340200080E10</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status>0</Status>
+    <Opis>Combi T "E2"</Opis>
+    <KodLokalizacjiPierwotnej/>
+    <KodLokalizacjiDocelowej/>
+    <KodddLokalizacjiWDrodze>XMWDR</KodddLokalizacjiWDrodze>
+    <DataWydania/>
+    <DataPrzyjecia/>
+    <NrTymczasowy>216</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>
