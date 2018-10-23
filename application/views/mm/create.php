@@ -159,65 +159,51 @@
     </tr>
     </table>
 </div>
-    <hr>
     
-    <div class="container">
+<div class="container">
+
+    <?php if($this->session->flashdata('alert')):?>
+    <?php $msg=$this->session->flashdata('alert'); ?>
+    <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">
+        <h4 class="alert-heading">
+            <?php echo $msg['title']; ?>
+        </h4>
+        <p>
+            <?php echo $msg['content']; ?>
+        </p>
+    </div>
+    <?php $this->session->set_flashdata('alert',false); ?>
+    <?php endif; ?>
+    
+    
+    <div class="row">
+        <form action="" class="form-horizontal" method="post">
+        <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
         
-        <div class="container">
-            <?php if($this->session->flashdata('alert')):?>
-               <?php $msg=$this->session->flashdata('alert'); ?>
-                <div class="container">
-                    <div class="alert alert-<?php echo $msg['color']; ?>" role="alert">
-                  <h4 class="alert-heading"><?php echo $msg['title']; ?></h4>
-                  <p><?php echo $msg['content']; ?></p>
-                </div>
-                </div>
-                <?php $this->session->set_flashdata('alert',false); ?>
-            <?php endif; ?>
-              
+        <div class="col-md-4">
+         <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
+         <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md">
+        </div>
+        <div class="col-md-4">
+            <button id="submit" name="search" value="true" type="submit" class="btn btn-sq-lg btn-primary">
+                <i class="fas fa-search fa-5x"></i><br />
+                Szukaj
+            </button>
+        </div>
+        
+        </form>
+        <div class="col-md-4">
             <form action="" class="form-horizontal" method="post">
-                <fieldset>
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-                <legend>Wyszukaj towar w magazynie</legend>
-                <div class="form-group">
-                  <label class="col-md-4 control-label" for="ItemCatalogNumber">Numer katalogowy</label>  
-                  <div class="col-md-4">
-                  <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="col-md-4 control-label" for="ItemCode">Kod towaru</label>  
-                  <div class="col-md-4">
-                  <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="col-md-4 control-label" for="Warehouse">Magazyn</label>  
-                  <div class="col-md-4">
-                  <input id="Warehouse" name="SearchWarehouse" type="text" placeholder="nazwa" class="form-control input-md">
-                  </div>
-                </div>
-                    <div class="form-group">
-                  <label class="col-md-4 control-label" for="Warehouse"></label>  
-                  <div class="col-md-4">
-                          <button id="submit" name="search" value="true" type="submit" class="btn btn-primary btn-block">Szukaj</button>
-                  </div>
-                </div>
-                </fieldset>
+                <button id="submit" type="submit" name="searchAll" value="true" class="btn btn-sq-lg btn-info">
+                <i class="fas fa-cloud-download-alt fa-5x"></i><br />
+                Pobierz wszystko</button>
             </form>
-            <form action="" class="form-horizontal" method="post">
-                <fieldset>
-                <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
-                <legend class="text-center">lub</legend>
-                    <div class="form-group">
-                  <label class="col-md-4 control-label" for="Warehouse"></label>  
-                  <div class="col-md-4">
-                          <button id="submit" type="submit" name="searchAll" value="true" class="btn btn-info btn-block">Pobierz wszystko</button>
-                  </div>
-                </div>
-                </fieldset>
-            </form>
-            </div>
+        </div>
+    </div>
+</div>
+            
+            
         
         <?php if(isset($datatable)):?>
             <table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
