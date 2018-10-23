@@ -196,7 +196,7 @@ class Options
      *
      * @var bool
      */
-    private $isHtml5ParserEnabled = false;
+    private $isHtml5ParserEnabled = true;
 
     /**
      * Whether to enable font subsetting or not.
