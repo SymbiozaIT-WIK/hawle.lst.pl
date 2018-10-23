@@ -9,7 +9,6 @@ class User_model extends CI_Model
         $this->db->where('password', $password);
         $query = $this->db->get('user');
         $row = $query->result_array();
-        print_r($row);
         if($query->num_rows()==1){
             $this->session->set_userdata('logged',TRUE);
             $this->session->set_userdata('login',$login);
@@ -31,10 +30,7 @@ class User_model extends CI_Model
 	}
 
     public function create_user($data){
-        $dbInsert=array(
-            'login' => $data['login'],
-            'password' => sha1($data['password'])
-        );
+        $dbInsert=array('login' => $data['login'], 'password' => sha1($data['password']));
         $this->db->insert('user',$dbInsert);
     }
     
