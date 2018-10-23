@@ -71,18 +71,17 @@ class Order extends CI_Controller {
     //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
         $SearchItemCatalogNumber = $this->input->post('SearchItemCatalogNumber') ? $this->input->post('SearchItemCatalogNumber') : '';
         $SearchItemCode = $this->input->post('SearchItemCode') ? $this->input->post('SearchItemCode') : '';
+        $SearchItemAttribute = $this->input->post('SearchItemAttribute') ? $this->input->post('SearchItemAttribute') : '';
         $SearchWarehouse = $this->input->post('SearchWarehouse') ? $this->input->post('SearchWarehouse') : '';
         $search = $this->input->post('search');
         $searchAll = $this->input->post('searchAll');
         
-        if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $search==true)
-        { 
+        if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $SearchItemAttribute=='' && $search==true){ 
             $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
         }elseif($search){
-            $data['datatable']=$this->Order_model->get_create_mm_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse); //lista dostępnych towarów
+            $data['datatable']=$this->Order_model->get_create_mm_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse,$SearchItemAttribute); //lista dostępnych towarów
         }elseif($searchAll){
-            $data['datatable']=$this->Order_model->get_create_mm_items();
-        }
+            $data['datatable']=$this->Order_model->get_create_mm_items();}
     //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
     //wyszukiwaczka////wyszukiwaczka////wyszukiwaczka////wyszukiwaczka//
 
@@ -196,15 +195,16 @@ class Order extends CI_Controller {
         //wyszukiwaczka
         $SearchItemCatalogNumber = $this->input->post('SearchItemCatalogNumber') ? $this->input->post('SearchItemCatalogNumber') : '';
         $SearchItemCode = $this->input->post('SearchItemCode') ? $this->input->post('SearchItemCode') : '';
+        $SearchItemAttribute = $this->input->post('SearchItemAttribute') ? $this->input->post('SearchItemAttribute') : '';
         $SearchWarehouse = $this->input->post('SearchWarehouse') ? $this->input->post('SearchWarehouse') : '';
         $search = $this->input->post('search');
         $searchAll = $this->input->post('searchAll');
         
-        if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $search==true)
+        if($SearchItemCode=='' && $SearchItemCatalogNumber=='' && $SearchWarehouse=='' && $SearchItemAttribute=='' && $search==true)
         { 
             $this->session->set_flashdata('alert', array( 'color'=>'warning', 'title'=>'Błąd formularza', 'content'=>'Należy wypełnić przynajmniej jedno pole lub pobrać wszystkie rekordy.'));
         }elseif($search){
-            $data['datatable']=$this->Order_model->get_create_zs_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse); //lista dostępnych towarów
+            $data['datatable']=$this->Order_model->get_create_zs_items($SearchItemCatalogNumber,$SearchItemCode,$SearchWarehouse,$SearchItemAttribute); //lista dostępnych towarów
         }elseif($searchAll){
             $data['datatable']=$this->Order_model->get_create_zs_items();
         }

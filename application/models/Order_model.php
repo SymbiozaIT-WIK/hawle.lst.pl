@@ -49,8 +49,8 @@ class Order_model extends CI_Model
         $this->db->insert('order_lines',$orderLine);
     }
     
-    public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse=''){
-        $this->db->select('itemcode, catalogNo, attribute, description, regionalWarehouseCode, realStock');
+    public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='',$ItemAttribute=''){
+        $this->db->select('catalogNo, itemcode, attribute, description, regionalWarehouseCode, realStock');
         $this->db->from('view_inventory');
         $this->db->where('regionalWarehouseCode like \'THAN\'');
         
@@ -58,11 +58,13 @@ class Order_model extends CI_Model
             $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');}
         if($ItemCode!=''){
             $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
+        if($ItemAttribute!=''){
+            $this->db->where('attribute like \'%'.$ItemAttribute.'%\'');}
         
         $query=$this->db->get();
         $rows=$query->result_array();
         
-        $headings = array('Kod towaru', 'Numer katalogowy','Cecha','Opis', 'Magazyn', 'Zapas');
+        $headings = array('Numer katalogowy','Kod towaru', 'Cecha','Opis', 'Magazyn', 'Zapas');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -80,9 +82,9 @@ class Order_model extends CI_Model
         return $table;
     }
     
-    public function get_create_mm_items($ItemCatalogNumber='',$ItemCode='',$Warehouse=''){
+    public function get_create_mm_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='',$ItemAttribute=''){
         
-        $this->db->select('itemcode,description,attribute,regionalwarehousecode, realStock');
+        $this->db->select('catalogno,itemcode,description,attribute,regionalwarehousecode, realStock');
         $this->db->from('view_inventory');
         
         if($ItemCatalogNumber!=''){
@@ -91,12 +93,14 @@ class Order_model extends CI_Model
             $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
         if($Warehouse!=''){
             $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
+        if($ItemAttribute!=''){
+            $this->db->where('attribute like \'%'.$ItemAttribute.'%\'');}
         
         $this->db->where('regionalwarehousecode','THAN'); //mmki zawsze z magazynu THAN!!
         $query = $this->db->get();
         $rows = $query->result_array();
         
-        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan');
+        $headings = array('Numer katalogowy','Kod towaru', 'Opis','Cecha','Magazyn','Stan');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
