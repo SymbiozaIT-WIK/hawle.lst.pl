@@ -1,10 +1,10 @@
 <pre>
     <?php
-//        print_r($fvHeader);
-//        print_r($fvLines);
+        print_r($fvHeader);
+        print_r($fvLines);
     ?>
 </pre>
-
+<?php $fvHeader=$fvHeader[0];?>
 <div class="container" style="border:0.1em solid #ddd;">
     <div class="row">
         <div class="col-xs-6">
@@ -14,10 +14,10 @@
         </div>
         <div class="col-xs-6 text-right">
             <h1>FAKTURA</h1>
-            <h1><small>Numer: F118/10/265</small></h1>
-            <h2><small>Data wystawienia: 2018-10-15</small></h2>
-            <h2><small>Opis księgowania: TA: mail p.Młodziński</small></h2>
-            <h2><small>Numer dokumentu zewnętrznego: 2018-10-15</small></h2>
+            <h1><small>Numer: <?php echo $fvHeader['INVOICENO'];?></small></h1>
+            <h2><small>Data wystawienia: <?php echo $fvHeader['DOCUMENTDATE'];?></small></h2>
+            <h2><small>Opis księgowania: <?php echo $fvHeader['POSTINGDESCRIPTION'];?></small></h2>
+            <h2><small>Numer dokumentu zewnętrznego: <?php echo $fvHeader['EXTERNALDOCNO'];?></small></h2>
         </div>
     </div>
     <div class="row">
@@ -50,7 +50,6 @@
             </div>
         </div>
     </div>
-    <!-- / end client details section -->
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -84,67 +83,34 @@
             </tr>
         </thead>
         <tbody>
+           <?php $lp=0;?>
+           <?php foreach($fvLines as $line):?>
+           <?php $lp++;?>
             <tr>
-                <td>1</td>
-                <td>ZS4000200E1XW16</td>
-                <td class="text-right">Zasuwa kołnierzowa typu E1</td>
+                <td><?php echo $lp; ?></td>
+                <td><?php echo $line['ITEMCODE'];?></td>
+                <td class="text-right">!!!opis!!!</td>
                 <td class="text-right">DN200, PN16</td>
-                <td class="text-right">4000E1</td>
-                <td class="text-right">2</td>
-                <td class="text-right">939.02</td>
-                <td class="text-right">1 878.04</td>
+                <td class="text-right"><?php echo $line['ITEMCATALOGNO'];?></td>
+                <td class="text-right"><?php echo $line['QUANTITY'];?></td>
+                <td class="text-right"><?php echo $line['NETAMOUNT'];?></td>
+                <td class="text-right"><?php echo $line['AMOUNT'];?></td>
                 <td class="text-center"><a href="">ZOBACZ</a></td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>ZS4000200E1XW16</td>
-                <td class="text-right">Zasuwa kołnierzowa typu E1</td>
-                <td class="text-right">DN200, PN16</td>
-                <td class="text-right">4000E1</td>
-                <td class="text-right">2</td>
-                <td class="text-right">939.02</td>
-                <td class="text-right">1 878.04</td>
-                <td class="text-center"><a href="">ZOBACZ</a></td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>ZS4000200E1XW16</td>
-                <td class="text-right">Zasuwa kołnierzowa typu E1</td>
-                <td class="text-right">DN200, PN16</td>
-                <td class="text-right">4000E1</td>
-                <td class="text-right">2</td>
-                <td class="text-right">939.02</td>
-                <td class="text-right">1 878.04</td>
-                <td class="text-center"><a href="">ZOBACZ</a></td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>ZS4000200E1XW16</td>
-                <td class="text-right">Zasuwa kołnierzowa typu E1</td>
-                <td class="text-right">DN200, PN16</td>
-                <td class="text-right">4000E1</td>
-                <td class="text-right">2</td>
-                <td class="text-right">939.02</td>
-                <td class="text-right">1 878.04</td>
-                <td class="text-center"><a href="">ZOBACZ</a></td>
-            </tr>
+            <?php endforeach;?>
         </tbody>
     </table>
     <div class="row text-right">
         <div class="col-xs-2 col-xs-offset-8">
             <p>
                 <strong>
-                    Netto : <br>
-                    Podatek : <br>
-                    Brutto : <br>
+                    Kwota: <br>
                 </strong>
             </p>
         </div>
         <div class="col-xs-2">
             <strong>
-                1200.00 PLN <br>
-                50,23 PLN <br>
-                1200.00 PLN <br>
+                <?php echo $fvHeader['AMOUNT'];?> <br>
             </strong>
         </div>
     </div>

@@ -58,6 +58,35 @@ class Update_model extends CI_Model
             $i++;}
         print 'Dodano '.$i.' rekordów do regional_warehouse';
     }
+    
+    public function up_invoice_header(){
+        $hawledb = $this->load->database('svsql001', TRUE);
+        $localdb = $this->load->database('default', TRUE);
+        $i=0;
+        
+        $query = $hawledb->get('www_invoice_header');
+        foreach ($query->result() as $row) {
+            $localdb->insert('invoice_header',$row);  
+            $i++;}
+        print 'Dodano '.$i.' rekordów do invoice_header';
+    }
+    
+    public function up_invoice_lines(){
+//        ini_set('memory_limit','256M');
+        ini_set('memory_limit', '-1');
+        ini_set('sqlsrv.ClientBufferMaxKBSize','524288'); 
+        ini_set('pdo_sqlsrv.client_buffer_max_kb_size','524288');
+//        phpinfo();
+        
+        $hawledb = $this->load->database('svsql001', TRUE);
+        $localdb = $this->load->database('default', TRUE);
+        $i=0;
+        $query = $hawledb->get('www_invoice_lines');
+        foreach ($query->result() as $row) {
+            $localdb->insert('invoice_lines',$row);  
+            $i++;}
+        print 'Dodano '.$i.' rekordów do invoice_lines';
+    }
 }
 
 /* End of file Update_model.php */

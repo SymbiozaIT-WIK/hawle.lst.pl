@@ -114,6 +114,23 @@ class DbViews_model extends CI_Model
         return $rows;
     }
     
+    public function get_fvDetails($fvNo){
+
+            $this->db->select('*');
+            $this->db->from('view_fvHeader');
+            $this->db->where('invoiceno',$fvNo);
+            $query = $this->db->get();
+            $rows['fvHeader'] = $query->result_array();
+
+            $this->db->select('*');
+            $this->db->from('view_fvLines');
+            $this->db->where('invoiceno',$fvNo);
+            $query = $this->db->get();
+            $rows['fvLines'] = $query->result_array();  
+        
+        return $rows;
+    }
+    
 }
 
 /* End of file DbViews_model.php */

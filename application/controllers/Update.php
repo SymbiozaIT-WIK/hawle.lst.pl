@@ -11,6 +11,8 @@ class Update extends CI_Controller {
             <li>up/item</li>
             <li>up/user</li>
             <li>up/regionalWarehouse</li>
+            <li>up/invoiceh</li>
+            <li>up/invoicel</li>
         </ul>';
     }
     
@@ -29,6 +31,12 @@ class Update extends CI_Controller {
                 break;
             case 'regionalWarehouse':
                 $this->Update_model->up_regional_warehouse();
+                break;
+            case 'invoiceh':
+                $this->Update_model->up_invoice_header();
+                break;
+            case 'invoicel':
+                $this->Update_model->up_invoice_lines();
                 break;
         }
     }

@@ -22,8 +22,9 @@ class DataTable_model extends CI_Model
         $headings = array('Nr faktury', 'Data faktury','Termin płatności','Kwota','Opis księgowania','Numer dokumentu zewnętrznego');
         $settings =array('lp' => true, 'footerHeading' => false);
         
-        $this->db->select('invoiceno,documentdate,paymentdate,amount,postingdescription,externaldocno');
+        $this->db->select('invoiceno,cast(documentdate as date) as documentdate,cast(paymentdate as date),amount,postingdescription,externaldocno');
         $this->db->from('invoice_header');
+        $this->db->where('invoiceno like \'%F117/01%\'');
         $query = $this->db->get();
         $rows = $query->result_array();
         
