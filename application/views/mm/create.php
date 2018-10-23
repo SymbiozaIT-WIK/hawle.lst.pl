@@ -182,26 +182,25 @@
         
         <div class="col-md-4">
          <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
-         <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md">
+         <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md" style="margin-top:20px;">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
             <button id="submit" name="search" value="true" type="submit" class="btn btn-sq-lg btn-primary">
-                <i class="fas fa-search fa-5x"></i><br />
+                <i class="fas fa-search fa-4x"></i><br />
                 Szukaj
             </button>
         </div>
         
         </form>
-        <div class="col-md-4">
+        <div class="col-md-6 text-right">
             <form action="" class="form-horizontal" method="post">
                 <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                 <button id="submit" type="submit" name="searchAll" value="true" class="btn btn-sq-lg btn-info">
-                <i class="fas fa-cloud-download-alt fa-5x"></i><br />
+                <i class="fas fa-cloud-download-alt fa-4x"></i><br />
                 Pobierz wszystko</button>
             </form>
         </div>
     </div>
-</div>
             
             
         
