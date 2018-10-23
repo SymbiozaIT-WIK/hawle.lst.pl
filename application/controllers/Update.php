@@ -5,12 +5,32 @@ class Update extends CI_Controller {
     
 	public function index(){
         print '<h1>Update bazy danych z HA00</h1>';        
-        phpinfo();
+        print'
+        <ul>
+            <li>up/inventory</li>
+            <li>up/item</li>
+            <li>up/user</li>
+            <li>up/regionalWarehouse</li>
+        </ul>';
     }
     
-    public function up(){
+    public function up($tableName){
         $this->load->model('Update_model');
-        $this->Update_model->up_inventory();
+        
+        switch($tableName){
+            case 'inventory':
+                $this->Update_model->up_inventory();
+                break;
+            case 'item':
+                $this->Update_model->up_item();
+                break;
+            case 'user':
+                $this->Update_model->up_user();
+                break;
+            case 'regionalWarehouse':
+                $this->Update_model->up_regional_warehouse();
+                break;
+        }
     }
 }
 ?>
