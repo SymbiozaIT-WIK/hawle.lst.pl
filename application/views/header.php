@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--        <link href="<?php #echo base_url();?>/assets/md/css/mdb.min.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/main.css">
 
         <script src="<?php echo base_url();?>/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
