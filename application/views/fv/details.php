@@ -1,7 +1,7 @@
 <pre>
     <?php
-        print_r($fvHeader);
-        print_r($fvLines);
+//        print_r($fvHeader);
+//        print_r($fvLines);
     ?>
 </pre>
 <?php $fvHeader=$fvHeader[0];?>
@@ -89,8 +89,8 @@
             <tr>
                 <td><?php echo $lp; ?></td>
                 <td><?php echo $line['ITEMCODE'];?></td>
-                <td class="text-right">!!!opis!!!</td>
-                <td class="text-right">DN200, PN16</td>
+                <td class="text-right"><?php echo $line['itemdesc'];?></td>
+                <td class="text-right"><?php echo $line['attribute'];?></td>
                 <td class="text-right"><?php echo $line['ITEMCATALOGNO'];?></td>
                 <td class="text-right"><?php echo $line['QUANTITY'];?></td>
                 <td class="text-right"><?php echo $line['NETAMOUNT'];?></td>
