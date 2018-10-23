@@ -11,10 +11,6 @@ class Update_model extends CI_Model
         $rows = $query->result_array();
         print_r($rows);
     }
-    
-    
-
-    
 }
 
 /* End of file Update_model.php */

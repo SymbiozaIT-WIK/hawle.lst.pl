@@ -77,7 +77,6 @@ class Xml_model extends CI_Model
         }
     }
     
-    
     public function zs_to_xml($zsId){
         $this->load->model('DbViews_model');
         $this->load->model('Order_model');
@@ -97,7 +96,6 @@ class Xml_model extends CI_Model
             $this->Order_model->set_order_status($zsXML,3); //zmiana statusu na 3->zaakceptowane (wygenerowano xml)
         }
     }
-    
 }
 
 /* End of file Xml_model.php */

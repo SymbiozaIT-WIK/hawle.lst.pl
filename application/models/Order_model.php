@@ -34,8 +34,6 @@ class Order_model extends CI_Model
     }
     
     public function add_line($orderNo='',$orderLine){
-            //dorobić numerowanie linii
-        
         $this->db->select('lineNo');
         $this->db->from('order_lines');
         $this->db->where('tempdocumentno',$orderNo);
@@ -43,27 +41,15 @@ class Order_model extends CI_Model
         $this->db->limit(1);
         $query=$this->db->get();
         $table=$query->result_array();
+        
         if($query->num_rows()==1){
             $orderLine['lineNo']=$table[0]['lineNo']+10000;
-        }else{
-            $orderLine['lineNo']=10000;
-        }
+        }else{ $orderLine['lineNo']=10000;}
         
         $this->db->insert('order_lines',$orderLine);
     }
     
-    public function create_line($lineNo)
-    {
-        
-    }
-    
-    public function update_line($lineNo)
-    {
-        
-    }
-    
-    public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='')
-    {
+    public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse=''){
         $this->db->select('itemcode, catalogNo, attribute, description, regionalWarehouseCode, realStock');
         $this->db->from('view_inventory');
         $this->db->where('regionalWarehouseCode like \'THAN\'');
@@ -86,8 +72,7 @@ class Order_model extends CI_Model
         return $data;
     }
     
-    public function get_order_headers($user)
-    {
+    public function get_order_headers($user){
         $this->db->from('order_header');
         $this->db->where('sellto', $user);
         $query=$this->db->get();
@@ -122,7 +107,6 @@ class Order_model extends CI_Model
     }
     
     public function get_mmDetails($mmNo='',$temp=false){
-
             if($temp){
                 
                 $this->db->select('*');
@@ -196,7 +180,6 @@ class Order_model extends CI_Model
     }
     
     public function get_create_wz_items(){
-        
         $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode, vi.realStock');
         $this->db->from('view_inventory as vi');
         $this->db->join('regional_warehouse as rw','rw.code=vi.regionalWarehouseCode');
@@ -215,7 +198,6 @@ class Order_model extends CI_Model
     }
 
     public function get_zsDetails($zsNo='',$temp=false){
-
             if($temp){
                 
                 $this->db->select('*');
@@ -249,8 +231,6 @@ class Order_model extends CI_Model
         
         return $rows;
     }
-    
-
     
     public function set_order_status($orderId,$status){
         $this->db->where('tempid', $orderId);
@@ -292,7 +272,6 @@ class Order_model extends CI_Model
         $this->db->where('tempdocumentno', $tempDocNo);
         $this->db->where('lineno', $lineNo);
         $this->db->delete('order_lines');
-        
     }
 }
 

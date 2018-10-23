@@ -70,10 +70,6 @@ class DataTable_model extends CI_Model
         return $dataTable;
     }
     
-    
-    
-    
-    
     public function get_order_list($status=''){
         $usertype = $this->session->userdata('usertype');
         

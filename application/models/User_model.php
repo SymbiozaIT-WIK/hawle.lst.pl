@@ -3,8 +3,7 @@
 class User_model extends CI_Model
 {
 
-	public function login($login, $password)
-	{
+	public function login($login, $password){
         $this->db->select('id, login, password,type,name,name2,email,city');
         $this->db->where('login', $login);
         $this->db->where('password', $password);
@@ -12,7 +11,6 @@ class User_model extends CI_Model
         $row = $query->result_array();
         print_r($row);
         if($query->num_rows()==1){
-            
             $this->session->set_userdata('logged',TRUE);
             $this->session->set_userdata('login',$login);
             $this->session->set_userdata('usertype',$row[0]['type']);
@@ -21,7 +19,6 @@ class User_model extends CI_Model
             $this->session->set_userdata('email',$row[0]['email']);
             $this->session->set_userdata('city',$row[0]['city']);
             redirect('panel');
-            
         }else{
             $alert=array(
                 'title' => 'Błąd logowania.',
@@ -29,21 +26,17 @@ class User_model extends CI_Model
                 'color' => 'danger'
             );
             $this->session->set_flashdata('alert',$alert);
-            
             redirect('');
         }
 	}
 
-    
     public function create_user($data){
-    
         $dbInsert=array(
             'login' => $data['login'],
             'password' => sha1($data['password'])
         );
         $this->db->insert('user',$dbInsert);
     }
-
     
     public function user_list($key,$value){
         $this->db->select('*');

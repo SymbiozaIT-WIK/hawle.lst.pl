@@ -12335,9 +12335,10 @@ CREATE TABLE `order_header` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `order_header` (`tempid`, `NO`, `CUSTOMERDOCNO`, `TYPE`, `STATUSID`, `STATUS2ID`, `DATE_ADD`, `DocumentDate`, `ACCEPTDATE`, `DESCRIPTION`, `SELLTO`, `BUYFROM`, `frommag`, `tomag`, `SALESMAN`, `PAYMENTTERMS`, `AMOUNT`, `NETAMOUNT`) VALUES
-(257,	'',	'zam10/21/21',	'zs',	3,	NULL,	'2018-10-22 12:41:50',	'0000-00-00',	'2018-10-22',	'komentarz do zamówienia',	'1010',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
-(258,	'',	'zamówienie 1125',	'mm',	3,	NULL,	'2018-10-22 12:42:27',	'0000-00-00',	'2018-10-22',	'asdasd',	'1028',	NULL,	'SK10',	NULL,	NULL,	NULL,	NULL,	NULL),
-(259,	'',	'wydanie',	'wz',	3,	NULL,	'2018-10-22 12:43:00',	'0000-00-00',	'2018-10-22',	'                          dasasd  ',	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL);
+(299,	'',	'ZS/10/22/001',	'zs',	2,	NULL,	'2018-10-22 22:17:43',	'0000-00-00',	'2018-10-22',	'Zamówienie. Typ ZS. Klient zwykły',	'1010',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
+(300,	'',	'MM/10/22/001',	'mm',	2,	NULL,	'2018-10-22 22:21:05',	'0000-00-00',	'2018-10-22',	'Zamówienie. Typ: MM. Klient: Skład Regionalny.',	'1028',	NULL,	NULL,	'SK10',	NULL,	NULL,	NULL,	NULL),
+(302,	'',	'WZ/10/22/001',	'wz',	2,	NULL,	'2018-10-22 22:22:27',	'0000-00-00',	'2018-10-22',	'Zamówienie. Typ: WZ. Klient: Skład regionalny. Wydania z 1 magazynu.',	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
+(304,	'',	NULL,	'wz',	1,	NULL,	'2018-10-22 23:13:08',	'0000-00-00',	NULL,	NULL,	'1028',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `order_lines`;
 CREATE TABLE `order_lines` (
@@ -12361,13 +12362,13 @@ CREATE TABLE `order_lines` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `order_lines` (`ID`, `DOCUMENTNO`, `tempdocumentno`, `LINENO`, `QUANTITY`, `DESCRIPTION`, `ITEMCODE`, `AMOUNT`, `WEIGHT`, `NETAMOUNT`, `DISCOUNT`, `DELIVERYDATE`, `QTYAVAILABLE`, `QTYDUE`, `QTYDELIVERED`, `REGIONALWAREHOUSECODE`) VALUES
-(142,	NULL,	'250',	10000,	1,	'Nośnik uszczelki zintegrowanej',	'CZHANUSZZINP38X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
-(143,	NULL,	'250',	20000,	12,	'Elektrokolano 90° bez zacisków',	'GFEL753101612XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
-(144,	NULL,	'257',	10000,	1,	'Trójnik 90° redukcyjny krótki',	'GFKD753200032XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
-(145,	NULL,	'257',	20000,	1,	'Elektrokolano 45° - stary inde',	'GFEL753151812XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
-(146,	NULL,	'258',	10000,	2,	'Trójnik 90° równoprzelotowy',	'GFKD753200815XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
-(147,	NULL,	'258',	20000,	1,	'Napęd nastawnika Auma',	'AU9920SA102X22X',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
-(148,	NULL,	'259',	10000,	1,	'Combi T ',	'CO4340200080E10',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'SK10');
+(180,	NULL,	'299',	10000,	1,	'Redukcja długa',	'SIKD19700222XXX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(181,	NULL,	'299',	20000,	2,	'Elektrotrójnik 90°',	'GFEL753201821XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(182,	NULL,	'300',	10000,	12,	'Złączka redukcyjna',	'GFPP700627122XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(183,	NULL,	'300',	20000,	2,	'Obejma siodłowa',	'GFOS193131137XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(184,	NULL,	'300',	30000,	11,	'Elektrokolano 90°, PE/stal',	'GFEL724100758XX',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'THAN'),
+(185,	NULL,	'302',	10000,	1,	'Combi T ',	'CO4340200080E10',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'SK10'),
+(186,	NULL,	'302',	20000,	1,	'Combi T ',	'CO4340200080E10',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'SK10');
 
 DROP TABLE IF EXISTS `order_status`;
 CREATE TABLE `order_status` (
@@ -17672,11 +17673,11 @@ CREATE TABLE `view_invlines` (`itemcode` varchar(40), `description` text, `attri
 
 
 DROP VIEW IF EXISTS `view_mmheader`;
-CREATE TABLE `view_mmheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` varchar(50), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` date, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11), `FROMMAG` varchar(40));
+CREATE TABLE `view_mmheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` varchar(50), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` date, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11), `TOMAG` varchar(40), `statusname` varchar(40), `tomagname` varchar(100));
 
 
 DROP VIEW IF EXISTS `view_mmheaderxml`;
-CREATE TABLE `view_mmheaderxml` (`DataKsiegowania` varchar(10), `KodLokalizacjiPierwotnej` varchar(40), `KodLokalizacjiDocelowej` varchar(40), `DataWydania` varchar(10), `DataPrzyjecia` varchar(10), `Status` int(1), `Uwagi` varchar(200), `NrZam` varchar(40), `NrTymczasowy` varchar(11));
+CREATE TABLE `view_mmheaderxml` (`DataKsiegowania` varchar(10), `KodLokalizacjiPierwotnej` varchar(4), `KodLokalizacjiDocelowej` varchar(40), `DataWydania` varchar(10), `DataPrzyjecia` varchar(10), `Status` int(1), `Uwagi` varchar(200), `NrZam` varchar(40), `NrTymczasowy` varchar(11));
 
 
 DROP VIEW IF EXISTS `view_mmlines`;
@@ -17684,7 +17685,7 @@ CREATE TABLE `view_mmlines` (`ID` int(10), `DOCUMENTNO` varchar(50), `LINENO` in
 
 
 DROP VIEW IF EXISTS `view_mmlinesxml`;
-CREATE TABLE `view_mmlinesxml` (`NrWiersza` varchar(11), `NrZapasu` varchar(40), `Ilosc` varchar(11), `jednostka` varchar(50), `IloscDoWydania` varchar(11), `Status` int(1), `Opis` mediumtext, `KodLokalizacjiPierwotnej` varchar(40), `KodLokalizacjiDocelowej` varchar(40), `KodddLokalizacjiWDrodze` varchar(5), `DataWydania` varchar(10), `DataPrzyjecia` varchar(10), `NrTymczasowy` varchar(11));
+CREATE TABLE `view_mmlinesxml` (`NrWiersza` varchar(11), `NrZapasu` varchar(40), `Ilosc` varchar(11), `jednostka` varchar(50), `IloscDoWydania` varchar(11), `Status` varchar(1), `Opis` mediumtext, `KodLokalizacjiPierwotnej` varchar(4), `KodLokalizacjiDocelowej` varchar(40), `KodLokalizacjiWDrodze` varchar(5), `DataWydania` varchar(10), `DataPrzyjecia` varchar(10), `NrTymczasowy` varchar(11));
 
 
 DROP VIEW IF EXISTS `view_mmlist`;
@@ -17696,7 +17697,7 @@ CREATE TABLE `view_orderlist` (`customerdocno` varchar(40), `orderType` varchar(
 
 
 DROP VIEW IF EXISTS `view_wzheader`;
-CREATE TABLE `view_wzheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` varchar(50), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` date, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11), `FROMMAG` varchar(40));
+CREATE TABLE `view_wzheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` varchar(50), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` date, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11), `FROMMAG` varchar(40), `statusname` varchar(40));
 
 
 DROP VIEW IF EXISTS `view_wzheaderxml`;
@@ -17715,12 +17716,20 @@ DROP VIEW IF EXISTS `view_wzlist`;
 CREATE TABLE `view_wzlist` (`no` varchar(50), `acceptDate` date, `description` varchar(200), `statusName` varchar(40));
 
 
+DROP VIEW IF EXISTS `view_zsheader`;
+CREATE TABLE `view_zsheader` (`NO` varchar(50), `CUSTOMERDOCNO` varchar(40), `TYPE` varchar(50), `STATUSID` int(10), `STATUS2ID` int(10), `DATE_ADD` datetime, `ACCEPTDATE` date, `DESCRIPTION` varchar(200), `SELLTO` varchar(40), `BUYFROM` varchar(40), `SALESMAN` varchar(40), `PAYMENTTERMS` varchar(40), `AMOUNT` decimal(10,1), `NETAMOUNT` decimal(10,1), `tempid` int(11), `TOMAG` varchar(40), `statusname` varchar(40), `tomagname` varchar(100));
+
+
 DROP VIEW IF EXISTS `view_zsheaderxml`;
 CREATE TABLE `view_zsheaderxml` (`DocumentType` int(1), `DataDokumentu` varchar(10), `NrNabywcy` varchar(40), `NrOdbiorcy` varchar(40), `DataZamowienia` varchar(10), `DataKsiegowania` varchar(10), `DataWydania` varchar(10), `Nip` varchar(50), `KodKrajuVat` varchar(2), `NrZam` varchar(40), `NrTymczasowy` varchar(11));
 
 
+DROP VIEW IF EXISTS `view_zslines`;
+CREATE TABLE `view_zslines` (`ID` int(10), `DOCUMENTNO` varchar(50), `LINENO` int(10), `QUANTITY` int(10), `DESCRIPTION` varchar(40), `ITEMCODE` varchar(40), `AMOUNT` decimal(10,2), `WEIGHT` decimal(10,1), `NETAMOUNT` decimal(10,1), `DISCOUNT` decimal(10,1), `DELIVERYDATE` date, `QTYAVAILABLE` int(10), `QTYDUE` int(10), `QTYDELIVERED` int(10), `REGIONALWAREHOUSECODE` varchar(40), `tempdocumentno` varchar(50), `attribute` varchar(40));
+
+
 DROP VIEW IF EXISTS `view_zslinesxml`;
-CREATE TABLE `view_zslinesxml` (`DocumentType` int(1), `NumerWiersza` varchar(11), `NumerNabywcy` varchar(40), `Typ` int(1), `Nr` varchar(40), `KodLokalizacji` varchar(4), `Opis` varchar(40), `Jednostka` varchar(50), `Ilosc` varchar(11), `NrTymczasowy` varchar(11));
+CREATE TABLE `view_zslinesxml` (`DocumentType` int(1), `NrWiersza` varchar(11), `NrNabywcy` varchar(40), `Typ` int(1), `Nr` varchar(40), `KodLokalizacji` varchar(4), `Opis` varchar(40), `Jednostka` varchar(50), `Ilosc` varchar(11), `NrTymczasowy` varchar(11));
 
 
 DROP TABLE IF EXISTS `view_inventory`;
@@ -17733,16 +17742,16 @@ DROP TABLE IF EXISTS `view_invlines`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_invlines` AS select `il`.`ITEMCODE` AS `itemcode`,`it`.`DESCRIPTION` AS `description`,`it`.`ATTRIBUTE` AS `attribute`,`it`.`CATALOGNO` AS `catalogno`,`il`.`QUANTITY` AS `quantity`,`il`.`NETAMOUNT` AS `netamount` from (`item` `it` left join `invoice_lines` `il` on((`it`.`CODE` = `il`.`ITEMCODE`)));
 
 DROP TABLE IF EXISTS `view_mmheader`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid`,`order_header`.`frommag` AS `FROMMAG` from `order_header`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid`,`order_header`.`tomag` AS `TOMAG`,`os`.`NAME` AS `statusname`,`rw`.`description` AS `tomagname` from ((`order_header` join `order_status` `os` on((`os`.`ID` = `order_header`.`STATUSID`))) left join `regional_warehouse` `rw` on((`rw`.`CODE` = `order_header`.`tomag`)));
 
 DROP TABLE IF EXISTS `view_mmheaderxml`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheaderxml` AS select coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,0 AS `Status`,coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,coalesce(`oh`.`CUSTOMERDOCNO`,'') AS `NrZam`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from `order_header` `oh`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmheaderxml` AS select coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,'THAN' AS `KodLokalizacjiPierwotnej`,coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,0 AS `Status`,coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,coalesce(`oh`.`CUSTOMERDOCNO`,'') AS `NrZam`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from `order_header` `oh`;
 
 DROP TABLE IF EXISTS `view_mmlines`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlines` AS select `ol`.`ID` AS `ID`,`ol`.`DOCUMENTNO` AS `DOCUMENTNO`,`ol`.`LINENO` AS `LINENO`,`ol`.`QUANTITY` AS `QUANTITY`,`ol`.`DESCRIPTION` AS `DESCRIPTION`,`ol`.`ITEMCODE` AS `ITEMCODE`,`ol`.`AMOUNT` AS `AMOUNT`,`ol`.`WEIGHT` AS `WEIGHT`,`ol`.`NETAMOUNT` AS `NETAMOUNT`,`ol`.`DISCOUNT` AS `DISCOUNT`,`ol`.`DELIVERYDATE` AS `DELIVERYDATE`,`ol`.`QTYAVAILABLE` AS `QTYAVAILABLE`,`ol`.`QTYDUE` AS `QTYDUE`,`ol`.`QTYDELIVERED` AS `QTYDELIVERED`,`ol`.`REGIONALWAREHOUSECODE` AS `REGIONALWAREHOUSECODE`,`ol`.`tempdocumentno` AS `tempdocumentno`,`it`.`ATTRIBUTE` AS `attribute` from (`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`)));
 
 DROP TABLE IF EXISTS `view_mmlinesxml`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlinesxml` AS select coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,coalesce(`ol`.`ITEMCODE`,'') AS `NrZapasu`,coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,coalesce(`it`.`Unit`,'') AS `jednostka`,coalesce(`ol`.`QUANTITY`,'') AS `IloscDoWydania`,0 AS `Status`,coalesce(`it`.`DESCRIPTION`,'') AS `Opis`,coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,'XMWDR' AS `KodddLokalizacjiWDrodze`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)));
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlinesxml` AS select coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,coalesce(`ol`.`ITEMCODE`,'') AS `NrZapasu`,coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,coalesce(`it`.`Unit`,'') AS `jednostka`,coalesce(`ol`.`QUANTITY`,'') AS `IloscDoWydania`,'0' AS `Status`,coalesce(`it`.`DESCRIPTION`,'') AS `Opis`,'THAN' AS `KodLokalizacjiPierwotnej`,coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,'XMWDR' AS `KodLokalizacjiWDrodze`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)));
 
 DROP TABLE IF EXISTS `view_mmlist`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_mmlist` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT` from `order_header`;
@@ -17751,7 +17760,7 @@ DROP TABLE IF EXISTS `view_orderlist`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_orderlist` AS select `oh`.`CUSTOMERDOCNO` AS `customerdocno`,`ot`.`NAME` AS `orderType`,`oh`.`DESCRIPTION` AS `description`,`oh`.`ACCEPTDATE` AS `acceptdate`,`oh`.`frommag` AS `frommag`,`oh`.`tempid` AS `tempid`,`os`.`NAME` AS `statusName` from (`order_status` `os` left join (`order_type` `ot` left join `order_header` `oh` on((`oh`.`TYPE` = `ot`.`ID`))) on((`oh`.`STATUSID` = `os`.`ID`)));
 
 DROP TABLE IF EXISTS `view_wzheader`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid`,`order_header`.`frommag` AS `FROMMAG` from `order_header`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid`,`order_header`.`frommag` AS `FROMMAG`,`os`.`NAME` AS `statusname` from (`order_header` join `order_status` `os` on((`os`.`ID` = `order_header`.`STATUSID`)));
 
 DROP TABLE IF EXISTS `view_wzheaderxml`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzheaderxml` AS select 1 AS `DocumentType`,coalesce(cast(`oh`.`ACCEPTDATE` as date),'') AS `DataDokumentu`,coalesce(`oh`.`SELLTO`,'') AS `NrNabywcy`,coalesce(`oh`.`SELLTO`,'') AS `NrOdbiorcy`,coalesce(cast(`oh`.`DATE_ADD` as date),'') AS `DataZamowienia`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,coalesce(`u`.`Nip`,'') AS `Nip`,'PL' AS `KodKrajuVat`,coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,coalesce(`oh`.`tempid`,'') AS `NrZam`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from (`order_header` `oh` join `user` `u` on((`oh`.`SELLTO` = `u`.`LOGIN`)));
@@ -17760,15 +17769,21 @@ DROP TABLE IF EXISTS `view_wzlines`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlines` AS select `ol`.`ID` AS `ID`,`ol`.`DOCUMENTNO` AS `DOCUMENTNO`,`ol`.`LINENO` AS `LINENO`,`ol`.`QUANTITY` AS `QUANTITY`,`ol`.`DESCRIPTION` AS `DESCRIPTION`,`ol`.`ITEMCODE` AS `ITEMCODE`,`ol`.`AMOUNT` AS `AMOUNT`,`ol`.`WEIGHT` AS `WEIGHT`,`ol`.`NETAMOUNT` AS `NETAMOUNT`,`ol`.`DISCOUNT` AS `DISCOUNT`,`ol`.`DELIVERYDATE` AS `DELIVERYDATE`,`ol`.`QTYAVAILABLE` AS `QTYAVAILABLE`,`ol`.`QTYDUE` AS `QTYDUE`,`ol`.`QTYDELIVERED` AS `QTYDELIVERED`,`ol`.`REGIONALWAREHOUSECODE` AS `REGIONALWAREHOUSECODE`,`ol`.`tempdocumentno` AS `tempdocumentno`,`it`.`ATTRIBUTE` AS `attribute` from (`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`)));
 
 DROP TABLE IF EXISTS `view_wzlinesxml`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlinesxml` AS select 1 AS `DokumentType`,`ol`.`LINENO` AS `NrWiersza`,`oh`.`SELLTO` AS `NrNabywcy`,2 AS `Typ`,`it`.`CODE` AS `Nr`,`oh`.`frommag` AS `KodLokalizacji`,`ol`.`DESCRIPTION` AS `Opis`,`it`.`Unit` AS `Jednostka`,`ol`.`QUANTITY` AS `Ilosc`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)));
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlinesxml` AS select 1 AS `DokumentType`,`ol`.`LINENO` AS `NrWiersza`,`oh`.`SELLTO` AS `NrNabywcy`,2 AS `Typ`,`it`.`CODE` AS `Nr`,`ol`.`REGIONALWAREHOUSECODE` AS `KodLokalizacji`,`ol`.`DESCRIPTION` AS `Opis`,`it`.`Unit` AS `Jednostka`,`ol`.`QUANTITY` AS `Ilosc`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)));
 
 DROP TABLE IF EXISTS `view_wzlist`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_wzlist` AS select `oh`.`NO` AS `no`,`oh`.`ACCEPTDATE` AS `acceptDate`,`oh`.`DESCRIPTION` AS `description`,`os`.`NAME` AS `statusName` from (`order_header` `oh` left join `order_status` `os` on((`oh`.`STATUSID` = `os`.`ID`)));
 
+DROP TABLE IF EXISTS `view_zsheader`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_zsheader` AS select `order_header`.`NO` AS `NO`,`order_header`.`CUSTOMERDOCNO` AS `CUSTOMERDOCNO`,`order_header`.`TYPE` AS `TYPE`,`order_header`.`STATUSID` AS `STATUSID`,`order_header`.`STATUS2ID` AS `STATUS2ID`,`order_header`.`DATE_ADD` AS `DATE_ADD`,`order_header`.`ACCEPTDATE` AS `ACCEPTDATE`,`order_header`.`DESCRIPTION` AS `DESCRIPTION`,`order_header`.`SELLTO` AS `SELLTO`,`order_header`.`BUYFROM` AS `BUYFROM`,`order_header`.`SALESMAN` AS `SALESMAN`,`order_header`.`PAYMENTTERMS` AS `PAYMENTTERMS`,`order_header`.`AMOUNT` AS `AMOUNT`,`order_header`.`NETAMOUNT` AS `NETAMOUNT`,`order_header`.`tempid` AS `tempid`,`order_header`.`tomag` AS `TOMAG`,`os`.`NAME` AS `statusname`,`rw`.`description` AS `tomagname` from ((`order_header` join `order_status` `os` on((`os`.`ID` = `order_header`.`STATUSID`))) left join `regional_warehouse` `rw` on((`rw`.`CODE` = `order_header`.`tomag`)));
+
 DROP TABLE IF EXISTS `view_zsheaderxml`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_zsheaderxml` AS select 1 AS `DocumentType`,coalesce(`oh`.`ACCEPTDATE`,' ') AS `DataDokumentu`,coalesce(`oh`.`SELLTO`,' ') AS `NrNabywcy`,coalesce(`oh`.`SELLTO`,' ') AS `NrOdbiorcy`,coalesce(cast(`oh`.`DATE_ADD` as date),' ') AS `DataZamowienia`,coalesce(`oh`.`ACCEPTDATE`,' ') AS `DataKsiegowania`,coalesce(`oh`.`ACCEPTDATE`,' ') AS `DataWydania`,coalesce(`u`.`Nip`,' ') AS `Nip`,coalesce('PL',' ') AS `KodKrajuVat`,coalesce(`oh`.`CUSTOMERDOCNO`,' ') AS `NrZam`,coalesce(`oh`.`tempid`,' ') AS `NrTymczasowy` from (`order_header` `oh` join `user` `u` on((`oh`.`SELLTO` = `u`.`LOGIN`)));
 
-DROP TABLE IF EXISTS `view_zslinesxml`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_zslinesxml` AS select 1 AS `DocumentType`,coalesce(`ol`.`LINENO`,'') AS `NumerWiersza`,coalesce(`oh`.`SELLTO`,'') AS `NumerNabywcy`,2 AS `Typ`,coalesce(`ol`.`ITEMCODE`,'') AS `Nr`,'THAN' AS `KodLokalizacji`,coalesce(`ol`.`DESCRIPTION`,'') AS `Opis`,coalesce(`it`.`Unit`,'') AS `Jednostka`,coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)));
+DROP TABLE IF EXISTS `view_zslines`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_zslines` AS select `ol`.`ID` AS `ID`,`ol`.`DOCUMENTNO` AS `DOCUMENTNO`,`ol`.`LINENO` AS `LINENO`,`ol`.`QUANTITY` AS `QUANTITY`,`ol`.`DESCRIPTION` AS `DESCRIPTION`,`ol`.`ITEMCODE` AS `ITEMCODE`,`ol`.`AMOUNT` AS `AMOUNT`,`ol`.`WEIGHT` AS `WEIGHT`,`ol`.`NETAMOUNT` AS `NETAMOUNT`,`ol`.`DISCOUNT` AS `DISCOUNT`,`ol`.`DELIVERYDATE` AS `DELIVERYDATE`,`ol`.`QTYAVAILABLE` AS `QTYAVAILABLE`,`ol`.`QTYDUE` AS `QTYDUE`,`ol`.`QTYDELIVERED` AS `QTYDELIVERED`,`ol`.`REGIONALWAREHOUSECODE` AS `REGIONALWAREHOUSECODE`,`ol`.`tempdocumentno` AS `tempdocumentno`,`it`.`ATTRIBUTE` AS `attribute` from (`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`)));
 
--- 2018-10-22 12:51:25
+DROP TABLE IF EXISTS `view_zslinesxml`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `view_zslinesxml` AS select 1 AS `DocumentType`,coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,coalesce(`oh`.`SELLTO`,'') AS `NrNabywcy`,2 AS `Typ`,coalesce(`ol`.`ITEMCODE`,'') AS `Nr`,'THAN' AS `KodLokalizacji`,coalesce(`ol`.`DESCRIPTION`,'') AS `Opis`,coalesce(`it`.`Unit`,'') AS `Jednostka`,coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)));
+
+-- 2018-10-23 06:52:23
