@@ -43,7 +43,6 @@
             <h4><?php echo $mmHeader['custpostcode']; ?></h4>
             <h4><?php echo $mmHeader['custcity']; ?></h4>
             <h4>Klient nr: <?php echo $mmHeader['SELLTO']; ?></h4>
-
             </td>
             <td>Data przyjęcia</td>
             <td colspan="2">

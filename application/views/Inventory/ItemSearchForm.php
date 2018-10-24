@@ -25,13 +25,19 @@
       </div>
     </div>
     <div class="form-group">
+      <label class="col-md-4 control-label" for="ItemAttribute">Cecha</label>  
+      <div class="col-md-4">
+      <input id="ItemAttribute" name="ItemAttribute" type="text" placeholder="cecha" class="form-control input-md">
+      </div>
+    </div>
+    <div class="form-group" hidden>
       <label class="col-md-4 control-label" for="Warehouse">Magazyn</label>  
       <div class="col-md-4">
       <input id="Warehouse" name="Warehouse" type="text" placeholder="nazwa" class="form-control input-md">
       </div>
     </div>
-        <div class="form-group">
-      <label class="col-md-4 control-label" for="Warehouse"></label>  
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>  
       <div class="col-md-4">
               <button id="submit" name="search" value="true" type="submit" class="btn btn-primary btn-block">Szukaj</button>
       </div>

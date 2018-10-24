@@ -3,11 +3,12 @@
 class Inventory_model extends CI_Model
 {
 
-	public function get_items($case='',$ItemCatalogNumber='',$ItemCode='',$Warehouse=''){
+	public function get_items($case='',$ItemCatalogNumber='',$ItemCode='',$Warehouse='',$Attribute=''){
         
         $headings = array('Kod towaru', 'Nr katalogowy','Cecha','Opis','Magazyn','Zapas wolny','Zapas rzeczywisty');
         $settings =array('lp' => true, 'footerHeading' => true);
         $rows = array('','','','','','','');
+        $MainWarehouse='THAN';
         
         switch ($case) {
             case 'searchForm':
@@ -20,7 +21,9 @@ class Inventory_model extends CI_Model
                     $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
                 if($Warehouse!=''){
                     $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
-                
+                if($Attribute!=''){
+                    $this->db->where('attribute like \'%'.$Attribute.'%\'');}
+                $this->db->where('regionalWarehouseCode', $MainWarehouse);
                 $query = $this->db->get();
                 $rows = $query->result_array();
 
