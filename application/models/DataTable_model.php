@@ -74,18 +74,44 @@ class DataTable_model extends CI_Model
     public function get_order_list($status=''){
         $usertype = $this->session->userdata('usertype');
         
-        $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
-        $settings =array('lp' => true, 'footerHeading' => false);
-        
-        $this->db->select('oh.tempid,oh.customerdocno,oh.date_add,oh.description,os.name as statusid,oh.frommag,ot.name');
-        $this->db->from('order_header as oh');
-        $this->db->join('order_type as ot','oh.type=ot.id');
-        $this->db->join('order_status as os','oh.statusid=os.id');
         if(isset($usertype) && $usertype=='A'){
+            $headings = array(
+            'Nr tymczasowy',
+            'Nr zamówienia klienta',
+            'Numer klienta',
+            'Nazwa',
+            'Data dodania',
+            'Uwagi',
+            'Status', 
+            'Z magazynu',
+            'Typ');
+            $this->db->select('
+                oh.tempid,
+                oh.customerdocno,
+                oh.sellto,
+                u.name as username,
+                oh.date_add,
+                oh.description,
+                os.name as statusid,
+                oh.frommag,
+                ot.name');
+            $this->db->from('order_header as oh');
+            $this->db->join('order_type as ot','oh.type=ot.id');
+            $this->db->join('order_status as os','oh.statusid=os.id');
+            $this->db->join('user as u','u.login=oh.sellto','left');
             $this->db->where('oh.statusid', 2);
+        
         }else{
+            $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
+            $this->db->select('oh.tempid,oh.customerdocno,oh.date_add,oh.description,os.name as statusid,oh.frommag,ot.name');
+            $this->db->from('order_header as oh');
+            $this->db->join('order_type as ot','oh.type=ot.id');
+            $this->db->join('order_status as os','oh.statusid=os.id');
             $this->db->where('sellTo', $this->session->userdata('login'));
         }
+        
+        $settings =array('lp' => true, 'footerHeading' => false);
+        
         $this->db->order_by('date_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();

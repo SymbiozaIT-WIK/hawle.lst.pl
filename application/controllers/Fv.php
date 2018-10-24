@@ -23,9 +23,7 @@ class fv extends CI_Controller {
         if($fvNo!=''){
             $data = $this->DbViews_model->get_fvDetails($fvNo);
             $this->load->template('fv/details',$data);
-        }else{
-            redirect('fv/fv_list', 'refresh');
-        }
+        }else{redirect('fv/fv_list', 'refresh');}
     }
     
     public function fv_download()
