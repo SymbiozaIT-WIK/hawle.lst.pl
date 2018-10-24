@@ -29,7 +29,6 @@
             <h4><?php echo $zsHeader['custpostcode']; ?></h4>
             <h4><?php echo $zsHeader['custcity']; ?></h4>
             <h4>Klient nr: <?php echo $zsHeader['SELLTO']; ?></h4>
-
             </td>
             <td>Data przyjęcia</td>
             <td colspan="2">

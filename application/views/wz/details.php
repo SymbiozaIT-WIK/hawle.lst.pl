@@ -41,7 +41,6 @@
             <h4><?php echo $wzHeader['custpostcode']; ?></h4>
             <h4><?php echo $wzHeader['custcity']; ?></h4>
             <h4>Klient nr: <?php echo $wzHeader['SELLTO']; ?></h4>
-
             </td>
             <td>Data przyjęcia</td>
             <td colspan="2">
