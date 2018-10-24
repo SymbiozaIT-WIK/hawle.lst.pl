@@ -22,6 +22,9 @@ class Xml_model extends CI_Model
 //        header("Content-Type: text/plain");
         $xmlDoc->formatOutput = true;
         $xmlDoc->save("xmlFiles/" . $conf['file']);
+        $file = popen("move.bat","r");
+        pclose($file);
+        
     }
     
     public function wz_to_xml($wzId){
