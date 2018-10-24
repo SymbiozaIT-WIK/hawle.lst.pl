@@ -11,7 +11,7 @@ class Update_model extends CI_Model
         $hawledb->select('itemCode as itemcode,
         regionalWarehouseCode as regionalwarehousecode, 
         quantity as realStock, 
-        quantityAvailable as spareStock');
+        qtyAvailable as spareStock');
         
         $query = $hawledb->get('www_inventory');
         foreach ($query->result() as $row) {
