@@ -2,7 +2,7 @@
 require_once 'dompdf/autoload.inc.php';
 use Dompdf\Dompdf;
 
-$html = $this->load->view('fv/fak.html', '', true);
+$html = $this->load->view('fv/fak', '', true);
 
 
 
