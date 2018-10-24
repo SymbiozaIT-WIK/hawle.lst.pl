@@ -1,0 +1,917 @@
+Poˆ¥czony z hawle.lst.pl.
+220-Serwer ftp 1
+220 ProFTPD 1.3.0 Server (alfa.lst.pl -  LST ftp serwera webowego.) [::ffff:91.102.114.3]
+ftp> user ftphawdekl DeklPDF
+331 Password required for ftphawdekl.
+230 User ftphawdekl logged in.
+ftp> binary
+200 Type set to I
+ftp> ftp> 
+ftp> 
+Nieprawidˆowe polecenie.
+ftp>  
+mput *.pdf
+200 PORT command successful
+150 Opening BINARY mode data connection for 0101.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 360,55Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0102.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,85Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0310.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 382,51Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0311.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 387,07Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0400.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 363,96Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0430.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 330,31Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0501.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 371,37Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0508.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 412,59Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0750.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 351,33Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0751.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 349,84Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0800.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 328,26Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 0801.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 333,97Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1254.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 330,73Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1500.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 392,92Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1650.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 326,97Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1750.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 341,05Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1755.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 340,98Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1790.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,20Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1850.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 334,69Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 1950.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 320,07Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2050.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 326,84Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2058.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 328,32Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2491.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 366,67Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2500.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 377,83Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2505.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,82Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2520.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 393,02Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2525.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2600.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 337,18Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2630.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 368,84Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2635.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 267.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 346,58Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2670.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 333,91Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2675.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2676.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,82Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2681.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 345,68Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 2800.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 395,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 290.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 353,23Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3120.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 392,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3130.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 393,03Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3151.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 325,35Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3350.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 364,46Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3370.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 370,67Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3500.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 366,67Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3510.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 376,93Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3530.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 352,49Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3600.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 409,98Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 370.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 365,29Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 372.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 358,00Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3720.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 371,61Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 3800.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 365,10Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4000A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 403,87Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4000E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 399,05Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4000ELE2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 405,43Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4000STE2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 414,85Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4000_DN20-40.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 351,76Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4000_DN50-200.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 404,49Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4005.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,13Sekund 273,80Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4005E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4010E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 371,63Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4040E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 334,64Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4041E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 377,83Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4045e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,13Sekund 273,80Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4046e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,50Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4050.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 371,27Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4050E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 382,61Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4051.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 369,03Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4051E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 370,36Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4055.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,82Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4055e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4056.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4056e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4090E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 433,65Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4095e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,50Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4096e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 410.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 353,47Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4100E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 374,29Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 411.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 422,70Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4140E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 349,14Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4150E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 376,81Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4155e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,14Sekund 269,96Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 420.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 353,68Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 430.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 355,57Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4340E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 375,47Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4343E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 378,24Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4345e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4346e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,13Sekund 273,80Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 440.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 335,49Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4400E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,33Sekund 339,81Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4405e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,50Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4410E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 377,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4450E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 373,34Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4455e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,25Sekund 246,42Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4460E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 380,80Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 450.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 332,62Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4500E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 352,08Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4550.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 328,51Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4600.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 358,66Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 470.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 331,66Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4700A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 404,03Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4700E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 398,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4700ELE2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 406,12Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4700_DN32-40.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 352,65Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4700_DN50-200.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 397,40Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4705.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,82Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4705e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,82Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4710E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 395,91Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4805.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 411,95Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 4806.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 435,70Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5045.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 333,89Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5080.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 370,18Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5081.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 371,61Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 510.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 348,86Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 520.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 330,32Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5230.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 353,48Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5250.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 352,43Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5270.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,26Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 530.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 370,78Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5310.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,45Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 540.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 348,62Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 550.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 350,84Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5500.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 346,49Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 551.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 349,55Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 552.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 351,24Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 553.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 351,60Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5530.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 342,73Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 554.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 348,92Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 5600.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 329,36Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6100.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 339,63Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6110.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 344,91Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6120.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 327,30Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6200.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 355,69Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6210.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 342,11Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6220.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 325,65Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6221F.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 348,83Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6223.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 338,31Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6300.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 338,79Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6300ST.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 324,51Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6301.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,33Sekund 306,94Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6310.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,33Sekund 309,18Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6310ST.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 327,36Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6320.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 338,21Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6330.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 374,07Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6400.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 339,41Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6410.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,33Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6411.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 325,84Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6420.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 338,72Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6430.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 328,34Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6460.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,34Sekund 300,00Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6470.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 329,08Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6490.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 341,02Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6500.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 361,58Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6501.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,94Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6520.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 344,44Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6530.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 339,97Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6531.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 343,11Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6550.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 341,29Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 6990.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 362,02Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7101.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 354,65Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7102_DN50-80_DN200-400.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,34Sekund 310,20Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7102_DN80-150.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 344,38Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7103.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 339,06Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7601.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 358,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7602.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 352,81Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7800_DN1''-200.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 337,57Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7800_DN250-600.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 327,38Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7800_DN250.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 317,98Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7820.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 380,48Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7972.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,34Sekund 319,36Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7992.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 388,37Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 7994.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 358,24Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8000.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 351,06Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8075.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 332,53Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8100.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 359,11Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8515.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 337,22Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8525.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 337,73Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8535.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 329,73Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8545.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 331,80Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8555.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 330,64Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8653.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 337,22Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8741.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 361,05Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8980.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 364,25Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8980A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 359,60Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8980E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 353,31Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 8990.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 342,52Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9000.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 336,38Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9000A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 326,91Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9000E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 359,87Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9010.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 335,89Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9020.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 347,48Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9041.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 349,00Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9051.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 350,99Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9091.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 350,21Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9101.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 358,63Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9111.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 349,23Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9121.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 346,97Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9240.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 332,14Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9500.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 359,64Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9500A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 364,43Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9500E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 349,30Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9510.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 329,08Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9510A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 374,64Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9510E2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 348,19Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9512A.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 379,51Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9601.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 327,15Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9611.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,34Sekund 308,88Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9612.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 346,41Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9613.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,33Sekund 319,01Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9810.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 364,22Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9822.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 382,03Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9823.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 365,03Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9828.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,28Sekund 385,49Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9830.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 352,29Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9831.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 368,50Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9835.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 370,00Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9836.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 373,75Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9837.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 371,54Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9838.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 374,92Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9863.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 367,05Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9864.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 381,70Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9874.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,31Sekund 366,83Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9876.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 368,13Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9900.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,33Sekund 295,05Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for 9910.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 0,30Sekund 376,72Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for nl90e2.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,09Sekund 281,56Kbajt¢w/sek.
+200 PORT command successful
+150 Opening BINARY mode data connection for Zasuwy_gazowe.pdf
+226 Transfer complete.
+ftp: 64d bajt¢w wysˆanych w 1,11Sekund 277,50Kbajt¢w/sek.
+ftp> ftp> 
+ftp> 
+bye
+221 Goodbye.

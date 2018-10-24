@@ -13,7 +13,7 @@
             </h1>
         </div>
         <div class="col-xs-6 text-right">
-            <h1>FAKTURA</h1>
+            <h1>Specyfikacja do faktury</h1>
             <h1><small>Numer: <?php echo $fvHeader['INVOICENO'];?></small></h1>
             <h2><small>Data wystawienia: <?php echo $fvHeader['DOCUMENTDATE'];?></small></h2>
             <h2><small>Opis księgowania: <?php echo $fvHeader['POSTINGDESCRIPTION'];?></small></h2>
@@ -24,13 +24,18 @@
         <div class="col-xs-5">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4>Sprzedawca: <b>HAWLE</b></h4>
+                    <h4>Sprzedawca: <b><?php echo $fvHeader['vendName'];?></b></h4>
                 </div>
                 <div class="panel-body">
                     <p>
-                        Adres <br>
-                        Adres <br>
-                        Adres <br>
+                        <?php echo $fvHeader['vendName2'];?><br>
+                        <?php echo $fvHeader['vendAdress'];?><br>
+                        <?php echo $fvHeader['vendAdress2'];?><br>
+                        <?php echo $fvHeader['vendPostCode'];?><br>
+                        <?php echo $fvHeader['vendCity'];?><br>
+                        <?php echo $fvHeader['vendNip'];?><br>
+                        <?php echo $fvHeader['vendTel'];?><br>
+                        <?php echo $fvHeader['vendFax'];?><br>
                     </p>
                 </div>
             </div>
@@ -38,13 +43,16 @@
         <div class="col-xs-5 col-xs-offset-2 text-right">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4>Nabywca : <b>Klient</b></h4>
+                    <h4>Nabywca : <b><?php echo $fvHeader['custName'];?></b></h4>
                 </div>
                 <div class="panel-body">
                     <p>
-                        Adres <br>
-                        Adres <br>
-                        Adres <br>
+                        <?php echo $fvHeader['custName2'];?><br>
+                        <?php echo $fvHeader['custAdress'];?><br>
+                        <?php echo $fvHeader['custAdress2'];?><br>
+                        <?php echo $fvHeader['custPostCode'];?><br>
+                        <?php echo $fvHeader['custCity'];?><br>
+                        <?php echo $fvHeader['custNip'];?><br>
                     </p>
                 </div>
             </div>
@@ -77,6 +85,9 @@
                 <th>
                     <h4>Brutto</h4>
                 </th>
+                <th>
+                    <h4>VAT</h4>
+                </th>
                 <th class="text-center">
                     <h4>Deklaracja</h4>
                 </th>
@@ -89,46 +100,87 @@
             <tr>
                 <td><?php echo $lp; ?></td>
                 <td><?php echo $line['ITEMCODE'];?></td>
-                <td class="text-right"><?php echo $line['itemdesc'];?></td>
+                <td class="text-right"><?php echo $line['itemDesc'];?></td>
                 <td class="text-right"><?php echo $line['attribute'];?></td>
                 <td class="text-right"><?php echo $line['ITEMCATALOGNO'];?></td>
                 <td class="text-right"><?php echo $line['QUANTITY'];?></td>
                 <td class="text-right"><?php echo $line['NETAMOUNT'];?></td>
                 <td class="text-right"><?php echo $line['AMOUNT'];?></td>
-                <td class="text-center"><a href="">ZOBACZ</a></td>
+                <td class="text-right"><?php echo $line['perVat'];?>%</td>
+                <td class="text-center"><a href="<?php echo site_url('externalFiles/deklaracjePDF/'.$line['ITEMCATALOGNO'].'.pdf');?>">ZOBACZ</a></td>
             </tr>
             <?php endforeach;?>
         </tbody>
     </table>
-    <div class="row text-right">
-        <div class="col-xs-2 col-xs-offset-8">
-            <p>
-                <strong>
-                    Kwota: <br>
-                </strong>
-            </p>
-        </div>
-        <div class="col-xs-2">
-            <strong>
-                <?php echo $fvHeader['AMOUNT'];?> <br>
-            </strong>
-        </div>
+    <div class="row">
+       <div class="col-xs-4 col-xs-offset-8 text-right">
+           <table class="table">
+               <tr>
+                   <th class="text-center"></th>
+                   <th class="text-center">Wartość netto</th>
+                   <th class="text-center">VAT</th>
+                   <th class="text-center">Kwota VAT</th>
+                   <th class="text-center">Wartość brutto</th>
+               </tr>
+               <tr class="text-center">
+                   <td>Razem:</td>
+                   <td>234</td>
+                   <td>23</td>
+                   <td>234</td>
+                   <td>23423</td>
+               </tr>
+               <tr>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+           </table>
+       </div>
     </div>
     <div class="row">
-        <div class="col-xs-5">
+        <div class="col-xs-6">
             <div class="panel panel-info">
                 <div class="panel-heading">
                     <h4>Dane płatności</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Sprzedawca.dane</p>
-                    <p>Sprzedawca.dane</p>
-                    <p>Numer konta : --------</p>
-                    <p>Termin płatności : <strong>2019-01-13</strong></p>
+                    <table>
+                        <tr>
+                            <td>Do zapłaty słownie:</td>
+                            <td><?php echo $fvHeader['inWordsValue'];?></td>
+                        </tr>
+                        <tr>
+                            <td>Warunki płatności:</td>
+                            <td><?php echo $fvHeader['paymentTerm'];?></td>
+                        </tr>
+                        <tr>
+                            <td>Termin płatności:</td>
+                            <td><?php echo $fvHeader['PAYMENTDATE'];?></td>
+                        </tr>
+                        <tr>
+                            <td>Waluta:</td>
+                            <td><?php echo $fvHeader['currency'];?></td>
+                        </tr>
+                    </table>
+                    <p>
+                        <b>Płatność ubezpiecza firma COFACE</b>
+                    </p>
+                    <table>
+                        <tr>
+                            <td>Bank:</td>
+                            <td>ING Bank Śląski SA</td>
+                        </tr>
+                        <tr>
+                            <td>Konto:</td>
+                            <td>PL23 1050 1520 1000 0023 1024 5242</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="col-xs-7">
+        <div class="col-xs-6">
             <div class="span7">
                 <div class="panel panel-info">
                     <div class="panel-heading">
@@ -136,8 +188,14 @@
                     </div>
                     <div class="panel-body">
                         <p>
-                            Email : email@email.pl <br><br>
-                            Tel : 123-456-789 <br> <br>
+                            <?php echo $fvHeader['vendName2'];?><br>
+                            <?php echo $fvHeader['vendAdress'];?><br>
+                            <?php echo $fvHeader['vendAdress2'];?><br>
+                            <?php echo $fvHeader['vendPostCode'];?><br>
+                            <?php echo $fvHeader['vendCity'];?><br>
+                            <?php echo $fvHeader['vendNip'];?><br>
+                            Tel: <?php echo $fvHeader['vendTel'];?><br>
+                            Fax: <?php echo $fvHeader['vendFax'];?><br>
                         </p>
                         <h4></h4>
                     </div>

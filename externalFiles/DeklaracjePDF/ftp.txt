@@ -1,0 +1,11 @@
+user ftphawdekl DeklPDF
+binary
+
+
+ 
+mput *.pdf
+
+
+bye
+
+
