@@ -22,6 +22,12 @@
                 </p>
             </td>
             <td rowspan="2">
+            <h4><?php echo $zsHeader['custname']; ?></h4>
+            <h4><?php echo $zsHeader['custname2']; ?></h4>
+            <h4><?php echo $zsHeader['custadress']; ?></h4>
+            <h4><?php echo $zsHeader['custadress2']; ?></h4>
+            <h4><?php echo $zsHeader['custpostcode']; ?></h4>
+            <h4><?php echo $zsHeader['custcity']; ?></h4>
             <h4>Klient nr: <?php echo $zsHeader['SELLTO']; ?></h4>
 
             </td>
