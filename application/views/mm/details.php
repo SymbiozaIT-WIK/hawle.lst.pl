@@ -1,6 +1,6 @@
 <pre>
     <?php
-//        print_r($mmHeader);
+        print_r($mmHeader);
 //        print_r($mmLines);
     ?>
 </pre>
@@ -36,6 +36,12 @@
                 </p>
             </td>
             <td rowspan="2">
+            <h4><?php echo $mmHeader['custname']; ?></h4>
+            <h4><?php echo $mmHeader['custname2']; ?></h4>
+            <h4><?php echo $mmHeader['custadress']; ?></h4>
+            <h4><?php echo $mmHeader['custadress2']; ?></h4>
+            <h4><?php echo $mmHeader['custpostcode']; ?></h4>
+            <h4><?php echo $mmHeader['custcity']; ?></h4>
             <h4>Klient nr: <?php echo $mmHeader['SELLTO']; ?></h4>
 
             </td>

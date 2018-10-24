@@ -1,6 +1,6 @@
 <pre>
     <?php
-//        print_r($wzHeader);
+        print_r($wzHeader);
 //        print_r($wzLines);
     ?>
 </pre>
@@ -34,6 +34,12 @@
                 </p>
             </td>
             <td rowspan="2">
+            <h4><?php echo $wzHeader['custname']; ?></h4>
+            <h4><?php echo $wzHeader['custname2']; ?></h4>
+            <h4><?php echo $wzHeader['custadress']; ?></h4>
+            <h4><?php echo $wzHeader['custadress2']; ?></h4>
+            <h4><?php echo $wzHeader['custpostcode']; ?></h4>
+            <h4><?php echo $wzHeader['custcity']; ?></h4>
             <h4>Klient nr: <?php echo $wzHeader['SELLTO']; ?></h4>
 
             </td>

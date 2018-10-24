@@ -1,64 +1,205 @@
+view_mmheader
+
+select
+   oh.NO,
+   oh.CUSTOMERDOCNO AS CUSTOMERDOCNO,
+   oh.TYPE AS TYPE,
+   oh.STATUSID AS STATUSID,
+   oh.STATUS2ID AS STATUS2ID,
+   oh.DATE_ADD AS DATE_ADD,
+   oh.ACCEPTDATE AS ACCEPTDATE,
+   oh.DESCRIPTION AS DESCRIPTION,
+   oh.SELLTO AS SELLTO,
+   oh.BUYFROM AS BUYFROM,
+   oh.SALESMAN AS SALESMAN,
+   oh.PAYMENTTERMS AS PAYMENTTERMS,
+   oh.AMOUNT AS AMOUNT,
+   oh.NETAMOUNT AS NETAMOUNT,
+   oh.tempid AS tempid,
+   oh.tomag AS TOMAG,
+   os.NAME AS statusname,
+   rw.description AS tomagname,
+   u.name as custname,
+   u.name2 as custname2,
+   u.adress as custadress,
+   u.adress2 as custadress2,
+   u.postcode as custpostcode,
+   u.city as custcity,
+   u.nip as custnip
+from oh as oh
+join order_status os on os.ID = oh.STATUSID
+left join regional_warehouse rw on rw.CODE = oh.tomag
+left join user as u on u.login=oh.sellto
+
+view_wzheader
+
+select
+   oh.NO,
+   oh.CUSTOMERDOCNO AS CUSTOMERDOCNO,
+   oh.TYPE AS TYPE,
+   oh.STATUSID AS STATUSID,
+   oh.STATUS2ID AS STATUS2ID,
+   oh.DATE_ADD AS DATE_ADD,
+   oh.ACCEPTDATE AS ACCEPTDATE,
+   oh.DESCRIPTION AS DESCRIPTION,
+   oh.SELLTO AS SELLTO,
+   oh.BUYFROM AS BUYFROM,
+   oh.SALESMAN AS SALESMAN,
+   oh.PAYMENTTERMS AS PAYMENTTERMS,
+   oh.AMOUNT AS AMOUNT,
+   oh.NETAMOUNT AS NETAMOUNT,
+   oh.tempid AS tempid,
+   oh.frommag AS FROMMAG,
+   os.NAME AS statusname,
+   u.name as custname,
+   u.name2 as custname2,
+   u.adress as custadress,
+   u.adress2 as custadress2,
+   u.postcode as custpostcode,
+   u.city as custcity,
+   u.nip as custnip
+from order_header as oh
+join order_status os on os.ID = oh.STATUSID
+left join user as u on u.login=oh.sellto
+
+view_zsheader
+
+select
+   oh.NO,
+   oh.CUSTOMERDOCNO AS CUSTOMERDOCNO,
+   oh.TYPE AS TYPE,
+   oh.STATUSID AS STATUSID,
+   oh.STATUS2ID AS STATUS2ID,
+   oh.DATE_ADD AS DATE_ADD,
+   oh.ACCEPTDATE AS ACCEPTDATE,
+   oh.DESCRIPTION AS DESCRIPTION,
+   oh.SELLTO AS SELLTO,
+   oh.BUYFROM AS BUYFROM,
+   oh.SALESMAN AS SALESMAN,
+   oh.PAYMENTTERMS AS PAYMENTTERMS,
+   oh.AMOUNT AS AMOUNT,
+   oh.NETAMOUNT AS NETAMOUNT,
+   oh.tempid AS tempid,
+   oh.tomag AS TOMAG,
+   os.NAME AS statusname,
+   rw.description AS tomagname,
+   u.name as custname,
+   u.name2 as custname2,
+   u.adress as custadress,
+   u.adress2 as custadress2,
+   u.postcode as custpostcode,
+   u.city as custcity,
+   u.nip as custnip
+from order_header as oh
+join order_status os on os.ID = oh.STATUSID
+left join regional_warehouse rw on rw.CODE = oh.tomag
+left join user as u on u.login=oh.sellto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--Perspektywa: view_zsheaderxml-->
 
-select 1 AS `DocumentType`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataDokumentu`,
-coalesce(`oh`.`SELLTO`,'') AS `NrNabywcy`,
-coalesce(`oh`.`SELLTO`,'') AS `NrOdbiorcy`,
-coalesce(`oh`.`DATE_ADD`,'') AS `DataZamowienia`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
-coalesce(`u`.`Nip`,'') AS `Nip`,
-coalesce('PL','') AS `KodKrajuVat`,
-coalesce(`oh`.`CUSTOMERDOCNO`,'') AS `NrZam`,
-coalesce(`oh`.`tempid`,'') AS `NrTymczasowy`
-from (`order_header` `oh` join `user` `u` on((`oh`.`SELLTO` = `u`.`LOGIN`)))
+select 1 AS DocumentType,
+coalesce(oh.ACCEPTDATE,'') AS DataDokumentu,
+coalesce(oh.SELLTO,'') AS NrNabywcy,
+coalesce(oh.SELLTO,'') AS NrOdbiorcy,
+coalesce(oh.DATE_ADD,'') AS DataZamowienia,
+coalesce(oh.ACCEPTDATE,'') AS DataKsiegowania,
+coalesce(oh.ACCEPTDATE,'') AS DataWydania,
+coalesce(u.Nip,'') AS Nip,
+coalesce('PL','') AS KodKrajuVat,
+coalesce(oh.CUSTOMERDOCNO,'') AS NrZam,
+coalesce(oh.tempid,'') AS NrTymczasowy
+from (oh oh join user u on((oh.SELLTO = u.LOGIN)))
 
 select 
-1 AS `DocumentType`,
-coalesce(`ol`.`LINENO`,'') AS `NumerWiersza`,
-coalesce(`oh`.`SELLTO`,'') AS `NumerNabywcy`,
-2 AS `Typ`,
-coalesce(`ol`.`ITEMCODE`,'') AS `Nr`,
-'THAN' AS `KodLokalizacji`,
-coalesce(`ol`.`DESCRIPTION`,'') AS `Opis`,
-coalesce(`it`.`Unit`,'') AS `Jednostka`,
-coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,
-coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` 
-from ((`order_lines` `ol` join `item` `it` on((`ol`.`ITEMCODE` = `it`.`CODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)))               
+1 AS DocumentType,
+coalesce(ol.LINENO,'') AS NumerWiersza,
+coalesce(oh.SELLTO,'') AS NumerNabywcy,
+2 AS Typ,
+coalesce(ol.ITEMCODE,'') AS Nr,
+'THAN' AS KodLokalizacji,
+coalesce(ol.DESCRIPTION,'') AS Opis,
+coalesce(it.Unit,'') AS Jednostka,
+coalesce(ol.QUANTITY,'') AS Ilosc,
+coalesce(oh.tempid,'') AS NrTymczasowy 
+from ((order_lines ol join item it on((ol.ITEMCODE = it.CODE))) join oh oh on((oh.tempid = ol.tempdocumentno)))               
                                
                                    
 Perspektywa: view_wzheaderxml      
            
            
 select 
-1 AS `DocumentType`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataDokumentu`,
-coalesce(`oh`.`SELLTO`,'') AS `NrNabywcy`,
-coalesce(`oh`.`SELLTO`,'') AS `NrOdbiorcy`,
-coalesce(`oh`.`DATE_ADD`,'') AS `DataZamowienia`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
-coalesce(`u`.`Nip`,'') AS `Nip`,'PL' AS `KodKrajuVat`,
-coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,
-coalesce(`oh`.`tempid`,'') AS `NrZam`,
-coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` 
-from (`order_header` `oh` join `user` `u` on((`oh`.`SELLTO` = `u`.`LOGIN`)))           
+1 AS DocumentType,
+coalesce(oh.ACCEPTDATE,'') AS DataDokumentu,
+coalesce(oh.SELLTO,'') AS NrNabywcy,
+coalesce(oh.SELLTO,'') AS NrOdbiorcy,
+coalesce(oh.DATE_ADD,'') AS DataZamowienia,
+coalesce(oh.ACCEPTDATE,'') AS DataKsiegowania,
+coalesce(oh.ACCEPTDATE,'') AS DataWydania,
+coalesce(u.Nip,'') AS Nip,'PL' AS KodKrajuVat,
+coalesce(oh.DESCRIPTION,'') AS Uwagi,
+coalesce(oh.tempid,'') AS NrZam,
+coalesce(oh.tempid,'') AS NrTymczasowy 
+from (oh oh join user u on((oh.SELLTO = u.LOGIN)))           
            
 Perspektywa: view_wzlinesxml           
     
  select 
- coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,
- coalesce(`ol`.`ITEMCODE`,'') AS `NrZapasu`,
- coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,
- coalesce(`it`.`Unit`,'') AS `jednostka`,
- coalesce(`ol`.`QUANTITY`,'') AS `IloscDoWydania`,0 AS `Status`,
- coalesce(`it`.`DESCRIPTION`,'') AS `Opis`,
- coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,
- coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,
- 'XMWDR' AS `KodddLokalizacjiWDrodze`,
- coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
- coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,
- coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)))                                              
+ coalesce(ol.LINENO,'') AS NrWiersza,
+ coalesce(ol.ITEMCODE,'') AS NrZapasu,
+ coalesce(ol.QUANTITY,'') AS Ilosc,
+ coalesce(it.Unit,'') AS jednostka,
+ coalesce(ol.QUANTITY,'') AS IloscDoWydania,0 AS Status,
+ coalesce(it.DESCRIPTION,'') AS Opis,
+ coalesce(oh.frommag,'') AS KodLokalizacjiPierwotnej,
+ coalesce(oh.tomag,'') AS KodLokalizacjiDocelowej,
+ 'XMWDR' AS KodddLokalizacjiWDrodze,
+ coalesce(oh.ACCEPTDATE,'') AS DataWydania,
+ coalesce(oh.ACCEPTDATE,'') AS DataPrzyjecia,
+ coalesce(oh.tempid,'') AS NrTymczasowy from ((order_lines ol join item it on((it.CODE = ol.ITEMCODE))) join oh oh on((oh.tempid = ol.tempdocumentno)))                                              
                                                    
                                                        
  Perspektywa: view_mmheaderxml                                                          
@@ -66,30 +207,30 @@ Perspektywa: view_wzlinesxml
                                                                    
                                                                        
  select 
-  coalesce(`oh`.`ACCEPTDATE`,'') AS `DataKsiegowania`,
-  coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,
-  coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,
-  coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
-  coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,0 AS `Status`,
-  coalesce(`oh`.`DESCRIPTION`,'') AS `Uwagi`,
-  coalesce(`oh`.`CUSTOMERDOCNO`,'') AS `NrZam`,
-  coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` 
-           from `order_header` `oh`                                                                          
+  coalesce(oh.ACCEPTDATE,'') AS DataKsiegowania,
+  coalesce(oh.frommag,'') AS KodLokalizacjiPierwotnej,
+  coalesce(oh.tomag,'') AS KodLokalizacjiDocelowej,
+  coalesce(oh.ACCEPTDATE,'') AS DataWydania,
+  coalesce(oh.ACCEPTDATE,'') AS DataPrzyjecia,0 AS Status,
+  coalesce(oh.DESCRIPTION,'') AS Uwagi,
+  coalesce(oh.CUSTOMERDOCNO,'') AS NrZam,
+  coalesce(oh.tempid,'') AS NrTymczasowy 
+           from oh oh                                                                          
                                                                                
                                                                                    
                                                                                        
 select 
-coalesce(`ol`.`LINENO`,'') AS `NrWiersza`,
-coalesce(`ol`.`ITEMCODE`,'') AS `NrZapasu`,
-coalesce(`ol`.`QUANTITY`,'') AS `Ilosc`,
-coalesce(`it`.`Unit`,'') AS `jednostka`,
-coalesce(`ol`.`QUANTITY`,'') AS `IloscDoWydania`,0 AS `Status`,
-coalesce(`it`.`DESCRIPTION`,'') AS `Opis`,
-coalesce(`oh`.`frommag`,'') AS `KodLokalizacjiPierwotnej`,
-coalesce(`oh`.`tomag`,'') AS `KodLokalizacjiDocelowej`,'XMWDR' AS `KodddLokalizacjiWDrodze`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataWydania`,
-coalesce(`oh`.`ACCEPTDATE`,'') AS `DataPrzyjecia`,
-coalesce(`oh`.`tempid`,'') AS `NrTymczasowy` from ((`order_lines` `ol` join `item` `it` on((`it`.`CODE` = `ol`.`ITEMCODE`))) join `order_header` `oh` on((`oh`.`tempid` = `ol`.`tempdocumentno`)))                                                                                   
+coalesce(ol.LINENO,'') AS NrWiersza,
+coalesce(ol.ITEMCODE,'') AS NrZapasu,
+coalesce(ol.QUANTITY,'') AS Ilosc,
+coalesce(it.Unit,'') AS jednostka,
+coalesce(ol.QUANTITY,'') AS IloscDoWydania,0 AS Status,
+coalesce(it.DESCRIPTION,'') AS Opis,
+coalesce(oh.frommag,'') AS KodLokalizacjiPierwotnej,
+coalesce(oh.tomag,'') AS KodLokalizacjiDocelowej,'XMWDR' AS KodddLokalizacjiWDrodze,
+coalesce(oh.ACCEPTDATE,'') AS DataWydania,
+coalesce(oh.ACCEPTDATE,'') AS DataPrzyjecia,
+coalesce(oh.tempid,'') AS NrTymczasowy from ((order_lines ol join item it on((it.CODE = ol.ITEMCODE))) join oh oh on((oh.tempid = ol.tempdocumentno)))                                                                                   
                                                                                                    
                                                                                                        
                                                                                                            
