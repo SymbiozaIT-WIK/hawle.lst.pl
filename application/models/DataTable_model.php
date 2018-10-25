@@ -100,7 +100,6 @@ class DataTable_model extends CI_Model
             $this->db->join('order_status as os','oh.statusid=os.id');
             $this->db->join('user as u','u.login=oh.sellto','left');
             if(is_numeric($status))$this->db->where('oh.statusid', $status);
-        
         }else{
             $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
             $this->db->select('oh.tempid,oh.customerdocno,oh.date_add,oh.description,os.name as statusid,oh.frommag,ot.name');
@@ -111,7 +110,6 @@ class DataTable_model extends CI_Model
         }
         
         $settings =array('lp' => true, 'footerHeading' => false);
-        
         $this->db->order_by('date_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();

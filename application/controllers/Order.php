@@ -5,11 +5,12 @@ class Order extends CI_Controller {
     
     public function index()
     {
-        $this->load->model('Order_model');
-        
-        $userLogin = $this->session->userdata('login');
-        $data['items'] = $this->Order_model->get_order_headers($userLogin);
-        $this->load->template('zs/index', $data);
+//        $this->load->model('Order_model');
+//        
+//        $userLogin = $this->session->userdata('login');
+//        $data['items'] = $this->Order_model->get_order_headers($userLogin);
+//        $this->load->template('zs/index', $data);
+        redirect('panel');
     }
     
     public function create_mm(){
@@ -316,22 +317,23 @@ class Order extends CI_Controller {
             redirect(site_url('order/order_list'));
     }
             
-    public function order_list($adminView=false){
+    public function order_list($viewType='',$status=''){
         $usertype = $this->session->userdata('usertype');
+        $this->load->model('DataTable_model');
         
         switch ($usertype){
             case 'A':
-                $this->load->model('DataTable_model');
-                if($adminView){
-                    $data = $this->DataTable_model->get_order_list();
+                if($viewType=='list'){
+                    $data = is_numeric($status) ? $this->DataTable_model->get_order_list($status) : $this->DataTable_model->get_order_list();
                     $this->load->template('order/admin_list',$data);
-                }else{
+                }else if($viewType=='export'){
                     $data = $this->DataTable_model->get_order_list(2);
                     $this->load->template('order/admin_list_export',$data);
+                }else{
+                    $this->load->template('order/admin_list');
                 }
                 break;
             default:
-                $this->load->model('DataTable_model');
                 $dataTable=$this->DataTable_model->get_order_list();
                 $data['dataTable'] = $dataTable;
                 $this->load->template('Order/list',$dataTable);

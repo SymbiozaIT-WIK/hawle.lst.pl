@@ -1,6 +1,6 @@
 <pre>
     <?php
-        print_r($mmHeader);
+//        print_r($mmHeader);
 //        print_r($mmLines);
     ?>
 </pre>
@@ -102,7 +102,7 @@
            <?php $backurl = htmlspecialchars($_SERVER['HTTP_REFERER']); ?>
            <a href="<?php echo $backurl; ?>" class="btn btn-warning btn-lg">Wstecz</a>
             <input hidden type="text" name="order[]" value="<?php echo $mmHeader['tempid']; ?>" >
-            <button <?php if($mmHeader['STATUSID']>2){echo 'disabled';} ?> type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
+            <button <?php if($mmHeader['STATUSID']<>2){echo 'disabled';} ?> type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
         </form>
         <?php endif;?>
         
