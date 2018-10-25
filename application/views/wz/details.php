@@ -13,10 +13,10 @@
             <td colspan="2" style="vertical-align:middle; font-weight:bold;">Wystawił:</td>
             <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
             <td rowspan="2" class="bg-info text-center text-primary">
-                <h1>Zamówienie</h1>
-                KodLokalizacjiDocelowej <br>
+                <h1>Wydanie</h1>
+                Wydanie z magazynu: <br>
                 <h3>
-                    Podany w liniach zamówienia.
+                    magazyny podane w liniach zamówienia.
                 </h3>
             </td>
             <td>Nr zamówienia klienta</td>
@@ -99,7 +99,7 @@
            <?php $backurl = htmlspecialchars($_SERVER['HTTP_REFERER']); ?>
            <a href="<?php echo $backurl; ?>" class="btn btn-warning btn-lg">Wstecz</a>
             <input hidden type="text" name="order[]" value="<?php echo $wzHeader['tempid']; ?>" >
-            <button type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
+            <button <?php if($wzHeader['STATUSID']>2){echo 'disabled';} ?> type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
         </form>
         <?php endif;?>
         </td>

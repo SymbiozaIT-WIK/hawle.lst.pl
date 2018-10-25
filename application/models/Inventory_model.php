@@ -10,10 +10,11 @@ class Inventory_model extends CI_Model
         $rows = array('','','','','','','');
         $MainWarehouse='THAN';
         
+        $this->db->select('itemcode,catalogno,attribute,description,regionalwarehousecode,spareStock,realStock');
+        $this->db->from('view_inventory');
+        
         switch ($case) {
             case 'searchForm':
-                $this->db->select('*');
-                $this->db->from('view_inventory');
                 
                 if($ItemCatalogNumber!=''){
                     $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');}
@@ -23,20 +24,12 @@ class Inventory_model extends CI_Model
                     $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
                 if($Attribute!=''){
                     $this->db->where('attribute like \'%'.$Attribute.'%\'');}
-                $this->db->where('regionalWarehouseCode', $MainWarehouse);
-                $query = $this->db->get();
-                $rows = $query->result_array();
-
-                break;
-            case 'all':
-                $this->db->select('*');
-                $this->db->from('view_inventory');
-                $query = $this->db->get();
-                $rows = $query->result_array();
-                $dataTable = array('headings'=>$headings,'settings'=>$settings,'rows'=>$rows);
                 break;
         }
         
+        $this->db->where('regionalWarehouseCode', $MainWarehouse);
+        $query = $this->db->get();
+        $rows = $query->result_array();
         $dataTable = array('headings'=>$headings,'settings'=>$settings,'rows'=>$rows);
         
         return $dataTable;

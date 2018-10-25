@@ -50,7 +50,7 @@ class Order_model extends CI_Model
     }
     
     public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='',$ItemAttribute=''){
-        $this->db->select('catalogNo, itemcode, attribute, description, regionalWarehouseCode, realStock');
+        $this->db->select('catalogNo, itemcode, attribute, description, regionalWarehouseCode, realStock,unitprice,discount');
         $this->db->from('view_inventory');
         $this->db->where('regionalWarehouseCode like \'THAN\'');
         
@@ -64,7 +64,7 @@ class Order_model extends CI_Model
         $query=$this->db->get();
         $rows=$query->result_array();
         
-        $headings = array('Numer katalogowy','Kod towaru', 'Cecha','Opis', 'Magazyn', 'Zapas');
+        $headings = array('Numer katalogowy','Kod towaru', 'Cecha','Opis', 'Magazyn', 'Stan','Cena','Rabat');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -84,7 +84,7 @@ class Order_model extends CI_Model
     
     public function get_create_mm_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='',$ItemAttribute=''){
         
-        $this->db->select('catalogno,itemcode,description,attribute,regionalwarehousecode, realStock');
+        $this->db->select('catalogno,itemcode,description,attribute,regionalwarehousecode, realStock,unitprice,discount');
         $this->db->from('view_inventory');
         
         if($ItemCatalogNumber!=''){
@@ -100,7 +100,7 @@ class Order_model extends CI_Model
         $query = $this->db->get();
         $rows = $query->result_array();
         
-        $headings = array('Numer katalogowy','Kod towaru', 'Opis','Cecha','Magazyn','Stan');
+        $headings = array('Numer katalogowy','Kod towaru', 'Opis','Cecha','Magazyn','Stan','Cena','Rabat');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -183,15 +183,16 @@ class Order_model extends CI_Model
         return $rows;
     }
     
-    public function get_create_wz_items(){
-        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode, vi.realStock');
+    public function get_create_wz_items($tomag=''){
+        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode, vi.realStock,vi.unitprice,vi.discount');
         $this->db->from('view_inventory as vi');
         $this->db->join('regional_warehouse as rw','rw.code=vi.regionalWarehouseCode');
         $this->db->where('rw.userid',$this->session->userdata('login'));
+        if($tomag!=''){$this->db->where('vi.regionalWarehouseCode',$tomag);}
         $query = $this->db->get();
         
         $rows = $query->result_array();
-        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan');
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan','Cena','Rabat');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;

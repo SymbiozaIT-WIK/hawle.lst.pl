@@ -28,7 +28,8 @@
                 <?php foreach($headings as $th): ?>
                 <th><?php echo $th; ?></th>
                 <?php endforeach;?>
-                <th>
+                <th style="width:178px; max-width: 178px;">
+                    <button class="btn btn-primary">Eksportuj zaznaczone</button>
                 </th>
             </tr>
         </thead>
@@ -47,7 +48,11 @@
                 </td>
                 <?php endforeach;?>
                 <td>
-                    <a href="<?php echo site_url('order/order_details/'.$row['tempid']); ?>" class="btn btn-info">Podgląd</a>
+                  <input hidden id="cb<?php echo $row['tempid']; ?>" class="checkbox-selectible" type="checkbox" name="order[]" value="<?php echo $row['tempid']; ?>" /> 
+                  <label for="cb<?php echo $row['tempid']; ?>" class="btn btn-success" rel="tooltip" title="Kliknij aby zaznaczyć" > 
+                    Zaznacz 
+                  </label>
+                    <a href="<?php echo site_url('order/order_details/'.$row['tempid']); ?>" class="btn btn-default">Podgląd</a>
                 </td>
             </tr>
             <?php endforeach;?>

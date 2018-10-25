@@ -99,7 +99,7 @@ class DataTable_model extends CI_Model
             $this->db->join('order_type as ot','oh.type=ot.id');
             $this->db->join('order_status as os','oh.statusid=os.id');
             $this->db->join('user as u','u.login=oh.sellto','left');
-            $this->db->where('oh.statusid', 2);
+            if(is_numeric($status))$this->db->where('oh.statusid', $status);
         
         }else{
             $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');

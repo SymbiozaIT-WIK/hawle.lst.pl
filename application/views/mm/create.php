@@ -22,7 +22,7 @@
         <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
         <td rowspan="2" class="bg-info text-center text-primary">
             <h1>Zamówienie</h1>
-            KodLokalizacjiDocelowej
+            Lokalizacja docelowa
             <div class="form-group">
               <label for="selMag">Wybierz magazyn:</label>
             <form action="" method="post" id="submitChangeForm">

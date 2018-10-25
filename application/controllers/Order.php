@@ -110,7 +110,7 @@ class Order extends CI_Controller {
         }
         
     //edycja headera
-        if($headerMag){$data['frommag'] = $headerMag;$this->Order_model->edit_header($wzId,$data);}
+        if($headerMag){$data['tomag'] = $headerMag;$this->Order_model->edit_header($wzId,$data);}
         if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($wzId,$data);}
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($wzId,$data);}
         
@@ -137,7 +137,14 @@ class Order extends CI_Controller {
     //pobranie danych zamówienia
         $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
         $data['wzDetails']=$this->Order_model->get_wzDetails($wzId,true);
-        $data['datatable']=$this->Order_model->get_create_wz_items(); //lista dostępnych towarów
+        $data['datatable']='';
+        if($data['wzDetails']['wzHeader']['TOMAG']!=''){
+            $data['datatable']=$this->Order_model->get_create_wz_items($data['wzDetails']['wzHeader']['TOMAG']); //lista dostępnych towarów
+        }
+        //Jeżeli możliwe wydanie z kilku magazynów na jednym zamówieniu
+//        else{
+//            $data['datatable']=$this->Order_model->get_create_wz_items(); //lista dostępnych towarów
+//        }
         $this->load->template('wz/create',$data);
     }
     
@@ -309,14 +316,19 @@ class Order extends CI_Controller {
             redirect(site_url('order/order_list'));
     }
             
-    public function order_list(){
+    public function order_list($adminView=false){
         $usertype = $this->session->userdata('usertype');
         
         switch ($usertype){
             case 'A':
                 $this->load->model('DataTable_model');
-                $data = $this->DataTable_model->get_order_list(2);
-                $this->load->template('order/admin_list',$data);
+                if($adminView){
+                    $data = $this->DataTable_model->get_order_list();
+                    $this->load->template('order/admin_list',$data);
+                }else{
+                    $data = $this->DataTable_model->get_order_list(2);
+                    $this->load->template('order/admin_list_export',$data);
+                }
                 break;
             default:
                 $this->load->model('DataTable_model');

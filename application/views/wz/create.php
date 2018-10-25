@@ -19,7 +19,18 @@
         <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
         <td rowspan="2" class="bg-info text-center text-primary">
             <h1>Wydanie</h1>
-            
+            <div class="form-group">
+            <label for="selMag">Wybierz magazyn:</label>
+            <form action="" method="post" id="submitChangeForm">
+                <input hidden type="text" value="<?php echo $wzDetails['wzHeader']['tempid'] ?>" name="tempid">
+                <select id="selMag" class="submit--this form-control" name="headerMag">
+                  <option value="<?php echo $wzDetails['wzHeader']['TOMAG']; ?>"><?php echo $wzDetails['wzHeader']['tomagname'];?></option>
+                      <?php foreach($availableWarehouses as $warehouse): ?>
+                       <option value="<?php echo $warehouse['code']; ?>"><?php echo $warehouse['description']; ?></option>
+                    <?php endforeach;?>
+                </select>
+            </form>
+            </div>
         </td>
         <td>Nr zamówienia klienta</td>
         <td colspan="2">
@@ -141,8 +152,8 @@
 
 
 </div>
-    <hr><br>
-    <div class="container">
+ <?php if($datatable!=''):?>
+<div class="container">
         
     <h1>Dodaj pozycję do zamówienia:</h1>
         <p>Aby ddać towar - wyszukaj go na liście i wpisz ilość.</p>
@@ -209,7 +220,7 @@
 </table>
     
     </div>
-
+<?php endif;?>
 
 
 <!-- czy usunąć zamówienie? -->
