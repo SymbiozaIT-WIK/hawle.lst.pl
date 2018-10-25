@@ -43,5 +43,15 @@
         </div>
     </div>
     <br>
+    <div class="row pt-2">
+        <div class="col-md-4 col-sm-6 col-lg-4 row-eq-height pt-2">
+            
+                <a href="<?php echo site_url('news') ?>" style="font-size:20px" class="btn btn-block btn-invert py-4 mb-3 bg-primary">
+                    <i class="material-icons">list</i>
+                    <span>Wiadomości</span>
+                </a>
+            
+        </div>
+    </div>
 </div>
 <hr>

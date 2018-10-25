@@ -1,7 +1,8 @@
 
 <div class="container">   
 
-<h1>Podgląd zgłoszeń</h1>
+<h1>Podgląd dokumentów</h1>
+<hr>
 <?php if($this->session->flashdata('alert')):?>
    <?php $msg=$this->session->flashdata('alert'); ?>
     <div class="container">
@@ -16,22 +17,22 @@
        <div class="col-md-2 col-md-offset-1">
           <a href="<?php echo site_url('order/order_list/list/3'); ?>" class="btn btn-sq-lg btn-success btn-block">
             <i class="fas fa-user-check fa-2x"></i><br />
-            Zatwierdzone</a> 
+            Wyeksportowane</a> 
        </div>
        <div class="col-md-2">
            <a href="<?php echo site_url('order/order_list/list/2'); ?>" class="btn btn-sq-lg btn-primary btn-block">
             <i class="fas fa-id-badge fa-2x"></i><br />
-            Do zatwierdzenia</a>
+            Do eksportu</a>
        </div>
        <div class="col-md-2">
            <a href="<?php echo site_url('order/order_list/list/1'); ?>" class="btn btn-sq-lg btn-info btn-block">
             <i class="fas fa-user-edit fa-2x"></i><br />
-            Wprowadzone</a>
+            Wprowadzane</a>
        </div>
        <div class="col-md-3">
            <a href="<?php echo site_url('order/order_list/list'); ?>" class="btn btn-sq-lg btn-warning btn-block">
             <i class="fas fa-cloud-download-alt fa-2x"></i><br />
-            Pokaż wszystkie zamówienia</a>
+            Pokaż wszystkie dokumenty</a>
        </div>
    </div>
 <?php if(isset($settings)):?>

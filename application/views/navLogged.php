@@ -12,9 +12,50 @@
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+             
           <form action="<?php echo site_url('logout') ?>" class="navbar-form navbar-right" role="form" method="post">
-         <a class="btn btn-primary" href="<?php echo site_url('panel'); ?>">Panel</a>
-            <button type="submit" class="btn btn-info">Wyloguj</button>
+             <?php $usertype = $this->session->userdata('usertype');?>
+             <?php if($usertype=='A'): ?>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('inventory') ?>">Stany</a>
+                </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/order_list/export') ?>">Eksport</a>
+                </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/order_list') ?>">Podgląd</a>
+                </div>
+             <?php elseif($usertype=='R'): ?>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/create_mm') ?>">Nowe zamówienie</a>
+                 </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/create_wz') ?>">Nowe wydanie</a>
+                 </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/order_list') ?>">Moje zamówienia</a>
+                 </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('fv/fv_list') ?>">Lista faktur</a>
+                </div>
+            <?php elseif($usertype=='C'): ?>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/create_zs') ?>">Nowe zamówienie</a>
+                 </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('order/order_list') ?>">Moje zamówienia</a>
+                 </div>
+                <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('fv') ?>">Lista faktur</a>
+             </div>
+             <?php endif; ?>
+             
+            <div class="form-group">
+                <a class="btn btn-primary form-control" href="<?php echo site_url('panel'); ?>">Panel użytkownika</a>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger form-control">Wyloguj</button>
+            </div>
           </form>
         </div><!--/.navbar-collapse -->
       </div>

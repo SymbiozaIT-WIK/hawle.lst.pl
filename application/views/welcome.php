@@ -10,6 +10,7 @@ if($this->session->flashdata('alert')):?>
     </div>
 <?php endif; ?>
 
+  
    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" style="background:url(http://www.hawle.pl/assets/cache/images/strona_glowna/1920x800-3.ecf.png) center center">
      <div style="background: rgba(50,50,50,0.3);">
@@ -19,3 +20,46 @@ if($this->session->flashdata('alert')):?>
       </div>
      </div>
     </div>
+    
+        
+    <?php if(isset($news)): ?>
+        <?php $this->load->view('news/list',$news); ?>
+    <?php endif; ?>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
