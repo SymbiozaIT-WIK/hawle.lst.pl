@@ -13,7 +13,10 @@ class News extends CI_Controller {
         $data['newsList'] = $this->News_model->get_news_list();
 
         $this->load->template('news/read',$data);
-        
+    }
+    
+    public function create(){
+        $this->load->template('news/create');
     }
 }
 ?>
