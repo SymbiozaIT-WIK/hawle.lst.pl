@@ -14,6 +14,11 @@
         <div id="navbar" class="navbar-collapse collapse">
              
           <form action="<?php echo site_url('logout') ?>" class="navbar-form navbar-right" role="form" method="post">
+             <div class="form-group">
+                 <a class="btn btn-info form-control" href="<?php echo site_url('') ?>">
+                    <i class="fas fa-home"></i>
+                    </a>
+                </div>
              <?php $usertype = $this->session->userdata('usertype');?>
              <?php if($usertype=='A'): ?>
                 <div class="form-group">

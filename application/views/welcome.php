@@ -21,9 +21,9 @@ if($this->session->flashdata('alert')):?>
      </div>
     </div>
     
-        
-    <?php if(isset($news)): ?>
-        <?php $this->load->view('news/list',$news); ?>
+    <?php if(isset($newsList)): ?>
+       <?php $newsList['news']=$newsList; ?>
+        <?php $this->load->view('news/list',$newsList); ?>
     <?php endif; ?>
     
     

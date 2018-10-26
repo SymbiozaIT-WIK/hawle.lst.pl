@@ -20,9 +20,8 @@ class News_model extends CI_Model
         $this->db->order_by('dt_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();
-        $data = $rows;
-        
-        return $data;
+        $data['newsList'] = $rows;
+        return $data['newsList'];
     }
     
     public function get_news_details($newsId){
@@ -33,6 +32,24 @@ class News_model extends CI_Model
         $rows = $query->result_array();
         $data = $rows[0];
         return $data;
+    }
+    
+    public function add_news($news,$newsId='',$edit=false){
+        if($newsId!='' && is_numeric($newsId) && $edit==true){
+            $this->db->where('id',$newsId);
+            return $this->db->replace('news', $news) ? true : false;
+        }else{
+            return $this->db->insert('news',$news) ? true : false;
+        }
+    }
+    
+    public function delete_news($newsId){
+        $this->db->where('id', $newsId);
+        return $this->db->delete('news') ? true : false;
+    }
+    
+    public function update_news($kv = array()){
+        return $this->db->replace('news', $kv) ? true : false;
     }
     
 }

@@ -317,6 +317,38 @@ tr.row-checked {
   }
 }
 
+p.news--controls a.link--bright{
+    color:#fff;
+}
+
+
+input[type="file"] {
+  display: block;
+}
+.imageThumb {
+    width:100%;
+  border: 2px solid;
+  padding: 1px;
+  cursor: pointer;
+}
+.pip {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}
+
+
 /*temp snips
 
     <div class="col-lg-12">
