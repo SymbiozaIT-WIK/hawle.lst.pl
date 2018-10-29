@@ -121,7 +121,11 @@ class DbViews_model extends CI_Model
             $this->db->where('invoiceno',$fvNo);
             $query = $this->db->get();
             $rows['fvHeader'] = $query->result_array();
-
+            
+            $this->load->library('kwota.php');
+            $rows['fvHeader'][0]['kwota_slownie']=Kwota::getInstance()->slownie($rows['fvHeader'][0]['grossValue']);
+        
+        
             $this->db->select('*');
             $this->db->from('view_fvLines');
             $this->db->where('invoiceno',$fvNo);

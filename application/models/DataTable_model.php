@@ -24,7 +24,7 @@ class DataTable_model extends CI_Model
         
         $this->db->select('invoiceno,cast(documentdate as date) as documentdate,cast(paymentdate as date),amount,postingdescription,externaldocno');
         $this->db->from('invoice_header');
-        $this->db->where('invoiceno like \'%F117/01%\'');
+        $this->db->where('custCode',$this->session->userdata('login'));
         $query = $this->db->get();
         $rows = $query->result_array();
         

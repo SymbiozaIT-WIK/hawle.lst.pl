@@ -13,7 +13,7 @@
             <div class="description">
                 <h1><?php echo $newsBox['title']; ?></h1>
                 <h2><?php echo $newsBox['subTitle']; ?></h2>
-                <p><?php echo $newsBox['shortContent']; ?> [...]</p>
+                <p><?php echo $newsBox['shortContent']; ?></p>
             <?php $usertype = $this->session->userdata('usertype');?>
              <?php if(isset($usertype) && $usertype=='A'): ?>
                     <p class="news--controls">
@@ -55,6 +55,7 @@
                                 Wiadomość nie będzie wyświetlana na stronie. <br>
                                 Będzie można ją edytować, lub opublikować w późniejszym czasie.
                             </p>
+                            <?php $this->view('maintenanceSmall'); ?>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>

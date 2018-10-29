@@ -106,7 +106,7 @@
                 <td class="text-right"><?php echo $line['QUANTITY'];?></td>
                 <td class="text-right"><?php echo $line['NETAMOUNT'];?></td>
                 <td class="text-right"><?php echo $line['AMOUNT'];?></td>
-                <td class="text-right"><?php echo $line['perVat'];?>%</td>
+                <td class="text-right"><?php echo $line['perVat'];?> %</td>
                 <td class="text-center"><a href="<?php echo site_url('externalFiles/deklaracjePDF/'.$line['ITEMCATALOGNO'].'.pdf');?>">ZOBACZ</a></td>
             </tr>
             <?php endforeach;?>
@@ -124,10 +124,10 @@
                </tr>
                <tr class="text-center">
                    <td>Razem:</td>
-                   <td>234</td>
-                   <td>23</td>
-                   <td>234</td>
-                   <td>23423</td>
+                   <td><?php echo $fvHeader['netValue'];?></td>
+                   <td class="text-center">X</td>
+                   <td><?php echo $fvHeader['vatValue'];?></td>
+                   <td><?php echo $fvHeader['grossValue'];?></td>
                </tr>
                <tr>
                    <td></td>
@@ -149,7 +149,8 @@
                     <table>
                         <tr>
                             <td>Do zapłaty słownie:</td>
-                            <td><?php echo $fvHeader['inWordsValue'];?></td>
+<!--                            <td><?php #echo $fvHeader['inWordsValue'];?></td>-->
+                            <td><?php echo $fvHeader['kwota_slownie'];?></td>
                         </tr>
                         <tr>
                             <td>Warunki płatności:</td>
@@ -188,6 +189,7 @@
                     </div>
                     <div class="panel-body">
                         <p>
+                            <?php echo $fvHeader['vendName'];?><br>
                             <?php echo $fvHeader['vendName2'];?><br>
                             <?php echo $fvHeader['vendAdress'];?><br>
                             <?php echo $fvHeader['vendAdress2'];?><br>

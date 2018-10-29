@@ -60,6 +60,10 @@ class Update_model extends CI_Model
     }
     
     public function up_invoice_header(){
+        ini_set('memory_limit', '-1');
+        ini_set('sqlsrv.ClientBufferMaxKBSize','524288'); 
+        ini_set('pdo_sqlsrv.client_buffer_max_kb_size','524288');
+        
         $hawledb = $this->load->database('svsql001', TRUE);
         $localdb = $this->load->database('default', TRUE);
         $i=0;

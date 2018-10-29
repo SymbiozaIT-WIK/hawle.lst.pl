@@ -28,7 +28,7 @@ class News extends CI_Controller {
         
         $news['id']    = $this->input->post('newsId');
         
-        if(strlen($news['content'])>250){
+        if((strlen($news['content']))>250){
             $news['shortContent']   = substr($news['content'],1,250).'[...]';  
         }else{$news['shortContent'] = $news['content'];}
         

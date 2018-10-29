@@ -120,7 +120,7 @@ $(document).ready(function() {
       }
     });
   } else {
-    alert("Your browser doesn't support to File API")
+    alert("Twoja przeglądarka nie obsługuje API Plików")
   }
 });
 </script>
