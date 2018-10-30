@@ -3,15 +3,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Order extends CI_Controller {
     
-    public function index()
-    {
-//        $this->load->model('Order_model');
-//        
-//        $userLogin = $this->session->userdata('login');
-//        $data['items'] = $this->Order_model->get_order_headers($userLogin);
-//        $this->load->template('zs/index', $data);
-        redirect('panel');
+    function __construct(){
+        parent::__construct();
+        if ( ! $this->session->userdata('logged')){ 
+            $allowed = array();
+            if (!in_array($this->router->fetch_method(), $allowed)){
+                $alert=array(
+                    'title' => 'Dostęp zablokowany.',
+                    'content' => 'Aby mieć dostęp do podstrony: <a href="'.base_url(uri_string()).'">'.base_url(uri_string()).'</a> nazeży się zalogować.',
+                    'color' => 'danger');
+                $this->session->set_flashdata('alert',$alert);
+                redirect('');
+            }
+        }
     }
+            
+    public function index(){redirect('panel');}
     
     public function create_mm(){
         
@@ -104,6 +111,8 @@ class Order extends CI_Controller {
         $regionalWarehouseCode  = $this->input->post('regionalWarehouseCode');
         $quantity               = $this->input->post('quantity');
         $lineDescription        = $this->input->post('lineDescription');
+        $itemDescription        = $this->input->post('itemDescription');
+        $lineNo                 = $this->input->post('lineNo');
         
         
         if(!$this->input->post('tempid')){ 
@@ -114,7 +123,9 @@ class Order extends CI_Controller {
         if($headerMag){$data['tomag'] = $headerMag;$this->Order_model->edit_header($wzId,$data);}
         if($headerDesc){$data['description']=$headerDesc;$this->Order_model->edit_header($wzId,$data);}
         if($customerDocno){$data['customerdocno']=$customerDocno;$this->Order_model->edit_header($wzId,$data);}
-        
+    
+    //edycja line'a
+        if($lineDescription && $lineNo){$data['lineDesc']=$lineDescription;$this->Order_model->edit_line($wzId,$lineNo,$data);}
 
 //    dodanie linii
         if($itemCode && $regionalWarehouseCode && $quantity){
@@ -124,7 +135,7 @@ class Order extends CI_Controller {
                 'regionalwarehousecode' => $regionalWarehouseCode,
                 'quantity' => $quantity,
                 'tempdocumentno' => $wzId,
-                'description' => $lineDescription
+                'description' => $itemDescription
             );
             $this->Order_model->add_line($wzId,$orderLine);
         }

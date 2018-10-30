@@ -348,6 +348,10 @@ input[type="file"] {
   color: black;
 }
 
+.table tbody > tr > td.vert-aligned {
+    vertical-align: middle;
+}
+
 
 /*temp snips
 

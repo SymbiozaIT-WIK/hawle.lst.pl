@@ -65,7 +65,7 @@
             <th>Cecha</th>
             <th>Ilość</th>
             <th>Z magazynu</th>
-            <!--        <th>Uwagi</th>-->
+                    <th>Uwagi</th>
         </tr>
         <?php $lp=0;?>
         <?php foreach($wzLines as $line): ?>
@@ -77,6 +77,7 @@
                 <td><?php echo $line['attribute']; ?></td>
                 <td><?php echo $line['QUANTITY']; ?></td>
                 <td><?php echo $line['REGIONALWAREHOUSECODE']; ?></td>
+                <td><?php echo $line['lineDesc']; ?></td>
             </tr>
         <?php endforeach;?>
         <tr>

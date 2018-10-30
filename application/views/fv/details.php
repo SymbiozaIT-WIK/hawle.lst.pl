@@ -27,16 +27,16 @@
                     <h4>Sprzedawca: <b><?php echo $fvHeader['vendName'];?></b></h4>
                 </div>
                 <div class="panel-body">
-                    <p>
-                        <?php echo $fvHeader['vendName2'];?><br>
-                        <?php echo $fvHeader['vendAdress'];?><br>
-                        <?php echo $fvHeader['vendAdress2'];?><br>
-                        <?php echo $fvHeader['vendPostCode'];?><br>
-                        <?php echo $fvHeader['vendCity'];?><br>
-                        <?php echo $fvHeader['vendNip'];?><br>
-                        <?php echo $fvHeader['vendTel'];?><br>
-                        <?php echo $fvHeader['vendFax'];?><br>
-                    </p>
+                    <?php 
+                        if($fvHeader['vendName2']!='') echo $fvHeader['vendName2'].'<br/>';
+                        if($fvHeader['vendAdress']!='') echo $fvHeader['vendAdress'].'<br/>';
+                        if($fvHeader['vendAdress2']!='') echo $fvHeader['vendAdress2'].'<br/>';
+                        if($fvHeader['vendPostCode']!='') echo $fvHeader['vendPostCode'].'<br/>';
+                        if($fvHeader['vendCity']!='') echo $fvHeader['vendCity'].'<br/>';
+                        if($fvHeader['vendNip']!='') echo $fvHeader['vendNip'].'<br/>';
+                        if($fvHeader['vendTel']!='') echo $fvHeader['vendTel'].'<br/>';
+                        if($fvHeader['vendFax']!='') echo $fvHeader['vendFax'];
+                        ?>
                 </div>
             </div>
         </div>
@@ -46,14 +46,14 @@
                     <h4>Nabywca : <b><?php echo $fvHeader['custName'];?></b></h4>
                 </div>
                 <div class="panel-body">
-                    <p>
-                        <?php echo $fvHeader['custName2'];?><br>
-                        <?php echo $fvHeader['custAdress'];?><br>
-                        <?php echo $fvHeader['custAdress2'];?><br>
-                        <?php echo $fvHeader['custPostCode'];?><br>
-                        <?php echo $fvHeader['custCity'];?><br>
-                        <?php echo $fvHeader['custNip'];?><br>
-                    </p>
+                    <?php
+                        if($fvHeader['custName2']!='') echo $fvHeader['custName2'].'<br/>';
+                        if($fvHeader['custAdress']!='') echo $fvHeader['custAdress'].'<br/>';
+                        if($fvHeader['custAdress2']!='') echo $fvHeader['custAdress2'].'<br/>';
+                        if($fvHeader['custPostCode']!='') echo $fvHeader['custPostCode'].'<br/>';
+                        if($fvHeader['custCity']!='') echo $fvHeader['custCity'].'<br/>';
+                        if($fvHeader['custNip']!='') echo $fvHeader['custNip'];
+                        ?>
                 </div>
             </div>
         </div>
@@ -207,7 +207,8 @@
     </div>
 </div>
 <div class="container">
-   <form action="<?php echo site_url('fv/fv_download') ?>" method="post">
+   <form action="<?php echo site_url('fv/fv_download'); ?>" method="post">
+   <input type="text" value="<?php echo $fvHeader['INVOICENO'];?>" name="fvno">
     <button type="submit" class="btn btn-primary btn-lg btn-block">Pobierz PDF</button>
     </form>
 </div>

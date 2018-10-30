@@ -1,3 +1,56 @@
+INSERT INTO `invoice_lines` (
+  `id`,
+    `invoiceNo`,
+    `lineNo`,
+    `itemCode`,
+    
+  `itemCatalogNo`,
+    `quantity`,
+    `amount`,
+    
+  `netAmount`,
+    `vat`,
+    `itemDesc`,
+    `itemDesc2`,
+    
+  `attribute`,
+    `totalWeight`,
+    `discount`,
+    
+  `unitPrice`,
+    `netValue`,
+    `perVat`
+) 
+VALUES 
+  (
+    '',
+      'F110/01/131',
+      10000,
+      'OP3500150200W16',
+      
+    '3500',
+      '3.00000000000000000000',
+      
+    '500.10000000000000000000',
+      '409.92000000000000000000',
+      
+    '22.00000000000000000000',
+      'Uniwers. opaska do nawiercania',
+      
+    'Gwint 2\" DN 150 PN 16',
+      'Gwint 2\" DN 150 PN 16',
+      
+    '3.90000000000000000000',
+      '262.08000000000000000000',
+      
+    '224.00000000000000000000',
+      '409.92000000000000000000',
+      
+    '22.00000000000000000000'
+  )
+
+
+
 view_mmheader
 
 select

@@ -33,6 +33,12 @@ class Order_model extends CI_Model
         $this->db->update('order_header', $data);
     }
     
+    public function edit_line($orderId,$lineNo,$data){
+        $this->db->where('tempdocumentno', $orderId);
+        $this->db->where('lineno', $lineNo);
+        $this->db->update('order_lines', $data);
+    }
+    
     public function add_line($orderNo='',$orderLine){
         $this->db->select('lineNo');
         $this->db->from('order_lines');

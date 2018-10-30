@@ -5,6 +5,22 @@ class News extends CI_Controller {
     
 	public function index(){redirect('news/panel');}
     
+    function __construct(){
+        parent::__construct();
+        if ( ! $this->session->userdata('logged') || $this->session->userdata('usertype')!='A'){ 
+            $allowed = array();
+            if (!in_array($this->router->fetch_method(), $allowed)){
+                $alert=array(
+                    'title' => 'Dostęp tylko dla administratora.',
+                    'content' => 'Aby mieć dostęp do podstrony: <a href="'.base_url(uri_string()).'">'.base_url(uri_string()).'</a> nazeży się zalogować na konto administratora.',
+                    'color' => 'danger');
+                $this->session->set_flashdata('alert',$alert);
+                redirect('');
+            }
+        }
+    }
+    
+    
     public function read($newsId){
         $this->load->model('News_model');
         $data['newsDetails'] = $this->News_model->get_news_details($newsId);
