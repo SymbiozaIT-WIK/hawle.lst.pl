@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107006</NrNabywcy>
+  <NrOdbiorcy>107006</NrOdbiorcy>
+  <DataZamowienia>2019-11-27</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>3909296</NrZam>
+  <NrTymczasowy>3909296</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007811</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005478</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>22</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013322</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trójnik kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001324</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008124</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień teleskopowy </Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007812</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>14</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013339</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trójnik kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001357</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008137</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień teleskopowy </Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007948</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012600</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013270</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Łuk kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005037</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005380</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003346</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Kombinacyjna zasuwa do nawier.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>14</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005804</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>7</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003807</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013175</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Łuk 45° - System 2000</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005053</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>210</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008240</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień sztywny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>220</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008125</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień sztywny do E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>230</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007946</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>240</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007819</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>250</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012610</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>260</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012599</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>270</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001505</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>280</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001500</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>290</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008164</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień teleskopowy 9500A</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>300</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008171</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>310</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004851</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>320</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003079</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>330</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022734</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>340</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022750</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>350</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022738</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>360</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022758</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3909296</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

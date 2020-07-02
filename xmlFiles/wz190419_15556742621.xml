@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107001</NrNabywcy>
+  <NrOdbiorcy>107001</NrOdbiorcy>
+  <DataZamowienia>2019-04-19</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>ZSWK St. Sącz</Uwagi>
+  <NrZam>22252</NrZam>
+  <NrTymczasowy>22252</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022732</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>22252</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

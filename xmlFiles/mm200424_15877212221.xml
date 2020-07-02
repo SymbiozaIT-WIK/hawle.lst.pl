@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK02</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam>11-2020</NrZam>
+  <NrTymczasowy>10179576</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5003270</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK02</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>10179576</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5005053</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK02</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>10179576</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

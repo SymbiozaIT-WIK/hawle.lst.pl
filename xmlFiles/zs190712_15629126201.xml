@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107274</NrNabywcy>
+  <NrOdbiorcy>107274</NrOdbiorcy>
+  <DataZamowienia>2019-07-12</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam> </NrZam>
+  <NrTymczasowy>673702</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107274</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>673702</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107274</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007808</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>673702</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107274</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003275</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>673702</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

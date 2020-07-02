@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107164</NrNabywcy>
+  <NrOdbiorcy>107164</NrOdbiorcy>
+  <DataZamowienia>2019-05-15</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>ZAD3</Uwagi>
+  <NrZam>126758</NrZam>
+  <NrTymczasowy>126758</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107164</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023317</Nr>
+    <KodLokalizacji>SK66</KodLokalizacji>
+    <Opis>Złącze rurowe Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>126758</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

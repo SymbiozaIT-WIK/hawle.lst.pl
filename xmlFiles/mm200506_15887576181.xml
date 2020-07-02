@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK31</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam> </NrZam>
+  <NrTymczasowy>10792934</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5024111</NrZapasu>
+    <Ilosc>50</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>50</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Skrzynka uliczna</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK31</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>10792934</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5008693</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Klucz do odcinania armatury</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK31</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>10792934</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5008694</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Klucz do odcinania dla zasuw</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK31</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>10792934</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam> </NrZam>
+  <NrTymczasowy>12439109</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5001924</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa kołnierzowa długa E1</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5003067</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5003079</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5003188</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zawór kątowy do przyłącza dom.</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5003472</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>70</NrWiersza>
+    <NrZapasu>5003480</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>80</NrWiersza>
+    <NrZapasu>5003648</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska odcinająca HAKU</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>90</NrWiersza>
+    <NrZapasu>5003804</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>100</NrWiersza>
+    <NrZapasu>5003811</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>110</NrWiersza>
+    <NrZapasu>5003825</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>120</NrWiersza>
+    <NrZapasu>5005488</NrZapasu>
+    <Ilosc>30</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>30</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>130</NrWiersza>
+    <NrZapasu>5005918</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>140</NrWiersza>
+    <NrZapasu>5005925</NrZapasu>
+    <Ilosc>7</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>7</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>150</NrWiersza>
+    <NrZapasu>5006001</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>160</NrWiersza>
+    <NrZapasu>5008164</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy 9500A</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>170</NrWiersza>
+    <NrZapasu>5008235</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>180</NrWiersza>
+    <NrZapasu>5008239</NrZapasu>
+    <Ilosc>35</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>35</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>190</NrWiersza>
+    <NrZapasu>5003198</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa kątowa do przyłącza dom</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK23</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>12439109</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

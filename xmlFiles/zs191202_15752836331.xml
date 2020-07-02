@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107009</NrNabywcy>
+  <NrOdbiorcy>107009</NrOdbiorcy>
+  <DataZamowienia>2019-12-02</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>19-05551</NrZam>
+  <NrTymczasowy>4081486</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003346</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kombinacyjna zasuwa do nawier.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>4081486</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>4081486</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

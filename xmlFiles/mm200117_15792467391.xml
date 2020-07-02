@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam> </NrZam>
+  <NrTymczasowy>5759232</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5006001</NrZapasu>
+    <Ilosc>8</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>8</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>5759232</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5005623</NrZapasu>
+    <Ilosc>6</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>6</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>5759232</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5005662</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>5759232</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5005488</NrZapasu>
+    <Ilosc>8</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>8</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>5759232</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5005053</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>5759232</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5023353</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK03</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>5759232</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

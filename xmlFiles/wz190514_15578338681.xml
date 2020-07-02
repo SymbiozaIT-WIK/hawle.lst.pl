@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108611</NrNabywcy>
+  <NrOdbiorcy>108611</NrOdbiorcy>
+  <DataZamowienia>2019-05-14</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>121084</NrZam>
+  <NrTymczasowy>121084</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012599</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>121084</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014502</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>121084</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

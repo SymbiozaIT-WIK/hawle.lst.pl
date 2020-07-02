@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>stany</Uwagi>
+  <NrZam>14/2020</NrZam>
+  <NrTymczasowy>9879060</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5005623</NrZapasu>
+    <Ilosc>100</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>100</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>9879060</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5005662</NrZapasu>
+    <Ilosc>100</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>100</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>9879060</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

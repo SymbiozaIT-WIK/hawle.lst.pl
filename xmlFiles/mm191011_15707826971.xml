@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam>28/H/2019</NrZam>
+  <NrTymczasowy>2496496</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5012778</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kształtka kołnierz. redukcyjna</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5007945</NrZapasu>
+    <Ilosc>15</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>15</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5012601</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5012602</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5022162</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5012600</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>70</NrWiersza>
+    <NrZapasu>5013223</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łuk 90° - System 2000</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>80</NrWiersza>
+    <NrZapasu>5013199</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łuk 30° - System 2000</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>90</NrWiersza>
+    <NrZapasu>5013175</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Łuk 45° - System 2000</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>100</NrWiersza>
+    <NrZapasu>5001500</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>110</NrWiersza>
+    <NrZapasu>5022738</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>120</NrWiersza>
+    <NrZapasu>5022737</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>2496496</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

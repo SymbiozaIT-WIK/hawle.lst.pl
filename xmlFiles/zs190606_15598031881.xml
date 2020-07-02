@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107031</NrNabywcy>
+  <NrOdbiorcy>107031</NrOdbiorcy>
+  <DataZamowienia>2019-06-06</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam> </NrZam>
+  <NrTymczasowy>263014</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107031</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007767</Nr>
+    <KodLokalizacji>SK21</KodLokalizacji>
+    <Opis>Zabezpieczenie obudowy przed</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>263014</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

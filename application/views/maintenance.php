@@ -35,27 +35,32 @@
 
    <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="error-template">
-                <h1>
-                    Przepraszamy</h1>
+                <h1 style="text-align: left">
+                    W związku z inwentaryzacją sklep internetowy będzie nieczynny od 02-13.01.2020
+                </h1>
+<!--
                 <h2>
-                    Moduł tymczasowo niedostępny</h2>
+                    W dniach 02-13.01.2020 Fabryka Armatury Hawle będzie zamknięta.
+                </h2>
                 <h1>
-                    Pełna funkcjonalność już wkrótce</h1>
+                    </h1>
+-->
                 <div>
-                    <p>
-                        — LST</p>
+                    <b> Fabryka Armatury Hawle Spółka z o.o.</b>
                 </div>
+<!--
                 <div class="error-actions">
-                    <a href="<?php echo site_url(''); ?>" style="margin-top: 10px;" class="btn btn-info btn-lg">
+                    <a href="<#?php echo site_url(''); ?>" style="margin-top: 10px;" class="btn btn-info btn-lg">
                         Strona główna </a>
-                    <a href="<?php echo site_url('panel'); ?>" style="margin-top: 10px;" class="btn btn-lg btn-primary">
+                    <a href="<#?php echo site_url('panel'); ?>" style="margin-top: 10px;" class="btn btn-lg btn-primary">
                         Panel użytkownika</a>
                 </div>
             </div>
+-->
         </div>
-        <div class="col-md-6">
+        <div class="col-md-10">
             <svg class="svg-box" width="380px" height="500px" viewbox="0 0 837 1045" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">

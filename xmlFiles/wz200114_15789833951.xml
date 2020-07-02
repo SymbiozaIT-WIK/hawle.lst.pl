@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107189</NrNabywcy>
+  <NrOdbiorcy>107189</NrOdbiorcy>
+  <DataZamowienia>2020-01-14</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>5661565</NrZam>
+  <NrTymczasowy>5661565</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107189</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003472</Nr>
+    <KodLokalizacji>SK48</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>5661565</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107189</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004052</Nr>
+    <KodLokalizacji>SK48</KodLokalizacji>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>5661565</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

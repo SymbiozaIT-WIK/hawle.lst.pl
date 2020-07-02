@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>PILNE</Uwagi>
+  <NrZam>7/H/W4.03.2020</NrZam>
+  <NrTymczasowy>7736457</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5005488</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5005523</NrZapasu>
+    <Ilosc>15</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>15</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5005408</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5006040</NrZapasu>
+    <Ilosc>15</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>15</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5005943</NrZapasu>
+    <Ilosc>9</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>9</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5003079</NrZapasu>
+    <Ilosc>8</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>8</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>70</NrWiersza>
+    <NrZapasu>5001500</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>80</NrWiersza>
+    <NrZapasu>5008239</NrZapasu>
+    <Ilosc>15</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>15</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>90</NrWiersza>
+    <NrZapasu>5017843</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>100</NrWiersza>
+    <NrZapasu>5008164</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy 9500A</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>7736457</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

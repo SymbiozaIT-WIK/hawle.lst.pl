@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107010</NrNabywcy>
+  <NrOdbiorcy>107010</NrOdbiorcy>
+  <DataZamowienia>2020-05-08</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>10896890</NrZam>
+  <NrTymczasowy>10896890</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024111</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>50</Ilosc>
+    <NrTymczasowy>10896890</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008693</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Klucz do odcinania armatury</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>10896890</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008694</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Klucz do odcinania dla zasuw</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>10896890</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

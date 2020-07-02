@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania>2019-04-03</DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK44</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania>2019-04-03</DataWydania>
+  <DataPrzyjecia>2019-04-03</DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>PWIK INOWROCŁAW&#13;
+UL.KS.JASKOWSKIEGO 14&#13;
+88-100 INOWROCŁAW&#13;
+667 661 331&#13;
+OFERTA ROCZNA PRZETARG PWIK</Uwagi>
+  <NrZam>03/04 INOWROCLAW</NrZam>
+  <NrTymczasowy>178</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5003652</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska odcinająca HAKU</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK44</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2019-04-03</DataWydania>
+    <DataPrzyjecia>2019-04-03</DataPrzyjecia>
+    <NrTymczasowy>178</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5004056</NrZapasu>
+    <Ilosc>8</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>8</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK44</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2019-04-03</DataWydania>
+    <DataPrzyjecia>2019-04-03</DataPrzyjecia>
+    <NrTymczasowy>178</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5003067</NrZapasu>
+    <Ilosc>6</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>6</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK44</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2019-04-03</DataWydania>
+    <DataPrzyjecia>2019-04-03</DataPrzyjecia>
+    <NrTymczasowy>178</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

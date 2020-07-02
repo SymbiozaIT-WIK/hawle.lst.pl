@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107377</NrNabywcy>
+  <NrOdbiorcy>107377</NrOdbiorcy>
+  <DataZamowienia>2019-05-21</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>163958</NrZam>
+  <NrTymczasowy>163958</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107377</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006001</Nr>
+    <KodLokalizacji>SK29</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>163958</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

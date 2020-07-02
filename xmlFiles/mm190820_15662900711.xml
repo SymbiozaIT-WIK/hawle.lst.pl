@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>Bardzo pilne </Uwagi>
+  <NrZam>RB:20.08.19/Szpec</NrZam>
+  <NrTymczasowy>1298938</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5025946</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa nożowa z niewznoszącym</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>1298938</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5014511</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>1298938</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5014508</NrZapasu>
+    <Ilosc>12</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>12</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>1298938</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5014506</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>1298938</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5014502</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>1298938</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5014503</NrZapasu>
+    <Ilosc>6</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>6</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>1298938</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

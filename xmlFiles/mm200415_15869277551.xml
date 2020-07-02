@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>STANY</Uwagi>
+  <NrZam>13.04.`2020</NrZam>
+  <NrTymczasowy>9729937</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5022040</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Odejście siodłowe Saturn</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>9729937</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5014608</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Filtr siatkowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>9729937</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5027985</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>9729937</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

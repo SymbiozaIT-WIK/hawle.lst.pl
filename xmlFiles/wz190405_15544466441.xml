@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108609</NrNabywcy>
+  <NrOdbiorcy>108609</NrOdbiorcy>
+  <DataZamowienia>2019-04-05</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>706</NrZam>
+  <NrTymczasowy>706</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108609</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004082</Nr>
+    <KodLokalizacji>SK09</KodLokalizacji>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>706</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108609</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022769</Nr>
+    <KodLokalizacji>SK09</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>706</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

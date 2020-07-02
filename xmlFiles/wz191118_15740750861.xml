@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108614</NrNabywcy>
+  <NrOdbiorcy>108614</NrOdbiorcy>
+  <DataZamowienia>2019-11-16</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>rap. od 04.11.2019 do 16.11.2019</Uwagi>
+  <NrZam>3562302</NrZam>
+  <NrTymczasowy>3562302</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022059</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Hydrant ogrodowy z odwodnienie</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021650</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrotrójnik 90° z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021969</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Obejma do nawier-komplet z obr</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021945</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Obejma do nawier. z obrotowym</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028580</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021983</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Obejma siodłowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021984</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Obejma siodłowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028578</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028562</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028599</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022036</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Odejście siodłowe Saturn</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021994</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trójnik nawiertka</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021997</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trójnik nawiertka</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003090</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003097</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003093</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>32</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003100</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003108</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003248</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zawór zwrotny antyskażeniowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>31</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001936</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa długa E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>210</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001334</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>220</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001334</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>230</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027369</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trójnik elektrooporowy 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>250</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005488</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>260</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005499</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>270</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005849</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złączka końcowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>280</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005836</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złączka końcowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>290</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005693</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>300</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005623</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>12</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>310</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005662</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>320</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005727</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>330</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006001</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>340</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006019</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>350</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005975</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>360</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022012</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Adaptor PE/mosiądz gw. zewnęt</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>9</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>370</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022004</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Adaptor PE/mosiądz gw. wewnętr</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>380</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022017</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Adaptor PE/mosiądz gw. zewnęt</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>39</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>390</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023326</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złącze rurowe Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>400</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021622</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 45°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>410</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021819</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trójnik 90° redukcyjny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>420</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021651</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrotrójnik 90° z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>430</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028484</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Tuleja kołnierzowa, długa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>440</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021666</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>450</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021907</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Kołpak</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>460</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027432</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Kołpak</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>470</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021599</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90° z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>480</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021600</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90° z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>56</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>490</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028959</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>39</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>500</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021601</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90° z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>510</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028961</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>520</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028963</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>9</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>530</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021608</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 90° bez zacisków</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>540</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021619</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrokolano 45°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>550</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021816</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trójnik 90° redukcyjny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>560</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021641</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektrotrójnik 90°, redukcyjny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>570</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028485</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Tuleja kołnierzowa, długa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>580</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028488</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Tuleja kołnierzowa, długa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>590</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021903</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Redukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>600</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028988</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>610</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021660</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektroredukcja z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>620</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028992</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>7</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>630</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021663</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektroredukcja z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>640</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028991</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>650</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021895</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Redukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>660</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021904</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Redukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>670</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021676</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>680</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5029004</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>26</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>690</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5029005</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>700</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021678</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>7</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>710</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028781</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>720</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028783</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>730</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028784</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>740</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021683</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa bez zacisków</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>750</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028787</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>13</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>760</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023317</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złącze rurowe Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>770</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023323</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złącze rurowe Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>780</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023360</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>790</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023335</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złącze kołnierzowe WAGA 3000</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>800</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023357</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>810</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008240</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trzpień sztywny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>820</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008171</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>840</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008257</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>850</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008164</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trzpień teleskopowy 9500A</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>860</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008177</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>870</NrWiersza>
+    <NrNabywcy>108614</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>SK50</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>34</Ilosc>
+    <NrTymczasowy>3562302</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

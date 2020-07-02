@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107667</NrNabywcy>
+  <NrOdbiorcy>107667</NrOdbiorcy>
+  <DataZamowienia>2020-03-31</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>8996498</NrZam>
+  <NrTymczasowy>8996498</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028992</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028989</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028993</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028991</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028996</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028958</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028964</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5029003</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028781</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028783</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028784</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>27</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028534</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>EF Trójnik rów. 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028687</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Obejma z bosym króćcem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028554</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028563</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028579</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028578</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028297</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028298</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028505</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kołpak</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996498</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

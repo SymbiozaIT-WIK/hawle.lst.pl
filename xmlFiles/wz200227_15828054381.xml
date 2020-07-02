@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>1269</NrNabywcy>
+  <NrOdbiorcy>1269</NrOdbiorcy>
+  <DataZamowienia>2020-02-27</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>7489940</NrZam>
+  <NrTymczasowy>7489940</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005084</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>7489940</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004298</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>7489940</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004300</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>7489940</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003543</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>7489940</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

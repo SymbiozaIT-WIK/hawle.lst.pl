@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam>RB:11.06.19/Szpec</NrZam>
+  <NrTymczasowy>318332</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5006513</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Hydrant nadziemny DUO - czerw.</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>318332</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5004960</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>318332</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5004959</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>318332</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5006566</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Hydrant nadziemny DUO - czerw.</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>318332</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5012600</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>318332</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5012598</NrZapasu>
+    <Ilosc>3</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>3</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK59</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>318332</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

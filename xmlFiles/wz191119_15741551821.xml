@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107071</NrNabywcy>
+  <NrOdbiorcy>107071</NrOdbiorcy>
+  <DataZamowienia>2019-11-19</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>3642962</NrZam>
+  <NrTymczasowy>3642962</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107071</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003280</Nr>
+    <KodLokalizacji>SK47</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3642962</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107071</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003652</Nr>
+    <KodLokalizacji>SK47</KodLokalizacji>
+    <Opis>Opaska odcinająca HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>3642962</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

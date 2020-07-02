@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108578</NrNabywcy>
+  <NrOdbiorcy>108578</NrOdbiorcy>
+  <DataZamowienia>2020-04-06</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>33/2020</NrZam>
+  <NrTymczasowy>9287469</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108578</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001515</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>9287469</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108578</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008266</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>9287469</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>108578</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023357</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>9287469</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>108578</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003728</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>9287469</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>108578</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023359</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>9287469</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi> </Uwagi>
+  <NrZam>13/Z/2019</NrZam>
+  <NrTymczasowy>157560</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5003248</NrZapasu>
+    <Ilosc>10</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>10</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zawór zwrotny antyskażeniowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5003807</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5003869</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5005380</NrZapasu>
+    <Ilosc>30</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>30</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5005488</NrZapasu>
+    <Ilosc>30</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>30</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5005804</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>70</NrWiersza>
+    <NrZapasu>5005918</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>80</NrWiersza>
+    <NrZapasu>5006001</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>90</NrWiersza>
+    <NrZapasu>5008239</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>100</NrWiersza>
+    <NrZapasu>5003346</NrZapasu>
+    <Ilosc>20</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>20</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kombinacyjna zasuwa do nawier.</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>110</NrWiersza>
+    <NrZapasu>5022719</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>120</NrWiersza>
+    <NrZapasu>5022726</NrZapasu>
+    <Ilosc>3</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>3</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>130</NrWiersza>
+    <NrZapasu>5022730</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>140</NrWiersza>
+    <NrZapasu>5022737</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>150</NrWiersza>
+    <NrZapasu>5022786</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>160</NrWiersza>
+    <NrZapasu>5022826</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>170</NrWiersza>
+    <NrZapasu>5015326</NrZapasu>
+    <Ilosc>5</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>5</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>180</NrWiersza>
+    <NrZapasu>5015331</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Opaska do napraw i łączenia W</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>190</NrWiersza>
+    <NrZapasu>5022686</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złącze naprawcze DUOFIT</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK20</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>157560</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

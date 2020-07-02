@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107001</NrNabywcy>
+  <NrOdbiorcy>107001</NrOdbiorcy>
+  <DataZamowienia>2019-06-28</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>Dz. Sprzed.</Uwagi>
+  <NrZam>489695</NrZam>
+  <NrTymczasowy>489695</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003247</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Zawór zwrotny antyskażeniowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>489695</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

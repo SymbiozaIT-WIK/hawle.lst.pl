@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108622</NrNabywcy>
+  <NrOdbiorcy>108622</NrOdbiorcy>
+  <DataZamowienia>2019-09-25</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>2108124</NrZam>
+  <NrTymczasowy>2108124</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108622</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001309</Nr>
+    <KodLokalizacji>SK70</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2108124</NrTymczasowy>
+    <Uwagi>Nr 0617110012830042</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108622</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008120</Nr>
+    <KodLokalizacji>SK70</KodLokalizacji>
+    <Opis>Trzpień teleskopowy E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2108124</NrTymczasowy>
+    <Uwagi>Nr 0719100200330000164</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108622</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024112</Nr>
+    <KodLokalizacji>SK70</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2108124</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>108622</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001360</Nr>
+    <KodLokalizacji>SK70</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2108124</NrTymczasowy>
+    <Uwagi>Nr 11145874240009</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>108622</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008132</Nr>
+    <KodLokalizacji>SK70</KodLokalizacji>
+    <Opis>Trzpień teleskopowy E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2108124</NrTymczasowy>
+    <Uwagi>Nr TP9500125092107</Uwagi>
+  </SalesLine>
+</SalesHeader>

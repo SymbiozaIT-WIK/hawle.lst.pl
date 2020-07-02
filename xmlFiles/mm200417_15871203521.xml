@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania>2020-04-17</DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania>2020-04-17</DataWydania>
+  <DataPrzyjecia>2020-04-17</DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>pilne</Uwagi>
+  <NrZam>11/H/W17.04.2020</NrZam>
+  <NrTymczasowy>9829235</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5012813</NrZapasu>
+    <Ilosc>1</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>1</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Kształtka kołnierz. redukcyjna</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2020-04-17</DataWydania>
+    <DataPrzyjecia>2020-04-17</DataPrzyjecia>
+    <NrTymczasowy>9829235</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5005380</NrZapasu>
+    <Ilosc>30</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>30</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK10</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2020-04-17</DataWydania>
+    <DataPrzyjecia>2020-04-17</DataPrzyjecia>
+    <NrTymczasowy>9829235</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

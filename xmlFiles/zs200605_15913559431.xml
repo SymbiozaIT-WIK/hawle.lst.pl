@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107094</NrNabywcy>
+  <NrOdbiorcy>107094</NrOdbiorcy>
+  <DataZamowienia>2020-06-05</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>TZ/137</NrZam>
+  <NrTymczasowy>12242323</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005092</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>12242323</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004166</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>12242323</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003079</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>12242323</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107129</NrNabywcy>
+  <NrOdbiorcy>107129</NrOdbiorcy>
+  <DataZamowienia>2020-03-31</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>8996487</NrZam>
+  <NrTymczasowy>8996487</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005637</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/34</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004085</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/109</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005623</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/140</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006001</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/56</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028787</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/02</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028966</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/01</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012797</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Kształtka kołnierz. redukcyjna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/157</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021839</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Tuleja kołnierzowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/224</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005925</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/65</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005499</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/62</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007812</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/68</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013336</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Trójnik kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/221</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004879</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/242</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023360</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/7</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001515</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/21</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001715</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/27</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5025822</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/16</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008266</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/15</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005389</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/30</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005662</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/162</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>210</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003267</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/165</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>220</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005591</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/139</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>230</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8996487</NrTymczasowy>
+    <Uwagi>/17</Uwagi>
+  </SalesLine>
+</SalesHeader>

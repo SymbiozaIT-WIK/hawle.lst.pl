@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107044</NrNabywcy>
+  <NrOdbiorcy>107044</NrOdbiorcy>
+  <DataZamowienia>2019-09-15</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>1868435</NrZam>
+  <NrTymczasowy>1868435</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021940</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma do nawier. z dolną czę-</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>1868435</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

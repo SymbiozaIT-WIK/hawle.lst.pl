@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>ul. Niweiadomska, Rozstajna, Maruli,</Uwagi>
+  <NrZam>08/02/2020</NrZam>
+  <NrTymczasowy>6484395</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5001505</NrZapasu>
+    <Ilosc>8</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>8</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>20</NrWiersza>
+    <NrZapasu>5008263</NrZapasu>
+    <Ilosc>8</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>8</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień sztywny</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>30</NrWiersza>
+    <NrZapasu>5008257</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>40</NrWiersza>
+    <NrZapasu>5001500</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>50</NrWiersza>
+    <NrZapasu>5003100</NrZapasu>
+    <Ilosc>6</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>6</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>60</NrWiersza>
+    <NrZapasu>5003097</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>70</NrWiersza>
+    <NrZapasu>5003093</NrZapasu>
+    <Ilosc>91</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>91</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>80</NrWiersza>
+    <NrZapasu>5003090</NrZapasu>
+    <Ilosc>12</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>12</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>90</NrWiersza>
+    <NrZapasu>5008239</NrZapasu>
+    <Ilosc>110</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>110</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trzpień teleskopowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>100</NrWiersza>
+    <NrZapasu>5021639</NrZapasu>
+    <Ilosc>13</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>13</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Elektrotrójnik 90°, redukcyjny</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>110</NrWiersza>
+    <NrZapasu>5021567</NrZapasu>
+    <Ilosc>4</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>4</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Elektrotrójnik 90°, redukcyjny</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>120</NrWiersza>
+    <NrZapasu>5021969</NrZapasu>
+    <Ilosc>40</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>40</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Obejma do nawier-komplet z obr</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>130</NrWiersza>
+    <NrZapasu>5021837</NrZapasu>
+    <Ilosc>15</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>15</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Tuleja kołnierzowa</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+  <TransferLine>
+    <NrWiersza>140</NrWiersza>
+    <NrZapasu>5003248</NrZapasu>
+    <Ilosc>70</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>70</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Zawór zwrotny antyskażeniowy</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK50</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>6484395</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

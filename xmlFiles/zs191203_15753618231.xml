@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108615</NrNabywcy>
+  <NrOdbiorcy>108615</NrOdbiorcy>
+  <DataZamowienia>2019-12-03</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>594/2019</NrZam>
+  <NrTymczasowy>4116278</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003346</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kombinacyjna zasuwa do nawier.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>4116278</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005804</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>4116278</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>4116278</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008233</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>4116278</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007808</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>4116278</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -1,0 +1,12 @@
+Czas wykonania: 6.1128568649292 sek. 
+
+Connected at: 2019-07-13_11-56-43
+ 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/user.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/item.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/inventory.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/order_lines.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/order_header.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/invoice_lines.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/invoice_header.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/regional_warehouse.txt 

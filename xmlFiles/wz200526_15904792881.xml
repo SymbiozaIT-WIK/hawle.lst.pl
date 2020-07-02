@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107006</NrNabywcy>
+  <NrOdbiorcy>107006</NrOdbiorcy>
+  <DataZamowienia>2020-05-26</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>11800524</NrZam>
+  <NrTymczasowy>11800524</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013033</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Łącznik - System 2000</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>11800524</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107006</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005053</Nr>
+    <KodLokalizacji>SK20</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>11800524</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

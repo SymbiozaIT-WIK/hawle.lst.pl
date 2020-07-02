@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107044</NrNabywcy>
+  <NrOdbiorcy>107044</NrOdbiorcy>
+  <DataZamowienia>2020-04-28</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>10381957</NrZam>
+  <NrTymczasowy>10381957</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021950</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma do nawier. z obrotowym</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027985</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028580</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007812</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028959</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028560</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028992</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028574</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>11</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021928</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma siodłowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003270</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021940</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma do nawier. z dolną czę-</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005053</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005054</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001505</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008171</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021631</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrotrójnik 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028969</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrokolano 45°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028964</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028485</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Tuleja kołnierzowa, długa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001500</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>210</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008257</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>220</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028484</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Tuleja kołnierzowa, długa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>230</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003460</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>240</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005396</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>250</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028884</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Adapter gz mosiądz woda gaz</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>260</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028781</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>270</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028961</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>280</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021952</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma do nawier. z obrotowym</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>290</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028783</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>10381957</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

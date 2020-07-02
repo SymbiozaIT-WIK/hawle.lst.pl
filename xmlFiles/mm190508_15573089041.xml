@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania> </DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK63</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania> </DataWydania>
+  <DataPrzyjecia> </DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>Miejsce dostawy:&#13;
+Otwockie Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o., &#13;
+Oczyszczalnia Ścieków&#13;
+05-400 Otwock, ul. Kraszewskiego 1, Paweł Wojtas, tel. 601-637-247</Uwagi>
+  <NrZam>OTWOCK</NrZam>
+  <NrTymczasowy>89696</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5027884</NrZapasu>
+    <Ilosc>50</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>50</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Płyta podkładowa - mała</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK63</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania> </DataWydania>
+    <DataPrzyjecia> </DataPrzyjecia>
+    <NrTymczasowy>89696</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

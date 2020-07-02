@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107667</NrNabywcy>
+  <NrOdbiorcy>107667</NrOdbiorcy>
+  <DataZamowienia>2020-01-31</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>6319815</NrZam>
+  <NrTymczasowy>6319815</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028560</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>6319815</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107009</NrNabywcy>
+  <NrOdbiorcy>107009</NrOdbiorcy>
+  <DataZamowienia>2020-02-04</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>20-00551</NrZam>
+  <NrTymczasowy>6484398</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008164</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy 9500A</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>6484398</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004962</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>6484398</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004838</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>6484398</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

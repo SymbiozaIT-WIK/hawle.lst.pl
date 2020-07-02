@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>1269</NrNabywcy>
+  <NrOdbiorcy>1269</NrOdbiorcy>
+  <DataZamowienia>2019-09-29</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>2208105</NrZam>
+  <NrTymczasowy>2208105</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008381</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Tuleja wzmac. dla złączek ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>2208105</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008393</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Tuleja wzmac. dla złączek ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>2208105</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

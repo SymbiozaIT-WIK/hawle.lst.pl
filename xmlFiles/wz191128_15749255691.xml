@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107044</NrNabywcy>
+  <NrOdbiorcy>107044</NrOdbiorcy>
+  <DataZamowienia>2019-11-28</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>3943307</NrZam>
+  <NrTymczasowy>3943307</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021690</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektromufa bez zacisków</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3943307</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021688</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektromufa bez zacisków</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3943307</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028961</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrokolano 90°</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3943307</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028781</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektromufa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3943307</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

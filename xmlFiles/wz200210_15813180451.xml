@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107010</NrNabywcy>
+  <NrOdbiorcy>107010</NrOdbiorcy>
+  <DataZamowienia>2020-02-10</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>6734714</NrZam>
+  <NrTymczasowy>6734714</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001928</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa długa E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>6734714</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024111</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>50</Ilosc>
+    <NrTymczasowy>6734714</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5019292</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>6734714</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

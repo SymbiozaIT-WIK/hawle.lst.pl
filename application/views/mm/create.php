@@ -11,7 +11,28 @@
 <div class="container">
 <h1>Nowe zamówienie</h1>
 </div>
-
+<!--
+<style>
+    #dataTable_wrapper{
+        margin-top:2em;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 10px #ddd;
+        padding:1em;
+        background: #fafaff
+    }
+    #dataTable_filter{
+/*        border:1px solid #444;*/
+    }
+    #dataTable_filter label{
+        width:100%;
+        padding:1em;
+    }
+    #dataTable_filter input{
+        width:100%;
+        background: #fdd6ba;
+    }
+</style>
+-->
     
 <div class="container">
    
@@ -22,7 +43,7 @@
         <td style="vertical-align:middle; font-weight:bold;">Odbiorca:</td>
         <td rowspan="2" class="bg-info text-center text-primary">
             <h1>Zamówienie</h1>
-            Lokalizacja docelowa
+            Kod lokalizacji docelowej
             <div class="form-group">
               <label for="selMag">Wybierz magazyn:</label>
             <form action="" method="post" id="submitChangeForm">
@@ -76,7 +97,7 @@
     </tr>
     <tr>
         <th>Lp</th>
-        <th>Kod twaru</th>
+        <th>Kod twaru / Nr. Kat</th>
         <th>Opis</th>
         <th>Cecha</th>
         <th>Ilość</th>
@@ -89,7 +110,7 @@
         <?php $lp++; ?>
         <tr>
             <td><?php echo $lp ?></td>
-            <td><?php echo $line['ITEMCODE']; ?></td>
+            <td><?php echo $line['ITEMCODE']; ?><br><b><?php echo $line['INDEX']; ?></b></td>
             <td><?php echo $line['DESCRIPTION']; ?></td>
             <td><?php echo $line['attribute']; ?></td>
             <td><?php echo $line['QUANTITY']; ?></td>
@@ -180,7 +201,7 @@
         <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
         
         <div class="col-md-4">
-         <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
+         <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy / INDEX" class="form-control input-md">
          <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md" style="margin-top:20px;">
          <input id="ItemAttribute" name="SearchItemAttribute" type="text" placeholder="cecha" class="form-control input-md" style="margin-top:20px;">
         </div>
@@ -205,6 +226,7 @@
             
         
         <?php if(isset($datatable)):?>
+           <h2>Wynik wyszukiwania:</h2>
             <table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
                 <thead>
                     <tr>
@@ -238,9 +260,11 @@
                                 <form action="" method="post" id="submitChangeForm">
                                     <input hidden type="text" value="<?php echo $mmDetails['mmHeader']['tempid'] ?>" name="tempid">
                                     <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
+                                    <input hidden type="text" value="<?php echo $row['index'];?>" name="index">
                                     <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
                                     <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
-                                    <input type="text" class="submit--this" name="quantity">
+                                    <input hidden type="text" value="true" name="cache_table">
+                                    <input type="number" class="submit--this" name="quantity">
                                 </form>
                             </td>
                         </tr>

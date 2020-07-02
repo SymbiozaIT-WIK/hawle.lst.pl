@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107450</NrNabywcy>
+  <NrOdbiorcy>107450</NrOdbiorcy>
+  <DataZamowienia>2020-04-23</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>23/04/2020</NrZam>
+  <NrTymczasowy>10154351</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107450</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022104</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Zawór zwrotny antyskażeniowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10154351</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107450</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014619</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Filtr siatkowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10154351</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107450</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022698</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Łącznik kołnierzowy MULTIGRIP</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>10154351</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

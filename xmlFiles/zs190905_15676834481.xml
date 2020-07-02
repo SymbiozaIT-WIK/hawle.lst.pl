@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107094</NrNabywcy>
+  <NrOdbiorcy>107094</NrOdbiorcy>
+  <DataZamowienia>2019-09-05</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>TZ/185</NrZam>
+  <NrTymczasowy>1630325</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003192</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Zawór kątowy do przyłącza dom</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>1630325</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>1630325</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5017843</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>1630325</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003460</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>1630325</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003480</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>1630325</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

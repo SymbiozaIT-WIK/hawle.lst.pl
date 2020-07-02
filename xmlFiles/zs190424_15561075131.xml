@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107009</NrNabywcy>
+  <NrOdbiorcy>107009</NrOdbiorcy>
+  <DataZamowienia>2019-04-24</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>19-02123</NrZam>
+  <NrTymczasowy>36921</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003346</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kombinacyjna zasuwa do nawier.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>36921</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003365</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kombinacyjny zawór kątowy ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>36921</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>36921</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5017843</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>36921</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005804</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>36921</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005810</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>36921</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

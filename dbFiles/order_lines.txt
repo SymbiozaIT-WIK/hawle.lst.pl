@@ -1,0 +1,278 @@
+|3130000000||10|1|SZT|Łuk 90° - System 2000|Łuk 90° - System 2000 D180, PN16|5013231|65|25.810|||2019-01-18||1|1|3200|
+|3130000002||10|1|SZT|Łuk 90° - System 2000|Łuk 90° - System 2000 D180, PN16|5013231|65|25.810|||2019-01-22||1|1|3200|
+|3130000003||10|25|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053|15.20|157.750|||2019-01-22|25|25||3200|
+|3130000003||20|50|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1 1/2" F|5003280|9|80|||2019-01-22|50|50||3200|
+|3130000003||30|5|SZT|Zasuwa kołnierzowa typu-E2|Zasuwa kołnierzowa typu-E2 DN400E2 PN10|5001421|3662|1305|||2019-01-22|5|5||3200|
+|3130000005||10|50|SZT|Trzpień teleskopowy|EBG HA-A+E RD 1,3-1,8 100-125|5008171|.35|341|||2019-01-23||50|50|3200|
+|3130000005||20|3|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 150|5001515|40.32|102.600|||2019-01-23||3|3|3200|
+|3130000005||30|112|SZT|Kołnierz S2000 dla rur PCW, PE|FLA S2 HONGKONG 80/90|5005040|.24|560|||2019-01-23|45|112|67|3200|
+|3130000005||40|3|SZT|Filtr siatkowy|SCHMUTZFAENGER PL PN16 80|5014608|27.15|57|||2019-01-23||3|3|3200|
+|3130000006||10|5|SZT|Zasuwa kołnierzowa typu-E2|Zasuwa kołnierzowa typu-E2 DN500 PN10 -|5001427|4167.70|2435|||2019-01-22|5|5||3200|
+|3130000006||20|50|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" Fi ze|5003285|6.63|111|||2019-01-22|50|50||3200|
+|3130000006||30|100|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" Fi ze|5003285|3.31|222||||100|100||3200|
+|3130000008||10|15|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|75.33|513|||2019-01-22|15|15||3200|
+|3130000008||20|200|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 150-16|5005063|2.93|2100|||2019-01-22|200|200||3200|
+|3130000009||10|5|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|139.20|92.550|||2019-01-22||5|5|3200|
+|3130000009||20|25|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN50, D63|5005026|10.92|92.750|||2019-01-22||25|25|3200|
+|3130000010||10|3|SZT|Trzpień teleskopowy "E2"|EBG E2 T RD 1,3-1,8 50-100|5008124|10|19.800|||2019-01-25||3|3|3200|
+|3130000010||20|2|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|20|37.020|||2019-01-25||2|2|3200|
+|3130000011||10|5|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1" Fi ze|5003090|78.60|11.740|||2019-01-22||5|5|3200|
+|3130000011||20|5|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|26.60|17.300|||2019-01-22||5|5|3200|
+|3130000012||10|5|SZT|Kołnierz S2000 dla rur PCW, PE|FLA S2 80/90|5005037|7.53|25.200|||2019-01-25||5|5|3200|
+|3130000012||20|10|SZT|Łącznik - System 2000|VERBINDER S2 KPL 90-90|5013030|5.07|58.500|||2019-01-25||10|10|3200|
+|3130000013||10|5|SZT|Zasuwa kołnierzowa długa E1|HAWLE-E1 LANG PN10 200|5001940|40|340|||2019-01-25||5|5|3200|
+|3130000013||20|8|SZT|Trzpień teleskopowy|EBG HAWLE-A+E RD 1,35-1,8 200|5008182|6.25|50.400|||2019-01-25||8|8|3200|
+|3130000013||30|2|SZT|Kształtka MMA - System 2000|MMA-STK S2 PN16 KPL 63-50|5013057|32.09|16|||2019-01-25||2|2|3200|
+|3130000014||10|100|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 0,80-1|5008235|1.33|239|||2019-01-22||100|100|3200|
+|3130000014||20|50|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 80-90|5005037|6.86|252|||2019-01-22||50|50|3200|
+|3130000015||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN10|5001521|1749|53|||2019-01-22||1|1|3200|
+|3130000015||20|20|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 0,80-1|5008235|6.65|47.800|||2019-01-22||20|20|3200|
+|3130000016||10|3|SZT||EUROPALETTE EGM 1200 x 800|5001218|33.33|75||||3|3||3200|
+|3130000017||10|2|SZT||Euro pallet|5001217|5|50|||2019-01-23||2|2||
+|3130000018||10|5|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1 1/2" F|5003280|90|8||||5|5||3200|
+|3130000018||20|10|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|69.60|185.100|||2019-01-22||10|10|3200|
+|3130000019||10|25|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053|15.20|157.750|||2019-01-22||25|25|3200|
+|3130000021||10|3|SZT||Euro Palette|5001217|||||2019-01-23||3|||
+|3130000022||10|5|SZT|Łącznik - System 2000|Łącznik - System 2000 D63, PN16|5013026|77.60|17.800|||2019-01-22||5|5|3200|
+|3130000023||10|100|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|1.33|346|||2019-01-22||100|100|3200|
+|3130000024||10|1|SZT|Łuk 90° - System 2000|Łuk 90° - System 2000 D180, PN16|5013231|65|25.810|||2019-01-22||1|1|3200|
+|3130000025||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-22|1|1||3200|
+|3130000026||10|1|SZT|Łuk 90° - System 2000|Łuk 90° - System 2000 D180, PN16|5013231|65|25.810|||2019-01-22||1|1|3200|
+|3130000027||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-22||1|1|3200|
+|3130000028||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN80, PN16|5001924|647|19|||2019-01-22|1|1||3200|
+|3130000029||10|1|SZT|Łuk 90° - System 2000|Łuk 90° - System 2000 D180, PN16|5013231|65|25.810|||2019-01-22|1|1||3200|
+|3130000030||10|1|SZT|Stopka kolanowa z kołnierzem|Stopka kolanowa z kołnierzem N - DN100|5013254|493|16.800|||2019-01-22|1|1||3200|
+|3130000031||10|1|SZT|Zasuwa kołnierzowa długa E1|HAWLE-E1 LANG PN16 80|5001924|135|19|||2019-01-25|1|1||3200|
+|3130000032||10|3|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1" Fi ze|5003270|77|2.910|||2019-01-23||3|3|3200|
+|3130000033||10|5|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053|53.20|31.550|||2019-01-23||5|5|3200|
+|3130000034||10|2|SZT|Zasuwa do przyłącza domowego|HAS PE/PE POM DN1"/Da32|5003270|15|1.940|||2019-01-25|1|2|1|3200|
+|3130000034||20|1|SZT|Kołnierz S2000 dla rur PCW, PE|FLA S2 100/110|5005053|42.07|6.310|||2019-01-25||1|1|3200|
+|3130000035||10|20|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|39.55|684|||2019-02-21|20|20||3200|
+|3130000035||20|2|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2"-63, M|5003328|280.35|6.200|||2019-01-23||2|2|3200|
+|3130000035||30|20|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|4.66|69.200|||2019-01-23||20|20|3200|
+|3130000035||40|1|SZT|Zaślepka S2000 z odej. osiowym|Zaślepka S2000 z odej. osiowym D180, gwi|5008023|541.80|11.700|||2019-01-23||1|1|3200|
+|3130000036||10|2|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|37.07|37.020|||2019-01-23||2|2|3200|
+|3130000037||10|2|SZT|Kołnierz S2000 dla rur PCW, PE|FLA S2 100/110|5005053|13.24|12.620|||2019-01-23||2|2|3200|
+|3130000038||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|565|68.400|||2019-02-21|2|2||3200|
+|3130000038||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN80, PN16|5001500|607|14.500|||2019-01-23||1|1|3200|
+|3130000038||30|3|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5003115|212|20.430|||2019-01-23||3|3|3200|
+|3130000038||40|2|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|66.50|6.920|||2019-01-23||2|2|3200|
+|3130000039||10|3|SZT|Trzpień teleskopowy|EBG HA-A+E RD 1,3-1,8 100-125|5008171|5.86|20.460|||2019-01-23||3|3|3200|
+|3130000040||10|1|SZT||Euro Palette|5001217|50||||2019-01-23||1|||
+|3130000040||20|1|SZT||Euro Palette|5001217|50||||2019-01-23||1|||
+|3130000041||10|20|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|4.66|69.200|||2019-01-23||20|20|3200|
+|3130000042||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN10|5001521|874.50|106|||2019-01-23||2|2|3200|
+|3130000043||10|5|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|6|92.550|||2019-01-22||5|5|3200|
+|3130000043||20|10|SZT|Trzpień teleskopowy|EBG HA-A+E RD 1,3-1,8 100-125|5008171|5|68.200|||2019-01-22||10|10|3200|
+|3130000044||10|1|SZT||E2 LANG 65 PN16|5001834|155.40|18||||1|1||3200|
+|3130000049||10|1|SZT|Kołnierz z odejściem|Kołnierz z odejściem XL - DN80, 5/4"|5022288|123|3.800|||2019-01-24|1|1||3200|
+|3130000049||20|1|SZT|Kołnierz z odejściem|Kołnierz z odejściem XL - DN65, 1"|5022286|223|3.700|||2019-01-24|1|1||3200|
+|3130000049||30|1|SZT|Kołnierz z odejściem|Kołnierz z odejściem XL - DN150, 1"|5022294|323|7.500|||2019-01-24|1|1||3200|
+|3130000050||10|5|SZT|Opaska do nawiercania Hawex|Opaska do nawiercania Hawex DN90-2"|5022884|33.20|10|||2019-01-24|5|5||3200|
+|3130000051||10|3|SZT|Opaska do nawiercania Hawex|Opaska do nawiercania Hawex DN160-2"|5022892|88.33|8.400|||2019-01-24|3|3||3200|
+|3130000051||20|3|SZT|Opaska do nawiercania Hawex|Opaska do nawiercania Hawex DN90-2"|5022884|55.33|6|||2019-01-24|3|3||3200|
+|3130000052||10|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5022903|12|4.400|||2019-01-24|1|1||3200|
+|3130000052||20|1|SZT|Uszczelka do złączki 6221F|Uszczelka do złączki 6221F 45x34x4mm, DN|5022918|13|.040|||2019-01-24|1|1||3200|
+|3130000053||10|1|SZT|zaslepka|zaślepka system 2000|5027959|70|.001||30|2019-01-24|1|1||3200|
+|3130000054||10|2|SZT|Uszczelka pokrywy filtra siat.|Uszczelka pokrywy filtra siat. DN50 87/|5023544|499.50|.006|||2019-01-24|2|2||3200|
+|3130000055||10|2|SZT|Skrzynka uliczna|Skrzynka uliczna DIN4056 (korpus-tworzyw|5024111|29.40|6.500|||2019-01-24|2|2||3200|
+|3130000055||20|2|SZT|Skrzynka uliczna|Skrzynka uliczna 1951 tworzywo Woda - HA|5024114|73.15|19.600|||2019-01-24|2|2||3200|
+|3130000057||10|3|SZT|Kombinacyjna zasuwa do nawier.|Kombinacyjna zasuwa do nawier. DN 1" PN|5003346|69.30|2.610||||3|3||3200|
+|3130000057||20|2|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053|133|12.620|||2019-01-24|2|2||3200|
+|3130000059||10|1|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|111|18.510|||2019-01-25|1|1||3200|
+|3130000060||10|1|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|111|18.510|||2019-01-25|1|1||3200|
+|3130000061||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-25|1|1||3200|
+|3130000062||10|20|SZT|Kombinacyjna zasuwa do nawier.|Kombinacyjna zasuwa do nawier. DN 1" PN|5003346|10.40|17.400|||2019-01-25||20|20|3200|
+|3130000063||10|5|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|1|92.550|||2019-01-25|5|5||3200|
+|3130000064||10|15|SZT|Trzpień teleskopowy|EBG HA-A+E RD 1,3-1,8 100-125|5008171|1.67|102.300|||2019-01-28|15|15||3200|
+|3130000066||10|2|SZT|Korpus kołnierza System 2000|Korpus kołnierza System 2000 DN200, D200|5024193|12.50|31|||2019-01-30|2|2|||
+|3130000067||10|2|SZT|Zasuwa kołnierzowa typu E1|HAWLE-E1 KURZ PN16 100|5001505|37.07|37.020|||2019-01-30|2|2||3200|
+|3130000068||10|1|SZT|Zasuwa kołnierzowa typu E|Zasuwa kołnierzowa typu E DN 40 PN 16|5001297|210|6.640|||2019-01-25|1|1||3200|
+|3130000068||20|1|SZT|Zasuwa kołnierzowa typu-E2|E2 KURZ PN16 100 PL|5001334|861|24.330|||2019-01-25|1|1||3200|
+|3130000070||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-28|1|1||3200|
+|3130000070||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-28|1|1||3200|
+|3130000070||30|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-28|1|1||3200|
+|3130000070||40|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-01-28|1|1||3200|
+|3130000070||50|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-01-28|1|1||3200|
+|3130000070||60|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-01-28|1|1||3200|
+|3130000071||10|1|SZT|Nadstawka do zasuwy nożowej|Nadstawka do zasuwy nożowej DN80 3600|5021359|100|.500|||2019-01-28||1|1|3201|
+|3130000072||10|1|SZT|Nadstawka do zasuwy nożowej|Nadstawka do zasuwy nożowej DN200 3600|5021358|100|.600|||2019-01-28||1|1|3201|
+|3130000073||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|339.30|18.510||243.60|2019-01-28||1|1|3200|
+|3130000074||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|473.28|18.510|||2019-01-29||1|1|3200|
+|3130000075||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-30|1|1||3200|
+|3130000076||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-30|1|1||3200|
+|3130000077||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-30|1|1||3200|
+|3130000078||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-01-30|1|1||3200|
+|3130000079||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-01-31||1|1|3200|
+|3130000080||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-01-31|1|1||3200|
+|3130000081||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-01-31||1|1|3200|
+|3130000082||10|1|SZT|Tuleja uszczelek E1|Tuleja uszczelek E1 DN200|5022526|15|.496|||2019-01-31|1|1||3200|
+|3130000083||10|1|SZT|Tuleja uszczelek E1|Tuleja uszczelek E1 DN200|5022526|112|.496|||2019-01-31|1|1||3200|
+|3130000084||10|3|SZT|Tuleja uszczelek E1|Tuleja uszczelek E1 DN200|5022526|46.67|1.488|||2019-02-01|3|3||3200|
+|3130000085||10|12|SZT|Tuleja uszczelek E1|Tuleja uszczelek E1 DN200|5022526|1.34|5.952|||2019-02-01|12|12||3200|
+|3130000086||10|10|SZT|Uszczelka pokrywy filtra|Uszczelka pokrywy filtra DN50, 107x5,5 m|5014606|10|.100|||2019-02-05|10|10||3200|
+|3130000086||20|3|SZT|Wkład filtra siatkowego|Wkład filtra siatkowego DN50 0,2/0,5x0,5|5014605|33.33|.030|||2019-02-05|3|3||3200|
+|3130000087||10|7|SZT|Tuleja uszczelek E1|Tuleja uszczelek E1 DN200|5022526|49.29|3.472|||2019-02-05|7|7||3200|
+|3130000087||20|7|SZT|Pokrywa uszczelniająca fi 63|Pokrywa uszczelniająca fi 63 DN50-200, C|5022426|12.71|.196|||2019-02-05|7|7||3200|
+|3130000087||30|9|SZT|Pokrywa z tworzywa fi 63|Pokrywa z tworzywa fi 63 DN50-200, CH|5022427|10|.270|||2019-02-05|9|9||3200|
+|3130000091||10|9|SZT|Tuleja uszczelek E1|Tuleja uszczelek E1 DN200|5022526|1.56|4.464|||2019-02-05|9|9||3200|
+|3130000092||10|3|SZT|Zaślepka kołnierzowa DN50|Zaślepka kołnierzowa DN50 SKP.001.050|5017197|15|.222|||2019-02-05|3|3||3200|
+|3130000092||20|3|SZT|Zaślepka kołnierzowa DN200|Zaślepka kołnierzowa DN200 SKP.001.200|5017208|15|.696|||2019-02-05|3|3||3200|
+|3130000092||30|3|SZT|Zaślepka mufy|Zaślepka mufy D125, LDPE żółta|5017164|15|.102|||2019-02-05|3|3||3200|
+|3130000093||10|87|SZT|Zaślepka kołnierzowa DN50|Zaślepka kołnierzowa DN50 SKP.001.050|5017197|.14|6.438|||2019-02-05|87|87||3200|
+|3130000094||10|3|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|150.80|55.530||730.80|2019-02-06||3|3|3200|
+|3130000095||10|2|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 80-90|5005037|120.05|10.080|||2019-02-06||2|2|3200|
+|3130000097||10|4|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|174|74.040|||2019-02-06||4|4|3200|
+|3130000098||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-06|1|1||3200|
+|3130000098||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-06|1|1||3200|
+|3130000099||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|348|37.020|||2019-02-06|2|2||3200|
+|3130000100||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|348|37.020|||2019-02-06|2|2||3200|
+|3130000101||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-07|1|1||3200|
+|3130000102||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-07|1|1||3200|
+|3130000103||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|348|37.020|||2019-02-07|2|2||SK21|
+|3130000104||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-07|1|1||SK21|
+|3130000105||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08|1|1||3200|
+|3130000106||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|565|68.400|||2019-02-08|2|2||3200|
+|3130000107||10|4|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|282.50|136.800|||2019-02-08|4|4||3200|
+|3130000108||10|5|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|226|171|||2019-02-08|5|5||3200|
+|3130000109||10|12|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|65.92|410.400|||2019-02-08|12|12||3200|
+|3130000110||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08|1|1||3200|
+|3130000111||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08|1|1||3200|
+|3130000112||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000113||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000114||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000115||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000116||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000117||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000118||10|4|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|197.75|136.800|||2019-02-08|4|4||3200|
+|3130000119||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000120||10|4|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|121.80|74.040|||2019-02-08|4|4||3200|
+|3130000121||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000122||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000123||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000124||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000125||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000126||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000127||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000128||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-08||1|1|3200|
+|3130000129||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11||1|1|3200|
+|3130000130||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|348|37.020|||2019-02-11|2|2||3200|
+|3130000131||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11||1|1|3200|
+|3130000132||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11||1|1|3200|
+|3130000132||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-11||1|1|3200|
+|3130000133||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11|1|1||3200|
+|3130000133||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-11|1|1||3200|
+|3130000134||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11||1|1|3200|
+|3130000134||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-11||1|1|3200|
+|3130000135||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-02-11||1|1|3200|
+|3130000135||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-11||1|1|3200|
+|3130000136||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-11||1|1|3200|
+|3130000137||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-02-11|1|1||3200|
+|3130000137||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-11|1|1||3200|
+|3130000138||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11|1|1||3200|
+|3130000138||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-11|1|1||3200|
+|3130000139||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11||1|1|3200|
+|3130000139||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-11||1|1|3200|
+|3130000140||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-11||1|1|3200|
+|3130000140||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-11||1|1|3200|
+|3130000141||10|20|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053|11.40|126.200||3040|2019-02-12||20|20|3200|
+|3130000141||20|5|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1" Fi ze|5003270|46.20|4.850|||2019-02-12||5|5|3200|
+|3130000141||30|5|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|18.62|17.300|||2019-02-12||5|5|3200|
+|3130000142||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|226.20|37.020|||2019-02-12||2|2|3200|
+|3130000142||20|2|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN100 RD1,30-1,80|5008171|53.30|13.640|||2019-02-12|2|2||3200|
+|3130000142||30|3|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 110 Gwint|5003480|52.65|10.800||||3|3||3200|
+|3130000142||40|3|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 90 Gwint 2|5003460|45.07|8.100|||2019-02-12||3|3|3200|
+|3130000142||50|2|SZT|Opaska do nawiercania HAKU z|Opaska do nawiercania HAKU z DN 110, koł|5004266|206.70|16.420||||2|2||3200|
+|3130000142||60|10|SZT|Kombinacyjna zasuwa do nawier.|Kombinacyjna zasuwa do nawier. DN 1" PN|5003346|19.31|8.700||||10|10||3200|
+|3130000142||70|10|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1" Fi ze|5003090|25.55|23.480|||2019-02-12||10|10|3200|
+|3130000142||80|20|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|4.32|69.200|||2019-02-12||20|20|3200|
+|3130000143||10|3|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|232|55.530|||2019-02-12||3|3|3200|
+|3130000144||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-12|1|1||3200|
+|3130000144||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|1130|34.200|||2019-02-12|1|1||3200|
+|3130000145||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-12|1|1||3200|
+|3130000145||20|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|1130|34.200|||2019-02-12|1|1||3200|
+|3130000146||10|3|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|232|55.530|||2019-02-12|3|3||3200|
+|3130000146||20|3|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN100 RD1,30-1,80|5008171|54.67|20.460|||2019-02-12|3|3||3200|
+|3130000146||30|3|SZT|Skrzynka uliczna sztywna|Skrzynka uliczna sztywna MOD4056/38S DIN|5007812|45.33|33.900|||||3||3200|
+|3130000147||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14|1|1||3200|
+|3130000148||10|100|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 150-16|5005063|4.10|1050|||2019-02-14|100|100||3200|
+|3130000149||10|4|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 90 Gwint 1|5003456|32.76|10.800|||2019-02-14|4|4||3200|
+|3130000149||20|2|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 90 Gwint 2|5003460|65.52|5.400|||2019-02-14|2|2||3200|
+|3130000149||30|2|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 110 Gwint|5003472|76.55|5.520|||2019-02-14|2|2||3200|
+|3130000149||40|2|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 110 Gwint|5003480|76.55|7.200||||2|2||3200|
+|3130000150||10|3|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|263.67|102.600|||2019-02-14|3|3||3200|
+|3130000151||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|861|42.902|||2019-02-14|1|1||3200|
+|3130000151||20|1|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN150 RD1,30-1,80|5008177|114.80|6.500|||2019-02-14|1|1||3200|
+|3130000152||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN150, PN16|5001515|395.50|68.400|||2019-02-14|2|2||3200|
+|3130000153||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|243.60|37.020|||2019-02-14|2|2||3200|
+|3130000154||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|487.20|18.510|||2019-02-14|1|1||3200|
+|3130000155||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|487.20|18.510|||2019-02-14|1|1||3200|
+|3130000156||10|10|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 200-22|5005072|98.60|180.100|||2019-02-14||10|10|3200|
+|3130000157||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14|1|1||3200|
+|3130000158||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14|1|1||3200|
+|3130000159||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14||1|1|3200|
+|3130000160||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14|1|1||3200|
+|3130000161||10|4|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|121.80|74.040|||2019-02-14||4|4|3200|
+|3130000162||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|487.20|18.510|||2019-02-14||1|1|3200|
+|3130000162||20|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5003061|426.30|4.380|||2019-02-14||1|1|3200|
+|3130000163||10|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5003061|426.30|4.380|||2019-02-14|1|1||3200|
+|3130000164||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-14|1|1||3200|
+|3130000165||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-14|1|1||3200|
+|3130000166||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-14|1|1||3200|
+|3130000167||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14|1|1||3200|
+|3130000167||20|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5003061|609|4.380|||2019-02-14|1|1||3200|
+|3130000167||30|1|SZT|Zaślepka mufy|Zaślepka mufy D125, LDPE żółta|5017164|20|.034|||2019-02-14|1|1||3200|
+|3130000168||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|487.20|18.510|||2019-02-14|1|1||3200|
+|3130000168||20|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5003061|426.30|4.380|||2019-02-14|1|1||3200|
+|3130000168||30|1|SZT|Zaślepka mufy|Zaślepka mufy D125, LDPE żółta|5017164|7|.034|||2019-02-14|1|1||3200|
+|3130000169||10|1|SZT|Śruba do hydran. łamanych H4|SK-SOLLBRUCHSCHRAUBE M16x60|5006301|12|.100|||2019-02-13||1|1|3201|
+|3130000170||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-14|1|1||3200|
+|3130000170||20|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 2" PN 16|5003061|609|4.380|||2019-02-14|1|1||3200|
+|3130000170||30|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN80, PN16|5001500|607|14.500|||2019-02-14|1|1||3200|
+|3130000171||10|10|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|48.72|185.100|||2019-02-15|10|10||3200|
+|3130000171||20|10|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN100 RD1,30-1,80|5008171|11.48|68.200|||2019-02-15|10|10||3200|
+|3130000171||30|10|SZT|Skrzynka uliczna sztywna|Skrzynka uliczna sztywna MOD4056/38S DIN|5007812|9.52|113||||10|10||3200|
+|3130000172||10|10|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN80 RD1,30-1,80|5008164|9.84|67.500||656|2019-02-15|10|10||3200|
+|3130000174||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-15||1|1|3200|
+|3130000175||10|2|SZT|Zasuwa kołnierzowa typu-E2|E2 KURZ PN16 100 PL|5001334|615|48.660|||2019-02-15|2|2||3200|
+|3130000176||10|1|SZT|Zasuwa kołnierzowa długa E1|Zasuwa kołnierzowa długa E1 DN150, PN16|5001936|1230|42.902|||2019-02-15|1|1||3200|
+|3130000177||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN200, PN16|5001715|1749|53|||2019-02-15|1|1||3200|
+|3130000178||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505|696|18.510|||2019-02-18||1|1|3200|
+|3130000179||10|5|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN300, PN10|5001529|609.14|632|||2019-02-18||5|5|3200|
+|3130000179||20|5|SZT|Trzpień teleskopowy Hawle A|Trzpień teleskopowy Hawle A DN250-300|5008202|24.08|34.800|||2019-02-18||5|5|3200|
+|3130000180||10|2|SZT|Łuk 45° - System 2000|Łuk 45° - System 2000 D110, PN16|5013175|287|15.800|||2019-02-19||2|2|3200|
+|3130000181||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-19|1|1||3200|
+|3130000182||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-19|1|1||3200|
+|3130000183||10|1|SZT|Filtr siatkowy|Filtr siatkowy DN 80 PN16|5014608|908|19|||2019-02-19|1|1||3200|
+|3130000184||10|1|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 110 Gwint|5003480|243|3.600||||1|1||3200|
+|3130000184||20|1|SZT|Skrzynka uliczna teleskopowa|Skrzynka uliczna teleskopowa|5007810|234|6.980|||2019-02-19|1|1||3200|
+|3530000000||10|2|SZT|Opaska do napraw i łączenia|Opaska do napraw i łączenia DN 58-64 Typ|5022719||2.200|||2019-01-23||2|2||
+|3530000000||20|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN2", d2=2"|5003079||4.550|||2019-01-23||1|1||
+|3530000000||30|1|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239||3.460|||2019-01-23||1|1||
+|3530000001||10|100|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505||1851|||2019-01-23||100|100|SK23|
+|3530000001||20|200|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1" Fi ze|5003270||194||||200|200||SK23|
+|3530000001||30|50|SZT|Zasuwa nożowa kołnierzow.długa|Zasuwa nożowa kołnierzow.długa DN100 PN1|5026028||1000|||2019-01-23|48|50|2|SK23|
+|3530000002||10|1200|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 3/4" Fi|5003267||996|||2019-01-23|1191|1200|9|SK31|
+|3530000002||20|25|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN3/4"-2" RD0,60-0,|5008233||41.250|||2019-01-23||25|25|SK31|
+|3530000004||10|200|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239||692|||2019-01-23||200|200|SK48|
+|3530000005||10|50|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239||173|||2019-01-23|50|50|||
+|3530000006||10|3|SZT|Zasuwa koł. typu E kolor żółty|Zasuwa koł. typu E kolor żółty DN 40 PN|5001299|194.04|20.130|||2019-01-23||3|3||
+|3530000007||10|2|SZT|Zasuwa kołnierzowa typu-E2|Zasuwa kołnierzowa typu-E2 DN65 PN16|5001316|470.50|34|||2019-01-23||2|2|SK78|
+|3530000008||10|1|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1 1/4" F|5003275|405|1.450|||2019-01-23||1|1||
+|3530000013||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN100, PN16|5001505||18.510|||2019-01-30|1|1|||
+|3530000017||10|1|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495|549|13.500|||2019-02-06||1|1||
+|3530000020||10|2|SZT|Zasuwa kołnierzowa typu E1|Zasuwa kołnierzowa typu E1 DN65, PN16|5001495||27|||2019-02-06||2|2|3210|
+|3530000024||10|20|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053||126.200|||2019-02-12|20|20|||
+|3530000024||20|10|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 80-90|5005037||50.400|||2019-02-12|10|10|||
+|3530000024||30|10|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN50, D63|5005026||37.100|||2019-02-12|10|10|||
+|3530000025||10|6|SZT|Uniwers. opaska do nawiercania|Uniwers. opaska do nawiercania Gwint 1 1|5003804|48.50|12.540||||6|6||SK48|
+|3530000025||20|2|SZT|Uniwers. opaska do nawiercania|Uniwers. opaska do nawiercania Gwint 2"|5003798|145.50|4.780||||2|2||SK48|
+|3530000025||30|2|SZT|Opaska do nawiercania HAKU|Opaska do nawiercania HAKU DN 110 Gwint|5003476|121.50|7.600||||2|2||SK48|
+|3530000025||40|2|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053|190|12.620|||2019-02-14|2|2||SK48|
+|3530000025||50|5|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 150-16|5005063|117.20|52.500|||||5||SK48|
+|3530000025||60|5|SZT|Zasuwa do przyłącza domowego|Zasuwa do przyłącza domowego DN 1" PN 16|5003105|86|13.400||||5|5||SK48|
+|3530000025||70|3|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN80 RD1,30-1,80|5008164|54.67|20.250|||2019-02-14|3|3||SK48|
+|3530000026||10|10|SZT|Trzpień teleskopowy|Trzpień teleskopowy DN 3/4"-2" RD 1,30-1|5008239|13.30|34.600|||2019-02-14|10|10||SK48|
+|3530000028||10|10|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 100-11|5005053||63.100|||2019-02-19|10|10||SK36|
+|3530000028||20|5|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 80-90|5005037||25.200|||2019-02-19|5|5||SK36|
+|3530000029||10|1|SZT|Kołnierz S2000 dla rur PCW, PE|Kołnierz S2000 dla rur PCW, PE DN 80-90|5005037|343|5.040|||2019-02-19||1|1|SK48|

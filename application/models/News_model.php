@@ -5,7 +5,7 @@ class News_model extends CI_Model
 
     public function get_news_list(){
         $this->db->select('
-        dt_add,
+        cast(dt_add as date) as dt_add,
         author,
         authorWebPage,
         title,
@@ -17,6 +17,27 @@ class News_model extends CI_Model
         
         $this->db->from('news');
         $this->db->where('visible', 'y');
+        $this->db->order_by('id','desc');
+        $query = $this->db->get();
+        $rows = $query->result_array();
+        $data['newsList'] = $rows;
+        return $data['newsList'];
+    }
+    
+    public function get_not_published_news_list(){
+        $this->db->select('
+        cast(dt_add as date) as dt_add,
+        author,
+        authorWebPage,
+        title,
+        subTitle,
+        shortContent,
+        readMore,
+        newsImage,
+        id');
+        
+        $this->db->from('news');
+        $this->db->where('visible', 'n');
         $this->db->order_by('dt_add','desc');
         $query = $this->db->get();
         $rows = $query->result_array();

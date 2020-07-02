@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107009</NrNabywcy>
+  <NrOdbiorcy>107009</NrOdbiorcy>
+  <DataZamowienia>2019-12-05</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>19-05644</NrZam>
+  <NrTymczasowy>4186307</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001505</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>4186307</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008168</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>4186307</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107009</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024111</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>4186307</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

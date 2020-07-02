@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107044</NrNabywcy>
+  <NrOdbiorcy>107044</NrOdbiorcy>
+  <DataZamowienia>2020-04-27</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>10331246</NrZam>
+  <NrTymczasowy>10331246</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028988</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektroredukcja</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>10331246</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028980</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Elektrotrójnik 90° rów</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10331246</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

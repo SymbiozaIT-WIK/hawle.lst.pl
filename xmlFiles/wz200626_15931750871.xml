@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>1269</NrNabywcy>
+  <NrOdbiorcy>1269</NrOdbiorcy>
+  <DataZamowienia>2020-06-26</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>13419308</NrZam>
+  <NrTymczasowy>13419308</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004374</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Nasadka odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005456</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023424</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Pokrętło, wycofane</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008651</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Frez rurowy DN 1 1/4" Fi 40</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003054</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005351</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005463</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005453</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003879</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005454</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003079</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022791</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022792</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5017843</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003070</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005452</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005456</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003079</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005461</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003076</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>210</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003944</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>220</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003572</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>230</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003076</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>240</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013038</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Łącznik - System 2000</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>250</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004374</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Nasadka odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>260</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023291</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Kołnierz specjalny dwukomorowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>270</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003859</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>280</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027701</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Kołnierz dwukom. z uszczelką</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>290</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024562</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>300</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003902</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>310</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005044</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>320</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005044</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>13419308</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

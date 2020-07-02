@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107044</NrNabywcy>
+  <NrOdbiorcy>107044</NrOdbiorcy>
+  <DataZamowienia>2020-05-13</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>11158413</NrZam>
+  <NrTymczasowy>11158413</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021984</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma siodłowa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>7</Ilosc>
+    <NrTymczasowy>11158413</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021993</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Trójnik nawiertka</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>11158413</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021974</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Obejma do nawier-komplet z obr</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>11158413</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028578</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>EF Obejma do nawiercania z ode</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>11158413</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107044</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027983</Nr>
+    <KodLokalizacji>SK17</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>11158413</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

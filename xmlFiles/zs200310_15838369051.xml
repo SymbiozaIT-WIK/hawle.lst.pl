@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107545</NrNabywcy>
+  <NrOdbiorcy>107545</NrOdbiorcy>
+  <DataZamowienia>2020-03-10</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam> </NrZam>
+  <NrTymczasowy>8009437</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107545</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027983</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>8009437</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

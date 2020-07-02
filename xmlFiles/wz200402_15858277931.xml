@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107129</NrNabywcy>
+  <NrOdbiorcy>107129</NrOdbiorcy>
+  <DataZamowienia>2020-04-02</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>proszę dopisać jeszcze to</Uwagi>
+  <NrZam>9117403</NrZam>
+  <NrTymczasowy>9117403</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107129</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005637</Nr>
+    <KodLokalizacji>SK36</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>9117403</NrTymczasowy>
+    <Uwagi>/34</Uwagi>
+  </SalesLine>
+</SalesHeader>

@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107667</NrNabywcy>
+  <NrOdbiorcy>107667</NrOdbiorcy>
+  <DataZamowienia>2019-12-28</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>PROSZĘ DOPISAĆ DO RAPORTU( my nie widzimy takich indeksów):&#13;
+1)uszczelka wargowa s2000 dn250 3szt&#13;
+2)adapter do aparatu 5940  1szt&#13;
+3)pierścień zaciskowy 6932 dn32  2szt&#13;
+4)opaska 0750 dn400 typ L  2s</Uwagi>
+  <NrZam>5030031</NrZam>
+  <NrTymczasowy>5030031</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007808</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>15</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007811</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024111</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5024114</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Skrzynka uliczna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006785</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Hydrant podziemny DUO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003061</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003090</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003093</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003097</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003270</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003275</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003323</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003346</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kombinacyjna zasuwa do nawier.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003105</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013253</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Stopka kolanowa z kołnierzem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014502</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007838</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Płyta podkładowa - mała</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>180</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003902</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>190</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003926</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>200</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004085</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>210</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005037</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>220</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005050</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>230</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005054</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>240</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001500</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>9</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>250</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001505</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>260</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001648</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi>ze wskaźnikiem położenia OFERTA 219/01223 </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>270</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013030</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik - System 2000</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>280</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013322</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>290</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004278</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>300</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003593</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>310</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003467</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>320</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003472</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>7</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>330</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003480</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>340</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003515</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>350</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012597</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>360</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012598</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>370</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5012775</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kształtka kołnierz. redukcyjna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>380</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008656</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Ściągacze do demontażu złączek</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>390</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005488</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>20</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>400</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005499</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>410</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005512</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>420</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005389</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>430</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005804</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>440</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005813</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>450</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005820</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złączka przyłączeniowa ISO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>460</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005623</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>31</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>470</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005662</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>480</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005693</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>490</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005727</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>500</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005676</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>33</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>510</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005705</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>520</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005713</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>530</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005736</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>540</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005743</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>7</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>550</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006001</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>560</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006019</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>570</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006040</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>580</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005925</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>590</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005970</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Kolano 90st ISO dla rur PE,GGG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>600</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006117</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z odejściem gwintowym</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>610</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014418</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z 3 kielichami wtykow.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>620</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014420</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z 3 kielichami wtykow.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>630</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014424</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z 3 kielichami wtykow.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>640</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006177</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z 3 kielichami wtykow.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>650</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006186</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z 3 kielichami wtykow.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>660</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006191</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trójnik z 3 kielichami wtykow.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>680</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023415</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Pokrętło</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>690</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023317</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Złącze rurowe Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>700</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007968</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zaślepka S2000 z odej. bocznym</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>710</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007983</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zaślepka S2000 z odej. bocznym</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>720</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008165</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trzpień sztywny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>730</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008164</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trzpień teleskopowy 9500A</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>9</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>740</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008235</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>750</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>38</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>760</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5026114</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Armatura do płukania kanałów</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>770</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027983</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>24</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>780</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5027985</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>16</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>790</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028015</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>800</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5028019</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Komplet do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>810</NrWiersza>
+    <NrNabywcy>107667</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001635</Nr>
+    <KodLokalizacji>SK59</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu-E2</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>5030031</NrTymczasowy>
+    <Uwagi>ze wskaźnikiem otwarcia OFERTA 219/01223</Uwagi>
+  </SalesLine>
+</SalesHeader>

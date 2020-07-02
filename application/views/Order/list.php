@@ -1,5 +1,6 @@
 <div class="container">   
-
+<h1>Podgląd zamówień</h1>
+<hr><br/>
 <?php if($this->session->flashdata('alert')):?>
    <?php $msg=$this->session->flashdata('alert'); ?>
     <div class="container">
@@ -10,8 +11,32 @@
     </div>
 <?php endif; ?>
 
-
-<table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
+   <div class="row">
+       <div class="col-md-2 col-md-offset-1">
+          <a href="<?php echo site_url('order/order_list/list/1'); ?>" class="btn btn-sq-lg btn-success btn-block">
+            <i class="fas fa-user-check fa-2x"></i><br />
+            Wprowadzane</a> 
+       </div>
+       <div class="col-md-2">
+           <a href="<?php echo site_url('order/order_list/list/2'); ?>" class="btn btn-sq-lg btn-primary btn-block">
+            <i class="fas fa-id-badge fa-2x"></i><br />
+            Wysłane do akceptacji</a>
+       </div>
+       <div class="col-md-2">
+           <a href="<?php echo site_url('order/order_list/list/3'); ?>" class="btn btn-sq-lg btn-info btn-block">
+            <i class="fas fa-user-edit fa-2x"></i><br />
+            Zatwierdzone</a>
+       </div>
+       <div class="col-md-3">
+           <a href="<?php echo site_url('order/order_list/list/4'); ?>" class="btn btn-sq-lg btn-warning btn-block">
+            <i class="fas fa-cloud-download-alt fa-2x"></i><br />
+            Pobrane z systemu</a>
+       </div>
+   </div>
+    
+<?php if(isset($settings)):?>   
+    
+    <table id="dataTable" class="table table-striped table-bordered table-hover" style="width:100%">
     <thead>
         <tr>
            <?php if($settings['lp']):?>
@@ -44,7 +69,7 @@
                 Szczegóły</a>
             </td>
             <td>
-                <button <?php if($row['statusid']>1){echo 'disabled';}?> type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $row['tempid'];?>">
+                <button <?php if(isset($filterStatusId) && $filterStatusId>1){echo 'disabled';}?> type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $row['tempid'];?>">
                       Usuń
                 </button>
             </td>
@@ -95,4 +120,9 @@
     </tfoot>
     <?php endif;?>
 </table>
+    
+<?php endif;?>
+    
 </div> 
+
+

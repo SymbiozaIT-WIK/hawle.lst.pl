@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>1269</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005068</Nr>
+    <KodLokalizacji>sk06</KodLokalizacji>
+    <Opis> </Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>28</Ilosc>
+    <NrTymczasowy>220559</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

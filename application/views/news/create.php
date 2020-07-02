@@ -50,7 +50,7 @@ background-color: rgb(66, 139, 202);
                                             <input value="<?php echo $newsDetails['subTitle']; ?>" type="text" class="form-control" name="subTitle" placeholder="Podtytuł"/>
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control" name="content" placeholder="Treść..." rows="5" required><?php echo $newsDetails['content']; ?></textarea>
+                                            <textarea class="form-control summernote" name="content" placeholder="Treść..." rows="5" required><?php echo $newsDetails['content']; ?></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -160,7 +160,7 @@ background-color: rgb(66, 139, 202);
                                             <input type="text" class="form-control" name="subTitle" placeholder="Podtytuł"/>
                                         </div>
                                         <div class="form-group">
-                                            <textarea class="form-control" name="content" placeholder="Treść..." rows="5" required></textarea>
+                                            <textarea class="form-control summernote" name="content" placeholder="Treść..." rows="15" required></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-4">

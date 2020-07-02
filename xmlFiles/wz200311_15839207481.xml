@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107001</NrNabywcy>
+  <NrOdbiorcy>107001</NrOdbiorcy>
+  <DataZamowienia>2020-03-11</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>56/H/W z 10.03.2020 - ZSWK St.Sącz</Uwagi>
+  <NrZam>8055303</NrZam>
+  <NrTymczasowy>8055303</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008262</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8055303</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023353</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8055303</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001928</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa długa E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8055303</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

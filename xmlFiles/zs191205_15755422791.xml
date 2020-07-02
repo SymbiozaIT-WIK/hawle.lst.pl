@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>110200</NrNabywcy>
+  <NrOdbiorcy>110200</NrOdbiorcy>
+  <DataZamowienia>2019-12-05</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam> </NrZam>
+  <NrTymczasowy>4186312</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>110200</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014810</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>4186312</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107019</NrNabywcy>
+  <NrOdbiorcy>107019</NrOdbiorcy>
+  <DataZamowienia>2019-04-17</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>19533</NrZam>
+  <NrTymczasowy>19533</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107019</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022012</Nr>
+    <KodLokalizacji>SK46</KodLokalizacji>
+    <Opis>Adaptor PE/mosiądz gw. zewnęt</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>19533</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107019</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021676</Nr>
+    <KodLokalizacji>SK46</KodLokalizacji>
+    <Opis>Elektromufa z zaciskami</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>19533</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107019</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022884</Nr>
+    <KodLokalizacji>SK46</KodLokalizacji>
+    <Opis>Opaska do nawiercania Hawex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>19533</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

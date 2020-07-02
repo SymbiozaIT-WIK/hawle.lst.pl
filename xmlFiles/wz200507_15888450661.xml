@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107195</NrNabywcy>
+  <NrOdbiorcy>107195</NrOdbiorcy>
+  <DataZamowienia>2020-05-07</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>Renata</Uwagi>
+  <NrZam>10844814</NrZam>
+  <NrTymczasowy>10844814</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107195</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001490</Nr>
+    <KodLokalizacji>SK90</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10844814</NrTymczasowy>
+    <Uwagi>test</Uwagi>
+  </SalesLine>
+</SalesHeader>

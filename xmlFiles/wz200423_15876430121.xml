@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107189</NrNabywcy>
+  <NrOdbiorcy>107189</NrOdbiorcy>
+  <DataZamowienia>2020-04-23</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>OCHLA-UJĘCIE</Uwagi>
+  <NrZam>10154350</NrZam>
+  <NrTymczasowy>10154350</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107189</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005044</Nr>
+    <KodLokalizacji>SK48</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10154350</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107189</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013471</Nr>
+    <KodLokalizacji>SK48</KodLokalizacji>
+    <Opis>Kołnierz redukcyjny XR</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>10154350</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

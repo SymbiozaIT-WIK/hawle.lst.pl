@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu>2019-08-01</DataDokumentu>
+  <NrNabywcy>107001</NrNabywcy>
+  <NrOdbiorcy>107001</NrOdbiorcy>
+  <DataZamowienia>2019-08-01</DataZamowienia>
+  <DataKsiegowania>2019-08-01</DataKsiegowania>
+  <DataWydania>2019-08-01</DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>ZSWK N.Sącz</Uwagi>
+  <NrZam>948196</NrZam>
+  <NrTymczasowy>948196</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5007812</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Skrzynka uliczna sztywna</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>948196</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001924</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa długa E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>948196</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023353</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>948196</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

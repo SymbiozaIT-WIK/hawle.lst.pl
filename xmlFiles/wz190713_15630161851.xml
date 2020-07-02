@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108611</NrNabywcy>
+  <NrOdbiorcy>108611</NrOdbiorcy>
+  <DataZamowienia>2019-07-13</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>673712</NrZam>
+  <NrTymczasowy>673712</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5015322</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5015326</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5015328</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5015334</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021504</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Pierścień Synoflex kompletny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021505</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Pierścień Synoflex kompletny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5021511</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Pierścień Uni/Fikser do Wagi</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022060</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Hydrant nadziemny sztywny-czer</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022061</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Hydrant podziemny wolnoprzelot</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022063</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Hydrant podziemny wolnoprzelot</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022064</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Hydrant podziemny wolnoprzelot</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022155</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Króciec dwukołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022237</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Zaślepka do hydrantu Typ B</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022239</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Oring do hydrantu staromiej</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>150</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022332</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Łuk 90st System 2000</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>160</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022714</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>170</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022716</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do napraw i łączenia</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>673712</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

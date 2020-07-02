@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107389</NrNabywcy>
+  <NrOdbiorcy>107389</NrOdbiorcy>
+  <DataZamowienia>2019-09-23</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>2046863</NrZam>
+  <NrTymczasowy>2046863</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001845</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa-E2 długa</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2046863</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023421</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Pokrętło</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2046863</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005389</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>10</Ilosc>
+    <NrTymczasowy>2046863</NrTymczasowy>
+    <Uwagi>Z219/00756</Uwagi>
+  </SalesLine>
+</SalesHeader>

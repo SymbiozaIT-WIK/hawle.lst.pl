@@ -51,7 +51,7 @@
         </tr>
         <tr>
             <th>Lp</th>
-            <th>Kod twaru</th>
+            <th>Kod twaru / Nr. Kat</th>
             <th>Opis</th>
             <th>Cecha</th>
             <th>Ilość</th>
@@ -61,69 +61,77 @@
         <?php $lp=0;?>
 
         <?php foreach($zsDetails['zsLines'] as $line): ?>
-        <?php $lp++; ?>
-        <tr>
-            <td>
-                <?php echo $lp ?>
-            </td>
-            <td>
-                <?php echo $line['ITEMCODE']; ?>
-            </td>
-            <td>
-                <?php echo $line['DESCRIPTION']; ?>
-            </td>
-            <td>
-                <?php echo $line['DESCRIPTION']; ?>
-            </td>
-            <td>
-                <?php echo $line['QUANTITY']; ?>
-            </td>
-            <td>
-                <?php echo $line['REGIONALWAREHOUSECODE']; ?>
-            </td>
-            <!--            <td><?php #echo $line['DESCRIPTION']; ?></td>-->
-            <td>
+        
+            <?php if($line['REGIONALWAREHOUSECODE'] == '3200'):?>
 
-                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $line['LINENO']; ?>">
-                    Usuń
-                </button>
+                <?php $lp++; ?>
 
-            </td>
-        </tr>
+                <tr>
+                    <td>
+                        <?php echo $lp ?>
+                    </td>
+                    <td>
+                        <?php echo $line['ITEMCODE']; ?> <br>
+                        <b><?php echo $line['INDEX']; ?></b>
+                    </td>
+                    <td>
+                        <?php echo $line['DESCRIPTION']; ?>
+                    </td>
+                    <td>
+                        <?php echo $line['DESCRIPTION']; ?>
+                    </td>
+                    <td>
+                        <?php echo $line['QUANTITY']; ?>
+                    </td>
+                    <td>
+                        <?php echo $line['REGIONALWAREHOUSECODE']; ?>
+                    </td>
+                    <!--            <td><?php #echo $line['DESCRIPTION']; ?></td>-->
+                    <td>
 
-        <!-- czy usunąć linię zamówienia? -->
-        <div class="modal fade" id="deleteQuestion<?php echo $line['LINENO']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Czy usunąć pozycję ?</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteQuestion<?php echo $line['LINENO']; ?>">
+                            Usuń
                         </button>
-                    </div>
-                    <div class="modal-body">
-                        <h4>
-                            Kod towaru:
-                            <?php echo $line['ITEMCODE']; ?>
-                        </h4>
-                        <h4>
-                            Ilość:
-                            <?php echo $line['QUANTITY']; ?>
-                        </h4>
-                    </div>
-                    <div class="modal-footer">
 
-                        <form action="" method="post">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
-                            <input hidden type="text" name="dellineno" value="<?php echo $line['LINENO'];?>">
-                            <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
-                            <input hidden type="text" name="deleteline" value="true">
-                            <button type="submit" class="btn btn-danger">USUŃ!</button>
-                        </form>
+                    </td>
+                </tr>
+
+                <!-- czy usunąć linię zamówienia? -->
+                <div class="modal fade" id="deleteQuestion<?php echo $line['LINENO']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Czy usunąć pozycję ?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>
+                                    Kod towaru:
+                                    <?php echo $line['ITEMCODE']; ?>
+                                </h4>
+                                <h4>
+                                    Ilość:
+                                    <?php echo $line['QUANTITY']; ?>
+                                </h4>
+                            </div>
+                            <div class="modal-footer">
+
+                                <form action="" method="post">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+                                    <input hidden type="text" name="dellineno" value="<?php echo $line['LINENO'];?>">
+                                    <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
+                                    <input hidden type="text" name="deleteline" value="true">
+                                    <button type="submit" class="btn btn-danger">USUŃ!</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
+
+            <?php endif;?>
 
         <?php endforeach;?>
         <tr>
@@ -158,7 +166,7 @@
         <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
 
         <div class="col-md-4">
-         <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
+         <input id="ItemCatalogNumber" name="SearchItemCatalogNumber" type="text" placeholder="numer katalogowy / INDEX" class="form-control input-md">
          <input id="ItemCode" name="SearchItemCode" type="text" placeholder="kod towaru" class="form-control input-md" style="margin-top:20px;">
          <input id="ItemAttribute" name="SearchItemAttribute" type="text" placeholder="cecha" class="form-control input-md" style="margin-top:20px;">
         </div>
@@ -197,28 +205,36 @@
 
                     <?php foreach($datatable['rows'] as $row): ?>
                     <?php $lp++; ?>
+                    <?php $columnNo = 0; ?>
 
                         <tr>
-
                            <?php if($datatable['settings']['lp']):?>
+                            <?php $columnNo += 1; ?>
                                <td><?php echo $lp; ?></td>
                             <?php endif;?>
-
+                                    
+                            
                             <?php foreach($row as $cell):?>
-                            <td>
+                            <?php $columnNo += 1; ?>
+                            
+                            <td class="column-<?=$columnNo;?>">
                                 <?php echo $cell; ?>
                             </td>
+                            
                             <?php endforeach;?>
+                            
                             <td>
                                 <form action="" method="post" id="submitChangeForm">
                                     <input hidden type="text" value="<?php echo $zsDetails['zsHeader']['tempid'] ?>" name="tempid">
                                     <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
+                                    <input hidden type="text" value="<?php echo $row['index'];?>" name="index">
                                     <input hidden type="text" value="<?php echo $row['description'];?>" name="lineDescription">
                                     <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
                                     <input type="text" class="submit--this" name="quantity">
                                 </form>
                             </td>
                         </tr>
+                    
                     <?php endforeach;?>
                     
                     </tbody>
@@ -266,3 +282,4 @@
         </div>
     </div>
 </div>
+

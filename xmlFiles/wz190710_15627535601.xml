@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108611</NrNabywcy>
+  <NrOdbiorcy>108611</NrOdbiorcy>
+  <DataZamowienia>2019-07-10</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>645567</NrZam>
+  <NrTymczasowy>645567</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004266</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004276</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004284</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004286</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004806</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004810</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004812</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004838</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>90</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004839</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz z odejściem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>100</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004959</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>110</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004960</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>120</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004962</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>130</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004963</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz zaślepiający</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>140</NrWiersza>
+    <NrNabywcy>108611</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004979</Nr>
+    <KodLokalizacji>SK56</KodLokalizacji>
+    <Opis>Kołnierz przejściowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>645567</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

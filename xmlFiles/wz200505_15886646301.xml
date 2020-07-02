@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107001</NrNabywcy>
+  <NrOdbiorcy>107001</NrOdbiorcy>
+  <DataZamowienia>2020-05-05</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>86/H/W z 05.05.2020 - ZSWK N.Sącz ZZ/20/04/122 ul. Lwowska</Uwagi>
+  <NrZam>10741195</NrZam>
+  <NrTymczasowy>10741195</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005247</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>10741195</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107001</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5014518</Nr>
+    <KodLokalizacji>SK10</KodLokalizacji>
+    <Opis>Uszczelka płaska z wkładką</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>10741195</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

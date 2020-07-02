@@ -1,0 +1,12 @@
+Czas wykonania: 149.88173985481 sek. 
+
+Connected at: 2019-07-11_02-35-16
+ 
+Zaktualizowano tabelę: user.
+Zaktualizowano tabelę: item.
+Zaktualizowano tabelę: inventory.
+Zaktualizowano tabelę: order_lines.
+Zaktualizowano tabelę: order_header.
+Zaktualizowano tabelę: invoice_lines.
+Zaktualizowano tabelę: invoice_header.
+Zaktualizowano tabelę: regional_warehouse.

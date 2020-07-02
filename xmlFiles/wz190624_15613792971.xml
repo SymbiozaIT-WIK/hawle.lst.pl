@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107164</NrNabywcy>
+  <NrOdbiorcy>107164</NrOdbiorcy>
+  <DataZamowienia>2019-06-24</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>448866</NrZam>
+  <NrTymczasowy>448866</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107164</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004296</Nr>
+    <KodLokalizacji>SK54</KodLokalizacji>
+    <Opis>Opaska do nawiercania HAKU z</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>448866</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

@@ -13,9 +13,9 @@
     <fieldset>
     <legend>Wyszukaj towar w magazynie</legend>
     <div class="form-group">
-      <label class="col-md-4 control-label" for="ItemCatalogNumber">Numer katalogowy</label>  
+      <label class="col-md-4 control-label" for="ItemCatalogNumber">Numer katalogowy lub Index</label>  
       <div class="col-md-4">
-      <input id="ItemCatalogNumber" name="ItemCatalogNumber" type="text" placeholder="numer katalogowy" class="form-control input-md">
+      <input id="ItemCatalogNumber" name="ItemCatalogNumber" type="text" placeholder="numer katalogowy / INDEX" class="form-control input-md">
       </div>
     </div>
     <div class="form-group">

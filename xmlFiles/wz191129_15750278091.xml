@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107081</NrNabywcy>
+  <NrOdbiorcy>107081</NrOdbiorcy>
+  <DataZamowienia>2019-11-29</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>Raport 29.11.2019</Uwagi>
+  <NrZam>3994777</NrZam>
+  <NrTymczasowy>3994777</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107081</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003108</Nr>
+    <KodLokalizacji>SK14</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3994777</NrTymczasowy>
+    <Uwagi>Cena z Oferty:&#13;
+Z219_01168:&#13;
+253,92 netto</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107081</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022888</Nr>
+    <KodLokalizacji>SK14</KodLokalizacji>
+    <Opis>Opaska do nawiercania Hawex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3994777</NrTymczasowy>
+    <Uwagi>Cena standardowa:&#13;
+110,40 netto</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107081</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003807</Nr>
+    <KodLokalizacji>SK14</KodLokalizacji>
+    <Opis>Uniwers. opaska do nawiercania</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3994777</NrTymczasowy>
+    <Uwagi>Cena standardowa:&#13;
+174,60 netto&#13;
+</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107081</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008239</Nr>
+    <KodLokalizacji>SK14</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>3994777</NrTymczasowy>
+    <Uwagi>Cena z Oferty:&#13;
+Z219_01168:&#13;
+50,54 netto</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107081</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022887</Nr>
+    <KodLokalizacji>SK14</KodLokalizacji>
+    <Opis>Opaska do nawiercania Hawex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>3994777</NrTymczasowy>
+    <Uwagi>Cena z Oferty:&#13;
+Z219_01168:&#13;
+77,28 netto</Uwagi>
+  </SalesLine>
+</SalesHeader>

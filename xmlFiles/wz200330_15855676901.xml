@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107389</NrNabywcy>
+  <NrOdbiorcy>107389</NrOdbiorcy>
+  <DataZamowienia>2020-03-30</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>8948536</NrZam>
+  <NrTymczasowy>8948536</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005676</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Łącznik ISO dla rur PE, POM</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>8948536</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013254</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Stopka kolanowa z kołnierzem</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8948536</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023329</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Złącze rurowe Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8948536</NrTymczasowy>
+    <Uwagi>oferta specjalna</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001529</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa typu E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>8948536</NrTymczasowy>
+    <Uwagi>3030000054</Uwagi>
+  </SalesLine>
+</SalesHeader>

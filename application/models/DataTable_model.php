@@ -18,13 +18,13 @@ class DataTable_model extends CI_Model
     }
     
     public function get_fv_list(){
-        
         $headings = array('Nr faktury', 'Data faktury','Termin płatności','Kwota','Opis księgowania','Numer dokumentu zewnętrznego');
         $settings =array('lp' => true, 'footerHeading' => false);
         
         $this->db->select('invoiceno,cast(documentdate as date) as documentdate,cast(paymentdate as date),amount,postingdescription,externaldocno');
         $this->db->from('invoice_header');
         $this->db->where('custCode',$this->session->userdata('login'));
+        $this->db->order_by('documentdate','DESC');
         $query = $this->db->get();
         $rows = $query->result_array();
         
@@ -71,6 +71,10 @@ class DataTable_model extends CI_Model
         return $dataTable;
     }
     
+    
+    
+    
+    
     public function get_order_list($status=''){
         $usertype = $this->session->userdata('usertype');
         
@@ -80,7 +84,7 @@ class DataTable_model extends CI_Model
             'Nr zamówienia klienta',
             'Numer klienta',
             'Nazwa',
-            'Data dodania',
+            'Data&nbsp;dodania',
             'Uwagi',
             'Status', 
             'Z magazynu',
@@ -90,7 +94,7 @@ class DataTable_model extends CI_Model
                 oh.customerdocno,
                 oh.sellto,
                 u.name as username,
-                oh.date_add,
+                cast(oh.date_add as date),
                 oh.description,
                 os.name as statusid,
                 oh.frommag,
@@ -101,12 +105,13 @@ class DataTable_model extends CI_Model
             $this->db->join('user as u','u.login=oh.sellto','left');
             if(is_numeric($status))$this->db->where('oh.statusid', $status);
         }else{
-            $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data dodania','Uwagi','Status', 'Z magazynu','Typ');
-            $this->db->select('oh.tempid,oh.customerdocno,oh.date_add,oh.description,os.name as statusid,oh.frommag,ot.name');
+            $headings = array('Nr tymczasowy','Nr zamówienia klienta', 'Data&nbsp;dodania','Uwagi','Status', 'Z magazynu','Typ');
+            $this->db->select('oh.tempid,oh.customerdocno,cast(oh.date_add as date),,oh.description,os.name as statusid,oh.frommag,ot.name');
             $this->db->from('order_header as oh');
             $this->db->join('order_type as ot','oh.type=ot.id');
             $this->db->join('order_status as os','oh.statusid=os.id');
             $this->db->where('sellTo', $this->session->userdata('login'));
+            if(is_numeric($status))$this->db->where('oh.statusid', $status);
         }
         
         $settings =array('lp' => true, 'footerHeading' => false);

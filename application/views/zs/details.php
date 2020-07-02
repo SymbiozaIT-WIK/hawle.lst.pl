@@ -48,7 +48,7 @@
         </tr>
         <tr>
             <th>Lp</th>
-            <th>Kod twaru</th>
+            <th>Kod twaru / Nr. Kat</th>
             <th>Opis</th>
             <th>Cecha</th>
             <th>Ilość</th>
@@ -60,7 +60,8 @@
         <?php $lp++; ?>
             <tr>
                 <td><?php echo $lp; ?></td>
-                <td><?php echo $line['ITEMCODE']; ?></td>
+                <td><?php echo $line['ITEMCODE']; ?><br>
+                <b><?php echo $line['INDEX']; ?></b></td>
                 <td><?php echo $line['DESCRIPTION']; ?></td>
                 <td><?php echo $line['attribute']; ?></td>
                 <td><?php echo $line['QUANTITY']; ?></td>

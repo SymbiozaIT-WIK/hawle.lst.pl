@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FormattedReport xmlns = 'urn:crystal-reports:schemas' xmlns:xsi = 'http://www.w3.org/2000/10/XMLSchema-instance'
+>
+<FormattedAreaPair Level="0" Type="Report">
+<FormattedArea Type="Header">
+<FormattedSections>
+<FormattedSection SectionNumber="0">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedSubreport">
+<ObjectName>SubrepRH</ObjectName>
+<FormattedAreaPair Level="0" Type="Report">
+<FormattedArea Type="Header">
+<FormattedSections>
+<FormattedSection SectionNumber="0">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{wy_Naglowek.wngl_Tresc}"><ObjectName>Tresc</ObjectName>
+<FormattedValue>&quot;AQUA - GAS&quot; Spółka z ograniczoną odpowiedzialnością 
+ul. Inżynierska  8 A, 20-484 Lublin
+Tel.: (0-81) 441 58 75, NIP: 946-23-33-640
+Bank PEKAO SA III o/ Lublin,
+87124023821111000039263098</FormattedValue>
+<Value>&quot;AQUA - GAS&quot; Spółka z ograniczoną odpowiedzialnością 
+ul. Inżynierska  8 A, 20-484 Lublin
+Tel.: (0-81) 441 58 75, NIP: 946-23-33-640
+Bank PEKAO SA III o/ Lublin,
+87124023821111000039263098</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+<FormattedArea Type="Footer">
+<FormattedSections>
+</FormattedSections>
+</FormattedArea>
+</FormattedAreaPair>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="1">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Naglowek.dok_MscWyst}"><ObjectName>FldMiejsceWyst</ObjectName>
+<FormattedValue>Koziegłowy</FormattedValue>
+<Value>Koziegłowy</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtMiejsceWyst</ObjectName>
+<TextValue>Miejsce wystawienia:</TextValue>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="2">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:date" FieldName="{Naglowek.dok_DataWyst}"><ObjectName>FldDataWyst</ObjectName>
+<FormattedValue>27.12.2018</FormattedValue>
+<Value>2018-12-27</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtDataWyst</ObjectName>
+<TextValue>Data wystawienia:</TextValue>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="3">
+<FormattedReportObjects>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="4">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtSprzedawca</ObjectName>
+<TextValue>Sprzedawca:</TextValue>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtNabywca</ObjectName>
+<TextValue>Nabywca:</TextValue>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="5">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{?pdm_NazwaPelna}"><ObjectName>FldNazwaPelnaPodmiotu</ObjectName>
+<FormattedValue>&quot;AQUA - GAS&quot; Spółka z ograniczoną odpowiedzialnością</FormattedValue>
+<Value>&quot;AQUA - GAS&quot; Spółka z ograniczoną odpowiedzialnością</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{adrNabywcy.adrh_NazwaPelna}"><ObjectName>FldNabywcaNazwaPelna</ObjectName>
+<FormattedValue>HAWLE  SP.z o.o.
+Fabryka Armatury</FormattedValue>
+<Value>HAWLE  SP.z o.o.
+Fabryka Armatury</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="6">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{@NipPodmiotu}"><ObjectName>FldNipPodmiotu</ObjectName>
+<FormattedValue>NIP: 946-23-33-640</FormattedValue>
+<Value>NIP: 946-23-33-640</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{@AdresPodmiotu}"><ObjectName>FldAdresPodmiotu</ObjectName>
+<FormattedValue>ul. Inżynierska  8 A
+20-484 Lublin</FormattedValue>
+<Value>ul. Inżynierska  8 A
+20-484 Lublin</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{@AdresNabywcy}"><ObjectName>FldAdresNabywcy</ObjectName>
+<FormattedValue>ul.Piaskowa 9 
+62-028 Koziegłowy</FormattedValue>
+<Value>ul.Piaskowa 9 
+62-028 Koziegłowy</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{@NipNabywcy}"><ObjectName>FldNipNabywcy</ObjectName>
+<FormattedValue>NIP: 781-10-01-712</FormattedValue>
+<Value>NIP: 781-10-01-712</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="7">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{@StrTytulFull}"><ObjectName>Tytul</ObjectName>
+<FormattedValue>Przyjęcie zewnętrzne  1484/2018</FormattedValue>
+<Value>Przyjęcie zewnętrzne  1484/2018</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="9">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{@DokumentDostawcy}"><ObjectName>FldDokDostawcy</ObjectName>
+<FormattedValue>Dokument dostawcy: s.2000/</FormattedValue>
+<Value>Dokument dostawcy: s.2000/</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="10">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Naglowek.dok_Podtytul}"><ObjectName>Podtytul</ObjectName>
+<FormattedValue></FormattedValue>
+<Value></Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+<FormattedAreaPair Level="1" Type="Group">
+<FormattedAreaPair Level="2" Type="Details">
+<FormattedArea Type="Details">
+<FormattedSections>
+<FormattedSection SectionNumber="0">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:unsignedLong" FieldName="RecordNumber"><ObjectName>z1Lpf1</ObjectName>
+<FormattedValue>1</FormattedValue>
+<Value>1.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowNazwa}"><ObjectName>z1NazwaLubOpisf1</ObjectName>
+<FormattedValue>Kołn.DN 80/ 90 s.2000 nr0400</FormattedValue>
+<Value>Kołn.DN 80/ 90 s.2000 nr0400</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_Ilosc}"><ObjectName>z1Iloscf1</ObjectName>
+<FormattedValue>27,00</FormattedValue>
+<Value>27.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_Jm}"><ObjectName>z1Jmf1</ObjectName>
+<FormattedValue>szt.</FormattedValue>
+<Value>szt.</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartNetto}"><ObjectName>z1WartNettof1</ObjectName>
+<FormattedValue>3 375,00</FormattedValue>
+<Value>3375.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartVat}"><ObjectName>z1WartVatf1</ObjectName>
+<FormattedValue>776,25</FormattedValue>
+<Value>776.25</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_CenaNettoPoRabacie}"><ObjectName>z1CenaNettof1</ObjectName>
+<FormattedValue>125,00</FormattedValue>
+<Value>125.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowSymbol}"><ObjectName>z1SymbolTowaruf1</ObjectName>
+<FormattedValue>PK0400080090P16</FormattedValue>
+<Value>PK0400080090P16</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="2">
+<FormattedReportObjects>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+</FormattedAreaPair>
+</FormattedAreaPair>
+<FormattedAreaPair Level="1" Type="Group">
+<FormattedAreaPair Level="2" Type="Details">
+<FormattedArea Type="Details">
+<FormattedSections>
+<FormattedSection SectionNumber="0">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:unsignedLong" FieldName="RecordNumber"><ObjectName>z1Lpf1</ObjectName>
+<FormattedValue>2</FormattedValue>
+<Value>2.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowNazwa}"><ObjectName>z1NazwaLubOpisf1</ObjectName>
+<FormattedValue>Kołn.DN100/110 s.2000 nr0400</FormattedValue>
+<Value>Kołn.DN100/110 s.2000 nr0400</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_Ilosc}"><ObjectName>z1Iloscf1</ObjectName>
+<FormattedValue>100,00</FormattedValue>
+<Value>100.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_Jm}"><ObjectName>z1Jmf1</ObjectName>
+<FormattedValue>szt.</FormattedValue>
+<Value>szt.</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartNetto}"><ObjectName>z1WartNettof1</ObjectName>
+<FormattedValue>14 300,00</FormattedValue>
+<Value>14300.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartVat}"><ObjectName>z1WartVatf1</ObjectName>
+<FormattedValue>3 289,00</FormattedValue>
+<Value>3289.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_CenaNettoPoRabacie}"><ObjectName>z1CenaNettof1</ObjectName>
+<FormattedValue>143,00</FormattedValue>
+<Value>143.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowSymbol}"><ObjectName>z1SymbolTowaruf1</ObjectName>
+<FormattedValue>PK0400100110P16</FormattedValue>
+<Value>PK0400100110P16</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="2">
+<FormattedReportObjects>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+</FormattedAreaPair>
+</FormattedAreaPair>
+<FormattedAreaPair Level="1" Type="Group">
+<FormattedAreaPair Level="2" Type="Details">
+<FormattedArea Type="Details">
+<FormattedSections>
+<FormattedSection SectionNumber="0">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:unsignedLong" FieldName="RecordNumber"><ObjectName>z1Lpf1</ObjectName>
+<FormattedValue>3</FormattedValue>
+<Value>3.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowNazwa}"><ObjectName>z1NazwaLubOpisf1</ObjectName>
+<FormattedValue>Kołn.DN100/125 s.2000 nr0400</FormattedValue>
+<Value>Kołn.DN100/125 s.2000 nr0400</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_Ilosc}"><ObjectName>z1Iloscf1</ObjectName>
+<FormattedValue>34,00</FormattedValue>
+<Value>34.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_Jm}"><ObjectName>z1Jmf1</ObjectName>
+<FormattedValue>szt.</FormattedValue>
+<Value>szt.</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartNetto}"><ObjectName>z1WartNettof1</ObjectName>
+<FormattedValue>5 882,00</FormattedValue>
+<Value>5882.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartVat}"><ObjectName>z1WartVatf1</ObjectName>
+<FormattedValue>1 352,86</FormattedValue>
+<Value>1352.86</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_CenaNettoPoRabacie}"><ObjectName>z1CenaNettof1</ObjectName>
+<FormattedValue>173,00</FormattedValue>
+<Value>173.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowSymbol}"><ObjectName>z1SymbolTowaruf1</ObjectName>
+<FormattedValue>PK0400100125P16</FormattedValue>
+<Value>PK0400100125P16</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="2">
+<FormattedReportObjects>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+</FormattedAreaPair>
+</FormattedAreaPair>
+<FormattedAreaPair Level="1" Type="Group">
+<FormattedAreaPair Level="2" Type="Details">
+<FormattedArea Type="Details">
+<FormattedSections>
+<FormattedSection SectionNumber="0">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:unsignedLong" FieldName="RecordNumber"><ObjectName>z1Lpf1</ObjectName>
+<FormattedValue>4</FormattedValue>
+<Value>4.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowNazwa}"><ObjectName>z1NazwaLubOpisf1</ObjectName>
+<FormattedValue>Kołn.DN150/160 s.2000 nr0400</FormattedValue>
+<Value>Kołn.DN150/160 s.2000 nr0400</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_Ilosc}"><ObjectName>z1Iloscf1</ObjectName>
+<FormattedValue>5,00</FormattedValue>
+<Value>5.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_Jm}"><ObjectName>z1Jmf1</ObjectName>
+<FormattedValue>szt.</FormattedValue>
+<Value>szt.</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartNetto}"><ObjectName>z1WartNettof1</ObjectName>
+<FormattedValue>1 270,00</FormattedValue>
+<Value>1270.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_WartVat}"><ObjectName>z1WartVatf1</ObjectName>
+<FormattedValue>292,10</FormattedValue>
+<Value>292.10</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{Obroty.ob_CenaNettoPoRabacie}"><ObjectName>z1CenaNettof1</ObjectName>
+<FormattedValue>254,00</FormattedValue>
+<Value>254.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Obroty.ob_TowSymbol}"><ObjectName>z1SymbolTowaruf1</ObjectName>
+<FormattedValue>PK0400150160P16</FormattedValue>
+<Value>PK0400150160P16</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="2">
+<FormattedReportObjects>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+</FormattedAreaPair>
+</FormattedAreaPair>
+<FormattedArea Type="Footer">
+<FormattedSections>
+<FormattedSection SectionNumber="1">
+<FormattedReportObjects>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="4">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtRazem</ObjectName>
+<TextValue>Razem:</TextValue>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:decimal" FieldName="{@RazemKwWartosc}"><ObjectName>FldRazem</ObjectName>
+<FormattedValue>24 827,00</FormattedValue>
+<Value>24827.00</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtSlownie</ObjectName>
+<TextValue>Słownie:</TextValue>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{?Slownie}"><ObjectName>FldSlownie</ObjectName>
+<FormattedValue>dwadzieścia cztery tysiące osiemset dwadzieścia siedem  PLN  0/100</FormattedValue>
+<Value>dwadzieścia cztery tysiące osiemset dwadzieścia siedem  PLN  0/100</Value>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+<FormattedSection SectionNumber="6">
+<FormattedReportObjects>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtWystawil</ObjectName>
+<TextValue>Wystawił(a):</TextValue>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Naglowek.dok_Odebral}"><ObjectName>FldOdebral</ObjectName>
+<FormattedValue>Beata Maliszewska</FormattedValue>
+<Value>Beata Maliszewska</Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtOdebral</ObjectName>
+<TextValue>Odebrał(a):</TextValue>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedField" Type="xsd:string" FieldName="{Naglowek.dok_Wystawil}"><ObjectName>FldWystawil</ObjectName>
+<FormattedValue></FormattedValue>
+<Value></Value>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtPodpisOdb</ObjectName>
+<TextValue>Podpis osoby upoważnionej do odbioru dokumentu PZ:</TextValue>
+</FormattedReportObject>
+<FormattedReportObject xsi:type="CTFormattedText"><ObjectName>TxtPodpisWyst</ObjectName>
+<TextValue>Podpis osoby upoważnionej do wystawienia dokumentuPZ:</TextValue>
+</FormattedReportObject>
+</FormattedReportObjects>
+</FormattedSection>
+</FormattedSections>
+</FormattedArea>
+</FormattedAreaPair>
+</FormattedReport>

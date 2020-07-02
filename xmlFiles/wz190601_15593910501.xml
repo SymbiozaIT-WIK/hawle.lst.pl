@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107302</NrNabywcy>
+  <NrOdbiorcy>107302</NrOdbiorcy>
+  <DataZamowienia>2019-06-01</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>224761</NrZam>
+  <NrTymczasowy>224761</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107302</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006513</Nr>
+    <KodLokalizacji>SK89</KodLokalizacji>
+    <Opis>Hydrant nadziemny DUO - czerw.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>224761</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

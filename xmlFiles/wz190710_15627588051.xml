@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu>2019-07-10</DataDokumentu>
+  <NrNabywcy>107389</NrNabywcy>
+  <NrOdbiorcy>107389</NrOdbiorcy>
+  <DataZamowienia>2019-07-10</DataZamowienia>
+  <DataKsiegowania>2019-07-10</DataKsiegowania>
+  <DataWydania>2019-07-10</DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>652514</NrZam>
+  <NrTymczasowy>652514</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107389</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003175</Nr>
+    <KodLokalizacji>SK78</KodLokalizacji>
+    <Opis>Zasuwa do przyłącza domowego</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>652514</NrTymczasowy>
+    <Uwagi>fk z datą 10.07</Uwagi>
+  </SalesLine>
+</SalesHeader>

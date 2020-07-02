@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107235</NrNabywcy>
+  <NrOdbiorcy>107235</NrOdbiorcy>
+  <DataZamowienia>2020-03-16</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>ROZLICZENIE SKŁADU RUREX WR WG USTALONYCH CEN</Uwagi>
+  <NrZam>8286768</NrZam>
+  <NrTymczasowy>8286768</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107235</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023353</Nr>
+    <KodLokalizacji>SK88</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8286768</NrTymczasowy>
+    <Uwagi>SKŁAD</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107235</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005063</Nr>
+    <KodLokalizacji>SK88</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>8286768</NrTymczasowy>
+    <Uwagi>SKŁAD</Uwagi>
+  </SalesLine>
+</SalesHeader>

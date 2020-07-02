@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107016</NrNabywcy>
+  <NrOdbiorcy>107016</NrOdbiorcy>
+  <DataZamowienia>2019-04-15</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam> </NrZam>
+  <NrTymczasowy>14761</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107016</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004784</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kołnierz specjalny zabezpiecz.</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>14761</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

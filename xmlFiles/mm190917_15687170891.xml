@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferHeader>
+  <DataKsiegowania>2019-09-17</DataKsiegowania>
+  <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+  <KodLokalizacjiDocelowej>SK06</KodLokalizacjiDocelowej>
+  <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+  <DataWydania>2019-09-17</DataWydania>
+  <DataPrzyjecia>2019-09-17</DataPrzyjecia>
+  <Status> </Status>
+  <Uwagi>DHL na nasz adres i koszt.Pilne, b. proszę o wysyłkę dzis.</Uwagi>
+  <NrZam> </NrZam>
+  <NrTymczasowy>1903445</NrTymczasowy>
+  <TransferLine>
+    <NrWiersza>10</NrWiersza>
+    <NrZapasu>5006098</NrZapasu>
+    <Ilosc>2</Ilosc>
+    <jednostka>SZT</jednostka>
+    <IloscDoWydania>2</IloscDoWydania>
+    <Status> </Status>
+    <Opis>Trójnik z odejściem gwintowym</Opis>
+    <KodLokalizacjiPierwotnej>3200</KodLokalizacjiPierwotnej>
+    <KodLokalizacjiDocelowej>SK06</KodLokalizacjiDocelowej>
+    <KodLokalizacjiWDrodze>XMWDR</KodLokalizacjiWDrodze>
+    <DataWydania>2019-09-17</DataWydania>
+    <DataPrzyjecia>2019-09-17</DataPrzyjecia>
+    <NrTymczasowy>1903445</NrTymczasowy>
+  </TransferLine>
+</TransferHeader>

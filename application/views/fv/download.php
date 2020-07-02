@@ -2,7 +2,7 @@
 require_once 'dompdf/autoload.inc.php';
 use Dompdf\Dompdf;
 
-$html = $this->load->view('fv/fak', '', true);
+$html = $this->load->view('zs/create', '', true);
 
 
 
@@ -12,7 +12,7 @@ $dompdf = new Dompdf();
 $dompdf->loadHtml($html);
 
 // (Optional) Setup the paper size and orientation
-$dompdf->setPaper('A4');
+$dompdf->setPaper('A4', 'landscape');
 
 // Render the HTML as PDF
 $dompdf->render();

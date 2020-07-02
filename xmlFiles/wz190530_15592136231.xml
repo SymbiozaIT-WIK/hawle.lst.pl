@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107164</NrNabywcy>
+  <NrOdbiorcy>107164</NrOdbiorcy>
+  <DataZamowienia>2019-05-30</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>USŁUGA ZAD1</Uwagi>
+  <NrZam>220573</NrZam>
+  <NrTymczasowy>220573</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107164</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5003644</Nr>
+    <KodLokalizacji>SK19</KodLokalizacji>
+    <Opis>Opaska odcinająca HAKU</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>220573</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

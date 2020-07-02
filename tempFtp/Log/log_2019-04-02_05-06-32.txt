@@ -1,0 +1,10 @@
+Czas wykonania: 2.1717550754547 sek. 
+
+Connected at: 2019-04-02_05-06-32
+ 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/user.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/item.txt 
+Brak pliku /HPLWebshop/SAP2HPLWeb/Prod/inventory.txt 
+Zaktualizowano tabelę: order_lines.
+Zaktualizowano tabelę: order_header.
+Zaktualizowano tabelę: regional_warehouse.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107164</NrNabywcy>
+  <NrOdbiorcy>107164</NrOdbiorcy>
+  <DataZamowienia>2020-04-07</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>9336221</NrZam>
+  <NrTymczasowy>9336221</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107164</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013968</Nr>
+    <KodLokalizacji>SK19</KodLokalizacji>
+    <Opis>Osiowy zawór zwrotny</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>9336221</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

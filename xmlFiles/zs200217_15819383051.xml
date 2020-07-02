@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107094</NrNabywcy>
+  <NrOdbiorcy>107094</NrOdbiorcy>
+  <DataZamowienia>2020-02-17</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>TZ/49</NrZam>
+  <NrTymczasowy>7032216</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107094</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005054</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Kołnierz S2000 dla rur PCW, PE</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>7032216</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

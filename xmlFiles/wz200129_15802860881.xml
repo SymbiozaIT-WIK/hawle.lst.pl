@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107010</NrNabywcy>
+  <NrOdbiorcy>107010</NrOdbiorcy>
+  <DataZamowienia>2020-01-29</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>dot. zamowienia z 2019r dla HYDRO-INSTAL -KONIN prowadzila p Agnieszka Ostrowska ustalala RABATY!!!</Uwagi>
+  <NrZam>6238306</NrZam>
+  <NrTymczasowy>6238306</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5002465</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Zasuwa E2 z kołnierzem i króćc</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>6238306</NrTymczasowy>
+    <Uwagi>rabaty p Agnieszka Ostrowska</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023357</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>6238306</NrTymczasowy>
+    <Uwagi> rabaty p. Agnieszka Ostrowska</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008124</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Trzpień teleskopowy </Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>6238306</NrTymczasowy>
+    <Uwagi>rabaty p.Agnieszka Ostrowska</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013339</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Trójnik kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>6238306</NrTymczasowy>
+    <Uwagi> rabaty p.Agnieszka Ostrowska</Uwagi>
+  </SalesLine>
+</SalesHeader>

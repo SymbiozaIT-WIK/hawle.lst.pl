@@ -5,24 +5,22 @@ class Panel extends CI_Controller {
     
 	public function index(){
         
+//        
+//      if($this->session->flashdata('alert')){
+//          $this->session->set_flashdata('alert', $this->session->flashdata('alert'));
+//      }
+        
         $usertype= $this->session->userdata('usertype');
         switch ($usertype){
                 
             case 'A':
                 $this->load->template('panelAdmin');
-            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
-            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
-                
-//                $this->load->model('Xml_model');
-//                $mmXML = array('95','94');
-//                $this->Xml_model->mm_to_xml($mmXML);
-                
-            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
-            /////TEMP/////TEMP/////TEMP/////TEMP/////TEMP
                 break;
                 
             case 'R':
-                $this->load->template('panelReg');
+                $this->load->model('User_model');
+                $data['availableWarehouses'] = $this->User_model->get_user_mag($this->session->userdata('login'));
+                $this->load->template('panelReg',$data);
                 break;
                 
             case 'C':

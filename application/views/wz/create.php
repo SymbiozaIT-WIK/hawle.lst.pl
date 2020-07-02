@@ -9,7 +9,11 @@
 ?>
 </pre>
 
-
+<style>
+.table tbody > tr > td {
+    vertical-align: middle;
+}
+</style>
 <div class="container">
 
     <table class="table table-hover table-bordered">
@@ -79,7 +83,7 @@
         </tr>
         <tr>
             <th class="vert-aligned">Lp</th>
-            <th class="vert-aligned">Kod twaru</th>
+            <th class="vert-aligned">Kod twaru / Nr. Kat</th>
             <th class="vert-aligned">Opis</th>
             <th class="vert-aligned">Cecha</th>
             <th class="vert-aligned">Ilość</th>
@@ -94,7 +98,8 @@
                 <?php echo $lp ?>
             </td>
             <td class="vert-aligned">
-                <?php echo $line['ITEMCODE']; ?>
+                <?php echo $line['ITEMCODE']; ?><br>
+                <b><?php echo $line['INDEX']; ?></b>
             </td>
             <td class="vert-aligned">
                 <?php echo $line['DESCRIPTION']; ?>
@@ -218,6 +223,7 @@
                     <form action="" method="post" id="submitChangeForm">
                         <input hidden type="text" value="<?php echo $wzDetails['wzHeader']['tempid'] ?>" name="tempid">
                         <input hidden type="text" value="<?php echo $row['itemCode'];?>" name="itemCode">
+                        <input hidden type="text" value="<?php echo $row['index'];?>" name="index">
                         <input hidden type="text" value="<?php echo $row['description'];?>" name="itemDescription">
                         <input hidden type="text" value="<?php echo $row['regionalWarehouseCode'];?>" name="regionalWarehouseCode">
                         <input type="text" class="submit--this" name="quantity">
@@ -274,6 +280,13 @@
 
 
 
+<!--
+<?php
+//print('<pre>');
+//print_r($wzDetails['wzLines']);
+//print('</pre>');
+?>
+-->
 
 
 

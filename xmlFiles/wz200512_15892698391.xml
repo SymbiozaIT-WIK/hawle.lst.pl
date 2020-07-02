@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107235</NrNabywcy>
+  <NrOdbiorcy>107235</NrOdbiorcy>
+  <DataZamowienia>2020-05-12</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>ROZLICZENIE SKŁADU WG OFERTY RUREX WR</Uwagi>
+  <NrZam>11105843</NrZam>
+  <NrTymczasowy>11105843</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107235</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5023353</Nr>
+    <KodLokalizacji>SK88</KodLokalizacji>
+    <Opis>Złącze kołnierz Hawle-Synoflex</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>11105843</NrTymczasowy>
+    <Uwagi>ROZL. SKŁADU</Uwagi>
+  </SalesLine>
+</SalesHeader>

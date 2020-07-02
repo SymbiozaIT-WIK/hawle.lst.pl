@@ -146,6 +146,7 @@ tr.row-checked {
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
+    min-height: 250px;
 }
 .blog-card a {
   color: inherit;
@@ -351,8 +352,6 @@ input[type="file"] {
 .table tbody > tr > td.vert-aligned {
     vertical-align: middle;
 }
-
-
 /*temp snips
 
     <div class="col-lg-12">

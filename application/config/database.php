@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'xxxxxxxxxxxxxx',
-	'password' => 'xxxxxxxxxxxxxx',
-	'database' => 'xxxxxxxxxxxxxx',
+	'username' => 'hawle',
+	'password' => 'hawle123!!',
+	'database' => 'hawledb_v2',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -92,30 +92,48 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
-);
+	'save_queries' => TRUE);
 
-
-$db['www_hawledb'] = array(
-	'dsn'	   => '',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
-
-
+//
+//$db['www_lstnet_hawledb'] = array(
+//	'dsn'	   => '',
+//	'hostname' => 'localhost',
+//	'username' => 'lstnet_hawledb',
+//	'password' => 'hawle123!',
+//	'database' => 'lstnet_hawledb',
+//	'dbdriver' => 'mysqli',
+//	'dbprefix' => '',
+//	'pconnect' => FALSE,
+//	'db_debug' => (ENVIRONMENT !== 'production'),
+//	'cache_on' => FALSE,
+//	'cachedir' => '',
+//	'char_set' => 'utf8',
+//	'dbcollat' => 'utf8_general_ci',
+//	'swap_pre' => '',
+//	'encrypt' => FALSE,
+//	'compress' => FALSE,
+//	'stricton' => FALSE,
+//	'failover' => array(),
+//	'save_queries' => TRUE);
+//
+//
+//$db['svsql001'] = array(
+//	'dsn'	   => '',
+//	'hostname' => 'SVSQL001',
+//	'username' => 'michal',
+//	'password' => 'PrawidUzyt2018!',
+//	'database' => 'HA00',
+//	'dbdriver' => 'sqlsrv',
+//	'dbprefix' => '',
+//	'pconnect' => FALSE,
+//	'db_debug' => (ENVIRONMENT !== 'production'),
+//	'cache_on' => FALSE,
+//	'cachedir' => '',
+//	'char_set' => 'utf8',
+//	'dbcollat' => 'utf8_general_ci',
+//	'swap_pre' => '',
+//	'encrypt' => FALSE,
+//	'compress' => FALSE,
+//	'stricton' => FALSE,
+//	'failover' => array(),
+//	'save_queries' => TRUE);

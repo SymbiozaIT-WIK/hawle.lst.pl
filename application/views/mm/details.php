@@ -62,7 +62,7 @@
         </tr>
         <tr>
             <th>Lp</th>
-            <th>Kod twaru</th>
+            <th>Kod twaru / Nr. Kat</th>
             <th>Opis</th>
             <th>Cecha</th>
             <th>Ilość</th>
@@ -74,7 +74,8 @@
         <?php $lp++; ?>
             <tr>
                 <td><?php echo $lp; ?></td>
-                <td><?php echo $line['ITEMCODE']; ?></td>
+                <td><?php echo $line['ITEMCODE']; ?><br>
+                <b><?php echo $line['INDEX']; ?></b></td>
                 <td><?php echo $line['DESCRIPTION']; ?></td>
                 <td><?php echo $line['attribute']; ?></td>
                 <td><?php echo $line['QUANTITY']; ?></td>
@@ -104,10 +105,20 @@
             <input hidden type="text" name="order[]" value="<?php echo $mmHeader['tempid']; ?>" >
             <button <?php if($mmHeader['STATUSID']<>2){echo 'disabled';} ?> type="submit" class="btn btn-primary btn-lg">Eksportuj</button>
         </form>
+                 
         <?php endif;?>
         
         </td>
+         
         </tr>
+           <?php if($mmHeader['STATUSID']==3):?>
+          <tr>
+            <td colspan="6" style=" text-align:right;">
+                          <a href="<?php echo site_url('order/order_confirm/'.$mmHeader['tempid']); ?>" class="btn btn-info btn-sm">Wyślij ponownie</a>
+
+              </td>
+        </tr>
+            <?php endif;?>
     </table>
 </div>
 

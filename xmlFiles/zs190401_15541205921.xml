@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>3900</NrNabywcy>
+  <NrOdbiorcy>3900</NrOdbiorcy>
+  <DataZamowienia>2019-04-01</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>test hpl2sap</NrZam>
+  <NrTymczasowy>555</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>3900</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5005348</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Złączka ISO dla rur PE, GG</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>555</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

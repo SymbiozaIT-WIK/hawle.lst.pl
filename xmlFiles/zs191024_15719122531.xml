@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108615</NrNabywcy>
+  <NrOdbiorcy>108615</NrOdbiorcy>
+  <DataZamowienia>2019-10-24</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>564/2019</NrZam>
+  <NrTymczasowy>2858267</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5004144</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Uniwersalna opaska odcinająca</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>2858267</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

@@ -3,7 +3,8 @@
 class User_model extends CI_Model
 {
 
-	public function login($login, $password){
+	public function login($login, $password)
+	{
         $this->db->select('id, login, password,type,name,name2,email,city');
         $this->db->where('login', $login);
         $this->db->where('password', $password);
@@ -29,11 +30,15 @@ class User_model extends CI_Model
         }
 	}
 
+    
     public function create_user($data){
-        $dbInsert=array('login' => $data['login'], 'password' => sha1($data['password']));
+        $dbInsert=array(
+            'login' => $data['login'],
+            'password' => sha1($data['password'])
+        );
         $this->db->insert('user',$dbInsert);
     }
-    
+
     public function user_list($key,$value){
         $this->db->select('*');
         $this->db->from('user as m');
@@ -43,9 +48,10 @@ class User_model extends CI_Model
         return $row;
     }
     
-    public function get_user_mag($userId){
+    public function get_user_mag($userId,$code=''){
         $this->db->select('code,description');
         $this->db->where('userid', $userId);
+        if($code!=''){$this->db->where('code', $code);}
         $query = $this->db->get('regional_warehouse');
         $row = $query->result_array();
         return $row;        

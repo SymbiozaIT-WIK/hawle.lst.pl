@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107168</NrNabywcy>
+  <NrOdbiorcy>107168</NrOdbiorcy>
+  <DataZamowienia>2019-08-13</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi> </Uwagi>
+  <NrZam>1165130</NrZam>
+  <NrTymczasowy>1165130</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022676</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Frez rurowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022677</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Frez rurowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022678</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Frez rurowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>40</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5022679</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Frez rurowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>4</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>50</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008656</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Ściągacze do demontażu złączek</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>60</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008657</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Ściągacze do demontażu złączek</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>70</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008658</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Ściągacze do demontażu złączek</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>80</NrWiersza>
+    <NrNabywcy>107168</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008660</Nr>
+    <KodLokalizacji>SK02</KodLokalizacji>
+    <Opis>Ściągacze do demontażu złączek</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>6</Ilosc>
+    <NrTymczasowy>1165130</NrTymczasowy>
+    <Uwagi> </Uwagi>
+  </SalesLine>
+</SalesHeader>

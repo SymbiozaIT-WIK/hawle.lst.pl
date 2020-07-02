@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108615</NrNabywcy>
+  <NrOdbiorcy>108615</NrOdbiorcy>
+  <DataZamowienia>2019-07-26</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam> </NrZam>
+  <NrTymczasowy>856566</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5019410</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Hydrant podziemny DUO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>2</Ilosc>
+    <NrTymczasowy>856566</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5006785</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Hydrant podziemny DUO</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>1</Ilosc>
+    <NrTymczasowy>856566</NrTymczasowy>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>108615</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5013322</Nr>
+    <KodLokalizacji>3200</KodLokalizacji>
+    <Opis>Trójnik kołnierzowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>856566</NrTymczasowy>
+  </SalesLine>
+</SalesHeader>

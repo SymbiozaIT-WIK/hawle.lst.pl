@@ -1,9 +1,17 @@
 <pre>
     <?php
-        print_r($wzHeader);
+//        print_r($wzHeader);
 //        print_r($wzLines);
     ?>
 </pre>
+
+<!--
+<?php
+//print('<pre>');
+//print_r($wzLines);
+//print('</pre>');
+?>
+-->
 
 
 <div class="container">
@@ -60,7 +68,7 @@
         </tr>
         <tr>
             <th>Lp</th>
-            <th>Kod twaru</th>
+            <th>Kod twaru / Nr. Kat</th>
             <th>Opis</th>
             <th>Cecha</th>
             <th>Ilość</th>
@@ -72,7 +80,8 @@
         <?php $lp++; ?>
             <tr>
                 <td><?php echo $lp; ?></td>
-                <td><?php echo $line['ITEMCODE']; ?></td>
+                <td><?php echo $line['ITEMCODE']; ?><br>
+                <b><?php echo $line['INDEX']; ?></b></td>
                 <td><?php echo $line['DESCRIPTION']; ?></td>
                 <td><?php echo $line['attribute']; ?></td>
                 <td><?php echo $line['QUANTITY']; ?></td>

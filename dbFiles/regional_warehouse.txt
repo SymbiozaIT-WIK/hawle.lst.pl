@@ -1,0 +1,77 @@
+S100|PUH ELPAD Grzesi|117157
+S103|ZPHU PIL-GAZ Zof|117014
+S104|Miejskie Przedsi|118633
+S105|Hydrosfera Józef|117397
+S107|INSTALATOR Sp.z|117546
+SK16|Przedsiębiorstwo|117037
+SK02|MPWiK Sp. z o.o.|117168
+SK03|Przedsiębiorstwo|117149
+SK04|ROWIBUD Spółka z|117073
+SK05|AQUA - GAS SP.Z|117077
+SK06|AQUA - GAS SP.Z|117077
+SK07|AQUA - GAS SP.Z|117077
+SK08|Gniewińskie Prze|117245
+SK09|Przedsiębiorstwo|118609
+SK10|Sądeckie Wodocią|117001
+SK11|Miejskie Przedsi|118613
+SK19|Miejskie Wodocią|117164
+SK13|Miejskie Przedsi|118612
+SK14|Przedsiębiorstwo|117081
+SK15|Miejskie Przedsi|117143
+SK24|RUREX Sp. z o.o.|117235
+SK17|Miejskie Przedsi|117044
+SK18|Tarnobrzeskie Wo|117063
+SK28|Miejskie Wodocią|117164
+SK20|Miejskie Wodocią|117006
+SK21|Wodociągi Słupsk|117007
+SK23|Śremskie Wodocią|117045
+SK26|Przedsiębiorstwo|117067
+SK27|Przedsiębiorstwo|117142
+SK30|Przedsiębiorstwo|117037
+SK31|Zakład Usług Wod|117010
+SK32|Przedsiębiorstwo|117004
+SK33|Przedsiębiorstwo|117011
+SK35|PUPB ALFA Spółka|117013
+SK36|Wodociągi Kłodz|117129
+SK38|Miejski Zakład G|118634
+SK41|Przedsiębiorstwo|117037
+SK42|PWiK w Kaliszu S|117028
+SK43|Wodociągi Ziemi|117111
+SK44|RUREX Sp. z o.o.|117235
+SK45|FILMAR Piotr Wes|117509
+SK46|Przedsiębiorstwo|117019
+SK47|Przedsiębiorstwo|117071
+SK48|Zielonogórskie|117189
+SK49|Prom Dragon Sp.|117326
+SK50|Przedsiębiorstwo|118614
+SK51|AQUAPIPE KWILOSZ|117526
+SK53|RUREX Sp. z o.o.|117235
+SK54|Miejskie Wodocią|117164
+SK55|SEWIK Tatrzańska|117035
+SK56|Zakład Inżynieri|118611
+SK57|PGKiM Spółka z o|117238
+SK58|Rejonowe Przedsi|117117
+SK59|SZPEC Tomasz Abu|117667
+SK60|ZAKŁAD WODOCIĄGO|117096
+SK61|Biuro Techniczno|117124
+SK62|Przedsiębiorstwo|117250
+SK64|MPWiK Sp. z.o.o.|118628
+SK66|Miejskie Wodocią|117164
+SK69|Zakład Produkcyj|117308
+SK70|Specjalistyczne|118622
+SK71|RUREX Sp. z o.o.|117235
+SK72|ZWiK Nowa Ruda S|117021
+SK75|Miejski Zakład W|117315
+SK78|P.H.U ASBUD s.c.|117389
+SK79|Zakład Wodociągó|118624
+SK81|Promax Sp. z o.o|117359
+SK82|PWiK Sp.zoo|117172
+SK84|Przedsiębiorstwo|117037
+SK87|RUREX Sp. z o.o.|117235
+SK88|RUREX Sp. z o.o.|117235
+SK89|Przedsiębiorstwo|117302
+SK91|Przedsiębiorstwo|117037
+SK92|Przedsiębiorstwo|117037
+SK93|Hydro-Instal Jad|117538
+SK96|RUREX Sp. z o.o.|117235
+SK99|Wodociągi Kości|117444

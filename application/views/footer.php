@@ -1,8 +1,8 @@
-<div class="container">
-      <footer>
-        <p>&copy; LST NET</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<footer class="sticky-footer">
+    <div class="container my-auto">
+        <span>&copy; <a href="https://symbioza.it">Copyright © Symbioza.IT / LST-NET  </a></span>
+    </div> <!-- /container -->        
+</footer>
         <script>window.jQuery || document.write('<script src="<?php echo base_url();?>/assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="<?php echo base_url();?>/assets/js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo base_url();?>/assets/js/jquery.dataTables.min.js"></script>
@@ -12,6 +12,11 @@
 <!--        <script type="text/javascript" src="<?php #echo base_url();?>/assets/md/js/mdb.min.js"></script>-->
 <script>
 $(document).ready(function() {
+    $('.summernote').summernote({
+        placeholder: 'Wpisz treść...',
+        tabsize: 2,
+        minHeight: 100
+      });
     $('#dataTable').DataTable( {
         "language": {
             "lengthMenu": "Wyświetl _MENU_ wierszy na stronę",
@@ -22,6 +27,7 @@ $(document).ready(function() {
             "previous": "Brak pasujących wierszy",
             "infoEmpty": "Brak pasujących wierszy",
             "search": "Wyszukaj w wynikach",
+            searchPlaceholder: "zacznij wpisywać numer katalogowy lub index...",
             "paginate": {
               "previous": "Poprzednia strona",
               "next": "Następna strona"
@@ -124,6 +130,5 @@ $(document).ready(function() {
   }
 });
 </script>
-
     </body>
 </html>

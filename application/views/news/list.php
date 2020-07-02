@@ -6,8 +6,8 @@
             <div class="meta">
                 <div class="photo" style="background-image: url(<?php echo site_url('externalFiles/news/'.$newsBox['newsImage']);?>)"></div>
                 <ul class="details">
-                    <li class="author"><a href="<?php echo $newsBox['authorWebPage']; ?>"><?php echo $newsBox['author']; ?></a></li>
-                    <li class="date"><?php echo $newsBox['dt_add']; ?></li>
+                    <li class="author"><a href="http://<?php echo $newsBox['authorWebPage']; ?>"><?php echo $newsBox['author']; ?></a></li>
+<!--                    <li class="date"><#?php echo $newsBox['dt_add']; ?></li>-->
                 </ul>
             </div>
             <div class="description">
@@ -51,11 +51,12 @@
                             </button>
                           </div>
                           <div class="modal-body">
+                              <h3>Moduł w przygotowaniu...</h3>
                             <p>
                                 Wiadomość nie będzie wyświetlana na stronie. <br>
                                 Będzie można ją edytować, lub opublikować w późniejszym czasie.
                             </p>
-                            <?php $this->view('maintenanceSmall'); ?>
+                              <h3>Moduł w przygotowaniu...</h3>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>

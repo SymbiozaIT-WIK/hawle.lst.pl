@@ -7,6 +7,7 @@ class FrontPage extends CI_Controller {
         $this->load->model('News_model');
         $data['newsList'] = $this->News_model->get_news_list();
         $this->load->template('welcome',$data);
+        
     }
 }
 ?>

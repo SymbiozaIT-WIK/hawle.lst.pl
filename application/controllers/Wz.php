@@ -16,7 +16,7 @@ class Wz extends CI_Controller {
             case 'A':
                 $this->load->model('DataTable_model');
                 $data = $this->DataTable_model->get_wz_list(2);
-                $this->load->template('wz/admin_list',$data);
+                $this->load->template('Wz/admin_list',$data);
                 break;
         }
     }
@@ -44,7 +44,7 @@ class Wz extends CI_Controller {
                 'color' => 'success'
             );
             $this->session->set_flashdata('alert',$alert);
-            redirect(site_url('wz/wz_list'));
+            redirect(site_url('Wz/wz_list'));
         }else{
             $alert=array(
                 'title' => 'Nie zaznaczono żadnej pozycji.',
@@ -52,7 +52,7 @@ class Wz extends CI_Controller {
                 'color' => 'danger'
             );
             $this->session->set_flashdata('alert',$alert);
-            redirect(site_url('wz/wz_list'));
+            redirect(site_url('Wz/wz_list'));
         }
     }
 }

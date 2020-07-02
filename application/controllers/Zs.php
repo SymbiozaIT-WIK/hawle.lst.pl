@@ -16,23 +16,23 @@ class Z  s extends CI_Controller {
             case 'A':
                 $this->load->model('DataTable_model');
                 $data = $this->DataTable_model->get_zs_list();
-                $this->load->template('zs/admin_list',$data);
+                $this->load->template('Zs/admin_list',$data);
                 break;
         }
         
 //        $this->load->model('DataTable_model');
 //        $data['dataTable'] = $this->DataTable_model->get_zs_list();
-//        $this->load->template('zs/list',$data);
+//        $this->load->template('Zs/list',$data);
     }
     
     public function zs_details($zsNo=''){
         $this->load->model('DbViews_model');
         $data = $this->DbViews_model->get_zsDetails($zsNo);
-        $this->load->template('zs/details',$data);
+        $this->load->template('Zs/details',$data);
     }
     
     public function zs_edit($zsNo=''){
-        $this->load->template('zs/edit');
+        $this->load->template('Zs/edit');
     }
 
     
@@ -49,7 +49,7 @@ class Z  s extends CI_Controller {
                 'color' => 'danger'
             );
             $this->session->set_flashdata('alert',$alert);
-            redirect(site_url('zs/zs_list'));
+            redirect(site_url('Zs/zs_list'));
         }
     }
 }

@@ -86,4 +86,7 @@
   'roboto' => array(
     'normal' => $fontDir . '\53ddbdaca184831d90851b6bdcaa3ecb',
   ),
+  'material icons' => array(
+    'normal' => $fontDir . '/783da70f2601f84d40b050c13f601e1a',
+  ),
 ) ?>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+    <DocumentType>1</DocumentType>
+    <DataDokumentu>2019-03-26</DataDokumentu>
+    <NrNabywcy>0000</NrNabywcy>
+    <NrOdbiorcy>0000</NrOdbiorcy>
+    <DataZamowienia>2019-03-26</DataZamowienia>
+    <DataKsiegowania>2019-03-26</DataKsiegowania>
+    <DataWydania>2019-03-26</DataWydania>
+    <Nip>000-11-11-222</Nip>
+    <KodKrajuVat>PL</KodKrajuVat>
+    <NrZam>TEST-WZ-XML</NrZam>
+    <SalesLine>
+        <DokumentType>1</DokumentType>
+        <NrWiersza>1000</NrWiersza>
+        <NrNabywcy>1269</NrNabywcy>
+        <Typ>2</Typ>
+        <Nr>PK0400150180P16</Nr>
+        <KodLokalizacji>sk06</KodLokalizacji>
+        <Opis>Kołn.DN150/180 s.2000 nr0400</Opis>
+        <Jednostka>SZT</Jednostka>
+        <Ilosc>1.00</Ilosc>
+    </SalesLine>
+    <SalesLine>
+        <DokumentType>1</DokumentType>
+        <NrWiersza>1000</NrWiersza>
+        <NrNabywcy>1269</NrNabywcy>
+        <Typ>2</Typ>
+        <Nr>PK0400150180P16</Nr>
+        <KodLokalizacji>sk06</KodLokalizacji>
+        <Opis>Kołn.DN150/180 s.2000 nr0400</Opis>
+        <Jednostka>SZT</Jednostka>
+        <Ilosc>2.00</Ilosc>
+    </SalesLine>
+    <SalesLine>
+        <DokumentType>1</DokumentType>
+        <NrWiersza>1000</NrWiersza>
+        <NrNabywcy>1269</NrNabywcy>
+        <Typ>2</Typ>
+        <Nr>PK0400150180P16</Nr>
+        <KodLokalizacji>sk06</KodLokalizacji>
+        <Opis>Kołn.DN150/180 s.2000 nr0400</Opis>
+        <Jednostka>SZT</Jednostka>
+        <Ilosc>3.00</Ilosc>
+    </SalesLine>
+</SalesHeader>

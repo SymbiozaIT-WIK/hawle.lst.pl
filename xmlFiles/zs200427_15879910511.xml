@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>108616</NrNabywcy>
+  <NrOdbiorcy>108616</NrOdbiorcy>
+  <DataZamowienia>2020-04-27</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <NrZam>3/04/2020</NrZam>
+  <NrTymczasowy>10356592</NrTymczasowy>
+</SalesHeader>

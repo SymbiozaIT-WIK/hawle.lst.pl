@@ -3,13 +3,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class News extends CI_Controller {
     
-	public function index(){redirect('news/panel');}
-    
-    function __construct(){
-        parent::__construct();
-        if ( ! $this->session->userdata('logged') || $this->session->userdata('usertype')!='A'){ 
+    public function access_check(){
+        if ( ! $this->session->userdata('logged') 
+            || $this->session->userdata('usertype')!='A')
+        { 
             $allowed = array();
-            if (!in_array($this->router->fetch_method(), $allowed)){
+            if (!in_array($this->router->fetch_method(), $allowed))
+            {
                 $alert=array(
                     'title' => 'Dostęp tylko dla administratora.',
                     'content' => 'Aby mieć dostęp do podstrony: <a href="'.base_url(uri_string()).'">'.base_url(uri_string()).'</a> nazeży się zalogować na konto administratora.',
@@ -21,15 +21,35 @@ class News extends CI_Controller {
     }
     
     
+    function __construct(){
+        parent::__construct();
+//        if ( ! $this->session->userdata('logged') 
+//            || $this->session->userdata('usertype')!='A')
+//        { 
+//            $allowed = array();
+//            if (!in_array($this->router->fetch_method(), $allowed))
+//            {
+//                $alert=array(
+//                    'title' => 'Dostęp tylko dla administratora.',
+//                    'content' => 'Aby mieć dostęp do podstrony: <a href="'.base_url(uri_string()).'">'.base_url(uri_string()).'</a> nazeży się zalogować na konto administratora.',
+//                    'color' => 'danger');
+//                $this->session->set_flashdata('alert',$alert);
+//                redirect('');
+//            }
+//        }
+    }
+    
+	public function index(){redirect('News/panel');}
+    
     public function read($newsId){
         $this->load->model('News_model');
         $data['newsDetails'] = $this->News_model->get_news_details($newsId);
         $data['newsList'] = $this->News_model->get_news_list();
-
-        $this->load->template('news/read',$data);
+        $this->load->template('News/read',$data);
     }
     
     public function create(){
+        $this->access_check();
         $this->load->model('News_model');
         
         //odebanie danych z formularza
@@ -44,17 +64,26 @@ class News extends CI_Controller {
         
         $news['id']    = $this->input->post('newsId');
         
-        if((strlen($news['content']))>250){
+        if((strlen($news['content'])) > 250){
             $news['shortContent']   = substr($news['content'],1,250).'[...]';  
         }else{$news['shortContent'] = $news['content'];}
         
         //upload obrazka jeżeli wybrany
         
         if(isset($_FILES['img']) && $_FILES['img']['size']>0){
-            $targetdir = 'externalFiles/news/';   
-            $targetfile = $targetdir.date("ymd").'_'.$_FILES['img']['name'];
+            $targetdir = 'externalFiles/News/';
+            
+            if (!file_exists($targetdir)) {
+                mkdir($targetdir, 0777, true);
+            }
+            
+            
+            $targetFileName = date("ymd_His").'_'.$_FILES['img']['name'];
+            $targetfile = $targetdir.$targetFileName;
+            
             if (move_uploaded_file($_FILES['img']['tmp_name'], $targetfile)){
-                $news['newsImage'] = date("ymd").'_'.$_FILES['img']['name']; 
+                chmod($targetfile, 0777);
+                $news['newsImage'] = $targetFileName; 
             } else { 
                 $this->session->set_flashdata('alert', 
                 array(
@@ -81,10 +110,11 @@ class News extends CI_Controller {
                     'content'=>'Coś poszło nie tak ;(. <br/> Spróbuj jeszcze raz.<br/> Jeżeli problem będzie się powtarzał skontaktuj się z administratorem.'));
         }
         //przekirowanie do widoku panelu
-        redirect('news/panel');
+        redirect('News/panel');
     }
     
     public function delete($newsId){
+                $this->access_check();
         $this->load->model('News_model');
         if($this->News_model->delete_news($newsId)){
             $this->session->set_flashdata('alert', 
@@ -100,18 +130,24 @@ class News extends CI_Controller {
                     'title'=>'News NIE został usunięty', 
                     'content'=>'Coś poszło nie tak ;(. <br/> Spróbuj jeszcze raz.<br/> Jeżeli problem będzie się powtarzał skontaktuj się z administratorem.'));
         }
-        redirect('news/panel');
+        redirect('News/panel');
     }
     
     public function panel($newsId=''){
+        $this->access_check();
+        
         $this->load->model('News_model');
+        
         $data['newsList'] = $this->News_model->get_news_list();
+        $data['newsNotPublishedList'] = $this->News_model->get_not_published_news_list();
+        
         if($newsId!='' && is_numeric($newsId)){ 
             $data['editMode'] = true;
             $data['newsId'] = $newsId;
             $data['newsDetails'] = $this->News_model->get_news_details($newsId);
         }
-        $this->load->template('news/panel',$data);
+        
+        $this->load->template('News/panel',$data);
     }
 }
 ?>

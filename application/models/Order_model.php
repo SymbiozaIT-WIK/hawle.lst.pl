@@ -17,12 +17,15 @@ class Order_model extends CI_Model
         }
     }
     
-    public function create_header($orderType=''){
+    public function create_header($orderType='',$sellto=false){
         $dbInsert=array(
             'sellto' => $this->session->userdata('login'),
             'statusid' => 1,
             'type' => $orderType
         );
+        
+        if($sellto){$dbInsert['sellto']=$sellto;}
+        
         $this->db->insert('order_header',$dbInsert);
         $id = $this->db->insert_id();
         return $id;
@@ -49,28 +52,40 @@ class Order_model extends CI_Model
         $table=$query->result_array();
         
         if($query->num_rows()==1){
-            $orderLine['lineNo']=$table[0]['lineNo']+10000;
-        }else{ $orderLine['lineNo']=10000;}
+            $orderLine['lineNo']=$table[0]['lineNo']+10;
+        }else{ $orderLine['lineNo']=10;}
         
         $this->db->insert('order_lines',$orderLine);
     }
     
     public function get_create_zs_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='',$ItemAttribute=''){
-        $this->db->select('catalogNo, itemcode, attribute, description, regionalWarehouseCode, realStock,unitprice,discount');
+        $this->db->select('catalogNo, itemcode, attribute, description, regionalWarehouseCode, spareStock, unitprice,index,discount');
         $this->db->from('view_inventory');
-        $this->db->where('regionalWarehouseCode like \'THAN\'');
+        //$this->db->where('regionalWarehouseCode', 3200);
+        // poporawić 
+        $MainWarehouse = '3200';
+        
+        $Warehouse = $MainWarehouse;
+        
+        $this->db->where('regionalWarehouseCode', $Warehouse);
         
         if($ItemCatalogNumber!=''){
-            $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');}
+            $this->db->group_start();
+                $where = 'catalogNo like \'%'.$ItemCatalogNumber.'%\' OR index like \'%'.$ItemCatalogNumber.'%\'';
+                $this->db->where($where);  
+            $this->db->group_end();
+        }
+        
         if($ItemCode!=''){
             $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
+        
         if($ItemAttribute!=''){
             $this->db->where('attribute like \'%'.$ItemAttribute.'%\'');}
         
         $query=$this->db->get();
         $rows=$query->result_array();
         
-        $headings = array('Numer katalogowy','Kod towaru', 'Cecha','Opis', 'Magazyn', 'Stan','Cena','Rabat');
+        $headings = array('Numer katalogowy','Kod towaru', 'Cecha','Opis', 'Magazyn', 'Stan','Cena', 'Index','Rabat');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -90,23 +105,44 @@ class Order_model extends CI_Model
     
     public function get_create_mm_items($ItemCatalogNumber='',$ItemCode='',$Warehouse='',$ItemAttribute=''){
         
-        $this->db->select('catalogno,itemcode,description,attribute,regionalwarehousecode, realStock,unitprice,discount');
+        $this->db->select('catalogno,itemcode,description,attribute,regionalwarehousecode, spareStock,unitprice,index,discount');
         $this->db->from('view_inventory');
         
-        if($ItemCatalogNumber!=''){
-            $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');}
-        if($ItemCode!=''){
-            $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
-        if($Warehouse!=''){
-            $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
-        if($ItemAttribute!=''){
-            $this->db->where('attribute like \'%'.$ItemAttribute.'%\'');}
+        $this->db->where('regionalwarehousecode','3200'); //mmki zawsze z magazynu THAN!!
+
+        if($ItemCatalogNumber!='' || $ItemCode!='' || $ItemAttribute!=''){
+            
+            
+            $this->db->group_start();
+            
+                 if($ItemCatalogNumber!=''){
+                 $where = 'catalogNo like \'%'.$ItemCatalogNumber.'%\' OR index like \'%'.$ItemCatalogNumber.'%\'';
+                    $this->db->where($where);   
+        //            $this->db->where('catalogNo like \'%'.$ItemCatalogNumber.'%\'');
+                }
+
+                if($ItemCode!=''){
+                    $this->db->where('itemCode like \'%'.$ItemCode.'%\'');}
+
+                if($Warehouse!=''){
+                    $this->db->where('regionalWarehouseCode like \'%'.$Warehouse.'%\'');}
+
+
+                if($ItemAttribute!=''){
+                    $this->db->where('attribute like \'%'.$ItemAttribute.'%\'');}
+
         
-        $this->db->where('regionalwarehousecode','THAN'); //mmki zawsze z magazynu THAN!!
+            $this->db->group_end();
+            
+        }
+        
+        
+       
+        
         $query = $this->db->get();
         $rows = $query->result_array();
         
-        $headings = array('Numer katalogowy','Kod towaru', 'Opis','Cecha','Magazyn','Stan','Cena','Rabat');
+        $headings = array('Numer katalogowy','Kod towaru', 'Opis','Cecha','Magazyn','Stan','Cena','Index','Rabat');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -118,37 +154,25 @@ class Order_model extends CI_Model
     
     public function get_mmDetails($mmNo='',$temp=false){
             if($temp){
-                
                 $this->db->select('*');
-                $this->db->from('view_mmHeader');
+                $this->db->from('view_mmheader');
                 $this->db->where('tempid',$mmNo);
 
                 $query = $this->db->get();
-                $oh=$query->result_array();
+                $oh = $query->result_array();
                 $rows['mmHeader'] = $oh[0];
+                
+                $orderHeaderDocNo = $rows['mmHeader']['NO'];
 
                 $this->db->select('*');
-                $this->db->from('view_mmLines');
-                $this->db->where('tempdocumentno',$mmNo);
+                $this->db->from('view_mmlines');
+//                $this->db->where('tempdocumentno',$mmNo);
+                $orderHeaderDocNo<>'' ? $this->db->where("(tempdocumentno=$mmNo OR documentno=$orderHeaderDocNo)", NULL, FALSE) : $this->db->where('tempdocumentno',$mmNo);
+                
                 $query = $this->db->get();
                 $rows['mmLines'] = $query->result_array();
                 
-            }else{
-                $this->db->select('*');
-                $this->db->from('view_mmHeader');
-                $this->db->where('documentNo',$mmNo);
-
-                $query = $this->db->get();
-                $oh=$query->result_array();
-                $rows['mmHeader'] = $oh[0];
-
-                $this->db->select('*');
-                $this->db->from('view_mmLines');
-                $this->db->where('documentNo',$mmNo);
-                $query = $this->db->get();
-                $rows['mmLines'] = $query->result_array();
             }
-        
         return $rows;
     }
     
@@ -157,22 +181,25 @@ class Order_model extends CI_Model
             if($temp){
                 
                 $this->db->select('*');
-                $this->db->from('view_wzHeader');
+                $this->db->from('view_wzheader');
                 $this->db->where('tempid',$wzNo);
 
                 $query = $this->db->get();
                 $oh=$query->result_array();
                 $rows['wzHeader'] = $oh[0];
 
+                $orderHeaderDocNo = $rows['wzHeader']['NO'];
+                
                 $this->db->select('*');
-                $this->db->from('view_wzLines');
-                $this->db->where('tempdocumentno',$wzNo);
+                $this->db->from('view_wzlines');
+                $orderHeaderDocNo<>'' ? $this->db->where("(tempdocumentno=$wzNo OR documentno=$orderHeaderDocNo)", NULL, FALSE) : $this->db->where('tempdocumentno',$wzNo);
+                
                 $query = $this->db->get();
                 $rows['wzLines'] = $query->result_array();
                 
             }else{
                 $this->db->select('*');
-                $this->db->from('view_wzHeader');
+                $this->db->from('view_wzheader');
                 $this->db->where('documentNo',$wzNo);
 
                 $query = $this->db->get();
@@ -180,7 +207,7 @@ class Order_model extends CI_Model
                 $rows['wzHeader'] = $oh[0];
 
                 $this->db->select('*');
-                $this->db->from('view_wzLines');
+                $this->db->from('view_wzlines');
                 $this->db->where('documentNo',$wzNo);
                 $query = $this->db->get();
                 $rows['wzLines'] = $query->result_array();
@@ -190,15 +217,17 @@ class Order_model extends CI_Model
     }
     
     public function get_create_wz_items($tomag=''){
-        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode, vi.realStock,vi.unitprice,vi.discount');
+        $this->db->select('vi.itemcode,vi.description,vi.attribute,vi.regionalWarehouseCode, vi.spareStock,vi.unitprice,vi.index,vi.discount');
         $this->db->from('view_inventory as vi');
         $this->db->join('regional_warehouse as rw','rw.code=vi.regionalWarehouseCode');
         $this->db->where('rw.userid',$this->session->userdata('login'));
+//        $this->db->where('vi.spareStock > 0');
+        
         if($tomag!=''){$this->db->where('vi.regionalWarehouseCode',$tomag);}
         $query = $this->db->get();
         
         $rows = $query->result_array();
-        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan','Cena','Rabat');
+        $headings = array('Kod towaru', 'Opis','Cecha','Magazyn','Stan','Cena','Index','Rabat');
         $settings = array('lp' => true, 'footerHeading' => true);
         
         $data['rows']=$rows;
@@ -212,16 +241,19 @@ class Order_model extends CI_Model
             if($temp){
                 
                 $this->db->select('*');
-                $this->db->from('view_zsHeader');
+                $this->db->from('view_zsheader');
                 $this->db->where('tempid',$zsNo);
 
                 $query = $this->db->get();
                 $oh=$query->result_array();
                 $rows['zsHeader'] = $oh[0];
-
+                
+                $orderHeaderDocNo = $rows['zsHeader']['NO'];
+                
                 $this->db->select('*');
-                $this->db->from('view_zsLines');
-                $this->db->where('tempdocumentno',$zsNo);
+                $this->db->from('view_zslines');
+//                $this->db->where('tempdocumentno',$zsNo);
+                $orderHeaderDocNo<>'' ? $this->db->where("(tempdocumentno=$zsNo OR documentno=$orderHeaderDocNo)", NULL, FALSE) : $this->db->where('tempdocumentno',$zsNo);
                 $query = $this->db->get();
                 $rows['zsLines'] = $query->result_array();
             }else{

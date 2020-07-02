@@ -1,11 +1,12 @@
-<!doctype html>
-<?php $fvHeader=$fvHeader[0];?>
+<!DOCTYPE html>
+<?php $fvHeader=$fvHeader[0]; ?>
 <html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <style>
       body { font-family: DejaVu Sans, sans-serif; }
+        * {font-family:arial!important}
     </style>
     <title>
         <?php echo $fvHeader['INVOICENO'];?>
@@ -33,9 +34,7 @@
                     <b><?php echo $fvHeader['DOCUMENTDATE'];?></b></small></h2>
             <h2><small>Opis księgowania:
                     <b><?php echo $fvHeader['POSTINGDESCRIPTION'];?></b></small></h2>
-                    <?php
-            if($fvHeader['EXTERNALDOCNO']!=''):?>
-            ?>
+                    <?php if($fvHeader['EXTERNALDOCNO']!=''): ?>
             <h2><small>Numer dokumentu zewnętrznego:
                    <b> <?php echo $fvHeader['EXTERNALDOCNO'];?></b></small></h2>
                     <?php endif;?>

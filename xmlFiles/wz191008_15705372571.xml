@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesHeader>
+  <DocumentType>1</DocumentType>
+  <DataDokumentu> </DataDokumentu>
+  <NrNabywcy>107010</NrNabywcy>
+  <NrOdbiorcy>107010</NrOdbiorcy>
+  <DataZamowienia>2019-10-08</DataZamowienia>
+  <DataKsiegowania> </DataKsiegowania>
+  <DataWydania> </DataWydania>
+  <Nip> </Nip>
+  <KodKrajuVat>PL</KodKrajuVat>
+  <Uwagi>Adamie pamiętaj ze te zasuwy maja być w cenie zasuw o nr, katalogowym 4001e!!!!!!!!!!!</Uwagi>
+  <NrZam>2429428</NrZam>
+  <NrTymczasowy>2429428</NrTymczasowy>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>10</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5001936</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Zasuwa kołnierzowa długa E1</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>8</Ilosc>
+    <NrTymczasowy>2429428</NrTymczasowy>
+    <Uwagi>40% rabatu od ceny katalogowej zasuwy 4001e</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>20</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008177</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>5</Ilosc>
+    <NrTymczasowy>2429428</NrTymczasowy>
+    <Uwagi>40% rabatu</Uwagi>
+  </SalesLine>
+  <SalesLine>
+    <DocumentType>1</DocumentType>
+    <NrWiersza>30</NrWiersza>
+    <NrNabywcy>107010</NrNabywcy>
+    <Typ>2</Typ>
+    <Nr>5008266</Nr>
+    <KodLokalizacji>SK31</KodLokalizacji>
+    <Opis>Trzpień teleskopowy</Opis>
+    <Jednostka>SZT</Jednostka>
+    <Ilosc>3</Ilosc>
+    <NrTymczasowy>2429428</NrTymczasowy>
+    <Uwagi>40% rabatu</Uwagi>
+  </SalesLine>
+</SalesHeader>
