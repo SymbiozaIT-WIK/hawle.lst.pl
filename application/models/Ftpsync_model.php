@@ -119,7 +119,7 @@ class Ftpsync_model extends CI_Model
             $log .= 'Nie można się połączyć z $ftp_server jako '.$config['username']; 
             file_put_contents($local_log_file_destination, $log);
         exit;}
-        else{$log.="\nConnected at: ".date('Y-m-d_h-i-s')."\n \n";}
+        else{$log.="\nPołączono: ".date('Y-m-d_h-i-s')."\n \n";}
 ////print $log.'__end;;';
         $contents_on_server = $this->ftp->list_files($remote_folder);
 //        print '<pre>';
@@ -177,9 +177,6 @@ class Ftpsync_model extends CI_Model
                 print $log;
             }
         }
-//                
-        
-////////        
         $this->ftp->close();//zamknięcie połączenia
 
     }
