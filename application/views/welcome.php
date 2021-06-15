@@ -25,7 +25,7 @@ if($this->session->flashdata('alert')):?>
     <div class="jumbotron" id="headerMain">
      <div style="background: rgba(50,50,50,0.3);">
       <div class="container" style="background: rgba(61,206,229,0.6); color:#444;">
-        <h1 style="color: #ffffff">Sprawdź zapas na magazynie</h1>
+        <h1 style="color: #ffffff">Sprawdź zapas w magazynie</h1>
         <p><a class="btn btn-primary btn-lg" href="<?php echo site_url('inventory') ?>" role="button">Sprawdź stany magazynowe &raquo;</a></p>
       </div>
      </div>

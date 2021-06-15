@@ -21,7 +21,7 @@
 <table class="headerTable">
     <tr>
         <td>
-            <h1>Stan na magazynie: </h1>
+            <h1>Stan w magazynie: </h1>
         </td>
         <td>
             <h1><?php echo $warehouseCode; ?></h1>

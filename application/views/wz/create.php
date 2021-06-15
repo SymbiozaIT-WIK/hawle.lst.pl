@@ -61,9 +61,10 @@
                 <h4>
                     <?php echo $this->session->userdata('name'); ?>
                 </h4>
+				<?php if($this->session->userdata('adress')) echo $this->session->userdata('adress').'<br>'; ?>
+				<?php if($this->session->userdata('postcode') && $this->session->userdata('city')) echo $this->session->userdata('postcode').$this->session->userdata('city').'<br>'; ?>				
                 <?php if($this->session->userdata('name2')) echo $this->session->userdata('name2').'<br>'; ?>
                 <?php if($this->session->userdata('email')) echo $this->session->userdata('email').'<br>'; ?>
-                <?php if($this->session->userdata('city')) echo $this->session->userdata('city').'<br>'; ?>
                 Numer klienta:
                 <?php echo $this->session->userdata('login'); ?>
             </td>
